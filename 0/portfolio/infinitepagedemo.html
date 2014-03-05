@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Test the thing</title>
+	<style type="text/css">
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		/* Post-reset */
+
+		html {
+			height: 100%;
+		}
+		body {
+			height: 100%;
+			font-size: 60pt;
+			background: black url('img/bgBlack.png');
+		}
+		#bgSwap {
+			position: fixed;
+			top: 10px;
+			left: 10px;
+			height: 20px;
+			width: 20px;
+			cursor: pointer;
+			background: white url('img/bgWhite.png');
+		}
+		ul {
+			height: 100%;
+			width: 5em;
+			margin: 0 auto;
+		}
+		li {
+			font-family: 'Nunito', sans-serif;
+			font-weight: 700;
+			height: 14.285714285714285714285714285714%;
+			text-align: center;
+			transition: color 1s;
+			-moz-transition: color 1s; /* Firefox 4 */
+			-webkit-transition: color 1s; /* Safari and Chrome */
+			-o-transition: color 1s; /* Opera */
+		}
+		li:hover {
+			cursor: pointer;
+		}
+		ul li:nth-child(7n + 1) {
+			color: transparent;
+			text-shadow: red 0 0 20px,
+							red 0 0 50px,
+							red 0 0 100px;
+		}	
+		ul li:nth-child(7n + 1):hover {
+			color: red;
+		}
+		ul li:nth-child(7n + 2) {
+			color: transparent;
+			text-shadow: orange 0 0 20px,
+							orange 0 0 50px,
+							orange 0 0 100px;
+		}	
+		ul li:nth-child(7n + 2):hover {
+			color: orange;
+		}
+		ul li:nth-child(7n + 3) {
+			color: transparent;
+			text-shadow: yellow 0 0 20px,
+							yellow 0 0 50px,
+							yellow 0 0 100px;
+		}	
+		ul li:nth-child(7n + 3):hover {
+			color: yellow;
+		}
+		ul li:nth-child(7n + 4) {
+			color: transparent;
+			text-shadow: green 0 0 20px,
+							green 0 0 50px,
+							green 0 0 100px;
+		}	
+		ul li:nth-child(7n + 4):hover {
+			color: green;
+		}
+		ul li:nth-child(7n + 5) {
+			color: transparent;
+			text-shadow: blue 0 0 20px,
+							blue 0 0 50px,
+							blue 0 0 100px;
+		}	
+		ul li:nth-child(7n + 5):hover {
+			color: blue;
+		}
+		ul li:nth-child(7n + 6) {
+			color: transparent;
+			text-shadow: indigo 0 0 20px,
+							indigo 0 0 50px,
+							indigo 0 0 100px;
+		}	
+		ul li:nth-child(7n + 6):hover {
+			color: indigo;
+		}
+		ul li:nth-child(7n + 7) {
+			color: transparent;
+			text-shadow: violet 0 0 20px,
+							violet 0 0 50px,
+							violet 0 0 100px;
+		}	
+		ul li:nth-child(7n + 7):hover {
+			color: violet;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="bgSwap"></div>
+	<ul>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+		<li>focus</li>
+	</ul>
+
+	<script>
+		var bgDark = true,
+			docHeight = 9999,
+			windowHeight = -1,
+			thisY = 0,		
+			lastY = 0,
+			blocker = true;
+
+		swapBg = function() {
+			if(bgDark) {
+				document.getElementById('bgSwap').style.background = 'black url("img/bgBlack.png")';
+				document.body.style.background = 'white url("img/bgWhite.png")';
+				bgDark = false;
+			} else {
+				document.getElementById('bgSwap').style.background = 'white url("img/bgWhite.png")';
+				document.body.style.background = 'black url("img/bgBlack.png")';
+				bgDark = true;
+			}
+		}
+		setDocHeight = function() {
+		    var d = document;
+		    docHeight = Math.max(
+		        Math.max(d.body.scrollHeight, d.documentElement.scrollHeight),
+		        Math.max(d.body.offsetHeight, d.documentElement.offsetHeight),
+		        Math.max(d.body.clientHeight, d.documentElement.clientHeight)
+		    );
+		}
+		setWindowHeight = function() {
+			if (document.body && document.body.offsetWidth)
+				windowHeight = document.body.offsetHeight;
+			if (document.compatMode=='CSS1Compat' && document.documentElement && document.documentElement.offsetWidth )
+				windowHeight = document.documentElement.offsetHeight;
+			if (window.innerHeight && window.innerWidth)
+				windowHeight = window.innerHeight;
+		}
+		getYPosition = function() {
+		    if (self.pageYOffset) return self.pageYOffset;
+		    if (document.documentElement && document.documentElement.scrollTop)
+		        return document.documentElement.scrollTop;
+		    if (document.body.scrollTop) return document.body.scrollTop;
+		    return 0;
+		}
+	    infiniteScroll = function() {
+	    	thisY = getYPosition();
+
+			if(thisY != lastY && blocker) 
+		    	blocker = false;
+
+		    lastY = thisY;
+
+	    	if(!blocker) {
+		    	if(windowHeight + thisY >= docHeight) {
+		    		blocker = true;
+		    		window.scroll(0, 0);
+		    		lastY = 0;
+		    	} else if(thisY === 0) {
+		    		blocker = true;
+		    		window.scroll(0, windowHeight);
+		    		lastY = windowHeight;
+		    	}	
+		    }
+	    }
+		initialize = function() {
+			setDocHeight();
+			setWindowHeight();
+		    setInterval("infiniteScroll()", 1);
+		}
+
+		var IE = document.all?true:false;
+		if(IE) {
+			window.attachEvent('onresize', setWindowHeight);
+			window.attachEvent('onload', initialize);
+			document.getElementById('bgSwap').attachEvent('onclick', swapBg);
+		} else {
+			window.addEventListener('resize', setWindowHeight, false);
+			window.addEventListener('load', initialize, false);
+			document.getElementById('bgSwap').addEventListener('click', swapBg, false);
+		}
+	</script>
+</body>
+</html>

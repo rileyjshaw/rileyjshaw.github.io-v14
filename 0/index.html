@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:100,400,900' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Riley Shaw | Designer</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style type="text/css">
+
+		* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+			/**** Isotope Filtering ****/
+
+		.isotope-item {
+		  z-index: 2;
+		}
+
+		.isotope-hidden.isotope-item {
+		  pointer-events: none;
+		  z-index: 1;
+		}
+
+		/**** Isotope CSS3 transitions ****/
+
+		.isotope .isotope-item {
+		  -webkit-transition-duration: 0.8s;
+		     -moz-transition-duration: 0.8s;
+		      -ms-transition-duration: 0.8s;
+		       -o-transition-duration: 0.8s;
+		          transition-duration: 0.8s;
+
+		  -webkit-transition-property: -webkit-transform, opacity;
+		     -moz-transition-property:    -moz-transform, opacity;
+		      -ms-transition-property:     -ms-transform, opacity;
+		       -o-transition-property:      -o-transform, opacity;
+		          transition-property:         transform, opacity;
+		}
+
+		/**** disabling Isotope CSS3 transitions ****/
+
+		.isotope.no-transition,
+		.isotope.no-transition .isotope-item,
+		.isotope .isotope-item.no-transition {
+		  -webkit-transition-duration: 0s;
+		     -moz-transition-duration: 0s;
+		      -ms-transition-duration: 0s;
+		       -o-transition-duration: 0s;
+		          transition-duration: 0s;
+		}
+
+		.infiniteye {
+		    position: relative;
+		    margin: 0 auto;
+		    width: 98px;
+		    height: 100px;
+		    -webkit-transition: width 3s ease-in-out;
+		       -moz-transition: width 3s ease-in-out;
+		    	 -o-transition: width 3s ease-in-out;
+		    		transition: width 3s ease-in-out;
+		}
+		 .infiniteye {
+			-webkit-animation: pulse 3s ease-in-out;
+		       -moz-animation: pulse 3s ease-in-out;
+		    	 -o-animation: pulse 3s ease-in-out;
+		    		animation: pulse 3s ease-in-out;   
+		}
+		.infiniteye:hover {
+		    width: 214px;
+		}
+
+		@keyframes pulse {
+			0% {width: 98px;}
+			50% {width: 214px;}
+			100% {width: 98px;}	
+		}
+
+		@-moz-keyframes pulse {
+			0% {width: 98px;}
+			50% {width: 214px;}
+			100% {width: 98px;}
+		}
+
+		@-webkit-keyframes pulse {
+			0% {width: 98px;}
+			50% {width: 214px;}
+			100% {width: 98px;}
+		}
+
+		@-o-keyframes pulse {
+			0% {width: 98px;}
+			50% {width: 214px;}
+			100% {width: 98px;}
+		}
+
+		.infiniteye:before,
+		.infiniteye:after {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 60px;
+		    height: 60px;
+		    border: 20px solid #f5835c;
+		    -moz-border-radius: 50px 50px 0 50px;
+		         border-radius: 50px 50px 0 50px;
+			-webkit-transition: border-color 2s;
+		       -moz-transition: border-color 2s;
+		        -ms-transition: border-color 2s;
+		         -o-transition: border-color 2s;
+		            transition: border-color 2s;
+		    -webkit-transform: rotate(-45deg);
+		       -moz-transform: rotate(-45deg);
+		        -ms-transform: rotate(-45deg);
+		         -o-transform: rotate(-45deg);
+		            transform: rotate(-45deg);
+		}
+
+		.infiniteye:after {
+		    left: auto;
+		    right: 0;
+		    -moz-border-radius: 50px 50px 50px 0;
+		         border-radius: 50px 50px 50px 0;
+		    -webkit-transform: rotate(45deg);
+		       -moz-transform: rotate(45deg);
+		        -ms-transform: rotate(45deg);
+		         -o-transform: rotate(45deg);
+		            transform: rotate(45deg);
+		}
+
+
+		body {
+			font-family: 'Old Standard TT', serif;
+			padding-top: 3.6rem;
+		}
+		a {
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+		}
+		header {
+			text-transform: uppercase;
+			text-align: center;
+			color: #171819;
+		}
+		header img {
+			margin: auto;
+		}
+		h1 {
+			font-size: 7.2rem;
+		}
+		/* Fix the shitty kerning */
+		h1>span {
+			letter-spacing: -14px;
+		}
+		h2 {
+			font-size: 1.2rem;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-weight: 700;
+			padding: 1.6rem 0;
+			text-align: center;
+		}
+		header h2 {
+			padding-bottom: 36px;
+		}
+		.overlap {
+			height: 24px;
+			width: 100%;
+			overflow: hidden;
+			margin-bottom: 12px;
+
+		}
+		.overlap>h2 {
+			font-family: 'Raleway', sans-serif;
+			margin-top: -18px;
+			text-align: left;
+			font-size: 48px;
+			line-height: 24px;
+			color: white;
+			background-color: #171819;
+		}
+		hr {
+			border: 0;
+			height: 1px;
+			background-color: #171819;
+			width: 132px;
+			margin: 4.8rem auto;
+		}
+
+		.bwWrapper {
+    		position:relative;
+    		display:block;
+		}
+
+		#main {
+			padding: 0 15rem;
+			max-width: 1000px;
+			margin: auto;
+		}
+		#main img {
+			display: block;
+			margin: auto;
+			height: auto;
+		}
+		#main p {
+			margin: 0 auto 1.8rem auto; 
+			font-size: 2.2rem;
+			line-height: 3.6rem;
+			color: #42423d;
+			text-align: left;
+		}
+		#main a {
+			color: #7e8cbf;
+			border-bottom: 1px dotted #8e9ccf;
+		}
+		a.biglink {
+			text-align: center;
+			font-size: 4.8rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			display: inline-block;
+			margin: 42px 0 60px 0;
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		#main a:hover {
+			color: #f5835c;
+			text-shadow: 0 0 0 #aaccff;
+		}
+
+
+		#carwrap {
+			background-color: #e0e0e0;
+			padding: 2.4rem 0 3.6rem 0;
+		}
+		#carousel {
+			width: 462px;
+			position: relative;
+			margin: auto;
+		}
+		#carousel>ul>li {
+			display: none;
+			font-family: 'Raleway', sans-serif;
+		}
+		#carousel>ul>li.selected {
+			display: block;
+		}
+		#carousel>ul>li>img {
+			-moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;
+			padding: 14px 48px 14px 0;
+			height: 56px;
+			width: 56px;
+			margin-right: 24px;
+			border-right: 1px dotted #171819;
+			display: inline;
+			float: left;
+		}
+		#carousel h3, #carousel h4, #carousel p {
+			white-space: nowrap;
+			clear: right;
+		}
+		#carousel h3 {
+			color: #171819;
+			font-size: 3rem;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-weight: 800;
+		}
+		#carousel h3>small {
+			position: relative;
+			bottom: 3px;
+			font-size: 1.2rem;
+			vertical-align: bottom;
+			letter-spacing: 0px;
+			color: #900e00;
+			color: #555;
+		}
+		#carousel h4 {
+			color: #171819;
+			font-size: 2rem;
+			padding: 1.2rem 0 .8rem 0;
+		}
+		#carousel p {
+			font-size: 1.4rem;
+			line-height: 1.4rem;
+			color: #272829;
+		}
+		#carousel>#control, #carousel>#control>ul {
+			width: 100%;
+		}
+		#carousel>#control #progress {
+			height: 1px;
+			background-color: white;
+			width: 96%;
+			margin: 36px auto 18px auto;
+		}
+		#carousel>#control #progress>#indicator {
+			height: 100%;
+			background-color: #f5734c;
+		}
+		#control>ul>li {
+			height: 8px;
+			width: 8px;
+			background-color: #171819;
+			float: left;
+			margin: 0 11px;
+
+			-webkit-border-radius: 4px;
+			   -moz-border-radius: 4px;
+					border-radius: 4px;
+		}
+		#control>ul>li:hover {
+			background-color: #f5734c;
+			cursor: pointer;
+		}
+		#control>ul>li.selected {
+			height: 12px;
+			width: 12px;
+			margin: -2px 9px 0 9px;
+			
+			-webkit-border-radius: 6px;
+			   -moz-border-radius: 6px;
+					border-radius: 6px;
+		}
+		#control>ul>li:first-child {
+			margin-left: 0;
+		}
+		#control>ul>li:last-child {
+			margin-right: 0;
+		}
+
+
+		#portfolio {
+			padding: 50px 0 70px 0;
+			color: #171819;
+		}
+		#portfolio h2 {
+			color: #171819;
+			padding: 2.4rem 0 4.8rem 0;
+		}
+		#portfolio>a {
+			color: #f5835c;
+			text-decoration: underline;
+			font-size: 1.2rem;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-weight: 700;
+			padding-top: 2.4rem;
+		}
+		#portfolio-content {
+			margin: auto;
+			position: relative;
+			width: 444px;
+		}
+		#portfolio ul.grid {
+			width: 360px;
+			margin: auto;
+		}
+		#portfolio ul.grid>li {
+			height: 110px;
+			width: 110px;
+			margin: 5px;
+		}
+		#portfolio ul.grid>li>.bg-wrap {
+			position: relative;
+			height: 100%;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: auto 100%;
+			-webkit-background-size: cover;
+			   -moz-background-size: cover;
+				 -o-background-size: cover;
+					background-size: cover;
+			background-clip: content-box;
+			border: 5px solid transparent;
+			-webkit-transition: position 0.5s, border 0.3s .8s;
+			   -moz-transition: position 0.5s, border 0.3s .8s;
+				-ms-transition: position 0.5s, border 0.3s .8s;
+				 -o-transition: position 0.5s, border 0.3s .8s;
+					transition: position 0.5s, border 0.3s .8s;
+		}
+		#portfolio ul.grid>li>.bg-wrap>a {
+			border: 0;
+			color: #171819;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			/*background-color: rgba(215, 101, 62, .95);
+			-webkit-transition: background-color 1s;
+			   -moz-transition: background-color 1s;
+				-ms-transition: background-color 1s;
+				 -o-transition: background-color 1s;
+					transition: background-color 1s;*/
+		}
+		#portfolio ul.grid .grid-info {
+		 	position: absolute;
+		 	bottom: 0px;
+		 	left: 0px;
+		 	right: 0px;
+		 	height: 35px;
+		 	font-family: 'Raleway', sans-serif;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			padding-left: 10px;
+			padding-top: 10px;
+			border-top: 1px solid transparent;
+
+			-webkit-transition: background-color 0.5s, height 0.5s 0.5s, border-color 0.5s;
+			   -moz-transition: background-color 0.5s, height 0.5s 0.5s, border-color 0.5s;
+				-ms-transition: background-color 0.5s, height 0.5s 0.5s, border-color 0.5s;
+				 -o-transition: background-color 0.5s, height 0.5s 0.5s, border-color 0.5s;
+					transition: background-color 0.5s, height 0.5s 0.5s, border-color 0.5s;
+		}
+		#portfolio ul.grid .grid-info>h3 {
+			font-size: 1.8rem;
+		}
+		#portfolio ul.grid li.w1 .grid-info>h3 {
+			margin-top: 2px;
+			margin-bottom: 8px;
+			font-size: 1.2rem;
+		}
+		#portfolio ul.grid .grid-info>p {
+			margin-top: 6px;
+			color: transparent;
+
+			-webkit-transition: color 0.5s 0s;
+			   -moz-transition: color 0.5s 0s;
+				-ms-transition: color 0.5s 0s;
+				 -o-transition: color 0.5s 0s;
+					transition: color 0.5s 0s;
+		}
+		#portfolio ul.grid>li>.bg-wrap:hover {
+			border: 0px solid transparent;
+
+			-webkit-transition: position 0.5s, border 0.5s;
+			   -moz-transition: position 0.5s, border 0.5s;
+				-ms-transition: position 0.5s, border 0.5s;
+				 -o-transition: position 0.5s, border 0.5s;
+					transition: position 0.5s, border 0.5s;
+		}
+		/*#portfolio ul.grid>li>.bg-wrap:hover>a {
+			background-color: rgba(241, 240, 238, 0);
+		}*/
+		#portfolio ul.grid>li>.bg-wrap:hover>a>.grid-info {
+			height: 55px;
+			background-color: #f7f7f5;
+			border-color: black;
+		}
+		#portfolio ul.grid>li>.bg-wrap:hover>a>.grid-info>p {
+			color: #171819;
+
+			-webkit-transition: color 0.5s 1s;
+			   -moz-transition: color 0.5s 1s;
+				-ms-transition: color 0.5s 1s;
+				 -o-transition: color 0.5s 1s;
+					transition: color 0.5s 1s;
+		}
+
+
+		#portfolio ul.grid>li.w2 { width: 230px; }
+		#portfolio ul.grid>li.h2 { height: 230px; }
+		#portfolio ul.grid>li.w3 { width: 350px; }
+		#portfolio ul.grid>li.h3 { height: 350px; }
+		#portfolio ul.grid>li.w4 { width: 470px; }
+		#portfolio ul.grid>li.h4 { height: 470px; }
+		#portfolio ul.grid>li.w5 { width: 590px; }
+		#portfolio ul.grid>li.h5 { height: 590px; }
+		#portfolio ul.grid>li.w6 { width: 710px; }
+		#portfolio ul.grid>li.h6 { height: 710px; }
+
+		@media only screen and (min-width: 684px) { 
+			nav>ul>li { width: 200px; } #portfolio ul.grid { width: 480px; } #portfolio-content { width: 564px; } }
+		@media only screen and (min-width: 804px) { 
+			#portfolio ul.grid { width: 600px; } #portfolio-content { width: 684px; } }
+		@media only screen and (min-width: 924px) { 
+			#portfolio ul.grid { width: 720px; } #portfolio-content { width: 804px; } }
+		@media only screen and (min-width: 1044px) { 
+			#portfolio ul.grid { width: 840px; } #portfolio-content { width: 924px; } }
+
+
+		#contact {
+			background-color: #f7f7f7;
+			box-shadow: 0px 6px 4px #f3f3f3 inset, 6px 0px 4px #f5f5f5 inset;
+			padding-bottom: 2.4rem;
+		}
+		#contact img.icon {
+			display: block;
+			padding-top: 2.4rem;
+			margin: auto;
+		}
+		#contact address {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			text-align: center;
+			font-size: 4.8rem;
+			padding-bottom: 2.4rem;
+		}
+		#contact address>a {
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		#contact address>a:hover {
+			color: #f5835c;
+			border-bottom: 1px dotted #171819;
+		}
+
+		#contact #socials>ul {
+			margin: 2.4rem auto;
+			width: 600px;
+			height: 48px;
+		}
+		#contact #socials>ul>li {
+			width: 150px;
+			float: left;
+		}
+		#contact #socials>ul>li img { 
+			height: 48px;
+			width: 48px;
+			margin: auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="main">
+		<header>
+			<h1>Riley Shaw</h1> <!-- wtf kerning -->
+			<h2>Design for humans</h2>
+			<div class="infiniteye"></div>
+		</header>
+		<hr>
+		<div class="overlap"><h2>About Me</h2></div>
+		<p>I'm the Batman of Web Design.</p>
+		<p><del>Four exams from now, I will have</del><ins>I have just</ins> graduated from Electrical Engineering at Queen's University! Although it's not a typical design program, from when I get home from class to the early hours of the morning I'm designing web and mobile experiences.</p>
+		<p>This website is still very young, and over the next few weeks I will be adding more content. <!-- The main reason that it exists at all is that I really want to work at <a href="http://www.jetcooper.com" target="_blank">Jet Cooper</a>. --></p>
+		<p>For now, here's a few more tidbits:</p>
+		
+		<div id="carwrap">
+		<div id="carousel">
+			<ul>
+				<!-- <a href="http://thenounproject.com/noun/graduation-cap/#icon-No5927" target="_blank">Graduation Cap</a> designed by <a href="http://thenounproject.com/Nozzman" target="_blank">Bram van Rijen</a> from The Noun Project -->
+				<li class="selected">
+					<img src="img/aboute0e0e0/degree.png" alt="Graduation cap" />
+ 		    		<h3>Degree</h3>
+ 		      		<h4>Electrical Engineering</h4>
+ 		      		<p>Queen's University</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/location.png" alt="Location pin" />
+ 		    		<h3>Location</h3>
+ 		      		<h4>Toronto, ON</h4>
+ 		      		<p>Canada</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/briefcase/#icon-No13466" target="_blank">Briefcase</a> designed by <a href="http://thenounproject.com/jontesta" target="_blank">Jon Testa</a> from The Noun Project --> 
+					<img src="img/aboute0e0e0/expertise.png" alt="Briefcase" />
+ 		    		<h3>Expertise</h3>
+ 		    		<h4>UX, front-end design & development</h4>
+ 		    		<p>Web and mobile, from conception to completion</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/speech-bubble/#icon-No11297" target="_blank">Speech Bubble</a> designed by <a href="http://thenounproject.com/jorishoogendoorn" target="_blank">Joris Hoogendoorn</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/languages.png" alt="Speech bubble" />
+ 		    		<h3>Languages</h3>
+ 		    		<h4>C, C++, CSS3, CUDA, English, French, </h4>
+ 		      		<p>HTML5, Java, JavaScript, jQuery, MATLAB, Obj-C, Processing, R</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/html-code/#icon-No4991" target="_blank">HTML Code</a> designed by <a href="http://thenounproject.com/DmitryBaranovskiy" target="_blank">Dmitry Baranovskiy</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/editor.png" alt="HTML tag" />
+ 		    		<h3>Editor</h3>
+ 		      		<h4>Sublime Text 2</h4>
+ 		      		<p>RIP Notepad++</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/hardware.png" alt="Devices" />
+ 		    		<h3>Hardware</h3>
+ 		    		<h4>Custom desktop, Nexus 7, iPhone 4</h4>
+ 		      		<p>Swans M10s, Roland TD-12s</p>
+				</li>
+				<li><!-- <a href="http://thenounproject.com/noun/magic-lamp/#icon-No2005" target="_blank">Magic Lamp</a> designed by <a href="http://thenounproject.com/randy" target="_blank">Randall Barriga</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/sauce.png" alt="Magic lamp" />
+ 		    		<h3>Secret Sauce</h3>
+ 		    		<h4>LESS, LiveReload, emmet, Edge Inspect</h4>
+ 		      		<p>(Don't tell anyone)</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/cherry-cake/#icon-No5973" target="_blank">Cherry Cake</a> designed by <a href="http://thenounproject.com/Sebi" target="_blank">Sebastian Markovic</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/birthday.png" alt="Chreey cake" />
+ 		    		<h3>Birthday</h3>
+ 		    		<h4>October 5, 1991</h4>
+ 		      		<p><span id="daycounter"></span> and still going strong</p>
+				</li>
+
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/spoon/#icon-No10958" target="_blank">Spoon</a> designed by <a href="http://thenounproject.com/DmitryBaranovskiy" target="_blank">Dmitry Baranovskiy</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/cereal.png" alt="Spoon" />
+ 		    		<h3>Cereal</h3>
+ 		      		<h4>Crispex</h4>
+ 		      		<p>Breakfast, lunch, and dinner</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/beer/#icon-No1591" target="_blank">Beer</a> designed by <a href="http://thenounproject.com/leroice" target="_blank">Leigh Scholten</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/beer.png" alt="Beer Glass" />
+ 		    		<h3>Beer</h3>
+ 		      		<h4>Hoptical Illusion</h4>
+ 		      		<p>Flying Monkeys</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/shoes.png" alt="Converse sneaker" />
+ 		    		<h3>Shoes</h3>
+ 		      		<h4>VANS Old Skools</h4>
+					<p>Black & White</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/colour.png" alt="Dark blue" />
+ 		    		<h3>Colour</h3>
+ 		      		<h4>#001768</h4>
+ 		      		<p>aka rgb(0, 23, 104)</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/drummer.png" alt="John Bonham's symbol" />
+ 		    		<h3>Drummer God</h3>
+ 		    		<h4>John "Bonzo" Bonham</h4>
+ 		      		<p>of Led Zeppelin</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/record/#icon-No1141" target="_blank">Record</a> designed by <a href="http://thenounproject.com/thorsonmscott" target="_blank">Max Thorson</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/album.png" alt="Vinyl record" />
+ 		    		<h3><small>current </small>Album</h3>
+ 		    		<h4>Further</h4>
+ 		      		<p>The Chemical Brothers</p>
+				</li>
+				<li>
+					<img src="img/aboute0e0e0/book.png" alt="Book" />
+ 		    		<h3><small>current </small>Book</h3>
+ 		      		<h4>If On a Winter's Night a Traveller</h4>
+ 		      		<p>Italio Calvino</p>
+				</li>
+				<li>
+					<!-- <a href="http://thenounproject.com/noun/fork/#icon-No4076" target="_blank">Fork</a> designed by <a href="http://thenounproject.com/gilad1" target="_blank">Gilad Fried</a> from The Noun Project -->
+					<img src="img/aboute0e0e0/food.png" alt="Fork" />
+ 		    		<h3><small>current </small>Food</h3>
+ 		    		<h4>Kiwi-mango smoothies</h4>
+ 		      		<p>Mmmmm...</p>
+				</li>
+			</ul>
+			<div id="control">
+				<div id="progress">
+					<div id="indicator"></div>
+				</div>
+				<ul>
+					<li class="selected"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<hr>
+
+
+		<div class="overlap"><h2>Portfolio</h2></div>
+	</div>
+
+	<section id="portfolio" class="bwWrapper">
+		<div id="portfolio-content">
+			
+			<ul class="grid">
+				<li class="w3 h3">
+					<div class="bg-wrap" style="background-image: url('img/peek.jpg')">
+						<a href="portfolio/peek.html"><div class="grid-info">
+							<h3>Peek</h3>
+							<p>Tumblr Theme</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w2 h1">
+					<div class="bg-wrap" style="background-image: url('img/wacom.png')">
+						<a href="portfolio/zen.html"><div class="grid-info">
+							<h3>zenWall</h3>
+							<p>Web demo</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w1 h1">
+					<div class="bg-wrap" style="background-image: url('img/worldinc.png')">
+						<a href="portfolio/worldinc.html"><div class="grid-info">
+							<h3>WorldInc</h3>
+							<p>Branding</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w3 h4">
+					<div class="bg-wrap" style="background-image: url('img/listn.png')">
+						<a href="portfolio/listn.html"><div class="grid-info">
+							<h3>Listn</h3>
+							<p>Mobile App</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w1 h1">
+					<div class="bg-wrap" style="background-image: url('img/infscroll.png')">
+						<a href="portfolio/infinitepage.html"><div class="grid-info">
+							<h3>∞Page</h3>
+							<p>Web Demo</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w1 h1">
+					<div class="bg-wrap" style="background-image: url('img/sun.jpg')">
+						<a href="portfolio/cssonly.html"><div class="grid-info">
+							<h3>CSS Only</h3>
+							<p>Web demo</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w1 h1">
+					<div class="bg-wrap" style="background-image: url('img/atnight.png')">
+						<a href="portfolio/atnight.html"><div class="grid-info">
+							<h3>At Night</h3>
+							<p>Typeface</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w2 h2">
+					<div class="bg-wrap" style="background-image: url('img/dealii.jpg')">
+						<a href="portfolio/dealii.html"><div class="grid-info">
+							<h3>deal.II + CUDA</h3>
+							<p>Parallel programming</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w1 h1">
+					<div class="bg-wrap" style="background-image: url('img/moonphases.png')">
+						<a href="portfolio/phases.html"><div class="grid-info">
+							<h3>Phases</h3>
+							<p>Wallpaper</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w2 h1">
+					<div class="bg-wrap" style="background-image: url('img/businesscard.png')">
+						<a href="portfolio/businesscard.html"><div class="grid-info">
+							<h3>Business Card</h3>
+							<p>Branding</p>
+						</div></a>
+					</div>
+				</li>
+				<li class="w2 h1">
+					<div class="bg-wrap" style="background-image: url('img/instaframe.png')">
+						<a href="portfolio/instaframe.html"><div class="grid-info">
+							<h3>Instaframe</h3>
+							<p>Web App</p>
+						</div></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+
+	
+
+	<div id="contact">
+		<img src="img/speech.png" alt="Speech bubble" class="icon" width="80px">
+		<h2>Get In Touch</h2>
+		<address>+1-613-770-4829</address>
+		<address><a href="mailto:rileyjshaw@gmail.com?Subject=Top%20Secret%20Mission">rileyjshaw@gmail.com</a></address>
+		<div id="socials">
+			<ul>
+				<li><a href="https://github.com/rileyjshaw" target="_blank"><img src="img/social/github.png" alt="Github"></a></li>
+				<li><a href="http://ca.linkedin.com/in/rileyjshaw/" target="_blank"><img src="img/social/linkedin.png" alt="LinkedIn"></a></li>
+				<li><a href="https://www.twitter.com/rileyjshaw" target="_blank"><img src="img/social/twitter.png" alt="Twitter"></a></li>
+				<li><a href="https://www.facebook.com/rileyjshaw" target="_blank"><img src="img/social/facebook.png" alt="Facebook"></a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jQuery.BlackAndWhite.min.js"></script>
+
+	<script type="text/javascript">
+		// Isotope
+		$(' #portfolio ul.grid ').isotope({
+		  // options
+		  itemSelector : 'li',
+		  masonry : {
+		  	columnWidth : 120
+			  }
+		}/*,
+		  function( $items ) {
+		  var id = this.attr('id'),
+		      len = $items.length;
+		  console.log( 'Isotope has filtered for ' + len + ' items in #' + id );
+		}*/);
+
+		//BlackAndWhite
+		$(window).load(function(){
+		    $('.bwWrapper').BlackAndWhite({
+		        // set the path to BnWWorker.js for a superfast implementation
+		        webworkerPath : false,
+		        responsive: true,
+		        speed: 400
+		    });
+		});
+	</script>
+
+	<script>
+		var IE = document.all?true:false; //Is it IE?
+
+		var i = 0, cur = 0,
+			cont = $(' #carousel>ul>li '),
+			pb = document.getElementById('indicator'),
+			dots = $(' #carousel>#control>ul>li ');
+
+		var artist;
+
+		dec = function() {
+			pb.style.width = i / 462 * 100 + "%";
+			i -= 4;
+			if(i <= 0) {
+				i = 0;
+				clearInterval(artist);
+				pb.style.styleFloat = 'left';
+				pb.style.cssFloat = 'left';
+				artist = setInterval(inc, 20);
+			}
+		}
+
+		inc = function() {
+			pb.style.width = i / 462 * 100 + "%";
+			i++;
+			if(i > 462) {
+				cont[cur].className = '';
+				dots[cur].className = '';
+				++cur == dots.length ? cur = 0 : false;
+				cont[cur].className = 'selected';
+				dots[cur].className = 'selected';
+				clearInterval(artist);
+				pb.style.styleFloat = 'right';
+				pb.style.cssFloat = 'right';
+				artist = setInterval(dec, 1);
+			}
+		}
+
+		goToAbout = function(k) {
+			cont[cur].className = '';
+			dots[cur].className = '';
+			cur = k;
+			cont[cur].className = 'selected';
+			dots[cur].className = 'selected';
+			i = 0;
+		}
+
+		addListener = function(j) {
+			if(IE) dots[j].attachEvent('onclick', function() { goToAbout(j); });
+			else dots[j].addEventListener('click', function() { goToAbout(j); }, false);
+		}
+
+		countup = function(m,d,y){  
+			var currentDate = new Date();  
+			var passedDate = new Date(y,m-1,d);  
+
+			var secondsInADay = 1000*60*60*24;  
+			var diff = Math.floor( (currentDate.getTime() - passedDate.getTime()) / secondsInADay );  
+			document.getElementById("daycounter").innerHTML= diff + " days ";
+		}
+
+		initialize = function() {
+			countup(10, 05, 1991);
+			artist = setInterval(inc, 20);
+		}
+
+		for(j = 0; j < dots.length; j++) {
+			addListener(j);
+		}
+
+		if(IE) window.attachEvent('onload', initialize);
+		else window.addEventListener('load', initialize, false);
+
+	</script>
+
+</body>
+</html>

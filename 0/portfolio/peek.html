@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:100,400,900' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Peek | Tumblr Theme</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+		}
+		body {
+			font-family: 'Old Standard TT', serif;
+			padding-top: 3.6rem;
+		}
+		#main {
+			text-align: center;
+			margin-left: 72px;
+			padding: 0 15%
+		}
+		a {
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+		}
+		header {
+			text-transform: uppercase;
+			text-align: center;
+			color: #171819;
+			width: 100%;
+			padding-left: 73px;
+
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+		}
+		h1 {
+			font-size: 7.2rem;
+		}
+		h2 {
+			font-size: 1.4rem;
+			letter-spacing: 4px;
+			font-weight: 700;
+			padding: 1.6rem 0;
+			text-align: center;
+		}
+		h3 {
+			font-weight: 800;
+			font-size: 3rem;
+			padding-bottom: 2.4rem;
+			font-family: 'Raleway', sans-serif;
+			color: #f5835c;
+		}
+		time {
+			font-size: 1.2rem;
+			text-align: center;
+			margin: 0 auto -18px auto;
+			display: block;
+		}
+		nav {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			border-right: 1px dotted #171819;
+			width: 72px;
+			height: 100%;
+			background-color: white;
+			z-index: 1;
+		}
+		nav>ul>li {
+			width: 100%;
+			height: 72px;
+			margin: 18px 0;
+		}
+		nav>ul>li>a>img {
+			padding: 18px 0;
+			height: 36px;
+			width: 36px;
+		}
+		hr {
+			border: 0;
+			height: 1px;
+			background-color: #171819;
+			width: 132px;
+			margin: 4.8rem auto;
+		}
+		img {
+			display: block;
+			margin: auto;
+			height: auto;
+		}
+		p {
+			margin-bottom: 1.8rem; 
+			font-size: 2.2rem;
+			line-height: 3.6rem;
+			color: #42423d;
+			text-align: left;
+			max-width: 1000px;
+		}
+		a {
+			color: #7e8cbf;
+			border-bottom: 1px dotted #8e9ccf;
+		}
+		a.biglink {
+			text-align: center;
+			font-size: 4.8rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			display: inline-block;
+			margin: 42px 0 60px 0;
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		a:hover {
+			color: #f5835c;
+			text-shadow: 0 0 0 #aaccff;
+		}
+		p>code {
+			font-family: monospace;
+			font-size: 1.8rem;
+		}
+
+
+		section#contact {
+			margin-left: 72px;
+			background-color: #f7f7f7;
+			box-shadow: 0px 6px 4px #f3f3f3 inset, 6px 0px 4px #f5f5f5 inset;
+			padding-bottom: 2.4rem;
+		}
+		#contact img.icon {
+			display: block;
+			padding-top: 2.4rem;
+			margin: auto;
+		}
+		#contact address {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			text-align: center;
+			font-size: 4.8rem;
+			padding-bottom: 2.4rem;
+		}
+		#contact address>a {
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		#contact address>a:hover {
+			color: #f5835c;
+			border-bottom: 1px dotted #171819;
+		}
+
+		#contact #socials>ul {
+			margin: 2.4rem auto;
+			width: 600px;
+			height: 48px;
+		}
+		#contact #socials>ul>li {
+			width: 150px;
+			float: left;
+		}
+		#contact #socials>ul>li img { 
+			height: 48px;
+			width: 48px;
+			margin: auto;
+			display: block;
+		}
+		
+		.album {
+			content:'';
+			position: relative;
+			width: 100%;
+			height: 350px;
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			cursor: pointer;
+			margin-bottom: 4.8rem;
+			padding-left: 72px;
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+
+			transition: height 0.3s linear;
+			-moz-transition: height 0.3s linear;
+			-webkit-transition: height 0.3s linear;
+			-o-transition: height 0.3s linear;
+		}
+		.album .meta {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: rgba(0,0,0,.3);
+
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-moz-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-webkit-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-o-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+		}
+		.album:hover>.meta {
+			visibility: visible;
+			opacity: 1;
+			transition: opacity 0.3s linear;
+			-moz-transition: opacity 0.3s linear;
+			-webkit-transition: opacity 0.3s linear;
+			-o-transition: opacity 0.3s linear;
+		}
+		.tall {
+			height: 90%;
+		}
+		.tall:hover>.meta {
+			opacity: 0;
+		}
+		.album .centerWrap {
+			position: absolute;
+			top: 50%;
+			width: 100%;
+		}
+		.album h3 {
+			color: white;
+			font-size: 60px;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 800;
+			margin-top: -0.5em;
+			padding-left: 72px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#portfolio" title="Back to Portfolio"><img src="home.gif" alt="Back to Portfolio"></a></li>
+			<li><a href="instaframe.html" title="Next Project"><img src="next.gif" alt="Next Project"></a></li>
+			<li><a href="zen.html" title="Previous Project"><img src="prev.gif" alt="Previous Project"></a></li>
+		</ul>
+	</nav>
+	
+		<header>
+			<h1>Peek</h1>
+			<h2>Tumblr Theme</h2>
+			<time>03 / 2013</time>
+			<hr>
+		</header>
+
+		<div id="demoPane" class="album" style="background-image: url('img/peek/sample.jpg');">
+			<div class='meta'>
+				<div class="centerWrap"><h3>Canary</h3></div>
+			</div>
+		</div>
+
+		<header><hr></header>
+
+	<div id="main">
+		<h3>Role: Creator</h3>
+
+		<p>Peek is an in-progress Tumblr theme for visual content, born from experiments with the CSS <code>background-attachment</code> property. It was written in pure HTML, CSS, and JavaScript. Much time was taken to ensure that the script would run anywhere, including legacy browsers. If time had time been more of a concern, jQuery could have expedited this process.</p>
+		<p>Several high-level interface bugs must be cleared up before publishing the theme. For example, photo titles are currently displayed on a hover event; an alternative method must be provided for mobile users. The theme is not entirely cross-browser compatible at this point. A recent build of Firefox is suggested.</p>
+		<p>At publish date, this theme will offer support for static and animated images, along with infinite scrolling pagination. A planned update will have support for embedded video.</p>
+
+		<hr>
+
+		<a href="peekdemo.html" class="biglink">View Demo</a>
+	</div>
+
+	<section id="contact">
+		<img src="../img/speech.png" alt="Speech bubble" class="icon" width="80px">
+		<h2>Get In Touch</h2>
+		<address>+1-613-770-4829</address>
+		<address><a href="mailto:rileyjshaw@gmail.com?Subject=Top%20Secret%20Mission">rileyjshaw@gmail.com</a></address>
+		<div id="socials">
+			<ul>
+				<li><a href="https://github.com/rileyjshaw" target="_blank"><img src="../img/social/github.png" alt="Github"></a></li>
+				<li><a href="http://ca.linkedin.com/in/rileyjshaw/" target="_blank"><img src="../img/social/linkedin.png" alt="LinkedIn"></a></li>
+				<li><a href="https://www.twitter.com/rileyjshaw" target="_blank"><img src="../img/social/twitter.png" alt="Twitter"></a></li>
+				<li><a href="https://www.facebook.com/rileyjshaw" target="_blank"><img src="../img/social/facebook.png" alt="Facebook"></a></li>
+			</ul>
+		</div>
+	</section>
+
+	<script>
+		var IE = document.all?true:false; //Is it IE?
+		var winH = -1;
+		var loadIncrement = 0;
+
+		getWindowHeight = function(e) {
+			if (document.body && document.body.offsetWidth)
+				winH = document.body.offsetHeight;
+			if (document.compatMode=='CSS1Compat' && document.documentElement && document.documentElement.offsetWidth )
+				winH = document.documentElement.offsetHeight;
+			if (window.innerHeight && window.innerWidth)
+				winH = window.innerHeight;
+		}
+
+		//Scrolling... thanks, http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript
+		currentYPosition = function() {
+		    // Firefox, Chrome, Opera, Safari
+		    if (self.pageYOffset) return self.pageYOffset;
+		    // Internet Explorer 6 - standards mode
+		    if (document.documentElement && document.documentElement.scrollTop)
+		        return document.documentElement.scrollTop;
+		    // Internet Explorer 6, 7 and 8
+		    if (document.body.scrollTop) return document.body.scrollTop;
+		    return 0;
+		}
+
+		elmYPosition = function(elm) {
+		    var y = elm.offsetTop;
+		    var node = elm;
+		    while (node.offsetParent && node.offsetParent != document.body) {
+		        node = node.offsetParent;
+		        y += node.offsetTop;
+		    } return y;
+		}
+
+		smoothScroll = function(elm) {
+		    var startY = currentYPosition();
+		    var stopY = elmYPosition(elm) - winH * 0.05;
+		    var distance = stopY > startY ? stopY - startY : startY - stopY;
+		    if (distance < 100) {
+		        scrollTo(0, stopY); return;
+		    }
+		    var speed = Math.round(distance / 100);
+		    if (speed >= 20) speed = 20;
+		    var step = Math.round(distance / 25);
+		    var leapY = stopY > startY ? startY + step : startY - step;
+		    var timer = 0;
+		    if (stopY > startY) {
+		        for ( var i=startY; i<stopY; i+=step ) {
+		            setTimeout("window.scrollTo(0, "+leapY+")", timer * speed);
+		            leapY += step; if (leapY > stopY) leapY = stopY; timer++;
+		        } return;
+		    }
+		    for ( var i=startY; i>stopY; i-=step ) {
+		        setTimeout("window.scrollTo(0, "+leapY+")", timer * speed);
+		        leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
+		    }
+		}
+
+		selAlbum = function(e) {
+			smoothScroll(this);
+			if((' ' + this.className + ' ').indexOf(' tall ') === -1)
+				this.className += ' tall';
+			else this.className = 'album';
+		};
+
+		//Set the window values on load
+		if(IE)
+			window.attachEvent('onload', getWindowHeight);
+		else window.addEventListener('load', getWindowHeight, false);
+
+		//Make the window values update if the window resizes
+		if(IE)
+			window.attachEvent('onresize', getWindowHeight);
+		else window.addEventListener('resize', getWindowHeight, false);
+
+		//Add click listeners to album divs  
+		
+		document.getElementById('demoPane').addEventListener('click', selAlbum, false);
+	</script>
+</body>
+</html>
