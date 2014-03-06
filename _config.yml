@@ -4,7 +4,8 @@
 # 3. config.yml
 
 name: rileyjshaw
-description: My personal site, hosted using GitHub Pages and Jekyll
+url: www.rileyjshaw.com
+description: The work and ramblings of rileyjshaw
 author:
   name: Riley Shaw
   email: rileyjshaw@gmail.com
