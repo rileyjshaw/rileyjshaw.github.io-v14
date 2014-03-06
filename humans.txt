@@ -12,5 +12,5 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, Modernizr
+    Normalize.css
     Yeoman, Jekyll, GitHub Pages
