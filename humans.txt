@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Riley J. Shaw -- developer, author, guy who the website is about -- @rileyjshaw
 
 # THANKS
 
-    <name>
+    Rob Wierzbowski -- made an awesome Yeoman generator for Jekyll (https://github.com/robwierzbowski/generator-jekyllrb) -- @robwierzbowski
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, Modernizr
+    Yeoman, Jekyll, GitHub Pages
