@@ -6,7 +6,7 @@
 name: rileyjshaw
 description: My personal site, hosted using GitHub Pages and Jekyll
 author:
-  name: RileyJShaw
+  name: Riley Shaw
   email: rileyjshaw@gmail.com
 
 # Grunt handles images and assets.
@@ -19,9 +19,9 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: none
+permalink: 'blog/:title'
 paginate: 5
-paginate_path: 'page:num'
+paginate_path: 'blog/page:num'
 
 # Markdown library
 markdown: kramdown
