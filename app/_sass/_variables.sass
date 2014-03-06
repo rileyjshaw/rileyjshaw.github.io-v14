@@ -1,0 +1,110 @@
+// Colors
+$cdetail: #00aae2
+$caction: #349920
+$cplain: #313131
+$ctheme: #fff
+$cpink: #c671c6
+
+// Layout
+
+// Extentions
+// Full justify (includes last line)
+%justify-contents
+  text-align: justify
+  &:after
+    content: ''
+    display: inline-block
+    width: 100%
+
+//////////////////////////
+// Functions and mixins //
+//////////////////////////
+@function strip-unit($val)
+  @return $val / ($val * 0 + 1)
+
+=rgba($property, $color, $opacity)
+  #{$property}: $color
+  #{$property}: rgba($color, $opacity)
+
+//=respond-to($val, $query)
+//  @media ($val: $query)
+//    @content
+
+=retina-sprites($spritesheet)
+  @each $sprite in sprite_names($spritesheet)
+    &.#{$sprite}
+      $positions: ''
+      @each $j in sprite-position($spritesheet, $sprite)
+        $positions: append($positions, $j / 2, space)
+      height: image-height(sprite-file($spritesheet, $sprite)) / 2
+      width: image-width(sprite-file($spritesheet, $sprite)) / 2
+      background-position: $positions
+
+  background-image: $spritesheet
+  background-size: image-width($spritesheet)/2 image-height($spritesheet)/2
+
+/////////////////////////////////////////////
+// Helper classes, adapted from H5BPv4.3.0 //
+/////////////////////////////////////////////
+
+// Image replacement
+.ir
+  background-color: transparent
+  border: 0
+  overflow: hidden
+  *text-indent: -9999px
+
+  &:before
+    content: ""
+    display: block
+    width: 0
+    height: 150%
+
+// Hide from both screenreaders and browsers: h5bp.com/u
+.hidden
+  display: none !important
+  visibility: hidden
+
+// Hide only visually, but have it available for screenreaders: h5bp.com/v
+.visuallyhidden
+  border: 0
+  clip: rect(0 0 0 0)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  width: 1px
+
+// Extends the .visuallyhidden class to allow the element to be focusable
+// when navigated to via the keyboard: h5bp.com/p
+.visuallyhidden.focusable
+  &:active, &:focus
+    clip: auto
+    height: auto
+    margin: 0
+    overflow: visible
+    position: static
+    width: auto
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible
+  visibility: hidden
+
+// Contain floats
+.clearfix
+  *zoom: 1
+
+  &:before, &:after
+    content: " "
+    display: table
+
+  &:after
+    clear: both
+
+// Browse Happy prompt
+.browsehappy
+  margin: 0.2em 0
+  background: #ccc
+  color: #000
+  padding: 0.2em 0
