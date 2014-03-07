@@ -1,18 +1,24 @@
 ---
-layout: default
+layout: inner
 title: Hello Blog
 ---
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.excerpt }}
-  </div>
-{% endfor %}
+<header class="blog-masthead">
+  <h1>Blog ( )</h1>
+  <p>In which he writes about things</p>
+</header>
+
+<ul class="blog-posts">
+  {% for post in paginator.posts %}
+    <li>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="date">{{ post.date | timeago }}</p>
+      <div class="content">
+       {{ post.excerpt }}
+      </div>
+    {% endfor %}
+  </li>
+</ul>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">

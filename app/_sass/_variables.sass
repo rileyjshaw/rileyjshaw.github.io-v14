@@ -1,9 +1,5 @@
 // Colors
-$cdetail: #00aae2
-$caction: #349920
-$cplain: #313131
-$ctheme: #fff
-$cpink: #c671c6
+$cplain: #333
 
 // Layout
 
@@ -44,8 +40,15 @@ $cpink: #c671c6
   background-size: image-width($spritesheet)/2 image-height($spritesheet)/2
 
 /////////////////////////////////////////////
-// Helper classes, adapted from H5BPv4.3.0 //
+// Helper classes, mostly adapted from H5BPv4.3.0 //
 /////////////////////////////////////////////
+
+// Helps vertical-align: center act a bit saner
+.vcent
+  display: inline-block
+  height: 100%
+  width: 0
+  vertical-align: middle
 
 // Image replacement
 .ir

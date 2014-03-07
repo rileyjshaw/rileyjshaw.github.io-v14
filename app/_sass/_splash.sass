@@ -1,0 +1,69 @@
+.splash-shard
+  float: left
+  height: 50%
+  width: 50%
+  text-align: center
+
+  a
+    display: block
+    overflow: hidden
+    height: 100%
+    width: 100%
+    text-decoration: none
+    transition: background .5s
+
+    &:hover
+      h1
+        transform: translate(100%, 0)
+
+  h1
+    display: inline-block
+    width: 90%
+    vertical-align: middle
+    font-size: 18px
+    font-weight: $light
+    text-transform: uppercase
+    letter-spacing: 4px
+    color: white
+    transition: transform .4s
+
+  &.triple
+    a
+      height: 33.3%
+
+.splash-blog
+  background-color: #ff8800
+
+.splash-twitter
+  background-color: #55acee
+
+.splash-github
+  background-color: #66bdff
+
+.splash-codepen
+  background-color: #77ceff
+
+.splash-portfolio
+  background-color: #44ccaa
+
+.splash-contact
+  background-color: #cc3333
+
+.center-mark
+  position: absolute
+  top: 50%
+  left: 50%
+  height: 60px
+  line-height: 60px
+  width: 60px
+  margin: -30px
+  border-radius: 30px
+  font-family: Raleway
+  font-size: 48px
+  text-align: center
+  background: #f0f0f0
+  background: rgba( 255, 255, 255, 1 )
+  transition: transform 2s
+
+  &:hover
+    transform: rotate(330deg)

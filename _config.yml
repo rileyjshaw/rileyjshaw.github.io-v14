@@ -14,6 +14,8 @@ author:
 exclude: ['images', 'css', 'scripts', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
+gems: [jekyll/timeago]
+
 include: ['.htaccess']
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`

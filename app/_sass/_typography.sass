@@ -38,6 +38,28 @@ $black: 900
   font-weight: $book
   font-style: normal
 
+@font-face
+  font-family: 'Nexa'
+  src: url('Nexa-Light.otf') format('opentype')
+  font-weight: $light
+  font-style: normal
+
+@font-face
+  font-family: 'Nexa'
+  src: url('Nexa-Bold.otf') format('opentype')
+  font-weight: $bold
+  font-style: normal
+
+@font-face
+  font-family: 'FontAwesome'
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}')
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'), url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'), url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'), url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+
 // font-stacks
-$lato: Lato, Arial, Helvetica, 'Lucida Grande', 'Gill Sans', Verdana, sans-serif
+$header: Montserrat, Gotham, Avenir, Futura, 'Trebuchet MS', 'Century Gothic', CenturyGothic, AppleGothic, Helvetica, Arial, sans-serif
+$masthead: Raleway, $header
+$body: 'Source Sans Pro', Gill Sans, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, Helvetica, Arial, sans-serif
 $fantasque: FantasqueSansMono, Consolas, monaco, 'Lucida Console', monospace

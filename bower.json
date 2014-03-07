@@ -2,6 +2,7 @@
   "name": "rileyjshaw",
   "version": "0.0.0",
   "dependencies": {
-    "normalize-css": "~2.1.3"
+    "normalize-css": "~2.1.3",
+    "mousetrap": "~1.4.6"
   }
 }

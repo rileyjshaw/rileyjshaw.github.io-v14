@@ -3,9 +3,40 @@ layout: default
 title: Riley
 ---
 
-<section class="home posts">
-  <h1>Blog Posts</h1>
-  {% for post in site.posts %}
-    <article><time>{{ post.date | date_to_string }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></article>
-  {% endfor %}
-</section>
+<div class="splash-shard">
+  <a href="/blog" class="splash-blog">
+    <div class="vcent"></div>
+    <h1>Blog</h1>
+  </a>
+</div>
+
+<div class="splash-shard">
+  <a href="/portfolio" class="splash-portfolio">
+    <div class="vcent"></div>
+    <h1>Portfolio</h1>
+  </a>
+</div>
+
+<div class="splash-shard triple">
+  <a href="https://twitter.com/rileyjshaw" class="splash-twitter">
+    <div class="vcent"></div>
+    <h1>Twitter</h1>
+  </a>
+  <a href="https://github.com/rileyjshaw" class="splash-github">
+    <div class="vcent"></div>
+    <h1>GitHub</h1>
+  </a>
+  <a href="http://codepen.io/rileyjshaw" class="splash-codepen">
+    <div class="vcent"></div>
+    <h1>CodePen</h1>
+  </a>
+</div>
+
+<div class="splash-shard">
+  <a href="mailto:rileyjshaw@gmail.com" class="splash-contact">
+    <div class="vcent"></div>
+    <h1>Contact</h1>
+  </a>
+</div>
+
+<div class="center-mark">R</div>

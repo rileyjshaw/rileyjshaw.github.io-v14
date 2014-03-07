@@ -20,6 +20,8 @@
 # Distributed under the MIT license
 # Copyright Assaf Gelber 2014
 
+# require 'jekyll/timeago'
+
 module Jekyll
   class RssFeed < Page; end
 

@@ -1,0 +1,67 @@
+html, body
+  height: 100%
+
+html, a
+  color: $cplain
+
+h1, h2, header
+  a
+    text-decoration: none
+
+h1, h2, h3
+  font-family: $header
+
+// Inner header
+.top-nav
+  height: 60px
+  line-height: 60px
+  text-align: center
+  text-transform: uppercase
+  background: $cplain
+
+  .logo
+    position: relative
+    float: left
+    height: 60px
+    width: 60px
+    font-family: Raleway
+    font-size: 36px
+    font-weight: $thin
+    background: #f80
+
+    &:after
+      content: ''
+      position: absolute
+      left: 50%
+      bottom: 8px
+      height: 4px
+      width: 4px
+      margin-left: -2px
+      border-radius: 2px
+      background: $cplain
+      transition: bottom .5s
+
+    &:hover:after
+      bottom: 32px
+
+  nav
+    float: right
+
+    a
+      display: block
+      height: 100%
+      padding: 0 18px
+      color: #ccc
+      transition: color .3s, background .3s
+
+      &:hover
+        background: #555
+
+  ul
+    margin: 0
+
+  li
+    display: inline-block
+    font-weight: $light
+    list-style: none
+    letter-spacing: 4px
