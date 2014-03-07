@@ -1,8 +1,13 @@
 ---
 layout: post
+tags:
+- demo
+- post
+- syntax
+comments: true
 ---
 
-This is some text that should be highlighting...
+This is some text that should be highlighting. It is also the first post in the list, so I'm making this part a bit longer. It is also the first post in the list, so I'm making this part a bit longer. It is also the first post in the list, so I'm making this part a bit longer. Did I mention that It is also the first post in the list, so I'm making this part a bit longer? I think I did mentinon that. What? That It is also the first post in the list, so I'm making this part a bit longer.
 
 <pre data-src="index.html" class="language-markup"><code class="  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>

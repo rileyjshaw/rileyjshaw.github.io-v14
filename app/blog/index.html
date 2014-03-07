@@ -16,6 +16,12 @@ title: Hello Blog
       <div class="content">
        {{ post.excerpt }}
       </div>
+      <div class="post-meta">
+        <span><i class="fa fa-comment"></i> Comments</span>
+        {% if post.tags != empty %}
+          <span><i class="fa fa-tag"></i> {{ post | tags }}</span>
+        {% endif %}
+      </div>
     {% endfor %}
   </li>
 </ul>
