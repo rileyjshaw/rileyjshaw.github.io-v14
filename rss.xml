@@ -22,7 +22,7 @@
     <item>
       <title>gist example</title>
       <link>www.rileyjshaw.com/blog/github-gist-example</link>
-      <description>&lt;script src=&quot;https://gist.github.com/5555251.js&quot;&gt; &lt;/script&gt;
+      <description>&lt;script src=&quot;https://gist.github.com/8284560.js&quot;&gt; &lt;/script&gt;
 
 </description>
       <pubDate>Thu, 06 Mar 2014 00:00:00 -0500</pubDate>
@@ -58,6 +58,15 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
       <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
       <guid>www.rileyjshaw.com/blog/and-another-one</guid>
       <dc:date>2014-03-03T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>I Am One</title>
+      <link>www.rileyjshaw.com/blog/i-am-one</link>
+      <description>
+</description>
+      <pubDate>Mon, 05 Oct 1992 00:00:00 -0400</pubDate>
+      <guid>www.rileyjshaw.com/blog/i-am-one</guid>
+      <dc:date>1992-10-05T00:00:00-04:00</dc:date>
     </item>
     <item>
       <title>I Exist Now</title>
