@@ -17,7 +17,7 @@ title: Hello Blog
        {{ post.excerpt }}
       </div>
       <div class="post-meta">
-        <span><i class="fa fa-comment"></i> Comments</span>
+        <span><i class="fa fa-comment"></i> <a href="{{ post.url }}#discussion">Comments</a></span>
         {% if post.tags != empty %}
           <span><i class="fa fa-tag"></i> {{ post | tags }}</span>
         {% endif %}
