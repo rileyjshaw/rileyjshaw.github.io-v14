@@ -127,7 +127,9 @@
   InstantClick.init();
 
   // Fluidbox
-  $('.gallery a, a[rel="lightbox"]').fluidbox();
+  $( function () {
+    $('.gallery a, a[rel="lightbox"]').fluidbox();
+  });
 
   // Event listeners
   //
