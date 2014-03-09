@@ -4,6 +4,12 @@ html, body
 html, a
   color: $cplain
 
+body
+  padding-top: 60px
+
+  .splash &
+    padding-top: 0
+
 h1, h2, header
   a
     text-decoration: none
@@ -11,13 +17,30 @@ h1, h2, header
 h1, h2, h3
   font-family: $header
 
+pre
+  font-size: 18px
+  line-height: 1.2em
+
 // Inner header
-.top-nav
+#top-nav
+  position: fixed
+  top: 0
+  left: 0
+  overflow: hidden
   height: 60px
+  width: 100%
   line-height: 60px
   text-align: center
   text-transform: uppercase
   background: $cplain
+  transition: width .5s, top .2s, left .2s, border .2s
+
+  &.shortened
+    width: 60px
+    top: 12px
+    left: 12px
+    border: 6px solid rgba( 255, 255, 255, .7)
+    transition: width .5s, top .2s, left .2s, border .2s
 
   .logo
     position: relative
@@ -65,3 +88,12 @@ h1, h2, h3
     font-weight: $light
     list-style: none
     letter-spacing: 4px
+
+// cdTerm
+
+#cdTerm
+  input
+    outline: none
+    font-size: 60px
+    text-align: center
+
