@@ -98,6 +98,9 @@
     cdTerm();
   } );
 
+  // InstantClick
+  InstantClick.init();
+
   // Event listeners
   //
 
