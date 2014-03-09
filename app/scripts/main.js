@@ -1,6 +1,51 @@
 ;(function ( exports ) {
-  var goToUrl = function ( path ) {
 
+  // Elements
+  //
+
+  var topNav = document.getElementById( 'top-nav' );
+
+  // Functions
+  //
+
+  // Register a new dialog with the polyfill
+  var addDialog = function ( dialog ) {
+
+    function closeDialog() {
+        if (dialog.open)
+            dialog.close();
+    }
+
+    function clickedInDialog(mouseEvent) {
+        var rect = dialog.getBoundingClientRect();
+        return rect.top <= mouseEvent.clientY && mouseEvent.clientY <= rect.top + rect.height &&
+               rect.left <= mouseEvent.clientX && mouseEvent.clientX <= rect.left + rect.width;
+    }
+
+    if( dialog ) {
+
+      dialogPolyfill.registerDialog(dialog);
+
+      document.body.addEventListener( 'click', function(e) {
+        if ( !dialog.open )
+          return;
+        if ( e.target !== document.body )
+          return;
+        closeDialog();
+      });
+
+      dialog.addEventListener('click', function(e) {
+        if (clickedInDialog(e))
+          return;
+        closeDialog();
+      });
+
+    }
+    return dialog;
+  };
+
+  // Check if a URL path is valid and go there if it is
+  var goToUrl = function ( path ) {
     var
     firstChar = path.charAt( 0 ),
     url = document.URL,
@@ -29,65 +74,32 @@
     }
   };
 
+  // Emulate terminal navigation in the browser
   var cdTerm = function () {
     dialog = addDialog(document.getElementById('cdTerm'));
     dialog.showModal();
   };
 
-  Mousetrap.bind( 'up up down down left right left right b a enter', function () {
-    alert( 'omg konami code!' );
-  } );
-
-  Mousetrap.bind( 'c d space', function() {
-    cdTerm();
-  } );
-
-  // Dialog polyfill
-  var addDialog = function ( dialog ) {
-    if( dialog ) {
-
-      dialogPolyfill.registerDialog(dialog);
-
-      function closeDialog() {
-          if (dialog.open)
-              dialog.close();
-      }
-
-      function clickedInDialog(mouseEvent) {
-          var rect = dialog.getBoundingClientRect();
-          return rect.top <= mouseEvent.clientY && mouseEvent.clientY <= rect.top + rect.height
-              && rect.left <= mouseEvent.clientX && mouseEvent.clientX <= rect.left + rect.width;
-      }
-
-      document.body.addEventListener('click', function(e) {
-        if (!dialog.open)
-          return;
-        if (e.target != document.body)
-          return;
-        closeDialog();
-      });
-
-      dialog.addEventListener('click', function(e) {
-        if (clickedInDialog(e))
-          return;
-        closeDialog();
-      });
-
-    }
-    return dialog;
-  }
-
-  // Check scroll
-  var topNav = document.getElementById( 'top-nav' );
-
+  // Checks scroll height and toggles topNav state
   var checkScroll = function ( event ) {
     if( document.body.scrollTop >= 300 ) {
       topNav.className = 'shortened';
     } else {
       topNav.className = '';
     }
-
   };
+
+  // Mousetrap bindings
+
+  Mousetrap.bind( 'up up down down left right left right b a enter', function () {
+    alert( 'omg konami code!' );
+  } );
+  Mousetrap.bind( 'c d space', function() {
+    cdTerm();
+  } );
+
+  // Event listeners
+  //
 
   if ( topNav ) {
     document.addEventListener( 'scroll', checkScroll );

@@ -11,7 +11,7 @@
   "newcap": true,
   "noarg": true,
   "quotmark": "single",
-  "undef": true,
+  "undef": false,
   "strict": false,
   "trailing": true,
   "smarttabs": true
