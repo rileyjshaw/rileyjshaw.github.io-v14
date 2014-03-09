@@ -5,6 +5,7 @@
     "normalize-css": "~2.1.3",
     "mousetrap": "~1.4.6",
     "dialog-polyfill": "~0.2.0",
-    "instantclick": "*"
+    "instantclick": "*",
+    "Fokus": "https://github.com/hakimel/Fokus.git"
   }
 }
