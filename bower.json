@@ -2,10 +2,16 @@
   "name": "rileyjshaw",
   "version": "0.0.0",
   "dependencies": {
-    "normalize-css": "~2.1.3",
+    "normalize-css": "~3.0.0",
     "mousetrap": "~1.4.6",
     "dialog-polyfill": "~0.2.0",
     "instantclick": "*",
-    "Fokus": "https://github.com/hakimel/Fokus.git"
+    "Fokus": "https://github.com/hakimel/Fokus.git",
+    "jquery.sidenotes": "~0.2.0",
+    "fluidbox": "~1.2.2"
+  },
+  "resolutions": {
+    "jquery": ">=1.9 <2.0",
+    "normalize-css": "~3.0.0"
   }
 }

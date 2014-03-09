@@ -34,14 +34,14 @@ pre
   text-align: center
   text-transform: uppercase
   background: $cplain
-  transition: width .5s, top .2s, left .2s, box-shadow .1s
+  transition: width .5s, top .4s, left .4s, box-shadow .1s
 
   &.shortened
     width: 60px
     top: 12px
     left: 12px
     box-shadow: 0 0 0 6px rgba( 255, 255, 255, .8)
-    transition: width .5s, top .2s, left .2s, box-shadow .2s .5s
+    transition: width .5s, top .4s, left .4s, box-shadow .2s .5s
 
   .logo
     position: relative
@@ -90,11 +90,52 @@ pre
     list-style: none
     letter-spacing: 4px
 
-// cdTerm
+// Drawer nav
+#drawer-nav
+  position: fixed
+  top: 0
+  bottom: 0
+  left: -300px
+  width: 300px
+  background: $cplain
+  transition: left .4s
 
+  ul
+    height: 100%
+    margin: 0
+    padding: 0
+
+  li
+    display: block
+    height: 25%
+    text-align: center
+    font-size: 24px
+    font-family: $sans
+
+  a
+    display: block
+    height: 100%
+    width: 100%
+    text-decoration: none
+    text-transform: uppercase
+    color: white
+
+  span
+    display: inline-block
+
+// cdTerm
 #cdTerm
   input
     outline: none
     font-size: 60px
     text-align: center
 
+.drawer-nav-open
+  #top-nav
+    left: 300px
+
+    &.shortened
+      left: 312px
+
+  #drawer-nav
+    left: 0

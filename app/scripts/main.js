@@ -4,9 +4,28 @@
   //
 
   var topNav = document.getElementById( 'top-nav' );
+  var drawerTrigger = document.getElementById( 'drawer-nav-link' );
+  var drawer = document.getElementById( 'drawer-nav' );
 
   // Functions
   //
+
+  // Toggles a class in IE9+
+  var toggleClass = function ( el, className ) {
+    if ( el.classList ) {
+      el.classList.toggle( className );
+    } else {
+      var classes = el.className.split( ' ' );
+      var existingIndex = classes.indexOf( className );
+
+      if ( existingIndex >= 0 )
+        classes.splice( existingIndex, 1 );
+      else
+        classes.push( className );
+
+      el.className = classes.join( ' ' );
+    }
+  };
 
   // Register a new dialog with the polyfill
   var addDialog = function ( dialog ) {
@@ -89,6 +108,12 @@
     }
   };
 
+  // Toggles the drawer-nav's state
+  var slideDrawer = function ( event ) {
+    event.preventDefault();
+    toggleClass( document.body, 'drawer-nav-open' );
+  };
+
   // Mousetrap bindings
 
   Mousetrap.bind( 'up up down down left right left right b a enter', function () {
@@ -106,6 +131,10 @@
 
   if ( topNav ) {
     document.addEventListener( 'scroll', checkScroll );
+  }
+
+  if ( drawerTrigger ) {
+    drawerTrigger.addEventListener( 'click', slideDrawer );
   }
 
 })( this );
