@@ -15,6 +15,7 @@ h1, h2, header
     text-decoration: none
 
 h1, h2, h3
+  line-height: 1em
   font-family: $header
 
 pre
@@ -33,14 +34,14 @@ pre
   text-align: center
   text-transform: uppercase
   background: $cplain
-  transition: width .5s, top .2s, left .2s, border .2s
+  transition: width .5s, top .2s, left .2s
 
   &.shortened
     width: 60px
     top: 12px
     left: 12px
-    border: 6px solid rgba( 255, 255, 255, .7)
-    transition: width .5s, top .2s, left .2s, border .2s
+    box-shadow: 0 0 0 6px rgba( 255, 255, 255, .8)
+    transition: width .5s, top .2s, left .2s
 
   .logo
     position: relative
