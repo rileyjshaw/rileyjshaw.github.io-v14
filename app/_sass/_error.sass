@@ -1,0 +1,52 @@
+
+.tv-outer
+  background: white
+.tv-inner
+  position: absolute
+  top: 50%
+  left: 50%
+  height: 150px
+  width: 200px
+  margin: -75px -100px
+  background: $cplain
+
+  p
+    position: absolute
+    bottom: -48px
+    left: -400px
+    width: 1000px
+    text-align: center
+
+  &:before, &:after
+    position: absolute
+    left: 5%
+    right: 5%
+
+  &:before
+    content: ''
+    top: 5%
+    bottom: 5%
+    border-radius: 10% / 50%
+    background: linear-gradient(135deg, white 25%, transparent 25%) -50px 0, linear-gradient(225deg, white 25%, transparent 25%) -50px 0, linear-gradient(315deg, white 25%, transparent 25%), linear-gradient(45deg, white 25%, transparent 25%)
+    background-size: 36px 36px
+    background-color: $cplain
+    -webkit-animation: static 1s linear infinite
+    animation: static 1s linear infinite
+
+  &:after
+    content: ''
+    top: 100%
+    bottom: -5%
+    background: $cplain
+
+@-webkit-keyframes static
+  from
+    background-position: 0 0, 0 0, 0 0, 0 0
+  to
+    background-position: -35px 0, -35px 0, 35px 0, 35px 0
+
+@keyframes static
+  from
+    background-position: 0 0, 0 0, 0 0, 0 0
+  to
+    background-position: -35px 0, -35px 0, 35px 0, 35px 0
