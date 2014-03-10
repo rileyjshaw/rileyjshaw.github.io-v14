@@ -1,4 +1,3 @@
-// TODO: Break this out and make it less yucky.
 ;(function ( exports ) {
 
   // Elements
@@ -7,6 +6,7 @@
   var topNav = document.getElementById( 'top-nav' );
   var drawerTrigger = document.getElementById( 'drawer-nav-link' );
   var drawer = document.getElementById( 'drawer-nav' );
+  var drawerOverlay = document.getElementById('drawer-nav-overlay')
 
   // Functions
   //
@@ -141,6 +141,7 @@
 
   if ( drawerTrigger ) {
     drawerTrigger.addEventListener( 'click', slideDrawer );
+    drawerOverlay.addEventListener( 'click', slideDrawer );
   }
 
 })( this );

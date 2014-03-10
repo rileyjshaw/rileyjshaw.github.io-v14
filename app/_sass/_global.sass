@@ -126,6 +126,23 @@ code
   span
     display: inline-block
 
+#drawer-nav-overlay
+  display: none
+  opacity: 0
+  cursor: pointer
+  background-color: $cplain
+  transition: opacity 0.3s
+
+  .drawer-nav-open &
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    display: block
+    opacity: .8
+
+
 // cdTerm
 #cdTerm
   input
