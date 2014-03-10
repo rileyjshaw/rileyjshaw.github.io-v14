@@ -6,7 +6,7 @@
   var topNav = document.getElementById( 'top-nav' );
   var drawerTrigger = document.getElementById( 'drawer-nav-link' );
   var drawer = document.getElementById( 'drawer-nav' );
-  var drawerOverlay = document.getElementById('drawer-nav-overlay')
+  var drawerOverlay = document.getElementById('drawer-nav-overlay');
 
   // Functions
   //
