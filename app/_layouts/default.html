@@ -25,6 +25,8 @@
     <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
     <!-- endbuild -->
 
+    {% include googleanalytics.html %}
+
   </head>
   <body class="{{ page.topclass }}">
 
@@ -35,7 +37,6 @@
     {{ content }}
 
     {% include scripts.html %}
-    {% include googleanalytics.html %}
 
   </body>
 </html>
