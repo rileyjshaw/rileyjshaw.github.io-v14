@@ -124,7 +124,7 @@
   } );
 
   // InstantClick
-  InstantClick.init();
+  //InstantClick.init();
 
   // Fluidbox
   $( function () {
