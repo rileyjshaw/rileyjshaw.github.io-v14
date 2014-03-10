@@ -1,3 +1,4 @@
+// TODO: Break this out and make it less yucky.
 ;(function ( exports ) {
 
   // Elements
