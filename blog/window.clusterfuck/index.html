@@ -1,0 +1,76 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>window.clusterFuck</title><meta name=description content="Riley Shaw | Code monkey, design junkie"><meta name=viewport content="width=device-width, initial-scale=1"><meta name=msapplication-TileColor content=#44CCAA><meta name=msapplication-TileImage content=favicon-144.png><link rel=apple-touch-icon-precomposed href=favicon-152.png><link rel=stylesheet href=/css/main.1bc4.css><link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Droid+Serif:400,700,400italic|Raleway:800|Montserrat:700" rel=stylesheet type=text/css><script src=/scripts/head-scripts.d7d7.js></script></head><body class=""><dialog id=cdTerm><input></dialog><header id=top-nav><a href="/" id=drawer-nav-link class=logo data-no-instant="">R</a><nav><ul><li><a href=/blog>Blog</a></li><li><a href=/portfolio>Portfolio</a></li><li><a href=/rss><i class="fa fa-rss"></i></a></li></ul></nav></header><nav id=drawer-nav role=navigation><ul><li><a href="/" class=home-block><div class=vcent></div><span>Home</span></a></li><li><a href=../blog class=blog-block><div class=vcent></div><span>Blog</span></a></li><li><a href=../portfolio class=portfolio-block><div class=vcent></div><span>Portfolio</span></a></li><li><a href=mailto:rileyjshaw@gmail.com class=contact-block><div class=vcent></div><span>Contact</span></a></li></ul></nav><div class=post><article><h1>window.clusterFuck</h1><p class=date>Posted today</p><p>I started a project called <a href=https://github.com/rileyjshaw/terra>Terra</a> a few weeks ago. I added a conditional to <code class=language-javascript>init()</code> that would complain if I’d already defined the library:</p><pre><code class=language-javascript>;(function ( exports ) {
+  function init () {
+    if ( !exports.terra ) {
+      // do initialization things
+    } else {
+      throw "You've already defined terra. Pay attention..";
+    }
+  }
+
+  // more stuff happens...
+
+  init();
+}) ( this );
+</code></pre><p>I’ll admit that this is a really ugly pattern for handling namespaces, but <a href=#what-does-it-all-mean>even common patterns are affected by this</a>. Let me take you on a journey through <strong>the biggest browser <a href=https://www.destroyallsoftware.com/talks/wat>wat</a> I’ve ever seen.</strong></p><p>I ran the code and the console yelled at me.</p><p><code class=error>"You've already defined terra. Pay attention.."</code></p><p>Strange… but maybe I forgot a <code class=language-javascript>var</code> somewhere. I set some breakpoints in DevTools and stepped through the execution.</p><ol><li>The main IIFE is called</li><li>Some local variables are defined</li><li>init() is called.. wait, did I miss something?</li><li>window.terra is already defined????!!?!!!?!?!?!?!</li><li>Error is thrown, I get confused.</li></ol><p>The only scripts on the page were ones that I’d written, and I definitely hadn’t defined <code class=language-javascript>terra</code>. I switched to a new branch and deleted almost everything.</p><pre><code class=language-markup>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Terra&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id="terra"&gt;&lt;/div&gt;
+  &lt;script&gt;
+    ;(function ( exports ) {
+      function init () {
+        if ( !exports.terra ) {
+          console.log( 'Everything is awesome.' );
+        } else {
+          console.log( 'The night is dark and full of terrors.');
+        }
+      }
+
+      init();
+    }) ( this );
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Do you see it? I didn’t yet, and was hella confused when the console returned:</p><p><code class=console>The night is dark and full of terrors.</code></p><p>So I made it simpler:</p><pre><code class=language-markup>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Terra&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id="terra"&gt;&lt;/div&gt;
+  &lt;script&gt;
+    console.log( !window.terra );
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>…and got:</p><p><code class=console>False</code></p><p>Either someone had added a global property called <code class=language-javascript>terra</code> to the latest build of Chrome, or it was adding that <code class=language-markup>&lt;div id="terra"&gt;</code> to the global namespace. But… that would be insane. Browsers wouldn’t add element IDs to <code class=language-markup>window</code>, would they?</p><h2 id=they-would>They would.</h2><p>I tried Firefox. Defined. I tried Safari. Defined. I tried IE. Super-duper defined. The room was spinning; I had read the scriptures of Crockford and Resig and this was blasphemy. How many times had I inadvertently defined <code class=language-javascript>window.test</code>, <code class=language-javascript>window.baz</code>, <code class=language-javascript>window.boobies</code>…</p><h2 id=digging-deeper>Digging deeper</h2><p>Unsurprisingly, it seems that Internet Explorer can be thanked for this awesome “feature”. Other browsers felt compelled to follow suit, and soon enough the behaviour made it into <a href=http://www.whatwg.org/specs/web-apps/current-work/#named-access-on-the-window-object>the official HTML spec</a>.</p><blockquote><p>The Window interface supports named properties. The supported property names at any moment consist of the following, in tree order, ignoring later duplicates:</p><ul><li>the browsing context name of any child browsing context of the active document whose name is not the empty string,</li><li>the value of the name content attribute for all a, applet, area, embed, form, frameset, img, and object elements in the active document that have a non-empty name content attribute, and</li><li>the value of the id content attribute of any HTML element in the active document with a non-empty id content attribute.</li></ul></blockquote><p>So, there you have it. <strong>Any elements with an <code class=language-markup>id</code> or <code class=language-markup>name</code> attribute will have a reference in the global namespace.</strong></p><h2 id=what-does-it-all-mean>What does it all mean?</h2><p>Firstly, this does <strong>not</strong> make it okay for you to start interacting with the DOM using these variables. Cross-browser implementations are shaky, and hopefully at some point this will fade out of the spec. On top of that, any newly defined globals will overwrite these references. Stick with <code class=language-javascript>document.getElementById()</code> and <code class=language-javascript>document.getElementsByName()</code>. Or <code class=language-javascript>$()</code>, if you’re into that sort of thing.</p><p>These element references likely won’t cause you any trouble, especially if you’re being a good neighbor in the global namespace. If you’re using browserify (<a href="https://scott.mn/2014/03/03/javascript_modules/">which you should be</a>), RequireJS, or any strict module system, just pick specific global variable names and kept them to a minimum.</p><p><em>Weird stuff can happen</em> if there’s a collision; let’s take a look at the 5 most common namespace-checking patterns for object literals:</p><pre><code class=language-javascript>/*
+Option 1: var myApplication = myApplication || {};
+Option 2  if(!MyApplication) MyApplication = {};
+Option 3: var myApplication = myApplication = myApplication || {}
+Option 4: myApplication || (myApplication = {});
+Option 5: var myApplication = myApplication === undefined ? {} : myApplication;
+*/
+</code></pre><p>All of these patterns leave you with a DOM element sitting in the place of your fresh new object. As soon as you try to iterate over the object’s properties or run one of its methods, you’re working with a different object than the one you expected.</p><p>Here a few more ways that these new variables can get you in trouble (assuming here that we’ve defined an element with <code class=language-markup>name="ticker"</code>):</p><h3 id=checking-for-existence>Checking for existence</h3><p>As we saw earlier, conditional code such as</p><pre><code class=language-javascript>if ( !window.ticker ) {
+  window.ticker = 0;
+}
+window.ticker++;
+</code></pre><p>Can cause all sorts of errors and heartbreak down the road.</p><h3 id=misspelling>Misspelling</h3><p>All of a sudden,</p><pre><code class=language-javascript>var picker = {};
+picker.item1 = 'Corn Flakes';
+ticker.item2 = 'Buttons';
+picker.item3 = 'Hair';
+</code></pre><p>Doesn’t throw a ReferenceError and the property we <em>meant</em> to interact with isn’t touched.</p><h3 id=blocking-external-libraries>Blocking external libraries</h3><p>Sadly, you don’t have much control over this one. Other developers who aren’t as enlightened as me and you may write their libraries in such a way that named element references can block their initialization. A good way to avoid this is to</p><ol><li>avoid using <code class=language-markup>id</code>s with the same name as libraries you’re using (duh), and</li><li>post an issue to the library’s repository mentioning that their library isn’t safe for loose-cannon-element-namers.</li></ol><h2 id=conclusion>Conclusion</h2><p>Though the globalization of element <code class=language-markup>id</code>s and <code class=language-markup>name</code>s really surprised me, the fact that it gets such little attention means that it’s probably not a huge deal. Regardless, <strong>adding all of these variables to the global namespace has no real advantage, and allows developers to make mistakes that are really annoying to debug.</strong> Apart from maintaining legacy code written by the few people who use this rule, I can’t see any reason to keep the behaviour in modern browsers.</p><p>For now just keep smiling, and let’s all hope that someday soon we’ll be rid of them.</p></article><div id=disqus_thread></div><script>var disqus_shortname = 'rileyjshaw';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();</script><a href=http://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a><div id=discussion></div></div><footer><p>This is the fanciest footer you've ever seen. Isn't it beautiful?</p></footer><script src=/scripts/script.33ab.js></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48709534-1', 'rileyjshaw.com');
+  ga('send', 'pageview');</script></body></html>
