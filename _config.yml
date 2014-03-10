@@ -5,7 +5,7 @@
 
 name: rileyjshaw
 url: www.rileyjshaw.com
-description: The work and ramblings of rileyjshaw
+description: The work and diatribes of rileyjshaw
 author:
   name: Riley Shaw
   email: rileyjshaw@gmail.com
@@ -43,5 +43,7 @@ markdown: kramdown
 #     coderay_tab_width: 4
 #     coderay_bold_every: 10
 #     coderay_css: style
+kramdown:
+    input: GFM
 
 pygments: false
