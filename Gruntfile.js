@@ -256,7 +256,7 @@ module.exports = function (grunt) {
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             'favicon.ico',
-            'apple-touch*.png'
+            'favicon-*.png'
           ],
           dest: '<%= yeoman.dist %>'
         }]
