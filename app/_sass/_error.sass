@@ -31,7 +31,6 @@
     background: linear-gradient(135deg, white 25%, transparent 25%) -50px 0, linear-gradient(225deg, white 25%, transparent 25%) -50px 0, linear-gradient(315deg, white 25%, transparent 25%), linear-gradient(45deg, white 25%, transparent 25%)
     background-size: 36px 36px
     background-color: $cplain
-    -webkit-animation: static 1s linear infinite
     animation: static 1s linear infinite
 
   &:after
@@ -39,12 +38,6 @@
     top: 100%
     bottom: -5%
     background: $cplain
-
-@-webkit-keyframes static
-  from
-    background-position: 0 0, 0 0, 0 0, 0 0
-  to
-    background-position: -35px 0, -35px 0, 35px 0, 35px 0
 
 @keyframes static
   from
