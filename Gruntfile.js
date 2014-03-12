@@ -23,11 +23,11 @@ module.exports = function (grunt) {
     watch: {
       sass: {
         files: ['<%= yeoman.app %>/_sass/**/*.{scss,sass}'],
-        tasks: ['sass:server', 'autoprefixer:server']
+        tasks: ['sass:server', 'autoprefixer:dist']
       },
       autoprefixer: {
         files: ['<%= yeoman.app %>/css/**/*.css'],
-        tasks: ['copy:stageCss', 'autoprefixer:server']
+        tasks: ['copy:stageCss', 'autoprefixer:dist']
       },
       jekyll: {
         files: [
@@ -137,20 +137,10 @@ module.exports = function (grunt) {
         browsers: ['last 2 versions']
       },
       dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>/css',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>/css'
-        }]
-      },
-      server: {
-        files: [{
-          expand: true,
-          cwd: '.tmp/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
-        }]
+        expand: true,
+        cwd: '.tmp',
+        src: '**/{css,concat}/*.css',
+        dest: '.tmp'
       }
     },
     jekyll: {
@@ -340,7 +330,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer:server',
+      'autoprefixer:dist',
       'connect:livereload',
       'watch'
     ]);
@@ -373,8 +363,8 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'cssmin',
     'autoprefixer:dist',
+    'cssmin',
     'uglify',
     'imagemin',
     'svgmin',
