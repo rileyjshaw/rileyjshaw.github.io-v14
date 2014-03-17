@@ -15,7 +15,7 @@ title: Riley Shaw | Blog
       <p class="date">{{ post.date | timeago }}</p>
       <div class="content">
       {% if post.tldr != empty %}
-        tl ; dr: {{ post.tldr }}
+        {{ post.tldr }}
       {% else %}
         {{ post.exerpt }}
       {% endif %}
