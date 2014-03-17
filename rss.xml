@@ -20,6 +20,16 @@
       <dc:date>2014-03-17T00:00:00-04:00</dc:date>
     </item>
     <item>
+      <title>Ignore This Testing Blaggregator</title>
+      <link>http://www.rileyjshaw.com/blog/IGNORE-THIS-testing-blaggregator-</link>
+      <description>&lt;p&gt;I forgot to append http:// to my url because I&amp;#8217;m dumb sometimes.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/IGNORE-THIS-testing-blaggregator-</guid>
+      <dc:date>2014-03-17T00:00:00-04:00</dc:date>
+    </item>
+    <item>
       <title>window.clusterFuck</title>
       <link>http://www.rileyjshaw.com/blog/window.clusterfuck</link>
       <description>&lt;p&gt;I started a project called &lt;a href=&quot;https://github.com/rileyjshaw/terra&quot;&gt;Terra&lt;/a&gt; a few weeks ago. I added a conditional to &lt;code class=&quot;language-javascript&quot;&gt;init()&lt;/code&gt; that would complain if I&amp;#8217;d already defined the library:&lt;/p&gt;
