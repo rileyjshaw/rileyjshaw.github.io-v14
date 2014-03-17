@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Mon, 10 Mar 2014 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
+    <item>
+      <title>Taking The Average Tone</title>
+      <link>www.rileyjshaw.com/blog/taking-the-average-tone</link>
+      <description>&lt;p&gt;Today I wanted to see what the average frequency of a song would sound like with no spectrum analysis or separation. I had a hunch that it would end up sounding like garbage, and I was totally right.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
+      <guid>www.rileyjshaw.com/blog/taking-the-average-tone</guid>
+      <dc:date>2014-03-17T00:00:00-04:00</dc:date>
+    </item>
     <item>
       <title>window.clusterFuck</title>
       <link>www.rileyjshaw.com/blog/window.clusterfuck</link>
@@ -29,6 +39,6 @@
       <guid>www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-03-10T00:00:00-04:00</dc:date>
+    <dc:date>2014-03-17T00:00:00-04:00</dc:date>
   </channel>
 </rss>
