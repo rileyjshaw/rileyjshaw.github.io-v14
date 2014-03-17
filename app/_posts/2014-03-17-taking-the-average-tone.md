@@ -60,7 +60,7 @@ Given the following set of numbers: { __8, 4, 6, 6 ,8, 4, 8__ },
 
 and rearranging them in order: { __4, 4, 6, 6, 8, 8, 8__ },
 
-we observe a _median_ of 7, a _mode_ of 8, and a _mean_ of... 6.29?
+we observe a _median_ of 6, a _mode_ of 8, and a _mean_ of... 6.29?
 
 ## Why mean sometimes sucks
 
