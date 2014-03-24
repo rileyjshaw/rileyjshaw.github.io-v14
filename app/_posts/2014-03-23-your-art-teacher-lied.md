@@ -53,7 +53,7 @@ Your art teacher, though... they lied to you for _no good reason!_ There are onl
 
 - Teachers are concerned that their students won't grasp fancy color names like _magenta_ and _cyan_, and thus stick with the monosyllabic _red_ and _blue_.
 - Teachers are trying to provide historical context from before scientific color theory so that students can better understand classical palettes. In reality, it was very uncommon for painters to mix their colors from the primaries, starting instead with a focused palette and more than three base colors.
-- Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) pointed out that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessable. Though most people with RG color-blindness can still differentiate between cyan and magenta, this is by far the most convincing argument for the RYB space that I've heard.
+- Though I'm still on a hunt for conclusive studies, [color-blindness could be a consideration](#added20140324).
 
 <figure>
   <img src="/images/named-color-wheel.svg" height="300px" width="360px" alt="RGB / CMY color wheel">
@@ -69,3 +69,8 @@ Art teachers are propagating a millenium-old lie that sounds like it could be th
 [^2]: The K stands for [key](http://en.wikipedia.org/wiki/Key_plate).
 [^3]: Starting in 1906 with the Eagle Printing Ink Company's [four-color wet process](http://www.sunchemical.com/about/history/).
 [^4]: Dan, shoot me an email if you're interested. I've got the first hundred pages ready for printing.
+
+## Addendums
+
+### 2014-03-24 {#added20140324}
+Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) made a great point that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessible. Though most people with RG color-blindness can still differentiate between cyan and magenta, I'm going to try to scape up some comparative accessibility studies.
