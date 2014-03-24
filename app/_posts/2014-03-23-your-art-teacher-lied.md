@@ -65,6 +65,7 @@ Whatever the motivation, teaching RYB as the one-color-space-to-rule-them-all is
 Art teachers are propagating a millenium-old lie that sounds like it could be the beginning of a Dan Brown novel[^4]. Grab your pitchforks, grab your torches... art teachers, we're coming for ya.
 
 ## Addendums
+
 ### 2014-03-24 {#added20140324}
 Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) made a great point that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessible. Though most people with RG color-blindness can still differentiate between cyan and magenta, I'm going to try to scape up some comparative accessibility studies.
 
