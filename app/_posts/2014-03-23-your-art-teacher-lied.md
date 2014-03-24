@@ -49,10 +49,11 @@ Since the early 20th century[^3] we've been using CMYK as our primary subtractiv
 ## Why the lie?
 When I mentioned Chemistry class above it was an unfair comparison. Chemistry curriculums take you through the seven circles of orbital hell because they provide you with some useful analytical models along the way. It seems a bit evil, but I can buy it.
 
-Your art teacher, though... they lied to you for _no good reason!_ There are only two ways that I can semi-justify the red, yellow, blue thing:
+Your art teacher, though... they lied to you for _no good reason!_ There are only three ways that I can semi-justify the red, yellow, blue thing:
 
 - Teachers are concerned that their students won't grasp fancy color names like _magenta_ and _cyan_, and thus stick with the monosyllabic _red_ and _blue_.
 - Teachers are trying to provide historical context from before scientific color theory so that students can better understand classical palettes. In reality, it was very uncommon for painters to mix their colors from the primaries, starting instead with a focused palette and more than three base colors.
+- Fellow hacker-schooler (Alex Clemmer)[http://www.nullspace.io/] pointed out that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessable. Though most people with RG color-blindness can still differentiate between cyan and magenta, this is by far the most convincing argument for the RYB space that I've heard.
 
 <figure>
   <img src="/images/named-color-wheel.svg" height="300px" width="360px" alt="RGB / CMY color wheel">
