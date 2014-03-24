@@ -53,7 +53,7 @@ Your art teacher, though... they lied to you for _no good reason!_ There are onl
 
 - Teachers are concerned that their students won't grasp fancy color names like _magenta_ and _cyan_, and thus stick with the monosyllabic _red_ and _blue_.
 - Teachers are trying to provide historical context from before scientific color theory so that students can better understand classical palettes. In reality, it was very uncommon for painters to mix their colors from the primaries, starting instead with a focused palette and more than three base colors.
-- Fellow hacker-schooler (Alex Clemmer)[http://www.nullspace.io/] pointed out that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessable. Though most people with RG color-blindness can still differentiate between cyan and magenta, this is by far the most convincing argument for the RYB space that I've heard.
+- Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) pointed out that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessable. Though most people with RG color-blindness can still differentiate between cyan and magenta, this is by far the most convincing argument for the RYB space that I've heard.
 
 <figure>
   <img src="/images/named-color-wheel.svg" height="300px" width="360px" alt="RGB / CMY color wheel">
