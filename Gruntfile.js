@@ -225,7 +225,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: '**/*.svg',
+          src: ['**/*.svg', '!**/*xoptim.svg'],
           dest: '<%= yeoman.dist %>'
         }]
       }

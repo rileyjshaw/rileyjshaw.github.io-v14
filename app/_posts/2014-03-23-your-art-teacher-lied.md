@@ -11,7 +11,7 @@ Guess what? Chemistry isn't the only high school course built on a _foundation o
 A band of wavelengths in the electromagnetic spectrum between 390nm and 700nm makes up the _visible spectrum of light_; we perceive different wavelengths within this spectrum as colors. _White light_ is a combination of all wavelengths in the visible spectrum.
 
 <figure>
-  <img src="/images/visible-spectrum.svg" alt="The visible spectrum of light">
+  <img src="/images/visible-spectrum-xoptim.svg" alt="The visible spectrum of light">
   <figcaption>The visible spectrum of light</figcaption>
 </figure>
 
