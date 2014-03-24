@@ -64,13 +64,12 @@ Whatever the motivation, teaching RYB as the one-color-space-to-rule-them-all is
 ## Conclusion
 Art teachers are propagating a millenium-old lie that sounds like it could be the beginning of a Dan Brown novel[^4]. Grab your pitchforks, grab your torches... art teachers, we're coming for ya.
 
+## Addendums
+### 2014-03-24 {#added20140324}
+Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) made a great point that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessible. Though most people with RG color-blindness can still differentiate between cyan and magenta, I'm going to try to scape up some comparative accessibility studies.
+
 ## Footnotes
 [^1]: This would be true for a physical chair, or if you printed this page. If you're reading this on a screen, it looks red because the red pixels are turned on. Help me out here and imagine it's a physical chair, ok?
 [^2]: The K stands for [key](http://en.wikipedia.org/wiki/Key_plate).
 [^3]: Starting in 1906 with the Eagle Printing Ink Company's [four-color wet process](http://www.sunchemical.com/about/history/).
 [^4]: Dan, shoot me an email if you're interested. I've got the first hundred pages ready for printing.
-
-## Addendums
-
-### 2014-03-24 {#added20140324}
-Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) made a great point that since red-green color-blindness is more common than blue-yellow color-blindness, the RYB space may be more accessible. Though most people with RG color-blindness can still differentiate between cyan and magenta, I'm going to try to scape up some comparative accessibility studies.
