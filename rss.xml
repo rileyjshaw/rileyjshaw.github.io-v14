@@ -8,7 +8,24 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Sun, 23 Mar 2014 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
+    <item>
+      <title>Hue-Angle Transitions</title>
+      <link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
+      <description>&lt;p&gt;I was recently browsing a beautiful red monochrome&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; site. There were a few call-to-action buttons on the page that transitioned to green on hover.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Okay, so it was monochrome until you hovered. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/hue-angle-transitions</guid>
+      <dc:date>2014-03-31T00:00:00-04:00</dc:date>
+    </item>
     <item>
       <title>Your Art Teacher Lied</title>
       <link>http://www.rileyjshaw.com/blog/your-art-teacher-lied</link>
@@ -49,6 +66,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-03-23T00:00:00-04:00</dc:date>
+    <dc:date>2014-03-31T00:00:00-04:00</dc:date>
   </channel>
 </rss>
