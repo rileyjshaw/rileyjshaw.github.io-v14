@@ -58,7 +58,7 @@ The real issue here is that HSL does a bad job dealing with _perceived_ lightnes
   <img src="/images/hsl-spectrum.png" alt="Two-dimensional HSL spectrum">
 </figure>
 
-And here's the associated lightness values based on [CIE's definition of lightness](#):
+And here's the associated lightness values based on [CIE's definition of lightness](http://en.wikipedia.org/wiki/Lab_color_space#CIELAB):
 
 <figure>
   <img src="/images/hsl-lightness.png" alt="Perceived lightness of a two-dimensional HSL spectrum">
