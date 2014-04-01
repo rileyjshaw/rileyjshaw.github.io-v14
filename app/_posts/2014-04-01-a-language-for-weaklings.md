@@ -1,6 +1,5 @@
 ---
 layout: post
-title: A language for weaklings
 tags:
 - c
 - db
