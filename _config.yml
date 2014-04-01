@@ -23,7 +23,7 @@ future: true
 show_drafts: true
 
 permalink: 'blog/:title'
-paginate: 5
+paginate: 3
 paginate_path: 'blog/page:num'
 
 tag_page_layout: tag_page
