@@ -28,15 +28,20 @@
     margin: 1.5em 0 0
     font: $heavy 84px $masthead
 
+.blog-posts, .pagination
+  text-align: center
+
 .blog-posts
   width: 800px
   margin: auto
   padding: 0
-  text-align: center
 
   & > li
     list-style: none
     margin-bottom: 144px
+
+    &:last-child
+      margin-bottom: 72px
 
   .content
     overflow: hidden
@@ -44,6 +49,28 @@
     margin: 2em 0
     font-size: 20px
     font-weight: $light
+
+.pagination
+  line-height: 36px
+  margin-bottom: 72px
+  font-size: 22px
+  vertical-align: middle
+
+  i
+    margin: 36px
+    font-size: 36px
+    vertical-align: middle
+
+  a, strong
+    display: inline-block
+    margin: 12px
+    text-decoration: none
+
+  strong
+    color: $corange
+
+  .disabled
+    color: #f8f8f8
 
 .gist
   margin: 22px 0

@@ -33,14 +33,14 @@ title: Riley Shaw | Blog
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-o-left"></i></a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <i class="fa fa-arrow-circle-o-left disabled"></i>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <strong>{{ page }}</strong>
     {% elsif page == 1 %}
       <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
@@ -49,9 +49,9 @@ title: Riley Shaw | Blog
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-o-right"></i></a>
   {% else %}
-    <span>Next &raquo;</span>
+    <i class="fa fa-arrow-circle-o-right disabled"></i>
   {% endif %}
 </div>
 {% endif %}

@@ -30,7 +30,6 @@ Getting rid of my old site was increasingly pressing, and I'm relieved to have f
 Though there's much more to be done, I'm happy with the way this new site is turning out. The build process was pretty cool; I made some things that could be handy for other would-be-bloggers. I'll definitely post about it soon, since, y'know, I have a blog now...
 
 > We stand today on the edge of a new frontier - the frontier of the blog - a frontier of unknown opportunities and perils - a frontier of unfulfilled hopes and threats.
+> <cite>John F. Kennedy[^1]</cite>
 
-> -- <cite>John F. Kennedy*</cite>
-
-*almost...
+[^1]: almost...
