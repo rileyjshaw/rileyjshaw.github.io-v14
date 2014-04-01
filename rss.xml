@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 01 Apr 2014 00:00:00 -0400</pubDate>
+    <item>
+      <title>A Language For Weaklings</title>
+      <link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
+      <description>&lt;p&gt;From &lt;a href=&quot;http://c.learncodethehardway.org/book/introduction.html&quot;&gt;Learn C The Hard Way&lt;/a&gt;:&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 -0400</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/a-language-for-weaklings</guid>
+      <dc:date>2014-04-01T00:00:00-04:00</dc:date>
+    </item>
     <item>
       <title>Hue-Angle Transitions</title>
       <link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
@@ -66,6 +76,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-03-31T00:00:00-04:00</dc:date>
+    <dc:date>2014-04-01T00:00:00-04:00</dc:date>
   </channel>
 </rss>
