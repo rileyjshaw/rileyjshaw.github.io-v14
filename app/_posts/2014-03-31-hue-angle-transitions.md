@@ -15,7 +15,7 @@ I was recently browsing a beautiful red monochrome[^1] site. There were a few ca
 Where did that brown come from?! The initial red looks great, the final green looks great, but everything between is pretty dismal. Why is that?
 
 ##The RGB color model
-**R**ed **G**reen and **B**lue are the [three primary additive colors](/blog/your-art-teacher-lied). In your browser, an 8-bit intensity value is passed in for each of the R, G, and B components to determine the output color. This is often represented as three two-digit hex values (for example, <span style="color:#ff8800">#ff8800</span> is orange).
+**R**ed **G**reen and **B**lue are the [three primary additive colors](/blog/your-art-teacher-lied). Your browser takes an 8-bit intensity value for each of the R, G, and B components to determine the output color. This is often represented as three two-digit hex values (for example, <span style="color:#ff8800">#ff8800</span> is orange).
 
 <figure>
   <img src="/images/rgb-cube.png" height="240px" width="240px" alt="Three-dimensional RGB color space">
