@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Tue, 01 Apr 2014 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 14 Apr 2014 00:00:00 -0400</pubDate>
+    <item>
+      <title>Accidental Reset</title>
+      <link>http://www.rileyjshaw.com/blog/accidental-reset</link>
+      <description>&lt;p&gt;From page 33 of the &lt;a href=&quot;http://www.librarything.com/work/52052&quot;&gt;Apple II User&amp;#8217;s Guide&lt;/a&gt;:&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 -0400</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/accidental-reset</guid>
+      <dc:date>2014-04-14T00:00:00-04:00</dc:date>
+    </item>
     <item>
       <title>A Language For Weaklings</title>
       <link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
@@ -76,6 +86,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-04-01T00:00:00-04:00</dc:date>
+    <dc:date>2014-04-14T00:00:00-04:00</dc:date>
   </channel>
 </rss>
