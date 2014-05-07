@@ -161,13 +161,31 @@ code
     left: 0
 
 footer
+  position: fixed
+  bottom: 0
+  z-index: -1
   overflow: hidden
-  height: 180px
-  line-height: 180px
-  font-family: $serif
-  text-align: center
+  height: $footerheight
+  width: 100%
+  padding-left: 1em
+  font: 48px/#{$footerheight} $sans
+  text-align: left
   color: white
   background-color: $cplain
 
-  p
+  strong
+    float: left
+    font-weight: $light
+    text-transform: uppercase
+
+  ul
+    float: right
     margin: 0
+    margin-right: 1em
+
+  li
+    display: inline-block
+    margin: 0 1em
+
+  a
+    color: white
