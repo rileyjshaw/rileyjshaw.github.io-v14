@@ -21,7 +21,7 @@ Humans are [trichromats](http://en.wikipedia.org/wiki/Trichromacy), which means 
 Also known as the _additive_ colors, **R**ed **G**reen and **B**lue light can be combined at different intensities to make up a huge range of colors. They're called "additive" primaries because when they mix together they become brighter, eventually producing white light. If you had three flashlights with these colors you could make almost any color by shining them on a wall together at different brightness levels; most modern display technologies use arrays of RGB pixels to this effect.
 
 <figure>
-  <img src="/images/rgb-pixel-color-wheel.svg" height="360px" width="360px" alt="The RGB spectrum with corresponding pixel values">
+  <img src="/images/rgb-pixel-color-wheel.svg" width="360px" alt="The RGB spectrum with corresponding pixel values">
   <figcaption>RGB stands for Really Great, Boo-ya!</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Above we see that red and green light mix to form yellow, green and blue mix to 
 When we perceive a chair as red it's because the chair is absorbing all wavelengths _but_ red so that only red light reaches our eyes. As we mix more paints together we approach black, since each color absorbs particular wavelengths.
 
 <figure>
-  <img src="/images/red-chair.svg" height="89px" width="80px" alt="Red chair">
+  <img src="/images/red-chair.svg" width="80px" alt="Red chair">
   <figcaption>This chair looks red because it only reflects red light<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ When we perceive a chair as red it's because the chair is absorbing all waveleng
 Just as RGB produces a great gamut for light sources, **C**yan **M**agenta and **Y**ellow are great for printed materials. Adding the three together forms black since no light will be reflected from the mixture; that's why we call this a _subtractive_ color model. Since ink is expensive and making black from scratch wastes a lot of ink, printers usually include separate black ink as well, which is where the **K** in CMYK comes from[^2].
 
 <figure>
-  <img src="/images/1841-chromatography.png" height="276px" width="328px" alt="Color theory in 1841 suggested an RYB color space">
+  <img src="/images/1841-chromatography.png" width="328px" alt="Color theory in 1841 suggested an RYB color space">
   <figcaption>Old school: color theory in 1841 suggested the RYB color space</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Your art teacher, though... they lied to you for _no good reason!_ There are onl
 - Though I'm still on a hunt for conclusive studies, [color-blindness could be a consideration](#added20140324).
 
 <figure>
-  <img src="/images/named-color-wheel.svg" height="300px" width="360px" alt="RGB / CMY color wheel">
+  <img src="/images/named-color-wheel.svg" width="360px" alt="RGB / CMY color wheel">
 </figure>
 
 Whatever the motivation, teaching RYB as the one-color-space-to-rule-them-all is damaging to future designers. It creates confusion when terms like additive and subtractive spaces are finally taught, and causes debate when blue and red are replaced with cyan and magenta. Worse, it gives red, yellow, and blue _god status_ even though they're just secondary colors in another space _like every other color_.

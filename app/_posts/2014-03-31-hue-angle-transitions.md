@@ -18,7 +18,7 @@ Where did that brown come from?! The initial red looks great, the final green lo
 **R**ed **G**reen and **B**lue are the [three primary additive colors](/blog/your-art-teacher-lied). Your browser takes an 8-bit intensity value for each of the R, G, and B components to determine the output color. This is often represented as three two-digit hex values (for example, <span style="color:#ff8800">#ff8800</span> is orange).
 
 <figure>
-  <img src="/images/rgb-cube.png" height="240px" width="240px" alt="Three-dimensional RGB color space">
+  <img src="/images/rgb-cube.png" width="240px" alt="Three-dimensional RGB color space">
   <figcaption>Axes represent red, green, and blue</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ For the subtle changes that make up 90% of color transitions, moving through RGB
 HSL stands for **H**ue, **S**aturation, **L**ightness. It maps RGB's cartesian space to cylindrical coordinates, which means that hue is represented as an angle around the RGB color wheel. It's a friendlier representation to use since changes can be more explicit. For example, to make an intense red more subdued, just reduce saturation from 100% to 50%. For comparison, doing this in RGB requires reducing R from 255 to 191 and increasing G and B from 0 to 64.
 
 <figure>
-  <img src="/images/hsl-cube.png" height="240px" width="240px" alt="Three-dimensional HSL color space">
+  <img src="/images/hsl-cube.png" width="240px" alt="Three-dimensional HSL color space">
   <figcaption>Axes represent hue, saturation, and lightness</figcaption>
 </figure>
 
