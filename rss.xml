@@ -49,15 +49,8 @@
     <item>
       <title>Hue-Angle Transitions</title>
       <link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
-      <description>&lt;p&gt;I was recently browsing a beautiful red monochrome&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; site. There were a few call-to-action buttons on the page that transitioned to green on hover.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;UPDATE 2014-08-28&lt;/strong&gt;: &lt;em&gt;I created a library called &lt;a href=&quot;http://rileyjshaw.com/sweep/&quot;&gt;sweep.js&lt;/a&gt; that addresses this problem.&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Okay, so it was monochrome until you hovered. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </description>
       <pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
       <guid>http://www.rileyjshaw.com/blog/hue-angle-transitions</guid>
