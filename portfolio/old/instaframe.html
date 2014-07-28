@@ -1,0 +1,220 @@
+<!doctype html><html lang="en"><head><link href="http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:100,400,900" rel="stylesheet" type="text/css"><meta charset="UTF-8"><title>Instaframe | Web App</title><link rel="stylesheet" href="reset.css"><style type="text/css">html, body {
+			height: 100%;
+		}
+		body {
+			font-family: 'Old Standard TT', serif;
+			padding-top: 3.6rem;
+		}
+		#main {
+			text-align: center;
+			margin-left: 72px;
+			padding: 0 15%
+		}
+		a {
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+		}
+		header {
+			text-transform: uppercase;
+			text-align: center;
+			color: #171819;
+			width: 100%;
+			padding-left: 73px;
+
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+		}
+		h1 {
+			font-size: 7.2rem;
+		}
+		h2 {
+			font-size: 1.4rem;
+			letter-spacing: 4px;
+			font-weight: 700;
+			padding: 1.6rem 0;
+			text-align: center;
+		}
+		h3 {
+			font-weight: 800;
+			font-size: 3rem;
+			padding-bottom: 2.4rem;
+			font-family: 'Raleway', sans-serif;
+			color: #f5835c;
+		}
+		time {
+			font-size: 1.2rem;
+			text-align: center;
+			margin: 0 auto -18px auto;
+			display: block;
+		}
+		nav {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			border-right: 1px dotted #171819;
+			width: 72px;
+			height: 100%;
+			background-color: white;
+			z-index: 1;
+		}
+		nav>ul>li {
+			width: 100%;
+			height: 72px;
+			margin: 18px 0;
+		}
+		nav>ul>li>a>img {
+			padding: 18px 0;
+			height: 36px;
+			width: 36px;
+		}
+		hr {
+			border: 0;
+			height: 1px;
+			background-color: #171819;
+			width: 132px;
+			margin: 4.8rem auto;
+		}
+		img {
+			display: block;
+			margin: auto;
+			height: auto;
+		}
+		p {
+			margin-bottom: 1.8rem;
+			font-size: 2.2rem;
+			line-height: 3.6rem;
+			color: #42423d;
+			text-align: left;
+			max-width: 1000px;
+		}
+		a {
+			color: #7e8cbf;
+			border-bottom: 1px dotted #8e9ccf;
+		}
+		a.biglink {
+			text-align: center;
+			font-size: 4.8rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			display: inline-block;
+			margin: 42px 0 60px 0;
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		a:hover {
+			color: #f5835c;
+			text-shadow: 0 0 0 #aaccff;
+		}
+		p>code {
+			font-family: monospace;
+			font-size: 1.8rem;
+		}
+
+
+		section#contact {
+			margin-left: 72px;
+			background-color: #f7f7f7;
+			box-shadow: 0px 6px 4px #f3f3f3 inset, 6px 0px 4px #f5f5f5 inset;
+			padding-bottom: 2.4rem;
+		}
+		#contact img.icon {
+			display: block;
+			padding-top: 2.4rem;
+			margin: auto;
+		}
+		#contact address {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			text-align: center;
+			font-size: 4.8rem;
+			padding-bottom: 2.4rem;
+		}
+		#contact address>a {
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		#contact address>a:hover {
+			color: #f5835c;
+			border-bottom: 1px dotted #171819;
+		}
+
+		#contact #socials>ul {
+			margin: 2.4rem auto;
+			width: 600px;
+			height: 48px;
+		}
+		#contact #socials>ul>li {
+			width: 150px;
+			float: left;
+		}
+		#contact #socials>ul>li img {
+			height: 48px;
+			width: 48px;
+			margin: auto;
+			display: block;
+		}
+
+		.album {
+			content:'';
+			position: relative;
+			width: 100%;
+			height: 350px;
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			cursor: pointer;
+			margin-bottom: 4.8rem;
+			padding-left: 72px;
+			-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+
+			transition: height 0.3s linear;
+			-moz-transition: height 0.3s linear;
+			-webkit-transition: height 0.3s linear;
+			-o-transition: height 0.3s linear;
+		}
+		.album .meta {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: rgba(0,0,0,.3);
+
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-moz-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-webkit-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+			-o-transition: visibility 0s 0.3s, opacity 0.3s linear, height 0.3s linear;
+		}
+		.album:hover>.meta {
+			visibility: visible;
+			opacity: 1;
+			transition: opacity 0.3s linear;
+			-moz-transition: opacity 0.3s linear;
+			-webkit-transition: opacity 0.3s linear;
+			-o-transition: opacity 0.3s linear;
+		}
+		.tall {
+			height: 90%;
+		}
+		.tall:hover>.meta {
+			opacity: 0;
+		}
+		.album .centerWrap {
+			position: absolute;
+			top: 50%;
+			width: 100%;
+		}
+		.album h3 {
+			color: white;
+			font-size: 60px;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 800;
+			margin-top: -0.5em;
+			padding-left: 72px;
+		}</style></head><body><nav><ul><li><a href="../index.html" title="Back to Portfolio"><img src="home.gif" alt="Back to Portfolio"></a></li><li><a href="businesscard.html" title="Next Project"><img src="next.gif" alt="Next Project"></a></li><li><a href="peek.html" title="Previous Project"><img src="prev.gif" alt="Previous Project"></a></li></ul></nav><header><h1>Instaframe</h1><h2>Web App</h2><time>03 / 2013</time><hr><video width="374" height="480" autoplay="autoplay" loop="loop"><source src="instaframe.mp4" type="video/mp4"><source src="instaframe.webm" type="video/webm"><img src="instaframe.png" alt="Instaframe screenshot"></source></source></video><hr></header><div id="main"><h3>Role: Creator</h3><p>Instaframe is a web app designed for quick searches of recent Instagram photos. Along with <a href="peek.html">Peek</a>, I developed this as an exploration of the CSS <code>background-attachment</code> property.</p><p>Instaframe is written in HTML, CSS, and JavaScript, and makes use of <a href="http://www.instafeedjs.com" target="_blank">Instafeed.js</a>. Interesting features of the app include a pure CSS lightbox, an icon font constructed using <a href="http://www.icomoon.io" target="_blank">IcoMoon</a>, and a pure JavaScript text-entry blocking system.</p><p>The demo is very buggy, and will likely remain so as it was simply a proof-of-concept. The demo can be viewed below; a recent build of Firefox is suggested.</p><hr><a href="instaframedemo/index.html" class="biglink">View Demo</a></div><section id="contact"><img src="img/speech.png" alt="Speech bubble" class="icon" width="80px"><h2>Get In Touch</h2><address>+1-613-770-4829</address><address><a href="mailto:rileyjshaw@gmail.com?Subject=Top%20Secret%20Mission">rileyjshaw@gmail.com</a></address><div id="socials"><ul><li><a href="https://github.com/rileyjshaw" target="_blank"><img src="img/social/github.png" alt="Github"></a></li><li><a href="http://ca.linkedin.com/in/rileyjshaw/" target="_blank"><img src="img/social/linkedin.png" alt="LinkedIn"></a></li><li><a href="https://www.twitter.com/rileyjshaw" target="_blank"><img src="img/social/twitter.png" alt="Twitter"></a></li><li><a href="https://www.facebook.com/rileyjshaw" target="_blank"><img src="img/social/facebook.png" alt="Facebook"></a></li></ul></div></section></body></html>

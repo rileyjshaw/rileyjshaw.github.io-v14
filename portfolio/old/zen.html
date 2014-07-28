@@ -1,0 +1,183 @@
+<!doctype html><html lang="en"><head><link href="http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:100,400,900" rel="stylesheet" type="text/css"><meta charset="UTF-8"><title>ZenWall | HTML5 Canvas Demo</title><link rel="stylesheet" href="reset.css"><style type="text/css">body {
+			font-family: 'Old Standard TT', serif;
+			padding-top: 3.6rem;
+		}
+		a {
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+		}
+		header {
+			text-transform: uppercase;
+			text-align: center;
+			color: #171819;
+		}
+		header img {
+			margin: auto;
+		}
+		h1 {
+			font-size: 7.2rem;
+		}
+		/* Fix the shitty kerning */
+		h1>span {
+			letter-spacing: -14px;
+		}
+		h2 {
+			font-size: 1.4rem;
+			letter-spacing: 4px;
+			font-weight: 700;
+			padding: 1.6rem 0;
+			text-align: center;
+		}
+		h3 {
+			font-weight: 800;
+			font-size: 3rem;
+			padding-bottom: 2.4rem;
+			font-family: 'Raleway', sans-serif;
+			color: #f5835c;
+		}
+		time {
+			font-size: 1.2rem;
+			text-align: center;
+			margin: 0 auto -18px auto;
+			display: block;
+		}
+		nav {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			border-right: 1px dotted #171819;
+			width: 72px;
+			height: 100%;
+			background-color: white;
+		}
+		nav>ul>li {
+			width: 100%;
+			height: 72px;
+			margin: 18px 0;
+		}
+		nav>ul>li>a>img {
+			padding: 18px 0;
+			height: 36px;
+			width: 36px;
+		}
+		hr {
+			border: 0;
+			height: 1px;
+			background-color: #171819;
+			width: 132px;
+			margin: 4.8rem auto;
+		}
+		#main {
+			text-align: center;
+			margin-left: 72px;
+			padding: 0 15%
+		}
+		img {
+			display: block;
+			margin: auto;
+			height: auto;
+		}
+		p {
+			margin: 0 auto 1.8rem auto;
+			font-size: 2.2rem;
+			line-height: 3.6rem;
+			color: #42423d;
+			text-align: left;
+			max-width: 1000px;
+		}
+		p>code {
+			font-family: monospace;
+			font-size: 1.8rem;
+		}
+		a {
+			color: #7e8cbf;
+			border-bottom: 1px dotted #8e9ccf;
+		}
+		a.biglink {
+			text-align: center;
+			font-size: 4.8rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			display: inline-block;
+			margin: 42px 0 60px 0;
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		a:hover {
+			color: #f5835c;
+			text-shadow: 0 0 0 #aaccff;
+		}
+		#gallery a {
+			border: 0;
+		}
+		#gallery img {
+			padding: 30px 0;
+			display: inline-block;
+		}
+
+		section#contact {
+			margin-left: 72px;
+			background-color: #f7f7f7;
+			box-shadow: 0px 6px 4px #f3f3f3 inset, 6px 0px 4px #f5f5f5 inset;
+			padding-bottom: 2.4rem;
+		}
+		#contact img.icon {
+			display: block;
+			padding-top: 2.4rem;
+			margin: auto;
+		}
+		#contact address {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 100;
+			text-align: center;
+			font-size: 4.8rem;
+			padding-bottom: 2.4rem;
+		}
+		#contact address>a {
+			color: #171819;
+			border-bottom: 1px dotted #171819;
+		}
+		#contact address>a:hover {
+			color: #f5835c;
+			border-bottom: 1px dotted #171819;
+		}
+
+		#contact #socials>ul {
+			margin: 2.4rem auto;
+			width: 600px;
+			height: 48px;
+		}
+		#contact #socials>ul>li {
+			width: 150px;
+			float: left;
+		}
+		#contact #socials>ul>li img {
+			height: 48px;
+			width: 48px;
+			margin: auto;
+			display: block;
+		}
+
+
+		.video-wrapper {
+			width: 720px;
+			max-width: 100%;
+			margin: auto;
+		}
+		.video-container {
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 30px;
+			height: 0;
+			overflow: hidden;
+		}
+		.video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}</style></head><body><nav><ul><li><a href="../index.html" title="Back to Portfolio"><img src="home.gif" alt="Back to Portfolio"></a></li><li><a href="peek.html" title="Next Project"><img src="next.gif" alt="Next Project"></a></li><li><a href="worldinc.html" title="Previous Project"><img src="prev.gif" alt="Previous Project"></a></li></ul></nav><div id="main"><header><h1>Zen<span>W</span>all</h1><!-- wtf kerning --><h2>HTML5 Canvas Demo</h2><time>03 / 2013</time><hr><img src="img/zen.png" alt="zenWall screenshot" width="100%" style="max-width: 720px"><hr></header><h3>Role: Creator</h3><p>I was building a flexible, depth-sensing touch display for Queens’ <a href="http://www.hml.queensu.ca/" target="_blank">Human Media Lab</a> when a friend gifted me a mini <a href="http://www.buddhaboard.com/" target="_blank">Buddha Board</a>. These boards are made of paper that turns black when wet; painting with water on the canvas appears much like sumi ink would on rice paper. As the water evaporates, strokes thin and fade, eventually restoring the canvas to its original blank state.</p><p>I decided that a graffiti wall following the same premise would make for an interesting installation, so began implementing it for the large depth-sensing display. I created a prototype using the HTML5 <code>&#60;canvas&#62;</code> element and a pressure-sensitive Wacom Intuos2 tablet. In the demo, pressure dictates stroke weight as it would on the display wall. Thin strokes fade quickly, and heavy strokes fade slowly.</p><p>This demo uses proprietary Wacom plugins which can be found <a href="http://www.wacom.com/CustomerCare/Plugin.aspx" target="_blank">here</a>. As such, a Wacom tablet is required for this demo.</p><hr><div id="gallery"><div class="video-wrapper"><div class="video-container"><iframe width="560" height="315" src="http://www.youtube.com/embed/zQ5tKU3z1fc" frameborder="0" allowfullscreen></iframe></div></div></div><a href="zendemo.html" class="biglink">View Demo</a></div><section id="contact"><img src="img/speech.png" alt="Speech bubble" class="icon" width="80px"><h2>Get In Touch</h2><address>+1-613-770-4829</address><address><a href="mailto:rileyjshaw@gmail.com?Subject=Top%20Secret%20Mission">rileyjshaw@gmail.com</a></address><div id="socials"><ul><li><a href="https://github.com/rileyjshaw" target="_blank"><img src="img/social/github.png" alt="Github"></a></li><li><a href="http://ca.linkedin.com/in/rileyjshaw/" target="_blank"><img src="img/social/linkedin.png" alt="LinkedIn"></a></li><li><a href="https://www.twitter.com/rileyjshaw" target="_blank"><img src="img/social/twitter.png" alt="Twitter"></a></li><li><a href="https://www.facebook.com/rileyjshaw" target="_blank"><img src="img/social/facebook.png" alt="Facebook"></a></li></ul></div></section></body></html>
