@@ -1,0 +1,17 @@
+body {
+	margin-top: 30px;
+	text-align: center;
+	color: #a46565;
+}
+p {
+	margin-top: 50px;
+}
+a.lightunderline {
+	text-decoration: underline;
+	color: #d09191;
+}
+a span {
+	font-weight: bold;
+	color: #a46565;
+	text-decoration: none;
+}

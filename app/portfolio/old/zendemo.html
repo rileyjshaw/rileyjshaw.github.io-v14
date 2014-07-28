@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.wacomeng.com/web/TestFBCanvasScribble.html -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>Graffiti Wall</title>
+
+        <style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+            html, body {
+                height: 100%;
+                width: 100%;
+                font-family: 'Open Sans', sans-serif;
+                overflow: hidden;
+            }
+            canvas {
+                position: fixed;
+                top: 0;
+                left: 0;
+            }
+            header {
+                position: absolute;
+                top: 25%;
+                height: 150px;
+                margin-top: 75px;
+                width: 100%;
+                opacity: 1;
+            }
+            h1, h2 {
+                color: #444;
+                font-size: 72pt;
+                font-weight: 300;
+                line-height: 100px;
+                z-index: 1;
+                text-align: center;
+            }
+            h2 {
+                font-size: 12pt;
+                line-height: 50px;
+            }
+            strong {
+                font-weight: 800;
+                color: #fcdc3b;
+            }
+        </style>
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+    <header id="title">
+        <h1>zen<strong>Wall</strong></h1>
+        <h2>&lt;Draw anywhere with your Wacom Tablet&gt;</h2>
+    </header>
+
+    <!-- ********************************************************************* 
+	 Embed the WacomTabletPlugin object.
+         To avoid plugin selection on page, size and position are adjusted 
+         so as to "tuck it under" canvas. 
+         ***************************************************************** -->
+
+    <!--[if IE]>
+
+    <object id='wtPlugin' classid='CLSID:092dfa86-5807-5a94-bf3b-5a53ba9e5308' WIDTH=1 HEIGHT=1 style="position:absolute; left:100px; top:100px">
+    </object>
+
+    <![endif]--><!--[if !IE]> <-->
+
+    <object id="wtPlugin" type="application/x-wacomtabletplugin" width="1" height="1" style="position:absolute; left:100px; top:100px">
+    </object>
+
+    <!----> <!--[endif]---->
+
+    <canvas id="canvas"> </canvas>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var title = document.getElementById('title');
+
+        var canvasPos = {x: 0.0, y: 0.0};
+        var canvasSize = {width: window.innerWidth, height: window.innerHeight};
+        var lastX = 0.0;
+        var lastY = 0.0;
+        var capturing = false;  // tracks in/out of canvas context
+        var lines = [];
+        var titleFader = 0;
+
+        plugin = function() {return document.getElementById('wtPlugin');}
+
+        findPos = function(obj) {
+            var curleft = 0, curtop = 0;
+            if (obj.offsetParent) 
+            {
+                curleft = obj.offsetLeft;
+                curtop = obj.offsetTop;
+                while (obj === obj.offsetParent) 
+                {
+                    curleft += obj.offsetLeft;
+                    curtop += obj.offsetTop;
+                }
+            }
+            return {x: curleft, y: curtop};
+        }
+          
+        mousemove = function(evt) {
+            var ev = evt || window.event, penAPI = plugin().penAPI,
+                pressure = penAPI ? penAPI.pressure : 1.0, curX, curY;
+
+            curX = (ev.pageX ? ev.pageX : ev.clientX + document.body.scrollLeft) - canvasPos.x;
+            curY = (ev.pageY ? ev.pageY : ev.clientY + document.body.scrollTop ) - canvasPos.y;
+
+            capturing = inCanvasBounds(curX, curY);
+
+            if (capturing && pressure > 0.0 && canvas.getContext)
+                    lines.push({x0: lastX, y0: lastY, x1: curX, y1: curY, pressure: pressure, age: 0.0});
+                
+            lastX = curX;
+            lastY = curY;
+
+        }
+
+        mousedown = function(evt) {
+
+            var ev = evt || window.event;
+
+            canvas.onmousemove = mousemove;
+                
+            lastX = (ev.pageX ? ev.pageX : ev.clientX + document.body.scrollLeft) - canvasPos.x;
+            lastY = (ev.pageY ? ev.pageY : ev.clientY + document.body.scrollTop ) - canvasPos.y;
+                
+            capturing = inCanvasBounds(lastX, lastY);
+
+            // Register click immediately
+            mousemove(evt);
+        }
+
+        mouseup = function() {
+            canvas.onmousemove = null;
+            capturing = false;
+        }
+
+        inCanvasBounds = function(posX, posY)
+        {
+            var left = 0;
+            var top = 0;
+            var right = canvasSize.width;
+            var bottom = canvasSize.height;
+
+            return ( posX >= left && posX <= right && posY >= top && posY <= bottom);
+        }
+
+        draw = function() {
+            ctx.clearRect(0, 0, canvasSize.width, canvasSize.height);
+            for(var i = 0; i < lines.length; i++) {
+                ctx.beginPath();
+                ctx.moveTo(lines[i].x0, lines[i].y0);
+                ctx.lineTo(lines[i].x1, lines[i].y1);
+                ctx.lineCap = 'round';
+
+                lines[i].age += 0.0007;
+                fadeLevel = Math.ceil(255.0 * lines[i].age); //fadeLevel = Math.ceil(255.0 * lines[i][5] / lines[i][4]);
+                thickness = 25.0 * lines[i].pressure * (1 - fadeLevel * lines[i].age / (1.5 * 255)) - lines[i].age * 4;
+
+                if(fadeLevel >= 255 || thickness <= 0)
+                    lines.splice(i,1);
+                else{
+                    ctx.lineWidth = thickness;
+                    ctx.strokeStyle = "rgba(" + fadeLevel + "," + fadeLevel + "," + fadeLevel + ", 1)";
+                    ctx.stroke();
+                }
+            }
+            if(titleFader < 200) {
+                title.style.opacity = 1 - titleFader / 200;
+                titleFader++;
+                if(titleFader === 200)
+                    title.style.display = 'none';
+            }
+        }
+
+        window.onload = function() {
+            canvasPos = findPos(canvas);
+            canvas.width = canvasSize.width;
+            canvas.height = canvasSize.height;
+            canvas.addEventListener("mousemove", mousemove, true);
+            canvas.addEventListener("mouseup", mouseup, true);
+            canvas.addEventListener("mousedown", mousedown, true); 
+            setInterval(draw, 30);
+        }
+    </script>
+
+
+</body></html>
