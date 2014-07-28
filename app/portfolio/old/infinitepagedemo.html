@@ -56,7 +56,7 @@
 		body {
 			height: 100%;
 			font-size: 60pt;
-			background: black url('img/bgBlack.png');
+			background: black url('/images/portfolio/old/bgBlack.png');
 		}
 		#bgSwap {
 			position: fixed;
@@ -65,7 +65,7 @@
 			height: 20px;
 			width: 20px;
 			cursor: pointer;
-			background: white url('img/bgWhite.png');
+			background: white url('/images/portfolio/old/bgWhite.png');
 		}
 		ul {
 			height: 100%;
@@ -180,12 +180,12 @@
 
 		swapBg = function() {
 			if(bgDark) {
-				document.getElementById('bgSwap').style.background = 'black url("img/bgBlack.png")';
-				document.body.style.background = 'white url("img/bgWhite.png")';
+				document.getElementById('bgSwap').style.background = 'black url("/images/portfolio/old/bgBlack.png")';
+				document.body.style.background = 'white url("/images/portfolio/old/bgWhite.png")';
 				bgDark = false;
 			} else {
-				document.getElementById('bgSwap').style.background = 'white url("img/bgWhite.png")';
-				document.body.style.background = 'black url("img/bgBlack.png")';
+				document.getElementById('bgSwap').style.background = 'white url("/images/portfolio/old/bgWhite.png")';
+				document.body.style.background = 'black url("/images/portfolio/old/bgBlack.png")';
 				bgDark = true;
 			}
 		}

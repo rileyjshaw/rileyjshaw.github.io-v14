@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -155,32 +155,32 @@ table {
 		<h1>peek</h1>
 		<h2>a gallery view for tumblr</h2>
 	</header>
-	<div class="album" style="background-image: url('img/peek/1.jpg');">
+	<div class="album" style="background-image: url('/images/portfolio/old/peek/1.jpg');">
 		<!-- <a class="meta" name='1' href='#1'> -->
 		<div class='meta'>
 			<div class="centerWrap"><h3>Skyline</h3></div>
 		</div>
 		<!-- <h3>Windy day</h3> -->
 	</div>
-	<div class="album" style="background-image: url('img/peek/2.jpg');">
+	<div class="album" style="background-image: url('/images/portfolio/old/peek/2.jpg');">
 		<div class='meta'>
 			<div class="centerWrap"><h3>The Dome</h3></div>
 		</div>
 		<!-- <h3>Barefoot</h3> -->
 	</div>
-	<div class="album" style="background-image: url('img/peek/2.gif');">
+	<div class="album" style="background-image: url('/images/portfolio/old/peek/2.gif');">
 		<div class='meta'>
 			<div class="centerWrap"><h3>Earrings</h3></div>
 		</div>
 		<!-- <h3>Earrings</h3> -->
 	</div>
-	<div class="album" style="background-image: url('img/peek/3.gif');">
+	<div class="album" style="background-image: url('/images/portfolio/old/peek/3.gif');">
 		<div class='meta'>
 			<div class="centerWrap"><h3>Subway</h3></div>
 		</div>
 		<!-- <h3>Subway</h3> -->
 	</div>
-	<div class="album" style="background-image: url('img/peek/4.gif');">
+	<div class="album" style="background-image: url('/images/portfolio/old/peek/4.gif');">
 		<div class='meta'>
 			<div class="centerWrap"><h3>Hot Dog</h3></div>
 		</div>
@@ -222,7 +222,7 @@ table {
 
 /*		setBgImages = function() {
 			for(i = 0; i < albums.length; i++) {
-				albums[i].style.backgroundImage = 'url("img/peek/' + i + '.gif")';
+				albums[i].style.backgroundImage = 'url("/images/portfolio/old/peek/' + i + '.gif")';
 			}
 		}
 */
@@ -328,9 +328,9 @@ table {
 						tiles[j].style.background = accentColors[(j + loadIncrement) % accentColors.length];
 					break;
 				case 5: // Expand from middle
-				default: 			
+				default:
 					for(j = 0; j <= tiles.length / 2; j++)
-						tiles[j].style.background = accentColors[(Math.abs(j - tiles.length / 2) - loadIncrement) % Math.ceil(tiles.length / accentColors.length)];	
+						tiles[j].style.background = accentColors[(Math.abs(j - tiles.length / 2) - loadIncrement) % Math.ceil(tiles.length / accentColors.length)];
 					for(k = tiles.length / 2; k < tiles.length; k++)
 						tiles[k].style.background = accentColors[(Math.abs(k + 1 - tiles.length / 2) - loadIncrement) % Math.ceil(tiles.length / accentColors.length)];
 			}
@@ -357,7 +357,7 @@ table {
 			window.attachEvent('onresize', getWindowHeight);
 		else window.addEventListener('resize', getWindowHeight, false);
 
-		//Add click listeners to album divs  
+		//Add click listeners to album divs
 		for(i = 0; i < albums.length; i++) {
 			albums[i].addEventListener('click', selAlbum, false);
 		}
