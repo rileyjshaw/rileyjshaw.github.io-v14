@@ -8,6 +8,8 @@ tags:
 - web
 tldr: Color transitions on the web leave something to be desired but with a bit of elbow grease we can make them awesome again.
 ---
+**UPDATE 2014-08-28**: _I created a library called [sweep.js](http://rileyjshaw.com/sweep/) that addresses this problem._
+
 I was recently browsing a beautiful red monochrome[^1] site. There were a few call-to-action buttons on the page that transitioned to green on hover.
 
 <p data-height="268" data-theme-id="0" data-slug-hash="qgrKn" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/rileyjshaw/pen/qgrKn/'>Red to green transitions are ugly</a> by Riley Shaw (<a href='http://codepen.io/rileyjshaw'>@rileyjshaw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
