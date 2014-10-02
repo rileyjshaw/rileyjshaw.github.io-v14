@@ -51,7 +51,7 @@ Cat’s-whisker detectors are now obsolete, but they provided some sweet insight
 
 ## References
 
-- [Microelectronic Circuits, 6th Edition](http://thepiratebay.se/torrent/7359624/MICROELECTRONIC_CIRCUITS_6th_sedra_smith__HQ_ebook_)
+- [Microelectronic Circuits, 6th Edition](http://thepiratebay.se/)
 - [The Silicon Engine](http://www.computerhistory.org/semiconductor/timeline.html)
 - [Popular Science, October 1944](http://books.google.ca/books?id=PyEDAAAAMBAJ&pg=PA206&redir_esc=y#v=onepage&q&f=false)
 - [Wikipedia, obviously](http://en.wikipedia.org/wiki/Cat%27s_whisker)
