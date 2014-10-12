@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Tue, 22 Apr 2014 00:00:00 -0700</pubDate>
+    <pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
+    <item>
+      <title>Fin?</title>
+      <link>http://www.rileyjshaw.com/blog/fin</link>
+      <description>&lt;p&gt;I started writing this in April. It began,&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/fin</guid>
+      <dc:date>2014-10-12T00:00:00-07:00</dc:date>
+    </item>
     <item>
       <title>The Cat's-Whisker Detector</title>
       <link>http://www.rileyjshaw.com/blog/the-cat%27s-whisker-detector</link>
@@ -96,6 +106,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-07:00</dc:date>
     </item>
-    <dc:date>2014-04-22T00:00:00-07:00</dc:date>
+    <dc:date>2014-10-12T00:00:00-07:00</dc:date>
   </channel>
 </rss>
