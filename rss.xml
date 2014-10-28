@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
+    <pubDate>Tue, 28 Oct 2014 00:00:00 -0700</pubDate>
+    <item>
+      <title>Riddle: Chicken prices</title>
+      <link>http://www.rileyjshaw.com/blog/chicken-prices</link>
+      <description>&lt;p&gt;Someone posted a riddle to &lt;a href=&quot;https://news.ycombinator.com/item?id=8486278&quot;&gt;Hacker News&lt;/a&gt; a few days ago:&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 -0700</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/chicken-prices</guid>
+      <dc:date>2014-10-28T00:00:00-07:00</dc:date>
+    </item>
     <item>
       <title>Fin?</title>
       <link>http://www.rileyjshaw.com/blog/fin</link>
@@ -106,6 +116,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-07:00</dc:date>
     </item>
-    <dc:date>2014-10-12T00:00:00-07:00</dc:date>
+    <dc:date>2014-10-28T00:00:00-07:00</dc:date>
   </channel>
 </rss>
