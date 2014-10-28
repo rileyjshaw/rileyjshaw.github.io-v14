@@ -34,15 +34,20 @@
   img
     display: none
 
-  &.triple
+  &.quad
     a
-      height: 33%
-
-      &:nth-of-type(even)
-        height: 34%
+      float: left
+      height: 100%
+      width: 25%
 
 .blog-block
   background-color: $cteal
+
+.portfolio-block
+  background-color: $corange
+
+.workshop-block
+  background-color: $cred
 
 .twitter-block, .home-block
   background-color: $ctwitter
@@ -53,11 +58,8 @@
 .codepen-block
   background-color: $ctwitter + #222
 
-.portfolio-block
-  background-color: $corange
-
 .contact-block
-  background-color: $cred
+  background-color: $ctwitter - #111
 
 .center-mark
   position: absolute
