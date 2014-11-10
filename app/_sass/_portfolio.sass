@@ -1,4 +1,4 @@
-body.portfolio
+.portfolio body
   background: $cplain - #181818
 
 .portfolio-index
@@ -113,17 +113,3 @@ body.portfolio
     font-size: 68.5%
     letter-spacing: 1px
     transform: translate3d(0,10px,0)
-
-// loop from 4 through 1
-@for $i from 0 to 4
-  $j: 4 - $i
-  @media screen and (max-width: $j * 300px)
-    .portfolio-index
-      .portfolio-title, figure
-        width: 100% / $j
-        padding-bottom: 100% / $j
-
-      // 3 or less tiles per row
-      @if $j == 3
-        .portfolio-title, figcaption
-          font-size: 96%
