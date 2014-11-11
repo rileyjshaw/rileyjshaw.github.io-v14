@@ -7,6 +7,10 @@ html, a
 body
   padding-top: 60px
   font-family: $sans
+  transition: padding .4s
+
+  .portfolio &.scrolled
+    padding-top: 0
 
 h1, h2, header
   a
@@ -25,37 +29,46 @@ code
 
 // Inner header
 #top-nav
-  position: fixed
+  position: absolute
   z-index: 1
   top: 0
   left: 0
-  overflow: hidden
-  height: 60px
   width: 100%
   line-height: 60px
   text-align: center
   text-transform: uppercase
   background: $cplain
-  transition: width .5s, top .4s, left .4s, box-shadow .1s
+  transition: background .4s
 
-  &.shortened
-    width: 60px
-    top: 12px
-    left: 12px
-    box-shadow: 0 0 0 6px rgba( 255, 255, 255, .8)
-    transition: width .5s, top .4s, left .4s, box-shadow .2s .5s
+  .post &, .scrolled &
+    .portfolio & nav
+      height: 0
+
+    .blog &, .workshop &
+      background: $cbg
+
+      nav
+        opacity: 0
+        pointer-events: none
+
+    .logo
+      top: 12px
+      left: 12px
+      box-shadow: 0 0 0 6px rgba( 255, 255, 255, 0.3)
 
   .logo
-    position: relative
-    float: left
+    position: fixed
+    top: 0
+    left: 0
     height: 60px
     width: 60px
-    font-family: Raleway
+    font-family: $masthead
     font-size: 36px
     font-weight: $heavy
     background: $cteal
+    transition: top .4s, left .4s, box-shadow .2s
 
-    &:after
+    &::after
       content: ''
       position: absolute
       left: 50%
@@ -67,11 +80,14 @@ code
       background: $cplain
       transition: bottom .5s
 
-    &:hover:after
+    &:hover::after
       bottom: 32px
 
   nav
     float: right
+    height: 60px
+    overflow: hidden
+    transition: height .4s, opacity .4s
 
     a
       display: block
@@ -143,7 +159,6 @@ code
     display: block
     opacity: .8
 
-
 // cdTerm
 #cdTerm
   input
@@ -153,9 +168,11 @@ code
 
 .drawer-nav-open
   #top-nav
-    left: 300px
+    .logo
+      left: 300px
 
-    &.shortened
+  .post &, &.scrolled
+    #top-nav .logo
       left: 312px
 
   #drawer-nav

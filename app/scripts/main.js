@@ -3,6 +3,7 @@
   // Elements
   //
 
+  var body = document.body;
   var topNav = document.getElementById( 'top-nav' );
   var drawerTrigger = document.getElementById( 'drawer-nav-link' );
   var drawer = document.getElementById( 'drawer-nav' );
@@ -10,6 +11,24 @@
 
   // Functions
   //
+
+  // Adds a class in IE8+
+  var addClass = function ( el, className ) {
+    if (el.classList) {
+      el.classList.add(className);
+    } else {
+      el.className += ' ' + className;
+    }
+  };
+
+  // Removes a class in IE8+
+  var removeClass = function ( el, className ) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  };
 
   // Toggles a class in IE9+
   var toggleClass = function ( el, className ) {
@@ -32,8 +51,7 @@
   var addDialog = function ( dialog ) {
 
     function closeDialog() {
-        if (dialog.open)
-            dialog.close();
+      if (dialog.open) dialog.close();
     }
 
     function clickedInDialog(mouseEvent) {
@@ -42,14 +60,14 @@
                rect.left <= mouseEvent.clientX && mouseEvent.clientX <= rect.left + rect.width;
     }
 
-    if( dialog ) {
+    if ( dialog ) {
 
       dialogPolyfill.registerDialog(dialog);
 
-      document.body.addEventListener( 'click', function(e) {
+      body.addEventListener( 'click', function(e) {
         if ( !dialog.open )
           return;
-        if ( e.target !== document.body )
+        if ( e.target !== body )
           return;
         closeDialog();
       });
@@ -101,18 +119,23 @@
   };
 
   // Checks scroll height and toggles topNav state
+  var navHidden = false;
   var checkScroll = function ( event ) {
-    if( document.body.scrollTop >= 300 ) {
-      topNav.className = 'shortened';
-    } else {
-      topNav.className = '';
+    if ( navHidden ) {
+      if ( body.scrollTop <= 0 ) {
+        removeClass( body, 'scrolled' );
+        navHidden = false;
+      }
+    } else if ( body.scrollTop > 0 ) {
+      addClass( body, 'scrolled' );
+      navHidden = true;
     }
   };
 
   // Toggles the drawer-nav's state
   var slideDrawer = function ( event ) {
     event.preventDefault();
-    toggleClass( document.body, 'drawer-nav-open' );
+    toggleClass( body, 'drawer-nav-open' );
   };
 
   // Mousetrap bindings

@@ -4,15 +4,26 @@
   <a href="/" id="drawer-nav-link" class="logo" data-no-instant>R</a>
   <nav>
     <ul>
-      <li>
-        <a href="/blog">Blog</a>
-      </li>
-      <li>
-        <a href="/portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a href="/rss"><i class="fa fa-rss"></i></a>
-      </li>
+      {% if page.topclass != "post" %}
+        {% if page.topclass != "blog" %}
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+        {% endif %}
+        {% if page.topclass != "portfolio" %}
+        <li>
+          <a href="/portfolio">Portfolio</a>
+        </li>
+        {% endif %}
+        {% if page.topclass != "workshop" %}
+        <li>
+          <a href="/workshop">Workshop</a>
+        </li>
+        {% endif %}
+        <li>
+          <a href="/rss"><i class="fa fa-rss"></i></a>
+        </li>
+      {% endif %}
     </ul>
   </nav>
 </header>
