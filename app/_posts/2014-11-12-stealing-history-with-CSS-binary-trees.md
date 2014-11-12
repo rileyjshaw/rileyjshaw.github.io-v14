@@ -102,7 +102,7 @@ This is a [timing attack](http://carlos.bueno.org/2011/10/timing.html) and I'm n
 ## Conclusion
 I won't be taking over the world with this project[^10] but it demonstrates some interesting vectors. More security patches will be released, more creative hacks will arise; all it takes is a toehold and some creativity. Powerful new features make room for novel vulnerabilities. And so it goes.
 
-As far as browsing history goes, reaction games probably aren't your [biggest concern](http://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) anyway. I'll just [leave](https://www.eff.org/) [these](https://www.torproject.org/) [here](https://tails.boum.org/).
+Regarding browsing history, reaction games probably aren't your [biggest concern](http://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) anyway. I'll just [leave](https://www.eff.org/) [these](https://www.torproject.org/) [here](https://tails.boum.org/).
 
 And if you made it this far, just [play the damn game already][Demo]!
 
