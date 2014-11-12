@@ -41,7 +41,7 @@ Another popular history-sniffing trick is to hide non-<code class="language-css"
   <figcaption>White and red text are appropriately hidden on their respective backgrounds</figcaption>
 </figure>
 
-With just the first two tricks we have a functioning game. Probing one link at a time covers ~60 links per minute and provides solid user insight. Tricks #3 and #4 improve our search algorithm,[^2] increasing read-speed by ~10x.
+With just the first two tricks we have a [functioning game](/visited-vectors/reaction/linear.html). Probing one link at a time covers ~60 links per minute and provides solid user insight. Tricks #3 and #4 improve our search algorithm,[^2] increasing read-speed by ~10x.
 
 ## Trick #3: CSS decoders
 [This paper](http://lcamtuf.coredump.cx/css_calc/) builds an n-input OR gate in CSS using alpha-blending rounding errors. I've embedded my own cross-browser version below; click Result to see it in action:
