@@ -8,9 +8,19 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Tue, 28 Oct 2014 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 12 Nov 2014 00:00:00 -0500</pubDate>
     <item>
-      <title>Riddle: Chicken Prices</title>
+      <title>Stealing history with CSS binary trees</title>
+      <link>http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
+      <description>&lt;p&gt;History-sniffing attacks let front-end code peek at other sites you’ve visited. They can be used to target ads, steal information, or discern your identity. Creepy.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 12 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</guid>
+      <dc:date>2014-11-12T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Riddle: chicken prices</title>
       <link>http://www.rileyjshaw.com/blog/chicken-prices</link>
       <description>&lt;p&gt;Someone posted a riddle to &lt;a href=&quot;https://news.ycombinator.com/item?id=8486278&quot;&gt;Hacker News&lt;/a&gt; a few days ago:&lt;/p&gt;
 
@@ -30,7 +40,7 @@
       <dc:date>2014-10-12T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>The Cat's-Whisker Detector</title>
+      <title>The cat's-whisker detector</title>
       <link>http://www.rileyjshaw.com/blog/the-cat%27s-whisker-detector</link>
       <description>&lt;p&gt;Semiconductors are important. They allow us to make transistors&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, which allow us to make integrated circuits, which allow us to build calculators and flight control systems and iPads.&lt;/p&gt;
 
@@ -47,7 +57,7 @@
       <dc:date>2014-04-22T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>Accidental Reset</title>
+      <title>Accidental reset</title>
       <link>http://www.rileyjshaw.com/blog/accidental-reset</link>
       <description>&lt;p&gt;From page 33 of the &lt;a href=&quot;http://www.librarything.com/work/52052&quot;&gt;Apple II User’s Guide&lt;/a&gt;:&lt;/p&gt;
 
@@ -57,7 +67,7 @@
       <dc:date>2014-04-14T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>A Language For Weaklings</title>
+      <title>A language for weaklings</title>
       <link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
       <description>&lt;p&gt;From &lt;a href=&quot;http://c.learncodethehardway.org/book/introduction.html&quot;&gt;Learn C The Hard Way&lt;/a&gt;:&lt;/p&gt;
 
@@ -67,7 +77,7 @@
       <dc:date>2014-04-01T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>Hue-Angle Transitions</title>
+      <title>Hue-angle Transitions</title>
       <link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE 2014-08-28&lt;/strong&gt;: &lt;em&gt;I created a library called &lt;a href=&quot;http://rileyjshaw.com/sweep/&quot;&gt;sweep.js&lt;/a&gt; that addresses this problem.&lt;/em&gt;&lt;/p&gt;
 
@@ -77,7 +87,7 @@
       <dc:date>2014-03-31T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>Your Art Teacher Lied</title>
+      <title>Your art teacher lied</title>
       <link>http://www.rileyjshaw.com/blog/your-art-teacher-lied</link>
       <description>&lt;p&gt;Guess what? Chemistry isn’t the only high school course built on a &lt;em&gt;foundation of lies&lt;/em&gt;. In art class we’re taught that the primary colors are red, yellow, and blue. Not only is it wrong to say that there are three true primary colors, but if we &lt;em&gt;were&lt;/em&gt; to pick three, we’d pick a better combination.&lt;/p&gt;
 
@@ -87,7 +97,7 @@
       <dc:date>2014-03-23T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>Taking The Average Tone</title>
+      <title>Taking the average tone</title>
       <link>http://www.rileyjshaw.com/blog/taking-the-average-tone</link>
       <description>&lt;p&gt;Today I wanted to see what the average frequency of a song would sound like with no spectrum analysis or separation. I had a hunch that it would end up sounding like garbage, and I was totally right.&lt;/p&gt;
 
@@ -107,7 +117,7 @@
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
     <item>
-      <title>Iron Blogger</title>
+      <title>Iron blogger</title>
       <link>http://www.rileyjshaw.com/blog/iron-blogger</link>
       <description>&lt;p&gt;A few days ago a fellow Hacker-Schooler proposed Iron Blogger to our batch. The rules are simple:&lt;/p&gt;
 
@@ -116,6 +126,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-10-28T00:00:00-04:00</dc:date>
+    <dc:date>2014-11-12T00:00:00-05:00</dc:date>
   </channel>
 </rss>
