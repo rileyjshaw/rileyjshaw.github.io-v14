@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Riddle: Chicken Prices"
+title: "Riddle: chicken prices"
 tags:
 - math
 - riddle

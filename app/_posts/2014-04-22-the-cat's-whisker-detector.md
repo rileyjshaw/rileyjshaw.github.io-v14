@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Cat's-Whisker Detector
+title: The cat's-whisker detector
 tags:
 - electrical
 - hardware

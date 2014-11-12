@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hue-Angle Transitions
+title: Hue-angle Transitions
 tags:
 - color
 - css
