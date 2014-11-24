@@ -44,20 +44,20 @@
   footer
     width: 100%
 
-@media (max-width: 640px)
+@media screen and (max-width: 640px)
   footer
     font-size: 36px
 
-@media (min-width: 540px)
+@media screen and (min-width: 540px)
   .splash-shard.quad p
     font-size: 30px
 
-@media (max-width: 500px)
+@media screen and (max-width: 500px)
   footer
     font-size: 24px
 
 // loop from 4 through 1
-@for $i from 0 to 4
+@for $i from 0 through 4
   $j: 4 - $i
   @media screen and (max-width: $j * 300px)
     .portfolio-index
@@ -69,3 +69,27 @@
       @if $j == 3
         .title-inner, figcaption
           font-size: 96%
+
+  @if $j > 1
+    @media screen and (max-width: 240px * $j + 30px * ($j - 1) + (12px + 7px) * 2)
+      .lab-index
+        @if $j == 2
+          header
+            width: 90%
+            text-align: center
+
+          .stamp
+            opacity: 0
+
+          .filters
+            border-left: 0
+
+            legend, label
+              float: none
+
+            label
+              line-height: 2em
+
+        @else
+          header
+            width: 240px * ($j - 1) + 30px * ($j - 2) + 12px * 2
