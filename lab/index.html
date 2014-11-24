@@ -33,7 +33,14 @@ careful when changing these ids, the sorting methods use them programmatically
     });
 
     sorterContainer.addEventListener('change', function (e) {
-      var sortMethod = e.srcElement.id.match(/-.*-/)[0].slice(1, -1);
+      var target, sortMethod;
+      if (!e) e = window.event;
+      if (e.target) target = e.target;
+      else if (e.srcElement) target = e.srcElement;
+      // defeat Safari bug
+      if (target.nodeType == 3) target = target.parentNode;
+
+      sortMethod = target.id.match(/-.*-/)[0].slice(1, -1);
 
       iso.arrange({
         sortBy: sortMethod,
