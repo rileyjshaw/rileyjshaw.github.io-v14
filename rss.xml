@@ -8,7 +8,17 @@
     <title>rileyjshaw</title>
     <link>http://www.rileyjshaw.com</link>
     <description>The work and diatribes of rileyjshaw</description>
-    <pubDate>Wed, 12 Nov 2014 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
+    <item>
+      <title>Graphing depth</title>
+      <link>http://www.rileyjshaw.com/blog/graphing-depth</link>
+      <description>&lt;p&gt;There’s something magical about a procedure that just works. Even if you don’t understand &lt;em&gt;why&lt;/em&gt; it works, having a set of steps that will always get you to the same destination feels nice. In life there are few patterns that consistently produce the same outcome. But in math? Hoo boy…&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://www.rileyjshaw.com/blog/graphing-depth</guid>
+      <dc:date>2014-12-04T00:00:00-05:00</dc:date>
+    </item>
     <item>
       <title>Stealing history with CSS binary trees</title>
       <link>http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
@@ -126,6 +136,6 @@
       <guid>http://www.rileyjshaw.com/blog/iron-blogger</guid>
       <dc:date>2014-03-10T00:00:00-04:00</dc:date>
     </item>
-    <dc:date>2014-11-12T00:00:00-05:00</dc:date>
+    <dc:date>2014-12-04T00:00:00-05:00</dc:date>
   </channel>
 </rss>

@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en" class="post"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Graphing depth</title><meta name="description" content="Riley Shaw | Code monkey, design junkie"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="msapplication-TileColor" content="#44CCAA"><meta name="msapplication-TileImage" content="/favicon-144.png"><link rel="apple-touch-icon-precomposed" href="/favicon-152.png"><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.5a35.css"><link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Droid+Serif:400,700,400italic|Raleway:800|Montserrat:700|Inconsolata:400,700" rel="stylesheet" type="text/css"><script src="/scripts/head-scripts.d7d7.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48709534-1', 'rileyjshaw.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');</script></head><body><dialog id="cdTerm"><input></dialog><div id="drawer-nav-overlay"></div><header id="top-nav"><a href="/" id="drawer-nav-link" class="logo" data-no-instant>R</a><nav><ul></ul></nav></header><nav id="drawer-nav" role="navigation"><ul><li><a href="/" class="home-block"><div class="vcent"></div><span>Home</span></a></li><li><a href="/blog" class="blog-block"><div class="vcent"></div><span>Blog</span></a></li><li><a href="/portfolio" class="portfolio-block"><div class="vcent"></div><span>Portfolio</span></a></li><li><a href="/lab" class="lab-block"><div class="vcent"></div><span>Lab</span></a></li></ul></nav><div class="post-content"><div class="inner"><article><h1>Graphing depth</h1><p class="date">Posted today</p><p>There’s something magical about a procedure that just works. Even if you don’t understand <em>why</em> it works, having a set of steps that will always get you to the same destination feels nice. In life there are few patterns that consistently produce the same outcome. But in math? Hoo boy…</p><p>This post takes us through two <em>very</em> simple procedures that converge to a numerical endpoint. We’re going to graph the amount of time it takes to reach this endpoint, which actually ends up being quite pretty.</p><p>Careful; such routines can be somewhat of a rabbit hole. As <a href="http://xkcd.com/710/">xkcd</a>’s Randall Munroe puts it,</p><blockquote><p>The Collatz Conjecture states that if you pick a number, and if it’s even divide it by two and if it’s odd multiply it by three and add one, and if you repeat this procedure long enough, eventually your friends will stop calling to see if you want to hang out.</p></blockquote><h2 id="section">6174,</h2><p>or Kaprekar’s Constant, is the endpoint of one such procedure. If we run any<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> four-digit number through the following steps:</p><ol><li>arrange the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if necessary</li><li>subtract the smaller number from the bigger number</li><li>repeat</li></ol><p>we’ll reach 6174 in at most 7 iterations.</p><p>Let’s go through a quick example using 1989<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>, which breaks into 9981 and 1899:</p><ol><li>9981 - 1899 = 8082</li><li>8820 - 0288 = 8532</li><li>8532 - 2358 = 6174 (yay!)</li></ol><p>Let’s call the number of steps it takes a number to reach 6174 its <em>depth</em>. In other words, we’re looking for n where n(t) = n(t - 1)<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</p><p>Here’s a quick program to return the Kaprekar depth of a 4-digit number:</p><pre><code class="language-javascript">function kaprekar (num) {
+	function step (cur, depth) {
+		// return the depth if our current number is 6174 (or 0 for repdigits)
+		if (cur === 6174 || !cur) return depth;
+
+		// otherwise, split the current number into an array
+		// of digits and sort it in ascending order
+		var lo = String(cur).split('').sort();
+
+		// make a new array of the numbers in descending order
+		var hi = lo.slice().reverse();
+
+		// turn the arrays back into integers
+		lo = +(lo.join('')); hi = +(hi.join(''));
+
+		// recursively call the function on the difference, adding 1 to depth
+		return step(hi - lo, depth + 1);
+	}
+
+	// initialize the first step with a depth of 0
+	return step(num, 0);
+}
+</code></pre><p>Running <code class="language-javascript">kaprekar(1989)</code> returns <code class="language-javascript">3</code>. Success!</p><h2 id="more-digits">More digits</h2><p>If we’re dealing with one digit we can set the fixed point at 0. Cool. What about two digits?</p><ul><li>63 - 36 = 27</li><li>72 - 27 = 45</li><li>54 - 45 = 09</li><li>90 - 09 = 81</li><li>81 - 18 = 63</li><li>63 - 36 = ah shit…</li></ul><p>It looks like we’ve found our way into a loop. Going off our original definition, the Kaprekar depth at 63 would be infinity.</p><p>Since Kaprekar’s routine is deterministic, as soon as we run into a number we’ve already seen we’re stuck in the same loop of numbers. We don’t get any new information at this point, so let’s redefine depth to mean <em>the amount of steps it takes until a number we’ve seen before reemerges</em>. This still works for fixed-point convergence, since 6174 “reemerges” on the next step.</p><p>Using this new definition, the depth of 63 is 5. Let’s update our code:</p><pre><code class="language-javascript">function kaprekar (num) {
+	function step (cur, prev, depth) {
+		// return the depth - 1 if we've come across this number before
+		if (prev[cur]) return depth - 1;
+		// otherwise, log that we've now seen the current number
+		else prev[cur] = true;
+
+		// find the ascending and descending parts as we did before
+		// ...
+
+		// and take it one level deeper
+		return step(hi - lo, prev, depth + 1);
+	}
+
+	// initialization for the first step
+	return step(num, {}, 0);
+}
+</code></pre><p>Great! This function should work with fixed point and fixed series (loop) stopping conditions. Running <code class="language-javascript">kaprekar(63)</code> now returns <code class="language-javascript">5</code>; before, it would’ve tried to crash your browser.</p><h2 id="the-fun-part">The fun part</h2><p>Now that we have a function to determine the Kaprekar depth<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> of an arbitrary number; let’s visualize it! We’ll first need to write a drawing function that starts at 0 and moves left-to-right, top-to-bottom until it reaches the bottom-right corner. The code looks like this:</p><pre><code class="language-javascript">function draw (rows, cols, fn) {
+	for (var y = 0; y &lt; rows; y++) {
+		for (var x = 0; x &lt; cols; x++) {
+			drawPixel(fn(x + y * cols), x, y);
+		}
+	}
+}
+</code></pre><p>Calling this function with the arguments,</p><pre><code class="language-javascript">draw(kaprekar, 1000, 1000);
+</code></pre><p>results in a plot of total cycle depth for the Kaprekar Routine for the range [0, 1M). Each pixel represents an integer, with 0 in the top left corner and 999999 in the bottom right. Dark pixels represent a high depth at that number; the max depth for this range is shockingly low at 19.</p><figure><img src="/images/kaprekar.4232.png" alt="Total cycle depth for the Kaprekar Routine in the range [0, 1M)"><figcaption>Kaprekar Routine Depths: [0, 1M). <a href="http://codepen.io/rileyjshaw/pen/hipBu">View code</a></figcaption></figure><p>The <em>View code</em> link above uses the same code as our example with a bit of color logic tacked on, and a drawing loop that only computes 1% at a time to make sure your browser doesn’t freeze.</p><p>Since numbers with fewer digits reach their stopping condition sooner, a light band is observable at the top of the image. Since any two numbers composed of the same digits run through the same steps, a few axes of symmetry can be observed.</p><h2 id="enter-ulam">Enter Ulam</h2><p>Mathmetician Stanislaw Ulam made an interesting discovery while doodling during the presentation of a “long and very boring paper”. He started by writing the natural numbers in a rectangular spiral with 1 in the center:</p><figure><img src="/images/ulam-howto-1.2731.svg" alt="Ulam Spiral"><figcaption>Ulam Spiral: [1, 50)</figcaption></figure><p>In our Kaprekar graph we decided that the drawing function should move from top-left to bottom-right. Let’s see if we can make a drawing function that starts in the center and moves outwards in an Ulam spiral<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>:</p><pre><code class="language-javascript">function drawUlam (maxVal, fn) {
+	var directions = [
+		{ x:  1, y:  0 },  // 0: right
+		{ x:  0, y: -1 },  // 1: up
+		{ x: -1, y:  0 },  // 2: left
+		{ x:  0, y:  1 }   // 3: down
+	];
+	var center = Math.ceil(Math.sqrt(maxVal) / 2); // center point of the grid
+	var run = 1; // current spiral arm length
+	var redirect = 3;  // next number that the spiral changes direction at
+	var direction = 0; // current direction
+	var position = {
+		x: center - 1, // offset x by -1; we move right before drawing
+		y: center
+	};
+
+	for (var i = 1; i &lt; maxVal; i++) {
+		if (i === redirect) {
+			direction = (direction + 1) % 4;
+			// run increases when switching left or right
+			if (direction % 2 === 0) run++;
+			redirect += run;
+		}
+		position.x += directions[direction].x;
+		position.y += directions[direction].y;
+		drawPixel(fn(i), position.x, position.y);
+	}
+}
+</code></pre><p>By replacing the drawing function in our Kaprekar depth example with <code class="language-javascript">drawUlam()</code> we get the following graph for the range [0, 998k):</p><figure><img src="/images/kaprekar-ulam.0bb6.png" alt="Total cycle depth for the Kaprekar Routine in the range [0, 998k) drawn in an Ulam Spiral"><figcaption>Ulam Spiral of Kaprekar Routine depths: [0, 998k). <a href="http://codepen.io/rileyjshaw/pen/gixuE">View code</a></figcaption></figure><p>The light band has been transformed into a series of darkening squares, with clear distinctions at each digit boundary.</p><h2 id="the-collatz-conjecture">The Collatz Conjecture</h2><h3 id="let-it-hail">Let it hail</h3><p>The second procedure that we’re looking at is called the Collatz Conjecture<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>. It’s widely recognized and as-yet unproven, which is also true of Kaprekar’s Routine. We start with any integer, then:</p><ol><li>if the number is odd, divide it by two</li><li>if the number is even, multiply it by three and add one</li><li>repeat</li></ol><p>The Collatz Conjecture states that no matter what number we start with, it will always eventually reach 1. This has been verified for numbers up to at least 5.764×10<sup>18</sup> at the time of writing.</p><p>To graph this, we can define depth to mean the number of iterations until 1 is reached. Here’s a quick first pass at a <code class="language-javascript">collatz()</code> function:</p><pre><code class="language-javascript">// naive implementation
+function collatz (num) {
+	var depth = 0;
+
+	while (num !== 1) {
+		num = num % 2
+			? num * 3 + 1 // num is odd
+			: num / 2     // num is even
+
+		depth++;
+	}
+
+	return depth;
+}
+</code></pre><p>The above function <em>works</em>, but it’s not very efficient; running the numbers from 1 to 1M using this function would waste a <em>lot</em> of time on repeated cycles. Let’s imagine running the number 5 through our procedure:</p><ol><li><code>5&nbsp;&nbsp;↦ ×3+1</code></li><li><code>16 ↦ ÷2</code></li><li><code>8&nbsp;&nbsp;↦ ÷2</code></li><li><code>4&nbsp;&nbsp;↦ ÷2</code></li><li><code>2&nbsp;&nbsp;↦ ÷2</code></li><li><code>1</code></li></ol><p>Soon after, we would have to calculate the depth of 10:</p><ol><li><code>10 ↦ ÷2</code></li><li><code>5&nbsp;&nbsp;↦ ×3+1 // repeated</code></li><li><code>16 ↦ ÷2 &nbsp; // repeated</code></li><li><code>8&nbsp;&nbsp;↦ ÷2 &nbsp; // repeated</code></li><li>…</li></ol><p>Like Kaprekar’s Routine, this procedure is deterministic. That means that <em>whenever</em> we see the number 5, we’ve got 5 more steps until we see the number 1. By <a href="http://en.wikipedia.org/wiki/Memoization">memoizing</a> the <code class="language-javascript">collatz()</code> function, we avoid running these repetitive cycles.</p><pre><code class="language-javascript">// slightly better memoized implementation
+var collatz = (function() {
+	var memo = {
+		1: 0
+	};
+
+	return function (cur) {
+		var l, _len, memoized, past = [];
+
+		while (typeof memo[cur] === 'undefined') {
+			past.push(cur);
+			cur = cur % 2 ? cur * 3 + 1 : cur / 2;
+		}
+
+		memoized = memo[cur];
+
+		// throw past values into memo
+		for (l = _len = past.length; l--; )
+			memo[ past[l] ] = _len - l + memoized;
+
+		return past.length + memoized;
+	};
+})();
+</code></pre><p>Replacing the <code class="language-javascript">kaprekar()</code> function in our first example with <code class="language-javascript">collatz()</code> yields the following graph:</p><figure><img src="/images/collatz.e55a.png" alt="Total cycle depth for the Collatz Conjecture in the range (0, 1M]"><figcaption>Collatz Conjecture depths: (0, 1M]. <a href="http://codepen.io/rileyjshaw/pen/hayod">View code</a></figcaption></figure><p>The banding that’s observed is interesting; it looks almost like cloth grain. This tells us that sequential numbers are more likely to have similar depths.</p><p>Using the <code class="language-javascript">ulam()</code> drawing function, we get:</p><figure><img src="/images/collatz-ulam.74b2.png" alt="Total cycle depth for the Collatz Conjecture in the range (0, 998k] drawn in an Ulam Spiral"><figcaption>Ulam Spiral of Collatz Conjecture depths: (0, 998k]. <a href="http://codepen.io/rileyjshaw/pen/fihEm">View code</a></figcaption></figure><p>Pretty.</p><h2 id="conclusion">Conclusion</h2><p>We set out to make some nice looking graphs; we now have four of ‘em<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>. But why stop there? As we’ve seen, a great advantage to keeping the depth function separate from the drawing function is that we can easily swap in new functions<sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup>. A great place to find inspiration for new functions is <a href="https://oeis.org/https://oeis.org/">The On-Line Encyclopedia of Integer Sequences</a>.</p><p>Have fun!</p><h2 id="footnotes">Footnotes</h2><div class="footnotes"><ol><li id="fn:1"><p>Except for repdigits like 3333, which reach their fixed point of 0 after one step. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p></li><li id="fn:2"><p><a href="http://youtu.be/M8G8aqlegYI">The number. Another summer.</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p></li><li id="fn:3"><p>…more generally, n(t) = n(t - L), where L = fixed-loop size. But we’ll get to that part soon. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p></li><li id="fn:4"><p>A neologism, as far as I can tell. “Stopping time” is likely more appropriate. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p></li><li id="fn:5"><div>The Ulam Spiral story doesn't end with a different drawing function. The presentation that he was sitting in on must have been really boring, because Ulam started circling prime numbers on his spiral:<figure><img src="/images/ulam-howto-2.42ce.svg" alt="Ulam Spiral with prime numbers shown"><figcaption>Ulam Spiral with prime numbers shown: [1, 50)</figcaption></figure>He noticed that the primes tended to line up along certain diagonal lines more than others. This isn't evident in the small grid above, but we can repurpose our old code to generate a larger grid. If we replace the <code class="language-javascript">kaprekar()</code> function with a function that only returns a color if the number is prime, we can visualize Ulam's diagonal primes:<figure><img src="/images/ulam.87c5.png" alt="Prime numbers in the range [0, 1M) drawn in an Ulam Spiral"><figcaption>Ulam Spiral with prime numbers shown: [0, 988k). <a href="http://codepen.io/rileyjshaw/pen/gaHhn">View code</a></figcaption></figure></div><p><a href="#fnref:5" class="reversefootnote">&#8617;</a></p></li><li id="fn:6"><p>The Collatz Conjecture has more aliases than your favourite rapper. You might know it as: the 3n + 1 conjecture, the Ulam conjecture, Kakutani’s problem, the Thwaites conjecture, Hasse’s algorithm, the Syracuse problem, the hailstone sequence, hailstone numbers, or wondrous numbers. <a href="#fnref:6" class="reversefootnote">&#8617;</a></p></li><li id="fn:7"><p>Five if you count the footnotes! <a href="#fnref:7" class="reversefootnote">&#8617;</a></p></li><li id="fn:8"><p>This is classically known as <a href="http://en.wikipedia.org/wiki/Function_composition_(computer_science)">function composition</a>. <a href="#fnref:8" class="reversefootnote">&#8617;</a></p></li></ol></div></article><div id="disqus_thread"></div><script>var disqus_shortname = 'rileyjshaw';
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();</script><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><div id="discussion"></div></div></div><footer><strong>Share this:</strong><ul><li><a href="https://twitter.com/home?status=I%20just%20read%20%22Graphing depth%22%20on%20http://rileyjshaw.com/blog/graphing-depth%20and%20it%20legitimately%20changed%20my%20life."><i class="fa fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer/sharer.php?u=http://rileyjshaw.com//blog/graphing-depth"><i class="fa fa-facebook"></i></a></li></ul></footer><script src="/scripts/script.2101.js"></script></body></html>
