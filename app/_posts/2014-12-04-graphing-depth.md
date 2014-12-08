@@ -30,7 +30,7 @@ Let's go through a quick example using 1989[^2], which breaks into 9981 and 1899
  2. 8820 - 0288 = 8532
  3. 8532 - 2358 = 6174 (yay!)
 
-Let's call the number of steps it takes a number to reach 6174 its _depth_. In other words, we're looking for n where n(t) = n(t - 1)[^3].
+Let's call the number of steps it takes a number to reach 6174 its _depth_. In other words, we're looking for n where f(n) = f(n - 1)[^3].
 
 Here's a quick program to return the Kaprekar depth of a 4-digit number:
 
@@ -281,7 +281,7 @@ Have fun!
 ## Footnotes
 [^1]: Except for repdigits like 3333, which reach their fixed point of 0 after one step.
 [^2]: [The number. Another summer.](http://youtu.be/M8G8aqlegYI)
-[^3]: …more generally, n(t) = n(t - L), where L = fixed-loop size. But we'll get to that part soon.
+[^3]: …more generally, f(n) = f(n - L), where L = fixed-loop size. But we'll get to that part soon.
 [^4]: A neologism, as far as I can tell. "Stopping time" is likely more appropriate.
 [^5]: <div>The Ulam Spiral story doesn't end with a different drawing function. The presentation that he was sitting in on must have been really boring, because Ulam started circling prime numbers on his spiral:
 	<figure>
