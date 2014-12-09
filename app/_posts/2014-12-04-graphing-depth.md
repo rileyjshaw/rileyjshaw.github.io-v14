@@ -30,9 +30,7 @@ Let's go through a quick example using 1989[^2], which breaks into 9981 and 1899
  2. 8820 - 0288 = 8532
  3. 8532 - 2358 = 6174 (yay!)
 
-Let's call the number of steps it takes a number to reach 6174 its _depth_. In other words, we're looking for n where f(n) = f(n - 1)[^3].
-
-Here's a quick program to return the Kaprekar depth of a 4-digit number:
+ Let's call the number of iterations it takes an input to reach 6174 its _depth_.[^3] Here's a quick program to return the Kaprekar depth of a 4-digit number:
 
 ```javascript
 function kaprekar (num) {
@@ -281,7 +279,7 @@ Have fun!
 ## Footnotes
 [^1]: Except for repdigits like 3333, which reach their fixed point of 0 after one step.
 [^2]: [The number. Another summer.](http://youtu.be/M8G8aqlegYI)
-[^3]: …more generally, f(n) = f(n - L), where L = fixed-loop size. But we'll get to that part soon.
+[^3]: i.e. with input _n_ and depth _t_ we're looking for _t_ where &fnof;<sub>_n_</sub>(_t_) = &fnof;<sub>_n_</sub>(_t_ - 1). More generally, &fnof;<sub>_n_</sub>(_t_) = &fnof;<sub>_n_</sub>(_t_ - _L_), where _L_ = fixed-loop size. But we'll get to that part soon.
 [^4]: A neologism, as far as I can tell. "Stopping time" is likely more appropriate.
 [^5]: <div>The Ulam Spiral story doesn't end with a different drawing function. The presentation that he was sitting in on must have been really boring, because Ulam started circling prime numbers on his spiral:
 	<figure>
@@ -295,6 +293,6 @@ Have fun!
 	  <img src="/images/ulam.png" alt="Prime numbers in the range [0, 1M) drawn in an Ulam Spiral">
 	  <figcaption>Ulam Spiral with prime numbers shown: [0, 988k). <a href="http://codepen.io/rileyjshaw/pen/gaHhn">View code</a></figcaption>
 	</figure></div>
-[^6]: The Collatz Conjecture has more aliases than your favourite rapper. You might know it as: the 3n + 1 conjecture, the Ulam conjecture, Kakutani's problem, the Thwaites conjecture, Hasse's algorithm, the Syracuse problem, the hailstone sequence, hailstone numbers, or wondrous numbers.
+[^6]: The Collatz Conjecture has more aliases than your favorite rapper. You might know it as: the 3n + 1 conjecture, the Ulam conjecture, Kakutani's problem, the Thwaites conjecture, Hasse's algorithm, the Syracuse problem, the hailstone sequence, hailstone numbers, or wondrous numbers.
 [^7]: Five if you count the footnotes!
 [^8]: This is classically known as [function composition](http://en.wikipedia.org/wiki/Function_composition_(computer_science)).
