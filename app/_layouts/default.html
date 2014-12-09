@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
+    <title>
+        {% if page.title %}
+            {{ page.title }}
+        {% elsif page.tag %}
+            Riley Shaw | Blog | {{ page.tag | capitalize }}
+        {% else %}
+            Riley Shaw | ˁ˚ᴥ˚ˀ
+        {% endif %}
+    </title>
     <meta name="description" content="Riley Shaw | Code monkey, design junkie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
