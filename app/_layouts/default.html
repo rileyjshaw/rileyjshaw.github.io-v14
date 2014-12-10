@@ -11,6 +11,10 @@
         {% else %}
             Riley Shaw | ˁ˚ᴥ˚ˀ
         {% endif %}
+
+        {% if paginator.page and paginator.page != 1 %}
+             | {{ paginator.page }}
+        {% endif %}
     </title>
     <meta name="description" content="Riley Shaw | Code monkey, design junkie">
     <meta name="viewport" content="width=device-width, initial-scale=1">

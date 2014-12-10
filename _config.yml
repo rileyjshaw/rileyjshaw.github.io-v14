@@ -22,14 +22,13 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: 'blog/:title'
+permalink: '/blog/:title'
 paginate: 3
-paginate_path: 'blog/page:num'
+paginate_path: '/blog/page:num'
 
 tag_page_layout: tag_page
 tag_page_dir: /blog
 tag_permalink_style: pretty
-# tag_page_title: What is up
 
 # Markdown library
 markdown: kramdown
