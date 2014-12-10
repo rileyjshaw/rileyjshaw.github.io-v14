@@ -1,0 +1,70 @@
+---
+layout: inner
+---
+
+{% if paginator.posts %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = page.posts %}
+{% endif %}
+
+<header class="blog-masthead">
+  <h1>Blog ({% if page.tag %}<span class="blog-arg">{{ page.tag }}</span>{% else %} {% endif %})</h1>
+  <p>{% if page.tag %}Posts tagged under "{{ page.tag }}"{% else %}Rhymes with chili dog{% endif %}</p>
+  {% if page.tag %}<a href="/blog" class="fa fa-undo">Remove filter</a>{% endif %}
+</header>
+
+<ul class="blog-posts">
+  {% for post in posts %}
+    <li>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="date">{{ post.date | timeago }}</p>
+      <div class="content">
+      {% if post.tldr != empty %}
+        {{ post.tldr }}
+      {% else %}
+        {{ post.exerpt }}
+      {% endif %}
+      </div>
+      <div class="post-meta">
+        <span><i class="fa fa-comment"></i> <a href="{{ post.url }}#discussion">Comments</a></span>
+        {% if post.tags != empty %}
+          {% assign sorted_tags = (post | tags | split:", " | sort | join:", ") %}
+          <span><i class="fa fa-tag"></i>{{ sorted_tags }}</span>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </li>
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-o-left"></i></a>
+  {% else %}
+    <i class="fa fa-arrow-circle-o-left disabled"></i>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <strong>{{ page }}</strong>
+    {% elsif page == 1 %}
+      <a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-o-right"></i></a>
+  {% else %}
+    <i class="fa fa-arrow-circle-o-right disabled"></i>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if page.tag %}
+<footer>
+  <a href="/blog" class="fa fa-undo">Show all posts</a>
+</footer>
+{% endif %}

@@ -5,7 +5,7 @@
   <nav>
     <ul>
       {% if page.topclass != "post" %}
-        {% if page.topclass != "blog" %}
+        {% if page.topclass != "blog" and page.topclass != "blog tagpage" %}
         <li>
           <a href="/blog">Blog</a>
         </li>

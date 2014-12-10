@@ -1,21 +1,15 @@
+{% assign pageTitle = "Riley Shaw" %}
+{% if page.title %}{% assign pageTitle = pageTitle | append:" | " | append: page.title %}{% endif %}
+{% if page.tag %}{% assign pageTitle = pageTitle | append:" | Blog | " | append: page.tag %}{% endif %}
+{% if paginator.page and paginator.page != 1 %}{% assign pageTitle = pageTitle | append:" | " | append: paginator.page %}{% endif %}
+{% if pageTitle == "Riley Shaw" %}{% assign pageTitle = pageTitle | append: " | ˁ˚ᴥ˚ˀ" %}{% endif %}
+
 <!DOCTYPE html>
 <html lang="en" class="{{ page.topclass }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% elsif page.tag %}
-            Riley Shaw | Blog | {{ page.tag | capitalize }}
-        {% else %}
-            Riley Shaw | ˁ˚ᴥ˚ˀ
-        {% endif %}
-
-        {% if paginator.page and paginator.page != 1 %}
-             | {{ paginator.page }}
-        {% endif %}
-    </title>
+    <title>{{ pageTitle | titlecase }}</title>
     <meta name="description" content="Riley Shaw | Code monkey, design junkie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,7 +26,7 @@
     <link rel="stylesheet" href="/css/prism.css">
     <!-- endbuild -->
 
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Droid+Serif:400,700,400italic|Raleway:800|Montserrat:700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Droid+Serif:400,700,400italic|Raleway:800|Montserrat:700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
     <!-- build:js(app) /scripts/head-scripts.js -->
     <script src="/_bower_components/jquery/dist/jquery.min.js"></script>

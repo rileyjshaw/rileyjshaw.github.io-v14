@@ -3,7 +3,7 @@
   width: 100%
   margin-bottom: $footerheight
   font-size: 20px
-  font-weight: 300
+  font-weight: $book
   font-family: $serif
   background-color: $cbg
 
@@ -66,3 +66,33 @@ cite
   font-style: normal
   text-decoration: none
   color: #bababa
+
+.post footer
+  position: fixed
+  bottom: 0
+  z-index: -1
+  overflow: hidden
+  height: $footerheight
+  width: 100%
+  padding: 0 1em
+  box-sizing: border-box
+  font: 48px/#{$footerheight} $sans
+  text-align: left
+  color: white
+  background-color: $cplain
+
+  strong
+    float: left
+    font-weight: $book
+    text-transform: uppercase
+
+  ul
+    float: right
+    margin: 0
+
+  li
+    display: inline-block
+    margin: 0 1em
+
+  a
+    color: white

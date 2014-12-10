@@ -9,18 +9,31 @@
       &::after
         background: $cteal
 
-.content p, .blog-masthead p, p.date, .post-meta
+.content p, .blog-masthead p, .blog-masthead a, p.date, .post-meta, .tagpage footer a
   font-family: $sans
-  font-weight: $light
+  font-weight: $book
 
-.blog-masthead p, p.date, .post-meta
+.blog-masthead p, .blog-masthead a, p.date, .post-meta, .tagpage footer
   font-size: 12px
   text-transform: uppercase
   letter-spacing: 4px
 
+.blog-masthead p, .blog-masthead a, p.date, .tagpage footer, .tagpage footer a
+  color: #b3b3b3
+
 .blog-masthead p, p.date
   margin: 36px 0 20px
-  color: #b3b3b3
+
+.blog-masthead .blog-arg
+  color: $corange
+
+.blog-masthead, .tagpage footer
+  .fa
+    &::before
+      vertical-align: middle
+      margin-right: 0.6em
+      font-size: 1.8em
+
 
 .post-meta
   span
@@ -33,6 +46,9 @@
   margin-bottom: 120px
   text-align: center
   text-transform: uppercase
+
+  .tagpage &
+    margin-bottom: 76px
 
   h1
     margin: 1.5em 0 0
@@ -58,7 +74,7 @@
     line-height: 1.5em
     margin: 2em 0
     font-size: 20px
-    font-weight: $light
+    font-weight: $book
 
 .pagination
   line-height: 36px
@@ -84,3 +100,10 @@
 
 .gist
   margin: 22px 0
+
+.tagpage footer
+  text-align: center
+  margin-bottom: 72px
+
+  a
+    text-decoration: none
