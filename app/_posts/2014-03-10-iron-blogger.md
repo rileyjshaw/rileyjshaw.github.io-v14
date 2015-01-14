@@ -4,6 +4,7 @@ tags:
 - meta
 - build
 - web
+- hackerschool
 tldr: I made a blog and if I don't use it once a week I have to pay someone five bucks.
 ---
 
