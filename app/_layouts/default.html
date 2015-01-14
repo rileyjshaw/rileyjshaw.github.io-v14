@@ -1,15 +1,19 @@
 {% assign pageTitle = "Riley Shaw" %}
-{% if page.title %}{% assign pageTitle = pageTitle | append:" | " | append: page.title %}{% endif %}
-{% if page.tag %}{% assign pageTitle = pageTitle | append:" | Blog | " | append: page.tag %}{% endif %}
-{% if paginator.page and paginator.page != 1 %}{% assign pageTitle = pageTitle | append:" | " | append: paginator.page %}{% endif %}
-{% if pageTitle == "Riley Shaw" %}{% assign pageTitle = pageTitle | append: " | ˁ˚ᴥ˚ˀ" %}{% endif %}
+{% if page.topTitle %}{% assign pageTitle = pageTitle | append:" | " | append: page.topTitle %}
+{% else %}
+    {% if page.title %}{% assign pageTitle = pageTitle | append:" | " | append: page.title %}{% endif %}
+    {% if page.tag %}{% assign pageTitle = pageTitle | append:" | Blog | " | append: page.tag %}{% endif %}
+    {% if paginator.page and paginator.page != 1 %}{% assign pageTitle = pageTitle | append:" | " | append: paginator.page %}{% endif %}
+    {% if pageTitle == "Riley Shaw" %}{% assign pageTitle = pageTitle | append: " | ˁ˚ᴥ˚ˀ" %}{% endif %}
+    {% assign pageTitle = pageTitle | titlecase %}
+{% endif %}
 
 <!DOCTYPE html>
 <html lang="en" class="{{ page.topclass }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ pageTitle | titlecase }}</title>
+    <title>{{ pageTitle }}</title>
     <meta name="description" content="Riley Shaw | Code monkey, design junkie">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
