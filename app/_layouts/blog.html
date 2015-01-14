@@ -40,7 +40,7 @@ layout: inner
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-o-left"></i></a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}"><i class="fa fa-arrow-circle-o-left"></i></a>
   {% else %}
     <i class="fa fa-arrow-circle-o-left disabled"></i>
   {% endif %}
@@ -49,7 +49,7 @@ layout: inner
     {% if page == paginator.page %}
       <strong>{{ page }}</strong>
     {% elsif page == 1 %}
-      <a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
