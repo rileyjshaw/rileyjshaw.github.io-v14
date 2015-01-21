@@ -9,6 +9,8 @@ tags:
 tldr: "Some shady CSS tricks form like Voltron to discover your darkest secrets."
 ---
 
+**UPDATE 2015-01-21**: _Since writing this post, Chrome and FF have changed their alpha-blending functions. Demos likely won't work anymore. This is good news!!_
+
 History-sniffing attacks let front-end code peek at other sites you've visited. They can be used to target ads, steal information, or discern your identity. Creepy.
 
 Historically, one of the most popular history-sniffing techniques was to style <code class="language-css">:visited</code> links using CSS and check their color with JavaScript. Major browsers started implementing [privacy changes][FF security] to address this attack in 2010.[^1] As a result, JavaScript's <code class="language-javascript">getComputedStyle</code> now returns unvisited styles for visited sites.
