@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>rileyjshaw</title>
+		<description>The work and diatribes of rileyjshaw</description>
+		<link>http://www.rileyjshaw.com</link>
+		<atom:link href="http://www.rileyjshaw.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The pool on the roof must have a leak</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I joined Open Whisper Systems to pitch in on the TextSecure Chrome extension. It was the experience of a lifetime.</description>
+				
+				<pubDate>Wed, 21 Jan 2015 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
+			</item>
+		
+			<item>
+				<title>Graphing depth</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>On a beautiful summer&#39;s afternoon while all the other children were playing outside I made pictures out of procedural hobby math.</description>
+				
+				<pubDate>Thu, 04 Dec 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/graphing-depth</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/graphing-depth</guid>
+			</item>
+		
+			<item>
+				<title>Stealing history with CSS binary trees</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>Some shady CSS tricks form like Voltron to discover your darkest secrets.</description>
+				
+				<pubDate>Wed, 12 Nov 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</guid>
+			</item>
+		
+			<item>
+				<title>Riddle: chicken prices</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I wrote a comment on Hacker News that people liked.</description>
+				
+				<pubDate>Tue, 28 Oct 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/chicken-prices</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/chicken-prices</guid>
+			</item>
+		
+			<item>
+				<title>Fin?</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I was so ready to stop iron-blogging that I didn&#39;t publish my last post.</description>
+				
+				<pubDate>Sun, 12 Oct 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/fin</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/fin</guid>
+			</item>
+		
+			<item>
+				<title>The cat&#39;s-whisker detector</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>A history lesson: the cat&#39;s-whisker radio was the first commercial semiconductor device. It sparked an industry that fundamentally changed the way we communicate.</description>
+				
+				<pubDate>Tue, 22 Apr 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/the-cat's-whisker-detector</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/the-cat's-whisker-detector</guid>
+			</item>
+		
+			<item>
+				<title>Accidental reset</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>Sometimes, all you need is a small rubber washer.</description>
+				
+				<pubDate>Mon, 14 Apr 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/accidental-reset</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/accidental-reset</guid>
+			</item>
+		
+			<item>
+				<title>A language for weaklings</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>Zed A. Shaw rocks, and if you&#39;re not malloc-ing you&#39;re a weakling.</description>
+				
+				<pubDate>Tue, 01 Apr 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/a-language-for-weaklings</guid>
+			</item>
+		
+			<item>
+				<title>Hue-angle Transitions</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>Color transitions on the web leave something to be desired but with a bit of elbow grease we can make them awesome again.</description>
+				
+				<pubDate>Mon, 31 Mar 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/hue-angle-transitions</guid>
+			</item>
+		
+			<item>
+				<title>Your art teacher lied</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>The primary colors are &lt;em&gt;not&lt;/em&gt; red, yellow, and blue. Even if they were, they wouldn&#39;t be the &lt;em&gt;only&lt;/em&gt; primary colors.</description>
+				
+				<pubDate>Sun, 23 Mar 2014 00:00:00 -1000</pubDate>
+				<link>http://www.rileyjshaw.com/blog/your-art-teacher-lied</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/your-art-teacher-lied</guid>
+			</item>
+		
+	</channel>
+</rss>
