@@ -4,7 +4,7 @@
 		<title>rileyjshaw</title>
 		<description>The work and diatribes of rileyjshaw</description>
 		<link>http://www.rileyjshaw.com</link>
-		<atom:link href="http://www.rileyjshaw.com/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>The pool on the roof must have a leak</title>
