@@ -7,6 +7,19 @@
 		<atom:link href="http://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>How to generate a static site from a folder of assets using Gulp</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>Learn how to create a static site with internal links based on a directory of files of any type.</description>
+				
+				<pubDate>Thu, 05 Mar 2015 00:00:00 -0500</pubDate>
+				<link>http://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</guid>
+			</item>
+		
+			<item>
 				<title>The pool on the roof must have a leak</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -121,19 +134,6 @@
 				<pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
 				<link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
 				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/hue-angle-transitions</guid>
-			</item>
-		
-			<item>
-				<title>Your art teacher lied</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>The primary colors are &lt;em&gt;not&lt;/em&gt; red, yellow, and blue. Even if they were, they wouldn&#39;t be the &lt;em&gt;only&lt;/em&gt; primary colors.</description>
-				
-				<pubDate>Sun, 23 Mar 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/your-art-teacher-lied</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/your-art-teacher-lied</guid>
 			</item>
 		
 	</channel>
