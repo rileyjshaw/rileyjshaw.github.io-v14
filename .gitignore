@@ -38,8 +38,5 @@ dist
 node_modules
 .tmp
 
-# Ignore build-generated files #
-Gemfile.lock
-
 # Be the most SECRETIVE MAN IN THE WORLD! #
 _drafts
