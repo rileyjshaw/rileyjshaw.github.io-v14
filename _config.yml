@@ -14,7 +14,7 @@ author:
 exclude: ['images', 'css', 'scripts', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-gems: [jekyll/timeago]
+gems: [jekyll-timeago]
 
 include: ['.htaccess']
 
@@ -47,4 +47,4 @@ markdown: kramdown
 kramdown:
     input: GFM
 
-pygments: false
+highlighter: null
