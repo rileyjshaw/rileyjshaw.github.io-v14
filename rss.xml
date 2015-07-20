@@ -7,6 +7,19 @@
 		<atom:link href="http://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Khan Academy: a new employee&#39;s primer</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I work at Khan Academy now and I like it here.</description>
+				
+				<pubDate>Mon, 20 Jul 2015 00:00:00 -0700</pubDate>
+				<link>http://www.rileyjshaw.com/blog/khan-academy-primer</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/khan-academy-primer</guid>
+			</item>
+		
+			<item>
 				<title>How to generate a static site from a folder of assets using Gulp</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -121,19 +134,6 @@
 				<pubDate>Tue, 01 Apr 2014 00:00:00 -0700</pubDate>
 				<link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
 				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/a-language-for-weaklings</guid>
-			</item>
-		
-			<item>
-				<title>Hue-angle Transitions</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>Color transitions on the web leave something to be desired but with a bit of elbow grease we can make them awesome again.</description>
-				
-				<pubDate>Mon, 31 Mar 2014 00:00:00 -0700</pubDate>
-				<link>http://www.rileyjshaw.com/blog/hue-angle-transitions</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/hue-angle-transitions</guid>
 			</item>
 		
 	</channel>
