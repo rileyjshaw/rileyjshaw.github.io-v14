@@ -294,7 +294,6 @@ module.exports = function (grunt) {
       all: [
         'Gruntfile.js',
         '<%= yeoman.app %>/scripts/**/*.js',
-        '<%= yeoman.app %>/_bower_components/mousetrap/mousetrap.min.js',
         'test/spec/**/*.js'
       ]
     },
