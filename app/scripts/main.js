@@ -122,11 +122,11 @@
   var navHidden = false;
   var checkScroll = function ( event ) {
     if ( navHidden ) {
-      if ( body.scrollTop <= 0 ) {
+      if ( window.pageYOffset <= 0 ) {
         removeClass( body, 'scrolled' );
         navHidden = false;
       }
-    } else if ( body.scrollTop > 0 ) {
+    } else if ( window.pageYOffset > 0 ) {
       addClass( body, 'scrolled' );
       navHidden = true;
     }
