@@ -1,4 +1,6 @@
-var tagInput = document.getElementById('tagField'), 
+alert('Works best in FireFox :)');
+
+var tagInput = document.getElementById('tagField'),
 	theUL = document.getElementById('instafeed'),
 	credit = document.getElementById('author'),
 	tagName = 'planewindow',
