@@ -41,6 +41,8 @@ To get a list of demos into Gulp, I used a module called <a href="https://www.np
 
 ```javascript
 var glob = require('glob');
+var gulp = require('gulp');
+var path = require('path');
 
 gulp.task('build' function () {
   return glob('../path/to/demos/', function (err, files) {
