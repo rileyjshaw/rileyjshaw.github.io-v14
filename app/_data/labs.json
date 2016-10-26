@@ -1,0 +1,2513 @@
+[
+  {
+    "title": "Black lotus",
+    "description": [],
+    "date": "2016-10-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/ZpXPYR/"
+  },
+  {
+    "title": "Cyber pilot (with controls)",
+    "description": [
+      "Play this one in a small window. Arrow keys to move around."
+    ],
+    "date": "2016-09-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "86",
+    "href": "http://codepen.io/rileyjshaw/pen/YGQVqK?editors=1000"
+  },
+  {
+    "title": "Blinds (with type)",
+    "description": [],
+    "date": "2016-09-26",
+    "categories": [
+      "js"
+    ],
+    "coolness": "55",
+    "href": "http://codepen.io/rileyjshaw/full/mAmRNa/"
+  },
+  {
+    "title": "Ring",
+    "description": [
+      "It was left here by the aliens."
+    ],
+    "date": "2016-09-26",
+    "categories": [
+      "js"
+    ],
+    "coolness": "82",
+    "href": "http://codepen.io/rileyjshaw/full/YGVKgV/"
+  },
+  {
+    "title": "Bubble",
+    "description": [
+      "Follows your mouse."
+    ],
+    "date": "2016-09-10",
+    "categories": [
+      "js"
+    ],
+    "coolness": "52",
+    "href": "http://codepen.io/rileyjshaw/full/ozjEoK/"
+  },
+  {
+    "title": "Cyclic CA (PICO-8)",
+    "description": [],
+    "date": "2016-08-29",
+    "categories": [
+      "other"
+    ],
+    "coolness": "40",
+    "href": "http://www.lexaloffle.com/bbs/?tid=27569"
+  },
+  {
+    "title": "w h a t",
+    "description": [
+      "Short narrative experiment written for the PICO-8 fantasy console."
+    ],
+    "date": "2016-08-28",
+    "categories": [
+      "other",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "http://www.lexaloffle.com/bbs/?tid=27571"
+  },
+  {
+    "title": "ASCII animator",
+    "description": [],
+    "date": "2016-08-23",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "59",
+    "href": "http://codepen.io/rileyjshaw/full/YWbbGJ/"
+  },
+  {
+    "title": "Sun",
+    "description": [],
+    "date": "2016-08-08",
+    "categories": [
+      "js"
+    ],
+    "coolness": "40",
+    "href": "http://codepen.io/rileyjshaw/full/WxYkmW/"
+  },
+  {
+    "title": "Blinds",
+    "description": [
+      "It resizes!"
+    ],
+    "date": "2016-08-08",
+    "categories": [
+      "js"
+    ],
+    "coolness": "46",
+    "href": "http://codepen.io/rileyjshaw/full/kXQXAo/"
+  },
+  {
+    "title": "Blinkers",
+    "description": [
+      "Threw this together to help with color inspiration for another project."
+    ],
+    "date": "2016-08-08",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/full/pbQEoA/"
+  },
+  {
+    "title": "Flubber",
+    "description": [
+      "Nobody's perfect! Takes a MIDI file and messes up a few of the notes."
+    ],
+    "date": "2016-06-19",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "40",
+    "href": "https://github.com/rileyjshaw/flubber"
+  },
+  {
+    "title": "Virtuoso",
+    "description": [
+      "Play a .mid file at your own speed using a MIDI keyboard!",
+      "Works best with MIDI keyboards, but you can use your computer keyboard too."
+    ],
+    "date": "2016-06-17",
+    "categories": [
+      "js",
+      "bestof",
+      "other"
+    ],
+    "coolness": "80",
+    "href": "https://github.com/rileyjshaw/virtuoso"
+  },
+  {
+    "title": "Plaster swirls, thicker",
+    "description": [],
+    "date": "2016-06-15",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "65",
+    "href": "http://codepen.io/rileyjshaw/full/Meeedv"
+  },
+  {
+    "title": "Plaster swirls, sort of",
+    "description": [
+      "I've got plaster swirls on my ceiling. This began as a recreation of that and turned into something else."
+    ],
+    "date": "2016-06-15",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "65",
+    "href": "http://codepen.io/rileyjshaw/full/RRajov/"
+  },
+  {
+    "title": "Synthesia",
+    "description": [
+      "Synthesizer synesthesia. Turn MIDI notes into colors."
+    ],
+    "date": "2016-06-05",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "54",
+    "href": "https://github.com/rileyjshaw/synthesia"
+  },
+  {
+    "title": "Spokes, etc",
+    "description": [
+      "Geometric patterns created from straight lines cutting through a circle."
+    ],
+    "date": "2016-06-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/collection/DmZZVV/"
+  },
+  {
+    "title": "Spotlight",
+    "description": [
+      "Move your mouse/finger. Remix of \"filings\"."
+    ],
+    "date": "2016-06-01",
+    "categories": [
+      "js"
+    ],
+    "coolness": "64",
+    "href": "http://codepen.io/rileyjshaw/pen/aZzKGa"
+  },
+  {
+    "title": "Keyboard keyboard",
+    "description": [
+      "Use a MIDI keyboard as your laptop keyboard.",
+      "Hard press = UPPERCASE, soft press = lowercase."
+    ],
+    "date": "2016-05-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "https://github.com/rileyjshaw/keyboard-keyboard"
+  },
+  {
+    "title": "Typing for two",
+    "description": [
+      "A competitive typing tutor. Two players type different paragraphs on the same keyboard, simultaneously."
+    ],
+    "date": "2016-05-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "https://github.com/rileyjshaw/typing-for-two"
+  },
+  {
+    "title": "Free",
+    "description": [
+      "Poster? Coaster?"
+    ],
+    "date": "2016-05-24",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/full/ZOzGKq/"
+  },
+  {
+    "title": "Falling",
+    "description": [
+      "Looping CSS animation."
+    ],
+    "date": "2016-05-22",
+    "categories": [
+      "css"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/pen/PNMZVG?editors=1100"
+  },
+  {
+    "title": "Single line tiling",
+    "description": [
+      "Tiling patterns from a single spiral with a fixed modulation signal.",
+      "Though the line's formula stays consistent as it spirals out, the tile grid doesn't increase in size."
+    ],
+    "date": "2016-05-18",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "97",
+    "href": "http://codepen.io/collection/nYWPBp/"
+  },
+  {
+    "title": "swirls",
+    "description": [
+      "Abandoned background generator. Pattern is pretty played out."
+    ],
+    "date": "2016-05-16",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/full/YqbGKK/"
+  },
+  {
+    "title": "Shell or something",
+    "description": [
+      "Stumbled upon this on my way to making <a href=\"http://codepen.io/rileyjshaw/full/YqbGKK/\">swirls</a>."
+    ],
+    "date": "2016-05-16",
+    "categories": [
+      "js"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/full/RamaYJ/"
+  },
+  {
+    "title": "Literate theme",
+    "description": [
+      "A CLI tool to update your favorite text editor theme. Emphasizes comments and mutes everything else."
+    ],
+    "date": "2016-05-12",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "81",
+    "href": "https://github.com/rileyjshaw/literate-theme"
+  },
+  {
+    "title": "Jittery visualizer v3",
+    "description": [
+      "V1 -&gt; V2 contained the <em>tiniest</em> tweak perceptually (smooth line all 'round), but it was a technical challenge. V2 -&gt; V3 contains the tiniest code tweaks, but is perceptually very different. Uses canvas transform logic from <a href=\"http://codepen.io/rileyjshaw/pen/ONrdoM\" target=\"_blank\">zonin'</a>."
+    ],
+    "date": "2016-05-05",
+    "categories": [
+      "js"
+    ],
+    "coolness": "84",
+    "href": "http://codepen.io/rileyjshaw/full/NNeoMR/"
+  },
+  {
+    "title": "zonin'",
+    "description": [
+      "Efficiently scales and rotates canvas image data <em>seemingly</em> in-place using two overlapping canvas elements."
+    ],
+    "date": "2016-05-05",
+    "categories": [
+      "js"
+    ],
+    "coolness": "56",
+    "href": "http://codepen.io/rileyjshaw/pen/ONrdoM"
+  },
+  {
+    "title": "Dandelion",
+    "description": [
+      "Independently oscillating points that form a greater picture together."
+    ],
+    "date": "2016-05-05",
+    "categories": [
+      "js"
+    ],
+    "coolness": "39",
+    "href": "http://codepen.io/rileyjshaw/full/bpOoyW/"
+  },
+  {
+    "title": "Have you seen my ship?",
+    "description": [
+      "It's pretty much impossible to see the ship... :/"
+    ],
+    "date": "2016-05-04",
+    "categories": [
+      "js"
+    ],
+    "coolness": "39",
+    "href": "http://codepen.io/rileyjshaw/full/BKvWBP/"
+  },
+  {
+    "title": "Circling circles",
+    "description": [
+      "Very simple rule applied to a bunch of particles for a smooth ripple effect.",
+      "Changing the timing function on this one is extremely satisfying."
+    ],
+    "date": "2016-05-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/rileyjshaw/full/xVQBLG/"
+  },
+  {
+    "title": "Jittery visualizer v2",
+    "description": [
+      "Added a linear ramp and smoothing function to v1 to make the lowest frequency bin match up with the highest frequency bin in both position and derivative. The effect is a continuous circle, versus the <a href=\"http://codepen.io/rileyjshaw/full/ogVNgW/\" target=\"_blank\">\"speech-bubble\" notch effect of v1</a>."
+    ],
+    "date": "2016-04-28",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/rileyjshaw/full/oxaxqX/"
+  },
+  {
+    "title": "Stepping down a corridor",
+    "description": [
+      "Trying out CSS animation steps()."
+    ],
+    "date": "2016-04-28",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/full/LNgLBj"
+  },
+  {
+    "title": "slant + swap + shift",
+    "description": [
+      "Playing with bg gradient dots, CSS only."
+    ],
+    "date": "2016-04-26",
+    "categories": [
+      "css"
+    ],
+    "coolness": "69",
+    "href": "http://codepen.io/collection/XGpwzE/"
+  },
+  {
+    "title": "sway + swell + spin",
+    "description": [
+      "Playing with bg gradient stripes, CSS only."
+    ],
+    "date": "2016-04-25",
+    "categories": [
+      "css"
+    ],
+    "coolness": "69",
+    "href": "http://codepen.io/collection/nmyQRj/"
+  },
+  {
+    "title": "Typelab",
+    "description": [
+      "Repeatedly apply a set of transformations to text."
+    ],
+    "date": "2016-04-16",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "74",
+    "href": "http://codepen.io/rileyjshaw/full/eZrzbK/"
+  },
+  {
+    "title": "b+w",
+    "description": [],
+    "date": "2016-04-13",
+    "categories": [
+      "js"
+    ],
+    "coolness": "34",
+    "href": "http://codepen.io/rileyjshaw/pen/bpvwxQ"
+  },
+  {
+    "title": "XOR profile card",
+    "description": [
+      "Accidentally discovered this 2d water effect by stacking sine waves. So simple, but it looks pretty convincing!"
+    ],
+    "date": "2016-04-11",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/pen/vGdgWG"
+  },
+  {
+    "title": "Function cards",
+    "description": [
+      "Simple visualizations of sinusoidal functions."
+    ],
+    "date": "2016-04-11",
+    "categories": [
+      "js"
+    ],
+    "coolness": "54",
+    "href": "http://codepen.io/collection/DmyjQv/"
+  },
+  {
+    "title": "Desire paths: remixes",
+    "description": [],
+    "date": "2016-04-10",
+    "categories": [
+      "js"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/collection/DRPBqZ/"
+  },
+  {
+    "title": "filings",
+    "description": [
+      "Cliché vector \"field\" \"diagram\"."
+    ],
+    "date": "2016-04-04",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/pen/ONxKVd?editors=0010"
+  },
+  {
+    "title": "Desire paths",
+    "description": [
+      "Remix of ~~~ using angles &amp; moving agents instead of absolute positions."
+    ],
+    "date": "2016-04-04",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/rileyjshaw/full/mPBZNj/"
+  },
+  {
+    "title": "Look closer",
+    "description": [
+      "CSS-only typography experiment."
+    ],
+    "date": "2016-04-04",
+    "categories": [
+      "css"
+    ],
+    "coolness": "55",
+    "href": "http://codepen.io/rileyjshaw/pen/ZWXdBN"
+  },
+  {
+    "title": "Gems",
+    "description": [],
+    "date": "2016-04-03",
+    "categories": [
+      "css"
+    ],
+    "coolness": "28",
+    "href": "http://codepen.io/rileyjshaw/full/QNqPZE/"
+  },
+  {
+    "title": "Lattice 3",
+    "description": [
+      "A tricker, more generalized case of Lattice implemented on a trangular grid."
+    ],
+    "date": "2016-03-30",
+    "categories": [
+      "js"
+    ],
+    "coolness": "68",
+    "href": "http://codepen.io/rileyjshaw/pen/oxewYe/?editors=0010"
+  },
+  {
+    "title": "Lattice",
+    "description": [
+      "Lines + circles."
+    ],
+    "date": "2016-03-29",
+    "categories": [
+      "js"
+    ],
+    "coolness": "66",
+    "href": "http://codepen.io/collection/DYwLBM/"
+  },
+  {
+    "title": "Flexin' donut",
+    "description": [],
+    "date": "2016-03-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "http://s.codepen.io/rileyjshaw/debug/BKZOwz"
+  },
+  {
+    "title": "~~~",
+    "description": [
+      "Blend modes + simplex noise."
+    ],
+    "date": "2016-03-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "64",
+    "href": "http://codepen.io/rileyjshaw/pen/oxwVNw"
+  },
+  {
+    "title": "Blips",
+    "description": [],
+    "date": "2016-03-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/pen/Ragqyq"
+  },
+  {
+    "title": "Cyber pilot",
+    "description": [
+      "Title screen born of nostalgia for the pictures we used to draw on oscilloscopes.",
+      "n͖͙͍͔o̴̰̤͈͙̘̥w͉̮ ̩w̺̘i̠̲͉̘̪t̟̜͉͓͈͞h̩͚̺̕ ̧͉̹̮̠ͅm̻̰͔̜͚o̲̥̘r̶͕̟͇͇̟̭e̠ ̩̺̖̟g̪̬̰̺̟̪͈͜l͇͉͚̬͞i̡ṭ̠̲̰̦ͅc̨̣ͅh̰̲̯̺͕̼͈͜e̷͕̜͎̱s̢̩"
+    ],
+    "date": "2016-03-28",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "82",
+    "href": "http://codepen.io/rileyjshaw/full/eZRLaP"
+  },
+  {
+    "title": "Canvas compositing operations",
+    "description": [
+      "A quick look into some of the options for context.globalCompositeOperation."
+    ],
+    "date": "2016-03-23",
+    "categories": [
+      "js"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/full/remdxj/"
+  },
+  {
+    "title": "snowballs!",
+    "description": [
+      "Async/await ftw"
+    ],
+    "date": "2016-03-17",
+    "categories": [
+      "js"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/full/yOgKvp/"
+  },
+  {
+    "title": "Stormy green (ripples)",
+    "description": [
+      "A version of Stormy Green that doesn't drift out of phase."
+    ],
+    "date": "2016-03-14",
+    "categories": [
+      "js"
+    ],
+    "coolness": "71",
+    "href": "http://codepen.io/rileyjshaw/full/dMpmRY/"
+  },
+  {
+    "title": "Stormy green",
+    "description": [
+      "Sine waves shifting sinusoidally."
+    ],
+    "date": "2016-03-14",
+    "categories": [
+      "js"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/rileyjshaw/full/reMdZE/"
+  },
+  {
+    "title": "┋┋┋",
+    "description": [
+      "Variations on \"Stone\" with controlled line angles across the circle."
+    ],
+    "date": "2016-03-13",
+    "categories": [
+      "js"
+    ],
+    "coolness": "74",
+    "href": "http://codepen.io/rileyjshaw/full/mPrXxb/"
+  },
+  {
+    "title": "Stone",
+    "description": [
+      "Sphere effect arising from random lines across a circle.",
+      "I'm sure someone else discovered this effect long before I did."
+    ],
+    "date": "2016-03-13",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "75",
+    "href": "http://codepen.io/rileyjshaw/pen/dMpJre"
+  },
+  {
+    "title": "Arcs",
+    "description": [
+      "A little doodle with a lot of circles.",
+      "Could be done far more efficiently by scaling / translating a fixed amount of concentric circles, but math-ing it was more fun :)"
+    ],
+    "date": "2016-03-11",
+    "categories": [
+      "js"
+    ],
+    "coolness": "36",
+    "href": "http://codepen.io/rileyjshaw/full/yOJzoP/"
+  },
+  {
+    "title": "Smart-splitting window panes (CSS only)",
+    "description": [
+      "If the window is wider than it is tall, it'll split into columns. Otherwise, it'll give you two rows.",
+      "This layout was rather difficult before flexbox came along."
+    ],
+    "date": "2016-03-08",
+    "categories": [
+      "css"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/pen/vGLvVo"
+  },
+  {
+    "title": "Rows of 'em",
+    "description": [
+      "There's nothing like driving by a field of trees in the passenger seat.",
+      "Super quick demo trying (failing, mostly) to capture the perspective effect."
+    ],
+    "date": "2016-03-07",
+    "categories": [
+      "js"
+    ],
+    "coolness": "42",
+    "href": "http://codepen.io/rileyjshaw/full/Rarobr/"
+  },
+  {
+    "title": "Astronomie & Astrophysique",
+    "description": [
+      "Small canvas demo using Lissajous curves."
+    ],
+    "date": "2016-03-06",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "79",
+    "href": "http://codepen.io/rileyjshaw/full/PNPVmK/"
+  },
+  {
+    "title": "Bell curves",
+    "description": [
+      "Hey! It's a normal distribution!"
+    ],
+    "date": "2016-03-06",
+    "categories": [
+      "js"
+    ],
+    "coolness": "40",
+    "href": "http://codepen.io/rileyjshaw/details/ONyGxM/"
+  },
+  {
+    "title": "Groovy!",
+    "description": [
+      "Animated lava lamps with simple non-rectangular collision detection and metaballs for wax clumps."
+    ],
+    "date": "2016-03-05",
+    "categories": [
+      "js"
+    ],
+    "coolness": "78",
+    "href": "http://codepen.io/rileyjshaw/full/MyaGbE/"
+  },
+  {
+    "title": "NoJS edge-adaptive tooltip",
+    "description": [
+      "CSS Flexbox solution to prevent tooltips from overflowing their container at the edges."
+    ],
+    "date": "2016-02-26",
+    "categories": [
+      "css"
+    ],
+    "coolness": "66",
+    "href": "http://codepen.io/rileyjshaw/pen/wGwOWz"
+  },
+  {
+    "title": "Mechanical waves",
+    "description": [
+      "Possible header for \"Mechanical waves and sound\" for Khan Academy's new content redesign.",
+      "Includes a few variations."
+    ],
+    "date": "2016-02-25",
+    "categories": [
+      "js"
+    ],
+    "coolness": "78",
+    "href": "http://codepen.io/collection/XWQERV/"
+  },
+  {
+    "title": "Fadey text backdrop",
+    "description": [
+      "CSS technique to make a semi-transparent background fade in perfectly with its box-shadow."
+    ],
+    "date": "2016-02-24",
+    "categories": [
+      "css"
+    ],
+    "coolness": "44",
+    "href": "http://codepen.io/rileyjshaw/details/obKdzW"
+  },
+  {
+    "title": "Joy Division: Unknown Pleasures",
+    "description": [
+      "Iconic album art, animated with a Gaussian function and some simplex noise.",
+      "Drag your mouse over it, and click for something special."
+    ],
+    "date": "2016-02-23",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "88",
+    "href": "http://codepen.io/rileyjshaw/pen/RrXjGa"
+  },
+  {
+    "title": "Titania",
+    "description": [
+      "Contribution to the publication \"Codrops\" for their Line Menu Styles collection."
+    ],
+    "date": "2016-01-06",
+    "categories": [
+      "css"
+    ],
+    "coolness": "60",
+    "href": "http://tympanus.net/Development/LineMenuStyles/#Titania"
+  },
+  {
+    "title": "whoami.py",
+    "description": [
+      "My contribution to a collection of poems.",
+      "From the project page: \"there is confusion in the mixed layers of metaphors. This is not an obfuscated code repository; not really. In some ways, it is the opposite.\""
+    ],
+    "date": "2015-12-31",
+    "categories": [
+      "other",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "https://raw.githubusercontent.com/eliawry/poetics/master/whoami.py"
+  },
+  {
+    "title": "Easy Inbox Zero",
+    "description": [
+      "A browser extension that removes the unread count from your Gmail inbox and title bar."
+    ],
+    "date": "2015-12-20",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "https://github.com/rileyjshaw/easy-inbox-zero"
+  },
+  {
+    "title": "Eye sea",
+    "description": [
+      "These used to be pokéballs."
+    ],
+    "date": "2015-12-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "44",
+    "href": "http://codepen.io/rileyjshaw/full/dGGGZZ"
+  },
+  {
+    "title": "Gotta catch 'em all",
+    "description": [
+      "Riffing on pokéball wave."
+    ],
+    "date": "2015-12-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/bEEVra/"
+  },
+  {
+    "title": "Pokéball wave",
+    "description": [
+      "Animated demo written alongside a new programmer who was really into Pokémon."
+    ],
+    "date": "2015-12-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "44",
+    "href": "http://codepen.io/rileyjshaw/full/MKKKvw/"
+  },
+  {
+    "title": "Pride and Prejudice (webkit only)",
+    "description": [
+      "Pride and Prejudice in its entirety, sorted by the visual weight of its characters.",
+      "I was hoping for a more convincing gradient; the weight calculation could use some work."
+    ],
+    "date": "2015-12-12",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "https://github.com/rileyjshaw/pride-and-prejudice"
+  },
+  {
+    "title": "boom!",
+    "description": [
+      "A cross-browser WebExtension to declutter busy pages and make them readable again.",
+      "Written originally as a bookmarklet in 2013."
+    ],
+    "date": "2015-11-15",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "50",
+    "href": "https://github.com/rileyjshaw/boom"
+  },
+  {
+    "title": "Tony Montana",
+    "description": [
+      "Nothing gonna stop you, there's nothing that strong ♫",
+      "An excuse to write git push it to-the-limit into the console."
+    ],
+    "date": "2015-10-29",
+    "categories": [
+      "other"
+    ],
+    "coolness": "100",
+    "href": "https://github.com/rileyjshaw/tony-montana"
+  },
+  {
+    "title": "Dark Theme Everywhere",
+    "description": [
+      "A forcefully applied dark theme for the web."
+    ],
+    "date": "2015-10-29",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "https://github.com/rileyjshaw/dark-theme-everywhere"
+  },
+  {
+    "title": "Pond",
+    "description": [
+      "An ASCII art pond ripple animation."
+    ],
+    "date": "2015-10-12",
+    "categories": [
+      "js"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/rileyjshaw/full/vNgJPQ/"
+  },
+  {
+    "title": "XOXO Bingo",
+    "description": [
+      "Bingo cards generated from the attendance list of XOXOFest. The first person to meet enough attendees \"won\" the party.",
+      "Built hastily between speakers on the last day of the festival; requires login with Twitter to protect attendees' identity."
+    ],
+    "date": "2015-09-13",
+    "categories": [
+      "js",
+      "other",
+      "bestof"
+    ],
+    "coolness": "84",
+    "href": "http://bingoxo.club/"
+  },
+  {
+    "title": ".supermac",
+    "description": [
+      "A collection of dotfiles that I use + some scripts to keep 'em in sync."
+    ],
+    "date": "2015-09-07",
+    "categories": [
+      "other"
+    ],
+    "coolness": "89",
+    "href": "https://github.com/rileyjshaw/.supermac"
+  },
+  {
+    "title": "A responsive one-line header",
+    "description": [
+      "Maintains its default font-size until it is too wide to fit on the page. If it starts overflowing, it will adjust to take up 100% of the page width.",
+      "Requires a bit of JS on page load. Just CSS and SVG after that."
+    ],
+    "date": "2015-08-20",
+    "categories": [
+      "css"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/rileyjshaw/pen/eNwGjw"
+  },
+  {
+    "title": "Touchtone math facts",
+    "description": [
+      "A math facts app that you can play from a payphone.",
+      "Call +1.480.360.MATH (6284) from the US, +1.647.360.MATH (6284) from Canada."
+    ],
+    "date": "2015-06-13",
+    "categories": [
+      "other",
+      "bestof"
+    ],
+    "coolness": "92",
+    "href": "https://github.com/rileyjshaw/touchtone-math-facts"
+  },
+  {
+    "title": "Solar static",
+    "description": [
+      "A visual demo using typed arrays.",
+      "Creates a shadow based on mouse position."
+    ],
+    "date": "2015-06-06",
+    "categories": [
+      "js"
+    ],
+    "coolness": "76",
+    "href": "http://codepen.io/rileyjshaw/pen/zGwNzw"
+  },
+  {
+    "title": "SpeeDOMeter",
+    "description": [
+      "A speedometer that travels through time with Doc Brown."
+    ],
+    "date": "2015-05-10",
+    "categories": [
+      "css"
+    ],
+    "coolness": "40",
+    "href": "http://codepen.io/rileyjshaw/pen/bdEvaQ"
+  },
+  {
+    "title": "Window Shopper",
+    "description": [
+      "A Chrome extension: count and list all page-defined global variables."
+    ],
+    "date": "2015-05-05",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "70",
+    "href": "https://chrome.google.com/webstore/detail/window-shopper-list-all"
+  },
+  {
+    "title": "Sliding radio button menu",
+    "description": [
+      "A sliding menu concept using just radio buttons and CSS."
+    ],
+    "date": "2015-04-30",
+    "categories": [
+      "css"
+    ],
+    "coolness": "21",
+    "href": "http://codepen.io/rileyjshaw/pen/Nqqxaj?editors=001"
+  },
+  {
+    "title": "Waveform visualizer",
+    "description": [
+      "Boring minimal audio visualizer."
+    ],
+    "date": "2015-03-29",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/VYRPzy/"
+  },
+  {
+    "title": "Jittery shapes",
+    "description": [
+      "Animated shapes with wavelike edges.",
+      "Includes an audio visualizer built with the Web Audio API."
+    ],
+    "date": "2015-03-26",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/collection/DkNEVG/"
+  },
+  {
+    "title": "Internal link offset (sticky header)",
+    "description": [
+      "Sticky headers cover internally-linked content by default. The most robust solutions I've seen use JS, but these 4 lines of CSS seem to do the trick."
+    ],
+    "date": "2015-03-13",
+    "categories": [
+      "css"
+    ],
+    "coolness": "32",
+    "href": "http://codepen.io/rileyjshaw/pen/OPBBGK?editors=110"
+  },
+  {
+    "title": "Shepard-Risset Glissando",
+    "description": [
+      "Auditory illusion of a tone that continually descends in pitch. It has been described as a \"sonic barber's pole\".",
+      "Implemented with the Web Audio API using custom oscillators."
+    ],
+    "date": "2015-03-03",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "69",
+    "href": "http://codepen.io/rileyjshaw/pen/OPwROr?editors=001"
+  },
+  {
+    "title": "terra.js demos",
+    "description": [],
+    "date": "2015-03-02",
+    "categories": [
+      "js"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/collection/XGogPm/"
+  },
+  {
+    "title": "Fluid simulation",
+    "description": [
+      "Jeff Thomas's Fluid Simulation, ported to Khan Academy's CS platform."
+    ],
+    "date": "2015-03-01",
+    "categories": [
+      "js"
+    ],
+    "coolness": "65",
+    "href": "http://www.khanacademy.org/computer-programming/fluid-"
+  },
+  {
+    "title": "Orbit",
+    "description": [
+      "A game: hit space over the red dots to earn points."
+    ],
+    "date": "2015-02-20",
+    "categories": [
+      "js"
+    ],
+    "coolness": "65",
+    "href": "/orbit/"
+  },
+  {
+    "title": "drawRotatedRect",
+    "description": [
+      "Two versions of a canvas util function."
+    ],
+    "date": "2015-02-08",
+    "categories": [
+      "js"
+    ],
+    "coolness": "10",
+    "href": "http://codepen.io/collection/nYwRVL/"
+  },
+  {
+    "title": "Meta Letters",
+    "description": [
+      "The letters [A-z], composed of smaller versions of themselves."
+    ],
+    "date": "2015-02-01",
+    "categories": [
+      "js"
+    ],
+    "coolness": "43",
+    "href": "http://codepen.io/rileyjshaw/full/zxEGxK/"
+  },
+  {
+    "title": "28 Hour Day",
+    "description": [
+      "A Pebble watchface that divides the week into six 28-hour days instead of the standard 24/7."
+    ],
+    "date": "2015-01-29",
+    "categories": [
+      "other"
+    ],
+    "coolness": "71",
+    "href": "https://apps.getpebble.com/applications/54cadfd211e375bdc"
+  },
+  {
+    "title": "Slidey menu",
+    "description": [
+      "A quick ~10m demo to demonstrate some animation concepts.",
+      "Probably doesn't work cross-browser."
+    ],
+    "date": "2015-01-18",
+    "categories": [
+      "css"
+    ],
+    "coolness": "21",
+    "href": "http://codepen.io/rileyjshaw/full/emWJPW/"
+  },
+  {
+    "title": "Flexbox chat interface",
+    "description": [
+      "Responsive chat interface using CSS flexbox.",
+      "Created as a proof of concept for TextSecure's browser extension layout."
+    ],
+    "date": "2015-01-12",
+    "categories": [
+      "css"
+    ],
+    "coolness": "33",
+    "href": "http://codepen.io/rileyjshaw/full/LExqQE/"
+  },
+  {
+    "title": "Rainbow text",
+    "description": [],
+    "date": "2015-01-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "28",
+    "href": "http://codepen.io/rileyjshaw/details/vExWpe/"
+  },
+  {
+    "title": "Hackers.cool",
+    "description": [
+      "Retro command line emulator using my TinyTerm library.",
+      "Type \"help\" for command list."
+    ],
+    "date": "2015-01-08",
+    "categories": [
+      "js",
+      "css",
+      "bestof"
+    ],
+    "coolness": "82",
+    "href": "http://hackers.cool/~rileyjshaw/"
+  },
+  {
+    "title": "Console",
+    "description": [
+      "Functional JavaScript terminal using my TinyTerm library."
+    ],
+    "date": "2014-12-21",
+    "categories": [
+      "js"
+    ],
+    "coolness": "72",
+    "href": "/tinyterm"
+  },
+  {
+    "title": "Newspaper column",
+    "description": [
+      "Web typography experiment: drop cap + justify."
+    ],
+    "date": "2014-12-11",
+    "categories": [
+      "css"
+    ],
+    "coolness": "8",
+    "href": "http://codepen.io/rileyjshaw/details/ByKKyG/"
+  },
+  {
+    "title": "Typographic HUSL sweep",
+    "description": [
+      "Since I made a fancy headline for <a href=\"http://codepen.io/rileyjshaw/full/OPNvzN/\" target=\"_blank\">Terra</a> I figured it was only fair to make one for <a href=\"http://rileyjshaw.com/sweep\" target=\"_blank\">sweep</a>.",
+      "Never used."
+    ],
+    "date": "2014-12-14",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/rileyjshaw/full/jEqvLp/"
+  },
+  {
+    "title": "Fingerprint",
+    "description": [
+      "In-browser keystroke dynamics demo using Tappy."
+    ],
+    "date": "2014-12-09",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "78",
+    "href": "http://fingerprint.tappy.pw/"
+  },
+  {
+    "title": "Tilted type",
+    "description": [
+      "Web typography experiment using CSS transforms and SVG."
+    ],
+    "date": "2014-11-29",
+    "categories": [
+      "css"
+    ],
+    "coolness": "5",
+    "href": "http://codepen.io/rileyjshaw/full/gbapBa/"
+  },
+  {
+    "title": "Multi-level spoilers",
+    "description": [
+      "UI pattern for nested spoilers.",
+      "Demo involved patching Adobe Web Platform's balance-text polyfill."
+    ],
+    "date": "2014-11-22",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/pen/oggBxz"
+  },
+  {
+    "title": "Folding tutorial concept",
+    "description": [
+      "UI experiment for line-by-line tutorials. Annotations can be turned off to expose a complete code example."
+    ],
+    "date": "2014-11-13",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "75",
+    "href": "http://codepen.io/rileyjshaw/full/raNLdL/"
+  },
+  {
+    "title": "My website fits in a favicon",
+    "description": [],
+    "date": "2014-11-10",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/bNbxjg"
+  },
+  {
+    "title": "Text fade-in effect",
+    "description": [
+      "A bit of an anti-pattern, but people seemed to like it."
+    ],
+    "date": "2014-11-08",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "23",
+    "href": "http://codepen.io/rileyjshaw/full/azoLwb/"
+  },
+  {
+    "title": "Text fly-in effect",
+    "description": [],
+    "date": "2014-11-08",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "23",
+    "href": "http://codepen.io/rileyjshaw/full/pvzdzX/"
+  },
+  {
+    "title": "Moore / Von Neumann neighborhoods",
+    "description": [
+      "Utils for <a href=\"/terra\">Terra</a>."
+    ],
+    "date": "2014-11-04",
+    "categories": [
+      "js"
+    ],
+    "coolness": "12",
+    "href": "http://codepen.io/rileyjshaw/full/chaJe/"
+  },
+  {
+    "title": "Tic Attack Toe",
+    "description": [
+      "Rapidfire, turnless tic-tac-toe with a custom websocket lobby.",
+      "Inspired by Kung-Fu Chess."
+    ],
+    "date": "2014-11-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "80",
+    "href": "/tic-attack-toe"
+  },
+  {
+    "title": "Reaction",
+    "description": [
+      "Reaction game that steals your history*. It exploits alpha-rounding to create an n-input OR gate for CSS :visited states, then probes links in sequential binary trees.",
+      "*This is a proof-of-concept and won't actually steal anything."
+    ],
+    "date": "2014-10-27",
+    "categories": [
+      "js",
+      "css",
+      "bestof"
+    ],
+    "coolness": "90",
+    "href": "/visited-vectors/reaction"
+  },
+  {
+    "title": "Racer",
+    "description": [
+      "3D race-to-the-finish game.",
+      "Built with a custom raycaster / collision engine."
+    ],
+    "date": "2014-10-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "83",
+    "href": "/racer"
+  },
+  {
+    "title": "Material design ripple effect",
+    "description": [
+      "Needed this for <a href=\"http://play.tappy.pw\" target=\"_blank\">tappy</a> before there were 1000 libraries to choose from."
+    ],
+    "date": "2014-10-12",
+    "categories": [
+      "js"
+    ],
+    "coolness": "13",
+    "href": "http://codepen.io/rileyjshaw/pen/uiJqo"
+  },
+  {
+    "title": "Funky wallpaper in 106B of JavaScript",
+    "description": [
+      "Warning: contains a blocking loop that may cause browsers to hang briefly."
+    ],
+    "date": "2014-10-12",
+    "categories": [
+      "js"
+    ],
+    "coolness": "45",
+    "href": "http://codepen.io/rileyjshaw/pen/EdAeq"
+  },
+  {
+    "title": "Funky wallpaper with blur effect in 111B of JavaScript",
+    "description": [
+      "Warning: contains a blocking loop that may cause browsers to hang briefly."
+    ],
+    "date": "2014-10-12",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/pen/tmGxj"
+  },
+  {
+    "title": "Film-grain effect in 117B of JavaScript",
+    "description": [
+      "Warning: contains a blocking loop that may cause browsers to hang briefly."
+    ],
+    "date": "2014-10-12",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "45",
+    "href": "http://codepen.io/rileyjshaw/pen/enfkc"
+  },
+  {
+    "title": "Super slinky",
+    "description": [
+      "No jQuery dependency, section progress shown in headers, click to scroll, resizable with scrollbar on window. Inspired by Slinky.js and DesignWall.",
+      "Currently doesn't work on iOS &lt; 8 since they mess with scroll events. If you use this in production, look into iScroll."
+    ],
+    "date": "2014-10-04",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "81",
+    "href": "http://codepen.io/rileyjshaw/full/pIFly/"
+  },
+  {
+    "title": "Short domain finder",
+    "description": [
+      "Search for emoji domains and short domains."
+    ],
+    "date": "2014-09-16",
+    "categories": [
+      "other"
+    ],
+    "coolness": "55",
+    "href": "https://github.com/rileyjshaw/domains"
+  },
+  {
+    "title": "CSS tab bar",
+    "description": [
+      "For Pairjam."
+    ],
+    "date": "2014-09-12",
+    "categories": [
+      "css"
+    ],
+    "coolness": "14",
+    "href": "http://codepen.io/rileyjshaw/pen/iIjcp/"
+  },
+  {
+    "title": "Expanding user circles",
+    "description": [
+      "For Pairjam.",
+      "Pretty bad interaction tbh."
+    ],
+    "date": "2014-09-12",
+    "categories": [
+      "css"
+    ],
+    "coolness": "9",
+    "href": "http://codepen.io/rileyjshaw/pen/zIpqi/"
+  },
+  {
+    "title": "Face",
+    "description": [
+      "Displays a random ASCII face."
+    ],
+    "date": "2014-09-07",
+    "categories": [
+      "js"
+    ],
+    "coolness": "10",
+    "href": "/face"
+  },
+  {
+    "title": "Everything button",
+    "description": [
+      "Initial pass at the menu system for Pairjam."
+    ],
+    "date": "2014-09-14",
+    "categories": [
+      "css"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/DplJB"
+  },
+  {
+    "title": "\"Points\" color palette",
+    "description": [
+      "Hacked together an app with a rainbow interface. Threw this page together to see how things looked together.",
+      "100% for personal use so...",
+      "¯\\_(ツ)_/¯"
+    ],
+    "date": "2014-09-01",
+    "categories": [
+      "css"
+    ],
+    "coolness": "16",
+    "href": "http://codepen.io/rileyjshaw/full/JvdrG/"
+  },
+  {
+    "title": "Graphing depth",
+    "description": [
+      "Pretty images from math.",
+      "Supports my <a href=\"/blog/graphing-depth/\">blog post</a> of the same name."
+    ],
+    "date": "2014-27-31",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/collection/amDJo/"
+  },
+  {
+    "title": "Reduce Background Flicker",
+    "description": [
+      "A Chrome extension to preserve the background color between page loads."
+    ],
+    "date": "2014-07-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "https://github.com/rileyjshaw/reduce-background-flicke"
+  },
+  {
+    "title": "n-input OR gate in CSS",
+    "description": [
+      "Used to work. Doesn't anymore.",
+      "Part of <a href=\"/blog/stealing-history-with-CSS-binary-trees/\">\"Stealing history with CSS binary trees\"</a>."
+    ],
+    "date": "2014-06-26",
+    "categories": [
+      "css"
+    ],
+    "coolness": "60",
+    "href": "http://codepen.io/rileyjshaw/pen/CjiKf"
+  },
+  {
+    "title": "Thoughtboard",
+    "description": [
+      "Democratic billboard for sharing the pulse of a community. Popular thoughts will be displayed on the billboard for all to see."
+    ],
+    "date": "2014-05-31",
+    "categories": [
+      "other"
+    ],
+    "coolness": "85",
+    "href": "https://github.com/Queens-Hacks/thoughtboard"
+  },
+  {
+    "title": "Glorious pattern matcher",
+    "description": [
+      "Takes a series of characters and a series of words and checks if they match the same sequence. Words need not be delimited."
+    ],
+    "date": "2014-05-20",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "85",
+    "href": "/glorious-pattern-matcher/"
+  },
+  {
+    "title": "filesupply",
+    "description": [
+      "WebRTC file sharing concept thrown together in ~40 minutes (or your pizza's free!)"
+    ],
+    "date": "2014-05-19",
+    "categories": [
+      "js"
+    ],
+    "coolness": "41",
+    "href": "https://github.com/rileyjshaw/filesupply"
+  },
+  {
+    "title": "A disco badass",
+    "description": [
+      "How I like to think of myself."
+    ],
+    "date": "2014-05-09",
+    "categories": [
+      "css"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/full/acjvs/"
+  },
+  {
+    "title": "Wind alarm",
+    "description": [
+      "Only wakes you up if the wind is howling. An alarm for kiteboarders."
+    ],
+    "date": "2014-05-07",
+    "categories": [
+      "other"
+    ],
+    "coolness": "68",
+    "href": "https://github.com/rileyjshaw/wind-alarm"
+  },
+  {
+    "title": "Key Generator",
+    "description": [
+      "A super-efficient memoized key generator in JavaScript.",
+      "Lowercase alphanumeric, length [1, 198)."
+    ],
+    "date": "2014-04-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "57",
+    "href": "http://codepen.io/rileyjshaw/full/olzJI/"
+  },
+  {
+    "title": "Thin diagonal stripes",
+    "description": [
+      "CSS gradient rule for thin diagonal lines.",
+      "Cross-device, cross-browser."
+    ],
+    "date": "2014-04-24",
+    "categories": [
+      "css"
+    ],
+    "coolness": "18",
+    "href": "http://codepen.io/rileyjshaw/full/dBygE"
+  },
+  {
+    "title": "Mirror",
+    "description": [
+      "Small demo of live translation synchronization."
+    ],
+    "date": "2014-04-24",
+    "categories": [
+      "js"
+    ],
+    "coolness": "24",
+    "href": "http://codepen.io/rileyjshaw/full/BvKni"
+  },
+  {
+    "title": "Fastdraw",
+    "description": [
+      "Checks how quickly you can navigate to other sites in a new tab. Only works in Firefox."
+    ],
+    "date": "2014-04-14",
+    "categories": [
+      "js"
+    ],
+    "coolness": "20",
+    "href": "/fastdraw"
+  },
+  {
+    "title": "Pyramid",
+    "description": [],
+    "date": "2014-04-17",
+    "categories": [
+      "js"
+    ],
+    "coolness": "12",
+    "href": "http://codepen.io/rileyjshaw/full/dihjv/"
+  },
+  {
+    "title": "Tiny boxes",
+    "description": [
+      "Chat through happenstance. The interface adapts to meet demand."
+    ],
+    "date": "2014-03-19",
+    "categories": [
+      "js",
+      "css",
+      "bestof"
+    ],
+    "coolness": "70",
+    "href": "http://tinybox.es"
+  },
+  {
+    "title": "Tiny TCP",
+    "description": [
+      "Really little chat server written in Node.js."
+    ],
+    "date": "2014-03-17",
+    "categories": [
+      "js"
+    ],
+    "coolness": "37",
+    "href": "https://github.com/rileyjshaw/tiny-tcp"
+  },
+  {
+    "title": "Pursuit",
+    "description": [
+      "CSS animation with no additional HTML or JS."
+    ],
+    "date": "2014-03-17",
+    "categories": [
+      "css"
+    ],
+    "coolness": "11",
+    "href": "http://codepen.io/rileyjshaw/pen/Klvon?editors=0100"
+  },
+  {
+    "title": "Mean tone",
+    "description": [
+      "Supporting code for my \"Taking the average tone\" blog post."
+    ],
+    "date": "2014-03-17",
+    "categories": [
+      "other"
+    ],
+    "coolness": "20",
+    "href": "https://github.com/rileyjshaw/mean-tone"
+  },
+  {
+    "title": "Important people",
+    "description": [
+      "Scrapes Wikipedia to find the most important births and deaths of each year by word count."
+    ],
+    "date": "2014-03-13",
+    "categories": [
+      "other"
+    ],
+    "coolness": "86",
+    "href": "https://github.com/rileyjshaw/important-people"
+  },
+  {
+    "title": "Composer",
+    "description": [
+      "Generate frequencies, chords, and songs."
+    ],
+    "date": "2014-03-12",
+    "categories": [
+      "other"
+    ],
+    "coolness": "72",
+    "href": "https://github.com/rileyjshaw/composer"
+  },
+  {
+    "title": "Ushld",
+    "description": [
+      "Tell people on the internet what they should do."
+    ],
+    "date": "2014-02-28",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "52",
+    "href": "http://ushld.com"
+  },
+  {
+    "title": "Strobe",
+    "description": [
+      "Boring."
+    ],
+    "date": "2014-02-15",
+    "categories": [
+      "js"
+    ],
+    "coolness": "1",
+    "href": "http://codepen.io/rileyjshaw/details/pcKCj/"
+  },
+  {
+    "title": "Space avoiders",
+    "description": [
+      "Thx Mary :)"
+    ],
+    "date": "2014-02-13",
+    "categories": [
+      "js"
+    ],
+    "coolness": "26",
+    "href": "http://codepen.io/rileyjshaw/pen/CErAF"
+  },
+  {
+    "title": "Nite versions",
+    "description": [
+      "Recreating Soulwax's album art in CSS."
+    ],
+    "date": "2014-01-13",
+    "categories": [
+      "css"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/full/sDrLJ/"
+  },
+  {
+    "title": "CSS gradient blocker",
+    "description": [
+      "Using a repeating pattern to give the illusion of semi-transparency."
+    ],
+    "date": "2014-01-03",
+    "categories": [
+      "css"
+    ],
+    "coolness": "4",
+    "href": "http://codepen.io/rileyjshaw/full/uvcyE/"
+  },
+  {
+    "title": "Zig-zag text effect",
+    "description": [
+      "CSS only.",
+      "Fun with gradients and background-clip: text."
+    ],
+    "date": "2014-01-03",
+    "categories": [
+      "css"
+    ],
+    "coolness": "40",
+    "href": "http://codepen.io/rileyjshaw/full/waeqK"
+  },
+  {
+    "title": "Gradient patterns",
+    "description": [],
+    "date": "2014-01-03",
+    "categories": [
+      "css"
+    ],
+    "coolness": "24",
+    "href": "http://codepen.io/rileyjshaw/full/KdFAg/"
+  },
+  {
+    "title": "Watercolor",
+    "description": [
+      "Uses Chrome's canvas compositing algorithm (circa 2013) to simulate watercolor painting in the browser."
+    ],
+    "date": "2013-12-29",
+    "categories": [
+      "js"
+    ],
+    "coolness": "40",
+    "href": "/watercolor/"
+  },
+  {
+    "title": "Simple slide-out footer",
+    "description": [
+      "Slide-out footer with semantic markup."
+    ],
+    "date": "2013-12-27",
+    "categories": [
+      "css"
+    ],
+    "coolness": "16",
+    "href": "http://codepen.io/rileyjshaw/details/GlBHC/"
+  },
+  {
+    "title": "Canvas spectrum",
+    "description": [
+      "lol these variable names..."
+    ],
+    "date": "2013-12-21",
+    "categories": [
+      "js"
+    ],
+    "coolness": "24",
+    "href": "http://codepen.io/rileyjshaw/pen/bzeqL?editors=0010"
+  },
+  {
+    "title": "No Vacancy 404 concept",
+    "description": [],
+    "date": "2013-12-19",
+    "categories": [
+      "js"
+    ],
+    "coolness": "9",
+    "href": "http://codepen.io/rileyjshaw/full/ufEIH"
+  },
+  {
+    "title": "COS logo",
+    "description": [
+      "Recreating a popular clothing brand's logo in CSS."
+    ],
+    "date": "2013-12-19",
+    "categories": [
+      "css"
+    ],
+    "coolness": "29",
+    "href": "http://codepen.io/rileyjshaw/pen/blCIq/"
+  },
+  {
+    "title": "3D text!",
+    "description": [
+      "BYOG (glasses)."
+    ],
+    "date": "2013-12-15",
+    "categories": [
+      "css"
+    ],
+    "coolness": "13",
+    "href": "http://codepen.io/rileyjshaw/details/rEhdF/"
+  },
+  {
+    "title": "Cheshire Cat Loader",
+    "description": [],
+    "date": "2013-12-08",
+    "categories": [
+      "css"
+    ],
+    "coolness": "2",
+    "href": "http://codepen.io/rileyjshaw/full/fondm"
+  },
+  {
+    "title": "Vanishify",
+    "description": [
+      "Sass vanishing point mixin."
+    ],
+    "date": "2013-12-08",
+    "categories": [
+      "css"
+    ],
+    "coolness": "26",
+    "href": "http://codepen.io/rileyjshaw/pen/inyzb"
+  },
+  {
+    "title": "Chamber",
+    "description": [
+      "Random mutations of a polyhedron."
+    ],
+    "date": "2013-12-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "35",
+    "href": "http://codepen.io/rileyjshaw/full/wKvfk"
+  },
+  {
+    "title": "3D flower",
+    "description": [],
+    "date": "2013-12-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "29",
+    "href": "http://codepen.io/rileyjshaw/full/LhFfw"
+  },
+  {
+    "title": "Ball",
+    "description": [
+      "Simple animation in three.js."
+    ],
+    "date": "2013-12-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "32",
+    "href": "http://codepen.io/rileyjshaw/details/fzhDk/"
+  },
+  {
+    "title": "Speedy scroll",
+    "description": [
+      "Block pointer events on scroll to reach 60fps.",
+      "A follow-up article has since been written to show more robust techniques."
+    ],
+    "date": "2013-12-03",
+    "categories": [
+      "js"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/details/ruGFo/"
+  },
+  {
+    "title": "Minimal fizzbuzz",
+    "description": [
+      "Two very small implementations of Fizzbuzz: one in JavaScript (74B) and one in Stylus (126B)."
+    ],
+    "date": "2013-11-29",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "38",
+    "href": "http://codepen.io/rileyjshaw/pen/bCkBo"
+  },
+  {
+    "title": "Crazy chemicals",
+    "description": [],
+    "date": "2013-11-26",
+    "categories": [
+      "css"
+    ],
+    "coolness": "32",
+    "href": "http://codepen.io/rileyjshaw/full/zwxCv/"
+  },
+  {
+    "title": "10 colors that faded away",
+    "description": [],
+    "date": "2013-11-25",
+    "categories": [
+      "css"
+    ],
+    "coolness": "27",
+    "href": "http://codepen.io/rileyjshaw/details/gLcoi/"
+  },
+  {
+    "title": "Flower power",
+    "description": [
+      "Sass flower with variable number of petals."
+    ],
+    "date": "2013-11-25",
+    "categories": [
+      "css"
+    ],
+    "coolness": "54",
+    "href": "http://codepen.io/rileyjshaw/pen/HBDtd"
+  },
+  {
+    "title": "CSS slope illusion in &lt;140 characters",
+    "description": [
+      "Are the base lines straight or at an angle?"
+    ],
+    "date": "2013-11-20",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "55",
+    "href": "http://codepen.io/rileyjshaw/pen/vzwsu/"
+  },
+  {
+    "title": "Focus",
+    "description": [
+      "Linear gradient, animation, and background-clip"
+    ],
+    "date": "2013-11-20",
+    "categories": [
+      "css"
+    ],
+    "coolness": "29",
+    "href": "http://codepen.io/rileyjshaw/full/gtLGi/"
+  },
+  {
+    "title": "Wacky static 2: TV edition",
+    "description": [
+      "Used this as my 404 page for a while."
+    ],
+    "date": "2013-11-20",
+    "categories": [
+      "css"
+    ],
+    "coolness": "40",
+    "href": "http://codepen.io/rileyjshaw/pen/mcaCi"
+  },
+  {
+    "title": "Wacky static",
+    "description": [],
+    "date": "2013-11-20",
+    "categories": [
+      "css"
+    ],
+    "coolness": "20",
+    "href": "http://codepen.io/rileyjshaw/pen/GDmeF"
+  },
+  {
+    "title": "Yummy loader",
+    "description": [],
+    "date": "2013-11-15",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "25",
+    "href": "http://codepen.io/rileyjshaw/full/jdyqC"
+  },
+  {
+    "title": "Planets",
+    "description": [
+      "Pure Sass animated solar system."
+    ],
+    "date": "2013-11-15",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "70",
+    "href": "http://codepen.io/rileyjshaw/pen/yenLw"
+  },
+  {
+    "title": "Sass animation grid",
+    "description": [
+      "Collection of Sass animations."
+    ],
+    "date": "2013-11-11",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "80",
+    "href": "http://codepen.io/rileyjshaw/full/zGnlq"
+  },
+  {
+    "title": "Sticky CSS transitions",
+    "description": [],
+    "date": "2013-11-08",
+    "categories": [
+      "css"
+    ],
+    "coolness": "37",
+    "href": "http://codepen.io/rileyjshaw/full/bHsJf"
+  },
+  {
+    "title": "Fifty shades of grey",
+    "description": [
+      "Ha."
+    ],
+    "date": "2013-11-08",
+    "categories": [
+      "css"
+    ],
+    "coolness": "9",
+    "href": "http://codepen.io/rileyjshaw/full/KcILg/"
+  },
+  {
+    "title": "2p Snake",
+    "description": [
+      "Snake for 2 players on the same keyboard?! Saucy."
+    ],
+    "date": "2013-11-11",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "83",
+    "href": "/2p-snake"
+  },
+  {
+    "title": "Multiple hover events in CSS",
+    "description": [],
+    "date": "2013-11-03",
+    "categories": [
+      "css"
+    ],
+    "coolness": "30",
+    "href": "http://codepen.io/rileyjshaw/details/LIwdc/"
+  },
+  {
+    "title": "FS video + blocking tiles",
+    "description": [
+      "Recreating a nice hover effect in CSS."
+    ],
+    "date": "2013-10-31",
+    "categories": [
+      "css"
+    ],
+    "coolness": "33",
+    "href": "http://codepen.io/rileyjshaw/full/FBsmA/"
+  },
+  {
+    "title": "Infinite burger",
+    "description": [
+      "Pure Sass hamburger. Sesame-seed bun, lettuce, tomato, fresh cheddar, and infinity perfectly cooked Angus beef patties."
+    ],
+    "date": "2013-10-29",
+    "categories": [
+      "css"
+    ],
+    "coolness": "18",
+    "href": "http://codepen.io/rileyjshaw/full/HdeEF"
+  },
+  {
+    "title": "Long-shadow input series",
+    "description": [
+      "An attempt to give flat buttons some depth. Collection of inputs including radio buttons, checkboxes, and text inputs."
+    ],
+    "date": "2013-10-28",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "63",
+    "href": "http://codepen.io/collection/EJveu"
+  },
+  {
+    "title": "Long-shadow cards",
+    "description": [
+      "Each one's only a single element."
+    ],
+    "date": "2013-10-28",
+    "categories": [
+      "css"
+    ],
+    "coolness": "36",
+    "href": "http://codepen.io/rileyjshaw/details/AgGbs"
+  },
+  {
+    "title": "Flat shadow mouse tracker",
+    "description": [],
+    "date": "2013-10-28",
+    "categories": [
+      "js"
+    ],
+    "coolness": "23",
+    "href": "http://codepen.io/rileyjshaw/full/wEJzg/"
+  },
+  {
+    "title": "DNS error easter egg",
+    "description": [
+      "Hover over \"DNS\"."
+    ],
+    "date": "2013-10-28",
+    "categories": [
+      "css"
+    ],
+    "coolness": "25",
+    "href": "http://codepen.io/rileyjshaw/details/eAEya/"
+  },
+  {
+    "title": "Typographic loader",
+    "description": [
+      "Loading bar concept."
+    ],
+    "date": "2013-10-28",
+    "categories": [
+      "css"
+    ],
+    "coolness": "16",
+    "href": "http://codepen.io/rileyjshaw/full/dIniD"
+  },
+  {
+    "title": "Custom carat",
+    "description": [
+      "Ugly implementation of something pretty."
+    ],
+    "date": "2013-10-23",
+    "categories": [
+      "css"
+    ],
+    "coolness": "14",
+    "href": "http://codepen.io/rileyjshaw/full/IkfJn/"
+  },
+  {
+    "title": "Single element kabamm",
+    "description": [],
+    "date": "2013-10-23",
+    "categories": [
+      "css"
+    ],
+    "coolness": "22",
+    "href": "http://codepen.io/rileyjshaw/details/zFdyq/"
+  },
+  {
+    "title": "Worst practices",
+    "description": [
+      "Some Javascript that I threw together for a friend to 1) solve his problem, 2) explain some hacky JS tricks, and 3) attempt to show him that they aren't always great to use since they obfuscate your code.",
+      "There's actually some cool stuff going on in here, so I've commented it thoroughly."
+    ],
+    "date": "2013-10-13",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "50",
+    "href": "http://codepen.io/rileyjshaw/pen/cKiDn?editors=0010"
+  },
+  {
+    "title": "Shadowfy",
+    "description": [
+      "Sass 3D text-shadow mixin."
+    ],
+    "date": "2013-10-09",
+    "categories": [
+      "css"
+    ],
+    "coolness": "22",
+    "href": "http://codepen.io/rileyjshaw/pen/DmCyc"
+  },
+  {
+    "title": "ASCII loaders",
+    "description": [
+      "Geeky loading animations using ASCII characters."
+    ],
+    "date": "2013-10-08",
+    "categories": [
+      "other"
+    ],
+    "coolness": "21",
+    "href": "http://codepen.io/rileyjshaw/full/ABzsc"
+  },
+  {
+    "title": "Color Jump!",
+    "description": [
+      "Sass mixin: jump from x to y in z steps.",
+      "This was my first CodePen to hit the front page :)"
+    ],
+    "date": "2013-09-29",
+    "categories": [
+      "css"
+    ],
+    "coolness": "14",
+    "href": "http://codepen.io/rileyjshaw/pen/Ijtgr"
+  },
+  {
+    "title": "Git cheatsheet",
+    "description": [
+      "A quick reference for before your morning coffee."
+    ],
+    "date": "2013-09-18",
+    "categories": [
+      "other",
+      "bestof"
+    ],
+    "coolness": "66",
+    "href": "https://github.com/rileyjshaw/git-cheatsheet"
+  },
+  {
+    "title": "Frequency bar visualizer",
+    "description": [
+      "A simple frequency bar visualizer for audio in Processing.",
+      "Features a terrible mash-up of Watermelon Man and Mos Def's Beef freestyle that I threw together in Audacity..."
+    ],
+    "date": "2013-09-12",
+    "categories": [
+      "other"
+    ],
+    "coolness": "16",
+    "href": "https://github.com/rileyjshaw/basic_visualizer"
+  },
+  {
+    "title": "CSS beach",
+    "description": [
+      "Geeky loading animations using ASCII characters."
+    ],
+    "date": "2013-09-06",
+    "categories": [
+      "css"
+    ],
+    "coolness": "27",
+    "href": "http://codepen.io/rileyjshaw/details/GsotD/"
+  },
+  {
+    "title": "Perspective buttons",
+    "description": [
+      "Buttons that maintain linear perspective from the screen's vertical midpoint.",
+      "The perspective effect can be added to anything; a site where each content block was extruded could look interesting."
+    ],
+    "date": "2013-08-31",
+    "categories": [
+      "css",
+      "bestof"
+    ],
+    "coolness": "74",
+    "href": "http://codepen.io/rileyjshaw/full/ebokj/"
+  },
+  {
+    "title": "Nested radio menu",
+    "description": [
+      "Semantic vertical menu using nested radio buttons and CSS."
+    ],
+    "date": "2013-08-27",
+    "categories": [
+      "css"
+    ],
+    "coolness": "42",
+    "href": "http://codepen.io/rileyjshaw/full/jDCty/"
+  },
+  {
+    "title": "Sass tooltips",
+    "description": [
+      "Sass speech bubble mixin."
+    ],
+    "date": "2013-07-13",
+    "categories": [
+      "css"
+    ],
+    "coolness": "24",
+    "href": "http://codepen.io/rileyjshaw/pen/dAFiu"
+  },
+  {
+    "title": "Instaframe",
+    "description": [
+      "Buggy POC exploring the CSS background-attachment property and a 3rd-party Instagram API."
+    ],
+    "date": "2013-04-02",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "30",
+    "href": "/portfolio/old/instaframedemo/"
+  },
+  {
+    "title": "FitHub",
+    "description": [
+      "A fitness form trainer using an Xbox Kinect."
+    ],
+    "date": "2013-03-02",
+    "categories": [
+      "other"
+    ],
+    "coolness": "85",
+    "href": "https://github.com/uniphil/FitHub"
+  },
+  {
+    "title": "Peek",
+    "description": [
+      "Scrolling gallery view for tumblr."
+    ],
+    "date": "2013-03-25",
+    "categories": [
+      "css"
+    ],
+    "coolness": "60",
+    "href": "/portfolio/old/peekdemo.html"
+  },
+  {
+    "title": "Jumble puzzle",
+    "description": [
+      "Word-search puzzle generator."
+    ],
+    "date": "2013-02-05",
+    "categories": [
+      "other"
+    ],
+    "coolness": "30",
+    "href": "https://github.com/rileyjshaw/jumble-puzzle"
+  },
+  {
+    "title": "Pure Sass music icons",
+    "description": [],
+    "date": "2012-10-30",
+    "categories": [
+      "css"
+    ],
+    "coolness": "12",
+    "href": "http://codepen.io/rileyjshaw/full/xdfeC"
+  },
+  {
+    "title": "HTML quine",
+    "description": [
+      "A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output."
+    ],
+    "date": "2012-06-22",
+    "categories": [
+      "js"
+    ],
+    "coolness": "14",
+    "href": "http://codepen.io/rileyjshaw/pen/iGjgs"
+  },
+  {
+    "title": "Infiniteye",
+    "description": [
+      "My former personal brand mark."
+    ],
+    "date": "2012-01-05",
+    "categories": [
+      "css"
+    ],
+    "coolness": "24",
+    "href": "/portfolio/old/cssonly/infiniteye.html"
+  },
+  {
+    "title": "That's nuts!",
+    "description": [
+      "Settings reveal concept where a nut unscrews itself then drops a curtain."
+    ],
+    "date": "2011-11-26",
+    "categories": [
+      "css"
+    ],
+    "coolness": "11",
+    "href": "http://codepen.io/rileyjshaw/details/fKmuI"
+  },
+  {
+    "title": "Terminal display",
+    "description": [
+      "Used to promote <a href=\"http://qhack.ca\" target=\"_blank\">\"hack nights\" at my university</a>."
+    ],
+    "date": "2012-10-23",
+    "categories": [
+      "js"
+    ],
+    "coolness": "23",
+    "href": "http://codepen.io/rileyjshaw/full/FLpJk/"
+  },
+  {
+    "title": "Infinite scroll",
+    "description": [],
+    "date": "2010-06-22",
+    "categories": [
+      "js"
+    ],
+    "coolness": "15",
+    "href": "http://codepen.io/rileyjshaw/details/dzLwm/"
+  }
+]
