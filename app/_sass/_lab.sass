@@ -127,8 +127,11 @@ html.lab
       width: 240px
       margin: 0 12px 48px
       border-top: 4px solid #000
-      cursor: pointer
-      //transition: background 0.2s, box-shadow 0.2s
+      transition: background 0.2s, box-shadow 0.2s
+
+      & > a
+        display: block
+        text-decoration: none
 
       &:hover
         background: $cbg - #111
@@ -165,3 +168,8 @@ html.lab
         height: 1px
         width: 3em
         background: #000
+
+    .fake-link
+      margin: -0.6em
+      padding: 0.6em
+      text-decoration: underline

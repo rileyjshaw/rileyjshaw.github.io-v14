@@ -44,15 +44,14 @@ careful when changing these ids, the sorting methods use them programmatically
         {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
         class="{% for category in project.categories %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ category | prepend: 'labs-' }}{% endfor %}"
         data-coolness="{{ project.coolness }}"
-        data-href="{{ project.href }}"
-        role="link"
-        tabindex="0"
       >
-        <h2>{{ project.title }}</h2>
-        <time datetime={{ project.date }}>{{ project.date | replace: '-', '.'}}</time>
-        {% for paragraph in project.description %}
-          <p>{{ paragraph }}</p>
-        {% endfor %}
+        <a href="{{ project.href }}">
+          <h2>{{ project.title }}</h2>
+          <time datetime={{ project.date }}>{{ project.date | replace: '-', '.'}}</time>
+          {% for paragraph in project.description %}
+            <p>{{ paragraph | replace: '<a ', '<span class="fake-link" role="link" tabindex="0" data-' | replace: '</a>', '</span>' }}</p>
+          {% endfor %}
+        </a>
       </li>
     {% endfor %}
   </ul>
@@ -69,12 +68,23 @@ careful when changing these ids, the sorting methods use them programmatically
     var toggleContainer = document.getElementById('labs-toggles');
     var toggles = toggleContainer.querySelectorAll('input');
     var numToggles = toggles.length;
-    var experiments = document.querySelectorAll('.experiments > li');
-    [].forEach.call(experiments, function (li) {
-      li.onclick = function (e) {
-        if (e.target.nodeName === 'A') return;
-        location.href = li.dataset.href;
-      };
+    var fakeLinks = document.querySelectorAll('.fake-link');
+
+    [].forEach.call(fakeLinks, function (link) {
+      function fakeLinkClick (e) {
+        e.preventDefault();
+        var href = link.dataset.href;
+        if (e.metaKey) {
+          window.open(href, '_blank');
+        } else {
+          location.href = href;
+        }
+      }
+
+      link.onclick = fakeLinkClick;
+      link.onkeypress = function (e) {
+        if ((e.keyCode ? e.keyCode : e.which) === 13) fakeLinkClick(e);
+      }
     });
 
     // jenky; prevent :focus from appearing on mouse events
@@ -90,7 +100,7 @@ careful when changing these ids, the sorting methods use them programmatically
       getSortData: {
         name: 'h2',
         coolness: '[data-coolness] parseInt',
-        date: 'time'
+        date: 'time',
       }
     });
 
