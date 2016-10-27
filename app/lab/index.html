@@ -39,7 +39,7 @@ careful when changing these ids, the sorting methods use them programmatically
     </div>
   </header>
   <ul class="experiments">
-    {% for project in site.data.labs | sort: 'date' %}
+    {% for project in site.data.lab | sort: 'date' %}
       <li
         {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
         class="{% for category in project.categories %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ category | prepend: 'labs-' }}{% endfor %}"
@@ -57,7 +57,7 @@ careful when changing these ids, the sorting methods use them programmatically
   </ul>
 </div>
 
-<!-- build:js(app) /scripts/labs.js -->
+<!-- build:js(app) /scripts/lab.js -->
 <script src="/_bower_components/isotope/dist/isotope.pkgd.min.js"></script>
 <!-- endbuild -->
 
