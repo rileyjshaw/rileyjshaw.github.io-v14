@@ -7,6 +7,19 @@
 		<atom:link href="http://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>All of which are American dreams</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I wrote some scripts which let you view someone else&#39;s Twitter feed.</description>
+				
+				<pubDate>Sun, 13 Nov 2016 00:00:00 -0500</pubDate>
+				<link>http://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
+				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
+			</item>
+		
+			<item>
 				<title>Khan Academy: a new employee&#39;s primer</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -121,19 +134,6 @@
 				<pubDate>Mon, 14 Apr 2014 00:00:00 -0400</pubDate>
 				<link>http://www.rileyjshaw.com/blog/accidental-reset</link>
 				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/accidental-reset</guid>
-			</item>
-		
-			<item>
-				<title>A language for weaklings</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>Zed A. Shaw rocks, and if you&#39;re not malloc-ing you&#39;re a weakling.</description>
-				
-				<pubDate>Tue, 01 Apr 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/a-language-for-weaklings</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/a-language-for-weaklings</guid>
 			</item>
 		
 	</channel>
