@@ -14,7 +14,7 @@ The results of the US presidential election last Tuesday shocked me. I checked T
 
 Social news algorithms have been under intense scrutiny over the past week. I wanted to see what other people's social media bubbles looked like, so I wrote a little shell script[^1].
 
-I'm not interested in building empathy for racists. I _am_ interested in improving my own awareness. This tool displaces me from the narrative I chose and delivers me from opinions I agree deeply with. It's helped me realize what a powerful tool of persuasion a curated social feed can be. Also, wow. People who follow Glenn Beck follow a _lot_ of porn. Who knew?
+I'm not interested in building empathy for racists. I _am_ interested in improving my own awareness. This tool displaces me from the narrative I chose and delivers me from opinions I agree with. It's helped me realize just how powerful a curated social feed can be as a tool of persuasion. Also, wow. People who follow Glenn Beck seem to follow a _lot_ of porn. Who knew?
 
 If you want to peer into someone else's Twitter feed, the following might help[^2]:
 
@@ -47,7 +47,7 @@ t followings "$THEIR_USERNAME" \
 python -mwebbrowser "https://twitter.com/$MY_USERNAME/lists/$LIST_NAME"
 ```
 
-It's not pretty, but it works for me[^3]. Here are some examples of how I've been using it:
+It's not pretty, but it works for me[^3]. Here are some usage examples:
 
 ```bash
 # View the feed of a random person who follows the "FOX Files".
@@ -58,7 +58,7 @@ t followers foxfilesfnc | gshuf | head -1 | xargs ditter
 t search all "#maga" -cn 1 | tail -1 | cut -d, -f3 | xargs ditter
 ```
 
-I'm in the habit of quietly throwing projects like this onto my [lab](/lab) page, but enough people have expressed frustration in the past week to make this share-worthy. Go forth and know your enemy!
+I'm in the habit of quietly throwing projects like this onto my [lab](/lab) page, but enough people have expressed frustration in the past week to make this share-worthy. Hope it helps!
 
 ## Footnotes
 
@@ -67,4 +67,4 @@ I'm in the habit of quietly throwing projects like this onto my [lab](/lab) page
 [^3]: Restrictions apply:
 
       - Twitter has a [longstanding issue](https://twittercommunity.com/t/nondeterminstic-behavior-for-lists-members-create-all/53640/22) where bulk lists created through the API might be missing members. It's nothing a little <code class="language-bash">while</code> loop can't fix, and even an incomplete list can be enough.
-      - <code class="language-bash">t</code> has it's own [longstanding issue](https://github.com/sferik/t/issues/263): it runs up against rate limits if you use it to fetch a large list of followers. This one probably requires a patch / PR.
+      - <code class="language-bash">t</code> has its own [longstanding issue](https://github.com/sferik/t/issues/263): it runs up against rate limits if you use it to fetch a large list of followers. This one probably requires a patch / PR.
