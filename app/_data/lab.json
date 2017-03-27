@@ -1,5 +1,18 @@
 [
   {
+    "title": "Fuzzy Match Utils",
+    "description": [
+      "A collection of string matching algorithms designed with React Select in mind."
+    ],
+    "date": "2017-03-27",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "62",
+    "href": "https://github.com/Khan/fuzzy-match-utils"
+  },
+  {
     "title": "CSSANDY CANE",
     "date": "2016-12-25",
     "categories": [
