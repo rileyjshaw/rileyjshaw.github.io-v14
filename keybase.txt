@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/rileyjshaw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rileyjshaw.com
+  * I am rileyjshaw (https://keybase.io/rileyjshaw) on keybase.
+  * I have a public key with fingerprint F7EA 5F55 54F9 EE4D 7A40  AD38 25F4 F9F0 4523 CCCB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f28c3e914819eceaa6d2a24ec5fd9ad59a0843d1917a527fdcdab68eb7e6cb9a0a",
+            "fingerprint": "f7ea5f5554f9ee4d7a40ad3825f4f9f04523cccb",
+            "host": "keybase.io",
+            "key_id": "25f4f9f04523cccb",
+            "kid": "0101f8230c3258b67f459c711cd65b590954db204de4b43a0a830d546677db6034500a",
+            "uid": "945e308adfddd4183e6a2c44128cfc19",
+            "username": "rileyjshaw"
+        },
+        "service": {
+            "hostname": "rileyjshaw.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1491788057,
+    "expire_in": 157680000,
+    "prev": "907365c404be58d17c8f6db54a2c0092060ed917578af2043997d107ceefad3e",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.68
+Comment: https://keybase.io/crypto
+
+yMNvAnicbVJ7UFRVHF5YIFqg0FJQaLQry8Sw0Ln3nvtaATFqGMBkylAIZ3buvedc
+WB67y76QEGMmeRgG45CROSZOQDqJmY8axrSRIZXXkKE5kpMiqKMZsJkp8pjuZfKv
+Ov+cOb/f933n+z16wvQ6g5/xr+mpN1YN9Pv1n/3Mo8u9N7qskpDsqIIwVxLFeOHC
+JQi73JZiKyLMBCApoFC8TGOBhDwpYBmLIosokYJYZhQkiIgRRMBDGpECyYkMxSlI
+RqLE8ljiMCtLalYkTIRitRVgp8NptblVWYXDIqMwDAMVAWOIOBECEdE8xShqRAGQ
+oWhZliWVWGh3aQzVnCS6cKLVrsbUh2XB3v/gn/oGpMJTNJBpiuElllMgI8gcScqI
+ZSRGAAIDkUQBiDCUIK165GmAGMiyHIckFtCQAQu+PQtyAmQwDXgRKQghSPI0ZkVK
+hpBUW6PIpKABXdhpE0uxinZaS3BFkatQLCeqTIQa91plrLVWq+U/mETZXqryHU67
+2y7bS9RcodvtMGtUd4VDw5ZjyfKvikWy2pDaSpXgxU6X1W4jzKSKlN1WTZaE6hB4
+HjCcicBbHFYntlg1BMOxPFCP9g32agUBjmYZGQIoYYZHJCfzCoskBqplASBQgAUY
+qVoMx4uK2iZaEDhEAk7GWFEHhQmtrjKbnTDzqk2xQJV0WQtsotvjxERV99nNATo/
+gy4o0F9bMZ3h2fCni3f4m3BdDTXW9aFvTejV8HPN8TM3dnc1hBh3FmW3pv12/NTD
+U/mfzBU0X/Kvvpgdkb+Wn7twYc+Jpa2nGw3G1+pEkPVe0MedSRWmxUOZ72bcjc/6
+M/FJXMjgp40dbRmrnPOTkZbZ+fI/TrT23fyolbs1Of4wJtYedDHh2HoMtlVXbUWG
+M76vvg1Y8d3RkeoolgWDkZWbSsDGluAPpq/adoS2iH7R4Y/3Gn+su756rrv2mfTR
+/UnFizfkFx/aOzvdfvLlX79/pD9XxDV3rCvQzVZPt3N3r5fe8R8v2px3ANuP1Xdv
+WVJ7+M2lxp9SFH1JaF378uTt3cVKH+8XfC3ZcfKtZV/7eo8aR49E68tzPt8k7k8L
+G4nOTEi99CQv+QWTr9d403ul/p31/oPNqQHHhxIH46J6bmW9ug8++rls4rHu9b4z
+/dG5xrTAhFzvgfvbPNu/XFQ6Pzx16MXMgNyUDQ1J2U0RzSvvxZSFhQzHG374m5yQ
+zd5ZZcb3QF+bUhUzaWrcYxyayrnCHImNiYtv7U3PmNh6/k5FPHGw5qXhpiVxndtI
+3te2z+xZN1hfc/p2bM6DlqbaGW61kirdH93Z99yuseq1bzesuTaenrVx2GncPRBE
+xpwfK8r/vadrFzWSO6AnRoP1kV907SiKyluxfFFWYN0vtSPl4xHvT/E32g7Cjtue
+5y2X8zrDVuIG9vIr/wCZt73n
+=bukC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rileyjshaw
+
+==================================================================
