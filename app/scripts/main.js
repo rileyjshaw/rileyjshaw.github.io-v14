@@ -147,14 +147,6 @@
     cdTerm();
   } );
 
-  // InstantClick
-  //InstantClick.init();
-
-  // Fluidbox
-  //$( function () {
-  //  $('.gallery a, a[rel="lightbox"]').fluidbox();
-  //});
-
   // Event listeners
   //
 
