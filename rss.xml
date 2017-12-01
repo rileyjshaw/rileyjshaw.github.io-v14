@@ -3,8 +3,8 @@
 	<channel>
 		<title>rileyjshaw</title>
 		<description>The work and diatribes of rileyjshaw</description>
-		<link>http://www.rileyjshaw.com</link>
-		<atom:link href="http://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
+		<link>https://www.rileyjshaw.com</link>
+		<atom:link href="https://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>All of which are American dreams</title>
@@ -15,8 +15,8 @@
 					<description>I wrote some scripts which let you view someone else&#39;s Twitter feed.</description>
 				
 				<pubDate>Sun, 13 Nov 2016 00:00:00 -0500</pubDate>
-				<link>http://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
+				<link>https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
 			</item>
 		
 			<item>
@@ -28,8 +28,8 @@
 					<description>I work at Khan Academy now and I like it here.</description>
 				
 				<pubDate>Mon, 20 Jul 2015 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/khan-academy-primer</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/khan-academy-primer</guid>
+				<link>https://www.rileyjshaw.com/blog/khan-academy-primer</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/khan-academy-primer</guid>
 			</item>
 		
 			<item>
@@ -41,8 +41,8 @@
 					<description>Learn how to create a static site with internal links based on a directory of files of any type.</description>
 				
 				<pubDate>Thu, 05 Mar 2015 00:00:00 -0500</pubDate>
-				<link>http://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</guid>
+				<link>https://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@
 					<description>I joined Open Whisper Systems to pitch in on the TextSecure Chrome extension. It was the experience of a lifetime.</description>
 				
 				<pubDate>Wed, 21 Jan 2015 00:00:00 -0500</pubDate>
-				<link>http://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
+				<link>https://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
 			</item>
 		
 			<item>
@@ -67,8 +67,8 @@
 					<description>On a beautiful summer&#39;s afternoon while all the other children were playing outside I made pictures out of procedural hobby math.</description>
 				
 				<pubDate>Thu, 04 Dec 2014 00:00:00 -0500</pubDate>
-				<link>http://www.rileyjshaw.com/blog/graphing-depth</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/graphing-depth</guid>
+				<link>https://www.rileyjshaw.com/blog/graphing-depth</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/graphing-depth</guid>
 			</item>
 		
 			<item>
@@ -80,8 +80,8 @@
 					<description>Some shady CSS tricks form like Voltron to discover your darkest secrets.</description>
 				
 				<pubDate>Wed, 12 Nov 2014 00:00:00 -0500</pubDate>
-				<link>http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</guid>
+				<link>https://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</guid>
 			</item>
 		
 			<item>
@@ -93,8 +93,8 @@
 					<description>I wrote a comment on Hacker News that people liked.</description>
 				
 				<pubDate>Tue, 28 Oct 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/chicken-prices</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/chicken-prices</guid>
+				<link>https://www.rileyjshaw.com/blog/chicken-prices</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/chicken-prices</guid>
 			</item>
 		
 			<item>
@@ -106,8 +106,8 @@
 					<description>I was so ready to stop iron-blogging that I didn&#39;t publish my last post.</description>
 				
 				<pubDate>Sun, 12 Oct 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/fin</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/fin</guid>
+				<link>https://www.rileyjshaw.com/blog/fin</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/fin</guid>
 			</item>
 		
 			<item>
@@ -119,8 +119,8 @@
 					<description>A history lesson: the cat&#39;s-whisker radio was the first commercial semiconductor device. It sparked an industry that fundamentally changed the way we communicate.</description>
 				
 				<pubDate>Tue, 22 Apr 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/the-cat's-whisker-detector</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/the-cat's-whisker-detector</guid>
+				<link>https://www.rileyjshaw.com/blog/the-cat's-whisker-detector</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/the-cat's-whisker-detector</guid>
 			</item>
 		
 			<item>
@@ -132,8 +132,8 @@
 					<description>Sometimes, all you need is a small rubber washer.</description>
 				
 				<pubDate>Mon, 14 Apr 2014 00:00:00 -0400</pubDate>
-				<link>http://www.rileyjshaw.com/blog/accidental-reset</link>
-				<guid isPermaLink="true">http://www.rileyjshaw.com/blog/accidental-reset</guid>
+				<link>https://www.rileyjshaw.com/blog/accidental-reset</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/accidental-reset</guid>
 			</item>
 		
 	</channel>
