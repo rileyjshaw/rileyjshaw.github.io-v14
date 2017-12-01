@@ -4,7 +4,7 @@ https://keybase.io/rileyjshaw
 
 I hereby claim:
 
-  * I am an admin of http://rileyjshaw.com
+  * I am an admin of https://rileyjshaw.com
   * I am rileyjshaw (https://keybase.io/rileyjshaw) on keybase.
   * I have a public key with fingerprint F7EA 5F55 54F9 EE4D 7A40  AD38 25F4 F9F0 4523 CCCB
 

@@ -12,19 +12,19 @@ Today I wanted to see what the average frequency of a song would sound like with
 
 If you took the average color of a beautiful painting, it would likely turn out poo brown. Today, I created the audio equivalent:
 
-[Blazo's Misty Sapphire](http://youtu.be/rlyYQlPrdac):
+[Blazo's Misty Sapphire](https://youtu.be/rlyYQlPrdac):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139984944&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 
-[Steve Reich's Music for 18 Musicians](http://youtu.be/E_jwv2QMtAo):
+[Steve Reich's Music for 18 Musicians](https://youtu.be/E_jwv2QMtAo):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139984941&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 
-[Kill the Noise remix of KOAN Sound's Talk Box](http://youtu.be/f-6H8NsfPNQ):
+[Kill the Noise remix of KOAN Sound's Talk Box](https://youtu.be/f-6H8NsfPNQ):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139984943&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 
-These first tones were generated using the powerful, free, cross-platform audio software [Audacity](http://audacity.sourceforge.net/) and a cool lisp-y language called [Nyquist](http://en.wikipedia.org/wiki/Nyquist_(programming_language)). Since Audacity lets you run Nyquist scripts on hand-selected audio segments, this first bit was quick and dirty:
+These first tones were generated using the powerful, free, cross-platform audio software [Audacity](http://audacity.sourceforge.net/) and a cool lisp-y language called [Nyquist](https://en.wikipedia.org/wiki/Nyquist_(programming_language)). Since Audacity lets you run Nyquist scripts on hand-selected audio segments, this first bit was quick and dirty:
 
 1. Drag the desired audio file into [Audacity](http://audacity.sourceforge.net/)
 2. On the left side of the window, click the arrow[^1] beside the track's name
@@ -108,7 +108,7 @@ Here we have frequency on the x-axis and magnitude on the y-axis. The Fourier tr
 Wikipedia has the best gif I've ever seen for this:
 
 <figure>
-  <img src="http://upload.wikimedia.org/wikipedia/commons/7/72/Fourier_transform_time_and_frequency_domains_%28small%29.gif" alt="Fourier transform between the time and frequency domains">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Fourier_transform_time_and_frequency_domains_%28small%29.gif" alt="Fourier transform between the time and frequency domains">
   <figcaption>Fourier transform between the time and frequency domains</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ def quarter_note_frequencies(rate, data, bpm):
     return notes
 ```
 
-Here we're using a function called <code class="language-python">grouper</code> that lets us slice up the data. It's described in depth in [itertools' Recipes section](http://docs.python.org/2/library/itertools.html#recipes).
+Here we're using a function called <code class="language-python">grouper</code> that lets us slice up the data. It's described in depth in [itertools' Recipes section](https://docs.python.org/2/library/itertools.html#recipes).
 
 We're getting really close! Now we just need a function to write some frequencies to a wav file,
 
@@ -183,15 +183,15 @@ And we're done! The whole thing (including my <code class="language-python">comp
 
 Let's hear what it sounds like:
 
-[Them Crooked Vultures' Bandoliers](http://youtu.be/LFQhbZ7Kkig):
+[Them Crooked Vultures' Bandoliers](https://youtu.be/LFQhbZ7Kkig):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139987561&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 
-[The Chemical Brothers' Another World](http://youtu.be/oMu9H7Bkb1Y):
+[The Chemical Brothers' Another World](https://youtu.be/oMu9H7Bkb1Y):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139984938&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 
-[Brian Eno's 2-1](http://youtu.be/AQLh3WanSfg):
+[Brian Eno's 2-1](https://youtu.be/AQLh3WanSfg):
 
 <iframe width="100%" height="124" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139985315&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 

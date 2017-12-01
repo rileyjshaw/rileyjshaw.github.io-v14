@@ -71,6 +71,6 @@ Fellow hacker-schooler [Alex Clemmer](http://www.nullspace.io/) made a great poi
 
 ## Footnotes
 [^1]: This would be true for a physical chair, or if you printed this page. If you're reading this on a screen, it looks red because the red pixels are turned on. Help me out here and imagine it's a physical chair, ok?
-[^2]: The K stands for [key](http://en.wikipedia.org/wiki/Key_plate).
+[^2]: The K stands for [key](https://en.wikipedia.org/wiki/Key_plate).
 [^3]: Starting in 1906 with the Eagle Printing Ink Company's [four-color wet process](http://www.sunchemical.com/about/history/).
 [^4]: Dan, shoot me an email if you're interested. I've got the first hundred pages ready for printing.
