@@ -22,6 +22,17 @@
     "href": "http://codepen.io/rileyjshaw/pen/BWjZZV/?editors=1100"
   },
   {
+    "title": "Color screen",
+    "description": [
+      "Full-screen hex, hsl, and rgb color picker & converter"
+    ],
+    "date": "2017-01-05",
+    "categories": [
+      "js"
+    ],
+    "href": "http://rileyjshaw.com/color-screen/"
+  },
+  {
     "title": "CSSANDY CANE",
     "date": "2016-12-25",
     "categories": [
