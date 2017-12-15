@@ -47,6 +47,8 @@ We can do better than this, but we're going to have to use some JavaScript. [The
 
 The HSL transition maintains a consistent saturation, so we're able to avoid the sludge of RGB. Unfortunately, we're still left with an awkward transition. Our HSL version peaks in lightness at yellow, leaving a jarring shift between yellow and the final color. Though the colors are nicer through HSL, the RGB version is still more appealing since it has natural apparent timing.
 
+<div id="sine-easing"></div>
+
 We can come up with a localized easing function to make the HSL transition smoother. By mapping the trough of a sine curve to the peak at the center of our transition, we can move slowly through the area where change is greatest:
 
 <p data-height="268" data-theme-id="5323" data-slug-hash="Levyq" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/rileyjshaw/pen/Levyq/'>HSL transition with easing</a> by Riley Shaw (<a href='http://codepen.io/rileyjshaw'>@rileyjshaw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
