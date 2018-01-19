@@ -13,11 +13,11 @@
       left: 50%;
       margin: 0;
       padding: 0.2em 0.6em;
-      border: 8px solid;
+      /*border: 8px solid;*/
       font: 800 72px Heebo, sans-serif;
       text-align: center;
       letter-spacing: 6px;
-      box-shadow: 5px 10px 12px -4px #bdc5cc;
+      /*box-shadow: 5px 10px 12px -4px #bdc5cc;*/
       transform: translate(-50%, -50%);
     }
 
@@ -67,7 +67,7 @@
 
       function cycleGen (el, opacity, space) {
         return function cycle () {
-          sweep(el, ['color', 'border-color'], 'hsla(150, 1, .6, ' + opacity + ')', 'hsla(151, 1, .6, ' + opacity + ')', {
+          sweep(el, ['color'/*, 'border-color'*/], 'hsla(150, 1, .6, ' + opacity + ')', 'hsla(151, 1, .6, ' + opacity + ')', {
             direction: -1,
             duration: 40000,
             callback: cycle,
