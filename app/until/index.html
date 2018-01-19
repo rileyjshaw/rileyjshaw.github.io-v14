@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>s o o n</title>
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Heebo:800&text=0123456789%3a" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/sweep/1.2.2/sweep.min.js"></script>
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      background: #f0f8ff;
+      background: radial-gradient(#fff, #c0c8cf) 100% 100%;
+    }
+
+    h1, p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: 0;
+      padding: 0.2em 0.6em;
+      border: 8px solid;
+      font: 800 72px Heebo, sans-serif;
+      text-align: center;
+      letter-spacing: 6px;
+      box-shadow: 5px 10px 12px -4px #bdc5cc;
+      transform: translate(-50%, -50%);
+    }
+
+    h1 {
+      text-shadow: 1px 2px 6px #fff, 0 0 0 rgba(32, 16, 32, 0.2), 1px 2px 6px #fff;
+    }
+
+    p {
+      text-shadow: 1px 4px 6px #f0f8ff;
+      filter: blur(8px);
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+  </style>
+  <a href="https://duckduckgo.com/?q=ac758&t=ffab&ia=flights">
+    <h1 class="hidden"></h1>
+    <p class="hidden"></p>
+  </a>
+  <script>
+    (function () {
+      var SECONDS_PER_HOUR = 3600;
+      var a = document.querySelector('h1');
+      var b = document.querySelector('p');
+      var soon = Date.UTC(2018, 0, 20, 19, 48);
+      var time = null;
+      var showing = false;
+
+      function pad(n, minLength) {
+          var padLength = Math.max(minLength - ('' + n).length, 0);
+          return new Array(padLength).fill(0).join('') + n;
+      }
+
+      function durationFromSeconds(totalSeconds) {
+          var hours = Math.floor(totalSeconds / SECONDS_PER_HOUR);
+          var minutes = Math.floor((totalSeconds % SECONDS_PER_HOUR) / 60);
+          var seconds = Math.floor(totalSeconds % 60);
+
+          return {hours, minutes, seconds};
+      }
+
+      function formatTimeDisplay(totalSeconds) {
+          if (totalSeconds <= 0) {
+            return ':)';
+          }
+
+          var {hours, minutes, seconds} = durationFromSeconds(totalSeconds);
+          var paddedMinutes = pad(minutes, 2);
+          var paddedSeconds = pad(seconds, 2);
+
+          return (hours ? hours + ':' + paddedMinutes : minutes) + ':' + paddedSeconds;
+      }
+
+      function cycleGen (el, opacity, space) {
+        return function cycle () {
+          sweep(el, ['color', 'border-color'], 'hsla(150, 1, .6, ' + opacity + ')', 'hsla(151, 1, .6, ' + opacity + ')', {
+            direction: -1,
+            duration: 40000,
+            callback: cycle,
+            space: space
+          });
+        }
+      }
+
+      cycleGen(a, 0.4, 'HUSL')();
+      cycleGen(b, 0.6, 'HSL')();
+
+      return function timer () {
+        var now = formatTimeDisplay(Math.floor((soon - new Date().getTime()) / 1000));
+        if (time !== now) {
+          a.textContent = b.textContent = now;
+          if (!showing) {
+            a.className = b.className = '';
+            showing = true;
+          }
+        }
+        time = now;
+        requestAnimationFrame(timer);
+      };
+    })()();
+  </script>
+</body>
+</html>
