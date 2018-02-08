@@ -1,5 +1,77 @@
 [
   {
+    "title": "Huertbeat",
+    "description": [
+      "Pulse available Philips hue lights to whatever is playing on Spotify."
+    ],
+    "date": "2018-01-10",
+    "categories": [
+      "bestof",
+      "other"
+    ],
+    "coolness": "70",
+    "href": "https://github.com/rileyjshaw/huertbeat"
+  },
+  {
+    "title": "Huemidity",
+    "description": [
+      "Control your Philips Hue lights with MIDI triggers."
+    ],
+    "date": "2017-12-14",
+    "categories": [
+      "other"
+    ],
+    "coolness": "70",
+    "href": "https://github.com/rileyjshaw/huemidity"
+  },
+  {
+    "title": "Rainbobble",
+    "description": [
+      "Rainbow remix of <a href=\"http://codepen.io/rileyjshaw/full/ozjEoK/\">Bubble</a>."
+    ],
+    "date": "2017-11-25",
+    "categories": [
+      "js"
+    ],
+    "coolness": "52",
+    "href": "https://codepen.io/rileyjshaw/full/VrBZoK/"
+  },
+  {
+    "title": "canvas",
+    "description": [
+      "Dozens of rough visual experiments.",
+      "Currently shows the latest demo; I'll eventually add a project browser at the link."
+    ],
+    "date": "2017-10-07",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "70",
+    "href": "/canvas/"
+  },
+  {
+    "title": "hologram",
+    "description": [
+      "Cuts a hologram out of acrylic using the Hacklab TO laser cutter."
+    ],
+    "date": "2017-05-29",
+    "categories": [
+      "other"
+    ],
+    "coolness": "60",
+    "href": "https://github.com/rileyjshaw/hologram"
+  },
+  {
+    "title": "the camera rotates with the minute hand (animated)",
+    "date": "2017-04-18",
+    "categories": [
+      "js"
+    ],
+    "coolness": "50",
+    "href": "https://codepen.io/rileyjshaw/details/gWamKx/"
+  },
+  {
     "title": "Fuzzy Match Utils",
     "description": [
       "A collection of string matching algorithms designed with React Select in mind."
@@ -22,6 +94,44 @@
     "href": "http://codepen.io/rileyjshaw/pen/BWjZZV/?editors=1100"
   },
   {
+    "title": "Sorta",
+    "description": [
+      "Manually sort a list of items using Timsort.",
+      "Abandoned UI experiment; seeing a large list is useful for large sets.",
+      "Also, quicksort would work better here."
+    ],
+    "date": "2017-02-27",
+    "categories": [
+      "other"
+    ],
+    "coolness": "56",
+    "href": "/sorta/"
+  },
+  {
+    "title": "Node-TimSort Async",
+    "description": [
+      "Asynchronous TimSort implementation for Node.js."
+    ],
+    "date": "2017-02-26",
+    "categories": [
+      "js"
+    ],
+    "coolness": "30",
+    "href": "https://github.com/rileyjshaw/node-timsort-async"
+  },
+  {
+    "title": "write",
+    "description": [
+      "A chill place to write things."
+    ],
+    "date": "2017-01-17",
+    "categories": [
+      "other"
+    ],
+    "coolness": "80",
+    "href": "/write"
+  },
+  {
     "title": "Color screen",
     "description": [
       "Full-screen hex, hsl, and rgb color picker & converter"
@@ -30,7 +140,7 @@
     "categories": [
       "js"
     ],
-    "href": "http://rileyjshaw.com/color-screen/"
+    "href": "/color-screen/"
   },
   {
     "title": "CSSANDY CANE",
@@ -260,6 +370,19 @@
     ],
     "coolness": "80",
     "href": "https://github.com/rileyjshaw/virtuoso"
+  },
+  {
+    "title": "average-color",
+    "description": [
+      "Returns the average color from a list of HSL arrays.",
+    ],
+    "date": "2016-06-16",
+    "categories": [
+      "js",
+      "other"
+    ],
+    "coolness": "30",
+    "href": "https://github.com/rileyjshaw/average-color"
   },
   {
     "title": "Plaster swirls, thicker",
@@ -1337,6 +1460,19 @@
     "href": "/tinyterm"
   },
   {
+    "title": "Tinyterm",
+    "description": [
+      "A tiny in-browser terminal."
+    ],
+    "date": "2017-12-16",
+    "categories": [
+      "js",
+      "css"
+    ],
+    "coolness": "72",
+    "href": "https://github.com/rileyjshaw/tinyterm"
+  },
+  {
     "title": "Newspaper column",
     "description": [
       "Web typography experiment: drop cap + justify."
@@ -1351,7 +1487,7 @@
   {
     "title": "Typographic HUSL sweep",
     "description": [
-      "Since I made a fancy headline for <a href=\"http://codepen.io/rileyjshaw/full/OPNvzN/\">Terra</a> I figured it was only fair to make one for <a href=\"http://rileyjshaw.com/sweep\">sweep</a>.",
+      "Since I made a fancy headline for <a href=\"http://codepen.io/rileyjshaw/full/OPNvzN/\">Terra</a> I figured it was only fair to make one for <a href=\"/sweep\">sweep</a>.",
       "Never used."
     ],
     "date": "2014-12-14",
