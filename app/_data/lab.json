@@ -97,8 +97,7 @@
     "title": "Sorta",
     "description": [
       "Manually sort a list of items using Timsort.",
-      "Abandoned UI experiment; seeing a large list is useful for large sets.",
-      "Also, quicksort would work better here."
+      "Abandoned UI experiment; seeing a large list is useful for large sets. Also, quicksort would work better here."
     ],
     "date": "2017-02-27",
     "categories": [
