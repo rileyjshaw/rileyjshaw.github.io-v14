@@ -153,6 +153,9 @@
   },
   {
     "title": "ditter",
+    "description": [
+      "Create a private Twitter list out of someone else's feed so you can read it."
+    ],
     "date": "2016-11-13",
     "categories": [
       "other"
