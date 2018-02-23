@@ -50,7 +50,10 @@
   </a>
   <script>
     (function () {
-      var SECONDS_PER_HOUR = 3600;
+      var SECONDS_PER_MINUTE = 60;
+      var SECONDS_PER_HOUR = SECONDS_PER_MINUTE * 60;
+      var SECONDS_PER_DAY = SECONDS_PER_HOUR * 24;
+
       var a = document.querySelector('h1');
       var b = document.querySelector('p');
       var soon = Date.UTC(2018, 2, 9, 9 + 5, 5);
@@ -63,11 +66,12 @@
       }
 
       function durationFromSeconds(totalSeconds) {
-          var hours = Math.floor(totalSeconds / SECONDS_PER_HOUR);
-          var minutes = Math.floor((totalSeconds % SECONDS_PER_HOUR) / 60);
-          var seconds = Math.floor(totalSeconds % 60);
+          var days = Math.floor(totalSeconds / SECONDS_PER_DAY);
+          var hours = Math.floor((totalSeconds % SECONDS_PER_DAY) / SECONDS_PER_HOUR);
+          var minutes = Math.floor((totalSeconds % SECONDS_PER_HOUR) / SECONDS_PER_MINUTE);
+          var seconds = Math.floor(totalSeconds % SECONDS_PER_MINUTE);
 
-          return {hours, minutes, seconds};
+          return {days, hours, minutes, seconds};
       }
 
       function formatTimeDisplay(totalSeconds) {
@@ -75,11 +79,18 @@
             return ':)';
           }
 
-          var {hours, minutes, seconds} = durationFromSeconds(totalSeconds);
+          var {days, hours, minutes, seconds} = durationFromSeconds(totalSeconds);
           var paddedMinutes = pad(minutes, 2);
           var paddedSeconds = pad(seconds, 2);
 
-          return (hours ? hours + ':' + paddedMinutes : minutes) + ':' + paddedSeconds;
+          return (days
+            ? days + ':' + hours + ':' + paddedMinutes + ':'
+            : hours
+              ? hours + ':' + paddedMinutes + ':'
+              : minutes
+                ? minutes + ':'
+                : ''
+          ) + paddedSeconds;
       }
 
       function cycleGen (el, opacity, space) {
