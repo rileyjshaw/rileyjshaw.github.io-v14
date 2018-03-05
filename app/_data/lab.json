@@ -139,7 +139,22 @@
     "categories": [
       "js"
     ],
+    "coolness": "10",
     "href": "/color-screen/"
+  },
+  {
+    "title": "Crypto Christmas",
+    "description": [
+      "Improve your online privacy and security over the 12 days of Cryptmas.",
+      "I was interviewed for this work by NPR, the CBC, and PCMag."
+    ],
+    "date": "2016-12-27",
+    "categories": [
+      "bestof",
+      "other"
+    ],
+    "coolness": "90",
+    "href": "https://crypto.christmas/"
   },
   {
     "title": "CSSANDY CANE",
@@ -1360,7 +1375,20 @@
       "js"
     ],
     "coolness": "65",
-    "href": "/orbit/"
+    "href": "/orbit"
+  },
+  {
+    "title": "Challenger",
+    "description": [
+      "Pop-up programming challenges in your browser."
+    ],
+    "date": "2015-02-19",
+    "categories": [
+      "bestof",
+      "js"
+    ],
+    "coolness": "81",
+    "href": "/challenger"
   },
   {
     "title": "drawRotatedRect",
@@ -1466,25 +1494,13 @@
     "description": [
       "A tiny in-browser terminal."
     ],
-    "date": "2017-12-16",
+    "date": "2014-12-16",
     "categories": [
       "js",
       "css"
     ],
     "coolness": "72",
     "href": "https://github.com/rileyjshaw/tinyterm"
-  },
-  {
-    "title": "Newspaper column",
-    "description": [
-      "Web typography experiment: drop cap + justify."
-    ],
-    "date": "2014-12-11",
-    "categories": [
-      "css"
-    ],
-    "coolness": "8",
-    "href": "http://codepen.io/rileyjshaw/details/ByKKyG/"
   },
   {
     "title": "Typographic HUSL sweep",
@@ -1499,6 +1515,18 @@
     ],
     "coolness": "80",
     "href": "http://codepen.io/rileyjshaw/full/jEqvLp/"
+  },
+  {
+    "title": "Newspaper column",
+    "description": [
+      "Web typography experiment: drop cap + justify."
+    ],
+    "date": "2014-12-11",
+    "categories": [
+      "css"
+    ],
+    "coolness": "8",
+    "href": "http://codepen.io/rileyjshaw/details/ByKKyG/"
   },
   {
     "title": "Fingerprint",
@@ -1524,6 +1552,19 @@
     ],
     "coolness": "5",
     "href": "http://codepen.io/rileyjshaw/full/gbapBa/"
+  },
+  {
+    "title": "Tappy",
+    "description": [
+      "A JavaScript library for recording and comparing rhythms"
+    ],
+    "date": "2014-11-23",
+    "categories": [
+      "bestof",
+      "js"
+    ],
+    "coolness": "77",
+    "href": "http://tappy.pw"
   },
   {
     "title": "Multi-level spoilers",
@@ -1641,6 +1682,19 @@
     "href": "/racer"
   },
   {
+    "title": "Tappy game",
+    "description": [
+      "Tap the rhythm of the lyrics displayed."
+    ],
+    "date": "2014-10-13",
+    "categories": [
+      "bestof",
+      "js"
+    ],
+    "coolness": "76",
+    "href": "http://play.tappy.pw/"
+  },
+  {
     "title": "Material design ripple effect",
     "description": [
       "Needed this for <a href=\"http://play.tappy.pw\">tappy</a> before there were 1000 libraries to choose from."
@@ -1716,6 +1770,21 @@
     "href": "https://github.com/rileyjshaw/domains"
   },
   {
+    "title": "Pairjam",
+    "description": [
+      "Realtime web-based collaborative coding."
+    ],
+    "date": "2014-09-15",
+    "categories": [
+      "bestof",
+      "js",
+      "css",
+      "other"
+    ],
+    "coolness": "83",
+    "href": "https://github.com/neerajwahi/pairjam"
+  },
+  {
     "title": "CSS tab bar",
     "description": [
       "For Pairjam."
@@ -1779,12 +1848,40 @@
     "href": "http://codepen.io/rileyjshaw/full/JvdrG/"
   },
   {
+    "title": "Placid tab",
+    "description": [
+      "A minimal New Tab page for Chrome"
+    ],
+    "date": "2014-08-25",
+    "categories": [
+      "css",
+      "js",
+      "other",
+      "bestof"
+    ],
+    "coolness": "60",
+    "href": "https://chrome.google.com/webstore/detail/placid-tab/mjcblgoejhkkkhgeadejhkpldglnfmcj"
+  },
+  {
+    "title": "Linescapes",
+    "description": [
+      "An audiovisual experiment that generates landscapes from sound waves."
+    ],
+    "date": "2014-08-15",
+    "categories": [
+      "js",
+      "bestof"
+    ],
+    "coolness": "70",
+    "href": "/linescapes"
+  },
+  {
     "title": "Graphing depth",
     "description": [
       "Pretty images from math.",
       "Supports my <a href=\"/blog/graphing-depth/\">blog post</a> of the same name."
     ],
-    "date": "2014-27-31",
+    "date": "2014-07-31",
     "categories": [
       "js",
       "bestof"
@@ -1879,6 +1976,22 @@
     "href": "https://github.com/rileyjshaw/wind-alarm"
   },
   {
+    "title": "Ben Eath: Surf Ace",
+    "description": [
+      "A multiplayer shark-frenzy controlled with your phone.",
+      "Created with friends at Hacker School. I was in charge of the mobile + WebSocket controller framework and the server.",
+      "This used to be on Chrome Experiments but it's offline now :("
+    ],
+    "date": "2014-04-29",
+    "categories": [
+      "js",
+      "other",
+      "bestof"
+    ],
+    "coolness": "78",
+    "href": "https://github.com/ben-eath/the-surf-ace"
+  },
+  {
     "title": "Key Generator",
     "description": [
       "A super-efficient memoized key generator in JavaScript.",
@@ -1939,6 +2052,19 @@
     "href": "http://codepen.io/rileyjshaw/full/dihjv/"
   },
   {
+    "title": "Sweep",
+    "description": [
+      "A JavaScript library for smoother color transitions"
+    ],
+    "date": "2014-03-24",
+    "categories": [
+      "bestof",
+      "js"
+    ],
+    "coolness": "60",
+    "href": "/sweep"
+  },
+  {
     "title": "Tiny boxes",
     "description": [
       "Chat through happenstance. The interface adapts to meet demand."
@@ -1951,6 +2077,20 @@
     ],
     "coolness": "70",
     "href": "http://tinybox.es"
+  },
+  {
+    "title": "Own this website",
+    "description": [
+      "An experimental online game of King of the Hill, on this very website."
+    ],
+    "date": "2014-03-19",
+    "categories": [
+      "js",
+      "css",
+      "bestof"
+    ],
+    "coolness": "65",
+    "href": "own.rileyjshaw.com"
   },
   {
     "title": "Tiny TCP",
@@ -2011,6 +2151,19 @@
     ],
     "coolness": "72",
     "href": "https://github.com/rileyjshaw/composer"
+  },
+  {
+    "title": "terra",
+    "description": [
+      "A JavaScript library for simple biological simulations and cellular automata."
+    ],
+    "date": "2014-03-09",
+    "categories": [
+      "bestof",
+      "js"
+    ],
+    "coolness": "86",
+    "href": "/terra"
   },
   {
     "title": "Ushld",
@@ -2677,6 +2830,20 @@
     ],
     "coolness": "60",
     "href": "/portfolio/old/peekdemo.html"
+  },
+  {
+    "title": "Zenwall",
+    "description": [
+      "A depth-sensing grafitti wall for touch-screens &amp; pen tablets.",
+      "Demo built for web browsers and Wacom tablets. Installation involved creating a large infrared plane behind a flexible display and sensing deformations using Community Core Vision."
+    ],
+    "date": "2013-03-22",
+    "categories": [
+      "bestof",
+      "other"
+    ],
+    "coolness": "50",
+    "href": "http://youtu.be/zQ5tKU3z1fc"
   },
   {
     "title": "Jumble puzzle",
