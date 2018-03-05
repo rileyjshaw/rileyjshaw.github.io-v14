@@ -7,6 +7,19 @@
 		<atom:link href="https://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>I have a new blog</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>This website is old; for more recent news check out &lt;a href=&quot;https://sfpc.rileyjshaw.com&quot;&gt;my SFPC blog&lt;/a&gt;.</description>
+				
+				<pubDate>Mon, 05 Mar 2018 00:00:00 -0500</pubDate>
+				<link>https://www.rileyjshaw.com/blog/i-have-a-new-blog</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/i-have-a-new-blog</guid>
+			</item>
+		
+			<item>
 				<title>All of which are American dreams</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -121,19 +134,6 @@
 				<pubDate>Tue, 22 Apr 2014 00:00:00 -0400</pubDate>
 				<link>https://www.rileyjshaw.com/blog/the-cat's-whisker-detector</link>
 				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/the-cat's-whisker-detector</guid>
-			</item>
-		
-			<item>
-				<title>Accidental reset</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>Sometimes, all you need is a small rubber washer.</description>
-				
-				<pubDate>Mon, 14 Apr 2014 00:00:00 -0400</pubDate>
-				<link>https://www.rileyjshaw.com/blog/accidental-reset</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/accidental-reset</guid>
 			</item>
 		
 	</channel>
