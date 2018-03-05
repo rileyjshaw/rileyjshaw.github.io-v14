@@ -2,9 +2,8 @@
 layout: post
 title: I have a new blog
 tags:
-- build
-- web
-- tools
+- life
+- meta
 tldr: This website is old; for more recent news check out <a href="https://sfpc.rileyjshaw.com">my SFPC blog</a>.
 ---
 
