@@ -9,7 +9,7 @@ tldr: This website is old; for more recent news check out <a href="https://sfpc.
 
 I made this website in early 2014 to document projects I worked on at [Hacker School](https://www.recurse.com/). Though I've changed a lot since then and worked on all sorts of problems, the site hasn't updated to reflect that.
 
-After three years working as a senior software engineer at Khan Academy, I left to pursue art and activism full time at the [School for Poetic Computation](http://sfpc.io/). I'm posting snippets at [sfpc.rileyjshaw.com](https://sfpc.rileyjshaw.com).
+After three years working on Khan Academy's engineering team, I left to pursue art and activism full time at the [School for Poetic Computation](http://sfpc.io/). I'm posting snippets at [sfpc.rileyjshaw.com](https://sfpc.rileyjshaw.com).
 
 At some point I'll update this site to reflect my current focus. For the time being, I've moved my waaay outdated [portfolio](/portfolio) into [the lab](/lab).
 
