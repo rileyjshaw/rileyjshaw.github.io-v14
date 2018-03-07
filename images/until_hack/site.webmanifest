@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "until",
+    "short_name": "until",
     "icons": [
         {
-            "src": "/until/android-chrome-192x192.png",
+            "src": "/images/until_hack/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/until/android-chrome-256x256.png",
+            "src": "/images/until_hack/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }
