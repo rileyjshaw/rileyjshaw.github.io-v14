@@ -32,7 +32,17 @@
 
     .hidden {
       visibility: hidden;
-    }</style><a href="#"><h1 class="hidden"></h1><p class="hidden"></p></a><script>(function () {
+    }
+
+    .hearts {
+      pointer-events: none;
+    }
+
+    .heart {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }</style><a href="#"><h1 class="hidden"></h1><p class="hidden"></p></a><div class="hearts"></div><script>(function () {
       var SECONDS_PER_MINUTE = 60;
       var SECONDS_PER_HOUR = SECONDS_PER_MINUTE * 60;
       var SECONDS_PER_DAY = SECONDS_PER_HOUR * 24;
@@ -90,8 +100,44 @@
       cycleGen(a, 0.4, 'HUSL')();
       cycleGen(b, 0.6, 'HSL')();
 
+      var stepHearts = (function () {
+        var container = document.querySelector('.hearts');
+        var hearts = [];
+        var H = window.innerHeight;
+        var W = window.innerWidth;
+
+        return function stepHearts (remaining) {
+          if (remaining >= 0 && Math.random() >= 0.5 + Math.min(remaining / SECONDS_PER_DAY / 10, 0.98) * 0.5) {
+            var el = document.createElement('span');
+            el.textContent = '💖';
+            el.className = 'heart';
+            var heart = {
+              age: 0,
+              x: Math.random() * W,
+              xOffset: Math.random() * 30,
+              el: el,
+            };
+            hearts.push(heart);
+            container.appendChild(el);
+          }
+          hearts = hearts.filter(function (heart) {
+            var x = heart.x + Math.sin((heart.age + heart.xOffset) / 30) * 150;
+            var y = heart.age * 4 - 20;
+            if (y > H) {
+              container.removeChild(heart.el);
+              return false;
+            }
+            heart.el.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+            ++heart.age;
+            return true;
+          });
+        };
+      })();
+
       return function timer () {
-        var now = formatTimeDisplay(Math.floor((soon - new Date().getTime()) / 1000));
+        var remaining = Math.floor((soon - new Date().getTime()) / 1000);
+        stepHearts(Math.max(remaining, 0));
+        var now = formatTimeDisplay(remaining);
         if (time !== now) {
           a.textContent = b.textContent = now;
           if (!showing) {
