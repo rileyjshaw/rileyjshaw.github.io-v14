@@ -109,7 +109,7 @@
         return function stepHearts (remaining) {
           if (remaining >= 0 && Math.random() >= 0.5 + Math.min(remaining / SECONDS_PER_DAY / 10, 0.98) * 0.5) {
             var el = document.createElement('span');
-            el.textContent = '💖';
+            el.textContent = Math.random() < 0.99 ? '💖' : '👽';
             el.className = 'heart';
             var heart = {
               age: 0,
