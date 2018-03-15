@@ -40,11 +40,12 @@ These first tones were generated using the powerful, free, cross-platform audio 
               (step-to-hz mean-f0)
               (nth (round mean-f0) nyq:pitch-names))
     </code></pre>
-7. Let it run and __remember the output frequency__
-8. Keeping the track selected, click Generate > Tone... in the top menu
-9. Input the frequency that was generated in step 7
-10. Repeat 4 - 9 on the bottom track
-11. Click the arrow again and select "Make Stereo Track"
+7. If you're using a recent version of Audacity, check the "Use legacy (version 3) syntax" box at the top of the prompt[^2]
+8. Let it run and __remember the output frequency__
+9. Keeping the track selected, click Generate > Tone... in the top menu
+10. Input the frequency that was generated in step 7
+11. Repeat 4 - 9 on the bottom track
+12. Click the arrow again and select "Make Stereo Track"
 
 It's hack-y and too manual, but it was enough to show me that I definitely didn't want to keep going down this path. From a spectrum this wide, across such a long duration, the tones I was getting didn't correspond to any individual sound in the original song. At best, I'd found a roundabout way to generate spooky alien noises.
 
@@ -80,7 +81,7 @@ Python has some awesome modules for audio analysis, but the underlying math can 
 
 ## Finding frequencies
 
-When we talk about frequencies in music, we're referring to the _frequency_ at which a _pressure wave needs to repeat to make our ears hear a certain note_[^2]. Audio signals are usually represented as a pressure wave over time since that's how microphones and speakers understand sound. When multiple frequencies are played at the same time we end up with a crazy waveform that represents the composite of its individual parts. If we're really clever, we might be able to pick out characteristic waveforms of different sounds just by how they look.
+When we talk about frequencies in music, we're referring to the _frequency_ at which a _pressure wave needs to repeat to make our ears hear a certain note_[^3]. Audio signals are usually represented as a pressure wave over time since that's how microphones and speakers understand sound. When multiple frequencies are played at the same time we end up with a crazy waveform that represents the composite of its individual parts. If we're really clever, we might be able to pick out characteristic waveforms of different sounds just by how they look.
 
 <figure>
   <img src="/images/hello_there_audio.png" width="250px" alt="Audio waveform for 'hello there'">
@@ -116,7 +117,7 @@ Wikipedia has the best gif I've ever seen for this:
 
 If you didn't understand all of that, don't worry. The important thing to remember is that we need to figure out how powerful each frequency is, and the Fourier transform helps us get there.
 
-First we import a few modules[^3]:
+First we import a few modules[^4]:
 
 ```python
 import numpy as np, composer
@@ -209,5 +210,11 @@ I hope to make a Part Two some day where I explore some nicer-sounding alternati
     <figure>
       <img src="/images/audacity_arrow.png" width="163px" alt="Audacity track side-menu">
     </figure>
-[^2]: A 440Hz sine wave, for example, sounds like an __A__ to our ears.
-[^3]: Including one I wrote called <code class="language-python">composer</code>, which generates an audio signal from the frequencies we pass it
+
+[^2]: Thanks Nolan Beck for the heads up!
+    <figure>
+      <img src="/images/audacity_legacy_checkbox.png" width="406px" alt="Nyquist legacy syntax option">
+    </figure>
+
+[^3]: A 440Hz sine wave, for example, sounds like an __A__ to our ears.
+[^4]: Including one I wrote called <code class="language-python">composer</code>, which generates an audio signal from the frequencies we pass it
