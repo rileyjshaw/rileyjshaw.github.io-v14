@@ -114,14 +114,14 @@
             var heart = {
               age: 0,
               x: Math.random() * W,
-              xOffset: Math.random() * 30,
+              xOffset: Math.random() * 2 * Math.PI,
               el: el,
             };
             hearts.push(heart);
             container.appendChild(el);
           }
           hearts = hearts.filter(function (heart) {
-            var x = heart.x + Math.sin((heart.age + heart.xOffset) / 30) * 150;
+            var x = heart.x + Math.sin(heart.age / 30 + heart.xOffset) * 150;
             var y = heart.age * 4 - 20;
             if (y > H) {
               container.removeChild(heart.el);
