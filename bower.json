@@ -2,8 +2,6 @@
   "name": "rileyjshaw",
   "version": "0.0.0",
   "dependencies": {
-    "mousetrap": "~1.4.6",
-    "dialog-polyfill": "~0.2.0",
     "isotope": "~2.2.2"
   }
 }
