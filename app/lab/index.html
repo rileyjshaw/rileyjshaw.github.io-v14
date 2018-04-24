@@ -27,7 +27,7 @@ topclass: lab
       </fieldset>
       <!--
       TODO(riley): Update tags. The "X" to the right should clear everything.
-      CSS-only | Viewable online | Hardware | Best of | Games | Animation | Defunct | X
+      CSS-only | Viewable online | Hardware | Best of | Games | Animation | Defunct (expired, deceased, abandoned, dead, extinct, ...?) | X
       -->
       <fieldset id="labs-toggles">
         <legend>Include:</legend>
@@ -46,7 +46,7 @@ topclass: lab
     {% for project in site.data.lab | sort: 'date' %}
       <li
         {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
-        class="{% for category in project.categories %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ category | prepend: 'labs-' }}{% endfor %}"
+        class="{% for tag in project.tags %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ tag | prepend: 'labs-' }}{% endfor %}"
         data-coolness="{{ project.coolness }}"
       >
         <a href="{{ project.href }}">

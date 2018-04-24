@@ -5,7 +5,7 @@
       "Pulse available Philips hue lights to whatever is playing on Spotify."
     ],
     "date": "2018-01-10",
-    "categories": [
+    "tags": [
       "bestof",
       "other"
     ],
@@ -18,7 +18,7 @@
       "Control your Philips Hue lights with MIDI triggers."
     ],
     "date": "2017-12-14",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "70",
@@ -30,7 +30,7 @@
       "Rainbow remix of <a href=\"http://codepen.io/rileyjshaw/full/ozjEoK/\">Bubble</a>."
     ],
     "date": "2017-11-25",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "52",
@@ -43,7 +43,7 @@
       "Currently shows the latest demo; I'll eventually add a project browser at the link."
     ],
     "date": "2017-10-07",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -56,7 +56,7 @@
       "Cuts a hologram out of acrylic using the Hacklab TO laser cutter."
     ],
     "date": "2017-05-29",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "60",
@@ -65,7 +65,7 @@
   {
     "title": "the camera rotates with the minute hand (animated)",
     "date": "2017-04-18",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -77,7 +77,7 @@
       "A collection of string matching algorithms designed with React Select in mind."
     ],
     "date": "2017-03-27",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -87,7 +87,7 @@
   {
     "title": "Multi-line lists with item separators (CSS only)",
     "date": "2017-03-01",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "59",
@@ -100,7 +100,7 @@
       "Abandoned UI experiment; seeing a large list is useful for large sets. Also, quicksort would work better here."
     ],
     "date": "2017-02-27",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "56",
@@ -112,7 +112,7 @@
       "Asynchronous TimSort implementation for Node.js."
     ],
     "date": "2017-02-26",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -124,7 +124,7 @@
       "A chill place to write things."
     ],
     "date": "2017-01-17",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "80",
@@ -136,7 +136,7 @@
       "Full-screen hex, hsl, and rgb color picker & converter"
     ],
     "date": "2017-01-05",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "10",
@@ -149,7 +149,7 @@
       "I was interviewed for this work by NPR, the CBC, and PCMag."
     ],
     "date": "2016-12-27",
-    "categories": [
+    "tags": [
       "bestof",
       "other"
     ],
@@ -159,7 +159,7 @@
   {
     "title": "CSSANDY CANE",
     "date": "2016-12-25",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "47",
@@ -171,7 +171,7 @@
       "Create a private Twitter list out of someone else's feed so you can read it."
     ],
     "date": "2016-11-13",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "60",
@@ -180,7 +180,7 @@
   {
     "title": "Black hole sun",
     "date": "2016-10-31",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "44",
@@ -192,7 +192,7 @@
       "A single program that outputs my name when you run it through three separate programming languages."
     ],
     "date": "2016-10-27",
-    "categories": [
+    "tags": [
       "other",
       "bestof"
     ],
@@ -205,7 +205,7 @@
       "wallpaper..?"
     ],
     "date": "2016-10-24",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "32",
@@ -217,7 +217,7 @@
       "If you make a pin out of this please send me one."
     ],
     "date": "2016-10-04",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "34",
@@ -230,7 +230,7 @@
       ":facepalm:"
     ],
     "date": "2016-10-04",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "36",
@@ -240,7 +240,7 @@
     "title": "Black lotus",
     "description": [],
     "date": "2016-10-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -252,7 +252,7 @@
       "Play this one in a small window. Arrow keys to move around."
     ],
     "date": "2016-09-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "86",
@@ -262,7 +262,7 @@
     "title": "Blinds (with type)",
     "description": [],
     "date": "2016-09-26",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "55",
@@ -274,7 +274,7 @@
       "It was left here by the aliens."
     ],
     "date": "2016-09-26",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "82",
@@ -286,7 +286,7 @@
       "Follows your mouse."
     ],
     "date": "2016-09-10",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "52",
@@ -296,7 +296,7 @@
     "title": "Cyclic CA (PICO-8)",
     "description": [],
     "date": "2016-08-29",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "40",
@@ -308,7 +308,7 @@
       "Short narrative experiment written for the PICO-8 fantasy console."
     ],
     "date": "2016-08-28",
-    "categories": [
+    "tags": [
       "other",
       "bestof"
     ],
@@ -319,7 +319,7 @@
     "title": "ASCII animator",
     "description": [],
     "date": "2016-08-23",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -330,7 +330,7 @@
     "title": "Sun",
     "description": [],
     "date": "2016-08-08",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "40",
@@ -342,7 +342,7 @@
       "It resizes!"
     ],
     "date": "2016-08-08",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "46",
@@ -354,7 +354,7 @@
       "Threw this together to help with color inspiration for another project."
     ],
     "date": "2016-08-08",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -366,7 +366,7 @@
       "Nobody's perfect! Takes a MIDI file and messes up a few of the notes."
     ],
     "date": "2016-06-19",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -380,7 +380,7 @@
       "Works best with MIDI keyboards, but you can use your computer keyboard too."
     ],
     "date": "2016-06-17",
-    "categories": [
+    "tags": [
       "js",
       "bestof",
       "other"
@@ -394,7 +394,7 @@
       "Returns the average color from a list of HSL arrays.",
     ],
     "date": "2016-06-16",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -405,7 +405,7 @@
     "title": "Plaster swirls, thicker",
     "description": [],
     "date": "2016-06-15",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -418,7 +418,7 @@
       "I've got plaster swirls on my ceiling. This began as a recreation of that and turned into something else."
     ],
     "date": "2016-06-15",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -431,7 +431,7 @@
       "Synthesizer synesthesia. Turn MIDI notes into colors."
     ],
     "date": "2016-06-05",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -444,7 +444,7 @@
       "Geometric patterns created from straight lines cutting through a circle."
     ],
     "date": "2016-06-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -456,7 +456,7 @@
       "Move your mouse/finger. Remix of \"filings\"."
     ],
     "date": "2016-06-01",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "64",
@@ -469,7 +469,7 @@
       "Hard press = UPPERCASE, soft press = lowercase."
     ],
     "date": "2016-05-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -481,7 +481,7 @@
       "A competitive typing tutor. Two players type different paragraphs on the same keyboard, simultaneously."
     ],
     "date": "2016-05-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -493,7 +493,7 @@
       "Poster? Coaster?"
     ],
     "date": "2016-05-24",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -505,7 +505,7 @@
       "Looping CSS animation."
     ],
     "date": "2016-05-22",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "30",
@@ -518,7 +518,7 @@
       "Though the line's formula stays consistent as it spirals out, the tile grid doesn't increase in size."
     ],
     "date": "2016-05-18",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -531,7 +531,7 @@
       "Abandoned background generator. Pattern is played out."
     ],
     "date": "2016-05-16",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -543,7 +543,7 @@
       "Stumbled upon this on my way to making <a href=\"http://codepen.io/rileyjshaw/full/YqbGKK/\">swirls</a>."
     ],
     "date": "2016-05-16",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "20",
@@ -555,7 +555,7 @@
       "A CLI tool to update your favorite text editor theme. Emphasizes comments and mutes everything else."
     ],
     "date": "2016-05-12",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -568,7 +568,7 @@
       "V1 -&gt; V2 contained the <em>tiniest</em> tweak perceptually (smooth line all 'round), but it was a technical challenge. V2 -&gt; V3 contains the tiniest code tweaks, but is perceptually very different. Uses canvas transform logic from <a href=\"http://codepen.io/rileyjshaw/pen/ONrdoM\">zonin'</a>."
     ],
     "date": "2016-05-05",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "84",
@@ -580,7 +580,7 @@
       "Efficiently scales and rotates canvas image data <em>seemingly</em> in-place using two overlapping canvas elements."
     ],
     "date": "2016-05-05",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "56",
@@ -592,7 +592,7 @@
       "Independently oscillating points that form a greater picture together."
     ],
     "date": "2016-05-05",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "39",
@@ -604,7 +604,7 @@
       "It's hard to see the ship... :/"
     ],
     "date": "2016-05-04",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "39",
@@ -617,7 +617,7 @@
       "Changing the timing function on this one is extremely satisfying."
     ],
     "date": "2016-05-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "70",
@@ -629,7 +629,7 @@
       "Added a linear ramp and smoothing function to v1 to make the lowest frequency bin match up with the highest frequency bin in both position and derivative. The effect is a continuous circle, versus the <a href=\"http://codepen.io/rileyjshaw/full/ogVNgW/\">\"speech-bubble\" notch effect of v1</a>."
     ],
     "date": "2016-04-28",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -642,7 +642,7 @@
       "Trying out CSS animation steps()."
     ],
     "date": "2016-04-28",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -655,7 +655,7 @@
       "Playing with bg gradient dots, CSS only."
     ],
     "date": "2016-04-26",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "69",
@@ -667,7 +667,7 @@
       "Playing with bg gradient stripes, CSS only."
     ],
     "date": "2016-04-25",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "69",
@@ -679,7 +679,7 @@
       "Repeatedly apply a set of transformations to text."
     ],
     "date": "2016-04-16",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -690,7 +690,7 @@
     "title": "b+w",
     "description": [],
     "date": "2016-04-13",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "34",
@@ -702,7 +702,7 @@
       "Accidentally discovered this 2d water effect by stacking sine waves. Simple but convincing!"
     ],
     "date": "2016-04-11",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -714,7 +714,7 @@
       "Simple visualizations of sinusoidal functions."
     ],
     "date": "2016-04-11",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "54",
@@ -724,7 +724,7 @@
     "title": "Desire paths: remixes",
     "description": [],
     "date": "2016-04-10",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "70",
@@ -736,7 +736,7 @@
       "Cliché vector \"field\" \"diagram\"."
     ],
     "date": "2016-04-04",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -748,7 +748,7 @@
       "Remix of ~~~ using angles &amp; moving agents instead of absolute positions."
     ],
     "date": "2016-04-04",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -761,7 +761,7 @@
       "CSS-only typography experiment."
     ],
     "date": "2016-04-04",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "55",
@@ -771,7 +771,7 @@
     "title": "Gems",
     "description": [],
     "date": "2016-04-03",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "28",
@@ -783,7 +783,7 @@
       "A tricker, more generalized case of Lattice implemented on a trangular grid."
     ],
     "date": "2016-03-30",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "68",
@@ -795,7 +795,7 @@
       "Lines + circles."
     ],
     "date": "2016-03-29",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "66",
@@ -805,7 +805,7 @@
     "title": "Flexin' donut",
     "description": [],
     "date": "2016-03-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -817,7 +817,7 @@
       "Blend modes + simplex noise."
     ],
     "date": "2016-03-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "64",
@@ -827,7 +827,7 @@
     "title": "Blips",
     "description": [],
     "date": "2016-03-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "60",
@@ -840,7 +840,7 @@
       "n͖͙͍͔o̴̰̤͈͙̘̥w͉̮ ̩w̺̘i̠̲͉̘̪t̟̜͉͓͈͞h̩͚̺̕ ̧͉̹̮̠ͅm̻̰͔̜͚o̲̥̘r̶͕̟͇͇̟̭e̠ ̩̺̖̟g̪̬̰̺̟̪͈͜l͇͉͚̬͞i̡ṭ̠̲̰̦ͅc̨̣ͅh̰̲̯̺͕̼͈͜e̷͕̜͎̱s̢̩"
     ],
     "date": "2016-03-28",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -853,7 +853,7 @@
       "A quick look into some of the options for context.globalCompositeOperation."
     ],
     "date": "2016-03-23",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "20",
@@ -865,7 +865,7 @@
       "Async/await ftw"
     ],
     "date": "2016-03-17",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "20",
@@ -877,7 +877,7 @@
       "A version of Stormy Green that doesn't drift out of phase."
     ],
     "date": "2016-03-14",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "71",
@@ -889,7 +889,7 @@
       "Sine waves shifting sinusoidally."
     ],
     "date": "2016-03-14",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "70",
@@ -901,7 +901,7 @@
       "Variations on \"Stone\" with controlled line angles across the circle."
     ],
     "date": "2016-03-13",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "74",
@@ -914,7 +914,7 @@
       "I'm sure someone else discovered this effect long before I did."
     ],
     "date": "2016-03-13",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -928,7 +928,7 @@
       "Could be done far more efficiently by scaling / translating a fixed amount of concentric circles, but math-ing it was more fun :)"
     ],
     "date": "2016-03-11",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "36",
@@ -941,7 +941,7 @@
       "This layout was rather difficult before flexbox came along."
     ],
     "date": "2016-03-08",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "50",
@@ -954,7 +954,7 @@
       "Super quick demo trying (failing, mostly) to capture the perspective effect."
     ],
     "date": "2016-03-07",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "42",
@@ -966,7 +966,7 @@
       "Small canvas demo using Lissajous curves."
     ],
     "date": "2016-03-06",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -979,7 +979,7 @@
       "Hey! It's a normal distribution!"
     ],
     "date": "2016-03-06",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "40",
@@ -991,7 +991,7 @@
       "Animated lava lamps with simple non-rectangular collision detection and metaballs for wax clumps."
     ],
     "date": "2016-03-05",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "78",
@@ -1003,7 +1003,7 @@
       "CSS Flexbox solution to prevent tooltips from overflowing their container at the edges."
     ],
     "date": "2016-02-26",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "66",
@@ -1016,7 +1016,7 @@
       "Includes a few variations."
     ],
     "date": "2016-02-25",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "78",
@@ -1028,7 +1028,7 @@
       "CSS technique to make a semi-transparent background fade in perfectly with its box-shadow."
     ],
     "date": "2016-02-24",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "44",
@@ -1041,7 +1041,7 @@
       "Drag your mouse over it, and click for something special."
     ],
     "date": "2016-02-23",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1054,7 +1054,7 @@
       "Contribution to the publication \"Codrops\" for their Line Menu Styles collection."
     ],
     "date": "2016-01-06",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "60",
@@ -1067,7 +1067,7 @@
       "From the project page: \"there is confusion in the mixed layers of metaphors. This is not an obfuscated code repository; not really. In some ways, it is the opposite.\""
     ],
     "date": "2015-12-31",
-    "categories": [
+    "tags": [
       "other",
       "bestof"
     ],
@@ -1080,7 +1080,7 @@
       "A browser extension that removes the unread count from your Gmail inbox and title bar."
     ],
     "date": "2015-12-20",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -1092,7 +1092,7 @@
       "These used to be pokéballs."
     ],
     "date": "2015-12-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "44",
@@ -1104,7 +1104,7 @@
       "Riffing on pokéball wave."
     ],
     "date": "2015-12-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -1116,7 +1116,7 @@
       "Animated demo written alongside a new programmer who was really into Pokémon."
     ],
     "date": "2015-12-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "44",
@@ -1129,7 +1129,7 @@
       "I was hoping for a more convincing gradient; the weight calculation could use some work."
     ],
     "date": "2015-12-12",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -1142,7 +1142,7 @@
       "Written originally as a bookmarklet in 2013."
     ],
     "date": "2015-11-15",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1156,7 +1156,7 @@
       "An excuse to write git push it to-the-limit into the console."
     ],
     "date": "2015-10-29",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "100",
@@ -1168,7 +1168,7 @@
       "A forcefully applied dark theme for the web."
     ],
     "date": "2015-10-29",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1181,7 +1181,7 @@
       "An ASCII art pond ripple animation."
     ],
     "date": "2015-10-12",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "80",
@@ -1194,7 +1194,7 @@
       "Built hastily between speakers on the last day of the festival; requires login with Twitter to protect attendees' identity."
     ],
     "date": "2015-09-13",
-    "categories": [
+    "tags": [
       "js",
       "other",
       "bestof"
@@ -1208,7 +1208,7 @@
       "A collection of dotfiles that I use + some scripts to keep 'em in sync."
     ],
     "date": "2015-09-07",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "89",
@@ -1221,7 +1221,7 @@
       "Requires a bit of JS on page load. Just CSS and SVG after that."
     ],
     "date": "2015-08-20",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "70",
@@ -1234,7 +1234,7 @@
       "Call +1.480.360.MATH (6284) from the US, +1.647.360.MATH (6284) from Canada."
     ],
     "date": "2015-06-13",
-    "categories": [
+    "tags": [
       "other",
       "bestof"
     ],
@@ -1248,7 +1248,7 @@
       "Creates a shadow based on mouse position."
     ],
     "date": "2015-06-06",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "76",
@@ -1260,7 +1260,7 @@
       "A speedometer that travels through time with Doc Brown."
     ],
     "date": "2015-05-10",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "40",
@@ -1272,7 +1272,7 @@
       "A Chrome extension: count and list all page-defined global variables."
     ],
     "date": "2015-05-05",
-    "categories": [
+    "tags": [
       "js",
       "other"
     ],
@@ -1285,7 +1285,7 @@
       "A sliding menu concept using just radio buttons and CSS."
     ],
     "date": "2015-04-30",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "21",
@@ -1297,7 +1297,7 @@
       "Boring minimal audio visualizer."
     ],
     "date": "2015-03-29",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -1310,7 +1310,7 @@
       "Includes an audio visualizer built with the Web Audio API."
     ],
     "date": "2015-03-26",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1323,7 +1323,7 @@
       "Sticky headers cover internally-linked content by default. The most robust solutions I've seen use JS, but these 4 lines of CSS seem to do the trick."
     ],
     "date": "2015-03-13",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "32",
@@ -1336,7 +1336,7 @@
       "Implemented with the Web Audio API using custom oscillators."
     ],
     "date": "2015-03-03",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1347,7 +1347,7 @@
     "title": "terra.js demos",
     "description": [],
     "date": "2015-03-02",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "70",
@@ -1359,7 +1359,7 @@
       "Jeff Thomas's Fluid Simulation, ported to Khan Academy's CS platform."
     ],
     "date": "2015-03-01",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "65",
@@ -1371,7 +1371,7 @@
       "A game: hit space over the red dots to earn points."
     ],
     "date": "2015-02-20",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "65",
@@ -1383,7 +1383,7 @@
       "Pop-up programming challenges in your browser."
     ],
     "date": "2015-02-19",
-    "categories": [
+    "tags": [
       "bestof",
       "js"
     ],
@@ -1396,7 +1396,7 @@
       "Two versions of a canvas util function."
     ],
     "date": "2015-02-08",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "10",
@@ -1408,7 +1408,7 @@
       "The letters [A-z], composed of smaller versions of themselves."
     ],
     "date": "2015-02-01",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "43",
@@ -1420,7 +1420,7 @@
       "A Pebble watchface that divides the week into six 28-hour days instead of the standard 24/7."
     ],
     "date": "2015-01-29",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "71",
@@ -1433,7 +1433,7 @@
       "Probably doesn't work cross-browser."
     ],
     "date": "2015-01-18",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "21",
@@ -1446,7 +1446,7 @@
       "Created as a proof of concept for TextSecure's browser extension layout."
     ],
     "date": "2015-01-12",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "33",
@@ -1456,7 +1456,7 @@
     "title": "Rainbow text",
     "description": [],
     "date": "2015-01-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "28",
@@ -1469,7 +1469,7 @@
       "Type \"help\" for command list."
     ],
     "date": "2015-01-08",
-    "categories": [
+    "tags": [
       "js",
       "css",
       "bestof"
@@ -1483,7 +1483,7 @@
       "Functional JavaScript terminal using my TinyTerm library."
     ],
     "date": "2014-12-21",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "72",
@@ -1495,7 +1495,7 @@
       "A tiny in-browser terminal."
     ],
     "date": "2014-12-16",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1509,7 +1509,7 @@
       "Never used."
     ],
     "date": "2014-12-14",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1522,7 +1522,7 @@
       "Web typography experiment: drop cap + justify."
     ],
     "date": "2014-12-11",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "8",
@@ -1534,7 +1534,7 @@
       "In-browser keystroke dynamics demo using Tappy."
     ],
     "date": "2014-12-09",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1547,7 +1547,7 @@
       "Web typography experiment using CSS transforms and SVG."
     ],
     "date": "2014-11-29",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "5",
@@ -1559,7 +1559,7 @@
       "A JavaScript library for recording and comparing rhythms"
     ],
     "date": "2014-11-23",
-    "categories": [
+    "tags": [
       "bestof",
       "js"
     ],
@@ -1573,7 +1573,7 @@
       "Demo involved patching Adobe Web Platform's balance-text polyfill."
     ],
     "date": "2014-11-22",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1586,7 +1586,7 @@
       "UI experiment for line-by-line tutorials. Annotations can be turned off to expose a complete code example."
     ],
     "date": "2014-11-13",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1597,7 +1597,7 @@
     "title": "My website fits in a favicon",
     "description": [],
     "date": "2014-11-10",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -1610,7 +1610,7 @@
       "A bit of an anti-pattern, but people seemed to like it."
     ],
     "date": "2014-11-08",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1621,7 +1621,7 @@
     "title": "Text fly-in effect",
     "description": [],
     "date": "2014-11-08",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -1634,7 +1634,7 @@
       "Utils for <a href=\"/terra\">Terra</a>."
     ],
     "date": "2014-11-04",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "12",
@@ -1647,7 +1647,7 @@
       "Inspired by Kung-Fu Chess."
     ],
     "date": "2014-11-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "80",
@@ -1660,7 +1660,7 @@
       "*This is a proof-of-concept and won't actually steal anything."
     ],
     "date": "2014-10-27",
-    "categories": [
+    "tags": [
       "js",
       "css",
       "bestof"
@@ -1675,7 +1675,7 @@
       "Built with a custom raycaster / collision engine."
     ],
     "date": "2014-10-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "83",
@@ -1687,7 +1687,7 @@
       "Tap the rhythm of the lyrics displayed."
     ],
     "date": "2014-10-13",
-    "categories": [
+    "tags": [
       "bestof",
       "js"
     ],
@@ -1700,7 +1700,7 @@
       "Needed this for <a href=\"http://play.tappy.pw\">tappy</a> before there were 1000 libraries to choose from."
     ],
     "date": "2014-10-12",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "13",
@@ -1712,7 +1712,7 @@
       "Warning: contains a blocking loop that may cause browsers to hang briefly."
     ],
     "date": "2014-10-12",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "45",
@@ -1724,7 +1724,7 @@
       "Warning: contains a blocking loop that may cause browsers to hang briefly."
     ],
     "date": "2014-10-12",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "50",
@@ -1736,7 +1736,7 @@
       "Warning: contains a blocking loop that may cause browsers to hang briefly."
     ],
     "date": "2014-10-12",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1750,7 +1750,7 @@
       "Currently doesn't work on iOS &lt; 8 since they mess with scroll events. If you use this in production, look into iScroll."
     ],
     "date": "2014-10-04",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1763,7 +1763,7 @@
       "Search for emoji domains and short domains."
     ],
     "date": "2014-09-16",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "55",
@@ -1775,7 +1775,7 @@
       "Realtime web-based collaborative coding."
     ],
     "date": "2014-09-15",
-    "categories": [
+    "tags": [
       "bestof",
       "js",
       "css",
@@ -1790,7 +1790,7 @@
       "For Pairjam."
     ],
     "date": "2014-09-12",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "14",
@@ -1803,7 +1803,7 @@
       "Bad interaction tbh."
     ],
     "date": "2014-09-12",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "9",
@@ -1815,7 +1815,7 @@
       "Displays a random ASCII face."
     ],
     "date": "2014-09-07",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "10",
@@ -1827,7 +1827,7 @@
       "Initial pass at the menu system for Pairjam."
     ],
     "date": "2014-09-14",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "30",
@@ -1841,7 +1841,7 @@
       "¯\\_(ツ)_/¯"
     ],
     "date": "2014-09-01",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "16",
@@ -1853,7 +1853,7 @@
       "A minimal New Tab page for Chrome"
     ],
     "date": "2014-08-25",
-    "categories": [
+    "tags": [
       "css",
       "js",
       "other",
@@ -1868,7 +1868,7 @@
       "An audiovisual experiment that generates landscapes from sound waves."
     ],
     "date": "2014-08-15",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1882,7 +1882,7 @@
       "Supports my <a href=\"/blog/graphing-depth/\">blog post</a> of the same name."
     ],
     "date": "2014-07-31",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1895,7 +1895,7 @@
       "A Chrome extension to preserve the background color between page loads."
     ],
     "date": "2014-07-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "30",
@@ -1908,7 +1908,7 @@
       "Part of <a href=\"/blog/stealing-history-with-CSS-binary-trees/\">\"Stealing history with CSS binary trees\"</a>."
     ],
     "date": "2014-06-26",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "60",
@@ -1920,7 +1920,7 @@
       "Democratic billboard for sharing the pulse of a community. Popular thoughts will be displayed on the billboard for all to see."
     ],
     "date": "2014-05-31",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "85",
@@ -1932,7 +1932,7 @@
       "Takes a series of characters and a series of words and checks if they match the same sequence. Words need not be delimited."
     ],
     "date": "2014-05-20",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -1945,7 +1945,7 @@
       "WebRTC file sharing concept thrown together in ~40 minutes (or your pizza's free!)"
     ],
     "date": "2014-05-19",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "41",
@@ -1957,7 +1957,7 @@
       "How I like to think of myself."
     ],
     "date": "2014-05-09",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "30",
@@ -1969,7 +1969,7 @@
       "Only wakes you up if the wind is howling. An alarm for kiteboarders."
     ],
     "date": "2014-05-07",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "68",
@@ -1983,7 +1983,7 @@
       "This used to be on Chrome Experiments but it's offline now :("
     ],
     "date": "2014-04-29",
-    "categories": [
+    "tags": [
       "js",
       "other",
       "bestof"
@@ -1998,7 +1998,7 @@
       "Lowercase alphanumeric, length [1, 198)."
     ],
     "date": "2014-04-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "57",
@@ -2011,7 +2011,7 @@
       "Cross-device, cross-browser."
     ],
     "date": "2014-04-24",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "18",
@@ -2023,7 +2023,7 @@
       "Small demo of live translation synchronization."
     ],
     "date": "2014-04-24",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "24",
@@ -2035,7 +2035,7 @@
       "Checks how quickly you can navigate to other sites in a new tab. Only works in Firefox."
     ],
     "date": "2014-04-14",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "20",
@@ -2045,7 +2045,7 @@
     "title": "Pyramid",
     "description": [],
     "date": "2014-04-17",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "12",
@@ -2057,7 +2057,7 @@
       "A JavaScript library for smoother color transitions"
     ],
     "date": "2014-03-24",
-    "categories": [
+    "tags": [
       "bestof",
       "js"
     ],
@@ -2070,7 +2070,7 @@
       "Chat through happenstance. The interface adapts to meet demand."
     ],
     "date": "2014-03-19",
-    "categories": [
+    "tags": [
       "js",
       "css",
       "bestof"
@@ -2084,7 +2084,7 @@
       "An experimental online game of King of the Hill, on this very website."
     ],
     "date": "2014-03-19",
-    "categories": [
+    "tags": [
       "js",
       "css",
       "bestof"
@@ -2098,7 +2098,7 @@
       "Really little chat server written in Node.js."
     ],
     "date": "2014-03-17",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "37",
@@ -2110,7 +2110,7 @@
       "CSS animation with no additional HTML or JS."
     ],
     "date": "2014-03-17",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "11",
@@ -2122,7 +2122,7 @@
       "Supporting code for my \"Taking the average tone\" blog post."
     ],
     "date": "2014-03-17",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "20",
@@ -2134,7 +2134,7 @@
       "Scrapes Wikipedia to find the most important births and deaths of each year by word count."
     ],
     "date": "2014-03-13",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "86",
@@ -2146,7 +2146,7 @@
       "A terrible clone of a terrible clone of a game."
     ],
     "date": "2014-03-13",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "5",
@@ -2158,7 +2158,7 @@
       "Generate frequencies, chords, and songs."
     ],
     "date": "2014-03-12",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "72",
@@ -2170,7 +2170,7 @@
       "A JavaScript library for simple biological simulations and cellular automata."
     ],
     "date": "2014-03-09",
-    "categories": [
+    "tags": [
       "bestof",
       "js"
     ],
@@ -2183,7 +2183,7 @@
       "Tell people on the internet what they should do."
     ],
     "date": "2014-02-28",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -2196,7 +2196,7 @@
       "Boring."
     ],
     "date": "2014-02-15",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "1",
@@ -2208,7 +2208,7 @@
       "Thx Mary :)"
     ],
     "date": "2014-02-13",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "26",
@@ -2220,7 +2220,7 @@
       "Recreating Soulwax's album art in CSS."
     ],
     "date": "2014-01-13",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "20",
@@ -2232,7 +2232,7 @@
       "Using a repeating pattern to give the illusion of semi-transparency."
     ],
     "date": "2014-01-03",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "4",
@@ -2245,7 +2245,7 @@
       "Fun with gradients and background-clip: text."
     ],
     "date": "2014-01-03",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "40",
@@ -2255,7 +2255,7 @@
     "title": "Gradient patterns",
     "description": [],
     "date": "2014-01-03",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "24",
@@ -2267,7 +2267,7 @@
       "Uses Chrome's canvas compositing algorithm (circa 2013) to simulate watercolor painting in the browser."
     ],
     "date": "2013-12-29",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "40",
@@ -2279,7 +2279,7 @@
       "Slide-out footer with semantic markup."
     ],
     "date": "2013-12-27",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "16",
@@ -2291,7 +2291,7 @@
       "lol these variable names..."
     ],
     "date": "2013-12-21",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "24",
@@ -2301,7 +2301,7 @@
     "title": "No Vacancy 404 concept",
     "description": [],
     "date": "2013-12-19",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "9",
@@ -2313,7 +2313,7 @@
       "Recreating a popular clothing brand's logo in CSS."
     ],
     "date": "2013-12-19",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "29",
@@ -2325,7 +2325,7 @@
       "BYOG (glasses)."
     ],
     "date": "2013-12-15",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "13",
@@ -2335,7 +2335,7 @@
     "title": "Cheshire Cat Loader",
     "description": [],
     "date": "2013-12-08",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "2",
@@ -2347,7 +2347,7 @@
       "Sass vanishing point mixin."
     ],
     "date": "2013-12-08",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "26",
@@ -2359,7 +2359,7 @@
       "Random mutations of a polyhedron."
     ],
     "date": "2013-12-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "35",
@@ -2369,7 +2369,7 @@
     "title": "3D flower",
     "description": [],
     "date": "2013-12-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "29",
@@ -2381,7 +2381,7 @@
       "Simple animation in three.js."
     ],
     "date": "2013-12-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "32",
@@ -2394,7 +2394,7 @@
       "A follow-up article has since been written to show more robust techniques."
     ],
     "date": "2013-12-03",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "20",
@@ -2406,7 +2406,7 @@
       "Two very small implementations of Fizzbuzz: one in JavaScript (74B) and one in Stylus (126B)."
     ],
     "date": "2013-11-29",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -2417,7 +2417,7 @@
     "title": "Crazy chemicals",
     "description": [],
     "date": "2013-11-26",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "32",
@@ -2427,7 +2427,7 @@
     "title": "10 colors that faded away",
     "description": [],
     "date": "2013-11-25",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "27",
@@ -2439,7 +2439,7 @@
       "Sass flower with variable number of petals."
     ],
     "date": "2013-11-25",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "54",
@@ -2451,7 +2451,7 @@
       "Are the base lines straight or at an angle?"
     ],
     "date": "2013-11-20",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -2464,7 +2464,7 @@
       "Linear gradient, animation, and background-clip"
     ],
     "date": "2013-11-20",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "29",
@@ -2476,7 +2476,7 @@
       "Used this as my 404 page for a while."
     ],
     "date": "2013-11-20",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "40",
@@ -2486,7 +2486,7 @@
     "title": "Wacky static",
     "description": [],
     "date": "2013-11-20",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "20",
@@ -2496,7 +2496,7 @@
     "title": "Yummy loader",
     "description": [],
     "date": "2013-11-15",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -2509,7 +2509,7 @@
       "Pure Sass animated solar system."
     ],
     "date": "2013-11-15",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -2522,7 +2522,7 @@
       "Collection of Sass animations."
     ],
     "date": "2013-11-11",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -2533,7 +2533,7 @@
     "title": "Sticky CSS transitions",
     "description": [],
     "date": "2013-11-08",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "37",
@@ -2545,7 +2545,7 @@
       "Ha."
     ],
     "date": "2013-11-08",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "9",
@@ -2557,7 +2557,7 @@
       "Snake for 2 players on the same keyboard?! Saucy."
     ],
     "date": "2013-11-11",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -2568,7 +2568,7 @@
     "title": "Multiple hover events in CSS",
     "description": [],
     "date": "2013-11-03",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "30",
@@ -2580,7 +2580,7 @@
       "Recreating a nice hover effect in CSS."
     ],
     "date": "2013-10-31",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "33",
@@ -2592,7 +2592,7 @@
       "Pure Sass hamburger. Sesame-seed bun, lettuce, tomato, fresh cheddar, and infinity perfectly cooked Angus beef patties."
     ],
     "date": "2013-10-29",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "18",
@@ -2604,7 +2604,7 @@
       "An attempt to give flat buttons some depth. Collection of inputs including radio buttons, checkboxes, and text inputs."
     ],
     "date": "2013-10-28",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -2617,7 +2617,7 @@
       "Each one's only a single element."
     ],
     "date": "2013-10-28",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "36",
@@ -2627,7 +2627,7 @@
     "title": "Flat shadow mouse tracker",
     "description": [],
     "date": "2013-10-28",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "23",
@@ -2639,7 +2639,7 @@
       "Hover over \"DNS\"."
     ],
     "date": "2013-10-28",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "25",
@@ -2651,7 +2651,7 @@
       "Loading bar concept."
     ],
     "date": "2013-10-28",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "16",
@@ -2663,7 +2663,7 @@
       "Ugly implementation of something pretty."
     ],
     "date": "2013-10-23",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "14",
@@ -2673,7 +2673,7 @@
     "title": "Single element kabamm",
     "description": [],
     "date": "2013-10-23",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "22",
@@ -2686,7 +2686,7 @@
       "There's actually some cool stuff going on in here, so I've commented it thoroughly."
     ],
     "date": "2013-10-13",
-    "categories": [
+    "tags": [
       "js",
       "bestof"
     ],
@@ -2699,7 +2699,7 @@
       "Sass 3D text-shadow mixin."
     ],
     "date": "2013-10-09",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "22",
@@ -2711,7 +2711,7 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-10-08",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "21",
@@ -2724,7 +2724,7 @@
       "This was my first CodePen to hit the front page :)"
     ],
     "date": "2013-09-29",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "14",
@@ -2736,7 +2736,7 @@
       "A quick reference for before your morning coffee."
     ],
     "date": "2013-09-18",
-    "categories": [
+    "tags": [
       "other",
       "bestof"
     ],
@@ -2750,7 +2750,7 @@
       "Features a terrible mash-up of Watermelon Man and Mos Def's Beef freestyle that I threw together in Audacity..."
     ],
     "date": "2013-09-12",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "16",
@@ -2762,7 +2762,7 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-09-06",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "27",
@@ -2775,7 +2775,7 @@
       "The perspective effect can be added to anything; a site where each content block was extruded could look interesting."
     ],
     "date": "2013-08-31",
-    "categories": [
+    "tags": [
       "css",
       "bestof"
     ],
@@ -2788,7 +2788,7 @@
       "Semantic vertical menu using nested radio buttons and CSS."
     ],
     "date": "2013-08-27",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "42",
@@ -2800,7 +2800,7 @@
       "Sass speech bubble mixin."
     ],
     "date": "2013-07-13",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "24",
@@ -2812,7 +2812,7 @@
       "Buggy POC exploring the CSS background-attachment property and a 3rd-party Instagram API."
     ],
     "date": "2013-04-02",
-    "categories": [
+    "tags": [
       "js",
       "css"
     ],
@@ -2825,7 +2825,7 @@
       "A fitness form trainer using an Xbox Kinect."
     ],
     "date": "2013-03-02",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "85",
@@ -2837,7 +2837,7 @@
       "Scrolling gallery view for tumblr."
     ],
     "date": "2013-03-25",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "60",
@@ -2850,7 +2850,7 @@
       "Demo built for web browsers and Wacom tablets. Installation involved creating a large infrared plane behind a flexible display and sensing deformations using Community Core Vision."
     ],
     "date": "2013-03-22",
-    "categories": [
+    "tags": [
       "bestof",
       "other"
     ],
@@ -2863,7 +2863,7 @@
       "Word-search puzzle generator."
     ],
     "date": "2013-02-05",
-    "categories": [
+    "tags": [
       "other"
     ],
     "coolness": "30",
@@ -2873,7 +2873,7 @@
     "title": "Pure Sass music icons",
     "description": [],
     "date": "2012-10-30",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "12",
@@ -2885,7 +2885,7 @@
       "A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output."
     ],
     "date": "2012-06-22",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "14",
@@ -2897,7 +2897,7 @@
       "My former personal brand mark."
     ],
     "date": "2012-01-05",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "24",
@@ -2909,7 +2909,7 @@
       "Settings reveal concept where a nut unscrews itself then drops a curtain."
     ],
     "date": "2011-11-26",
-    "categories": [
+    "tags": [
       "css"
     ],
     "coolness": "11",
@@ -2921,7 +2921,7 @@
       "Used to promote <a href=\"http://qhack.ca\">\"hack nights\" at my university</a>."
     ],
     "date": "2012-10-23",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "23",
@@ -2931,7 +2931,7 @@
     "title": "Infinite scroll",
     "description": [],
     "date": "2010-06-22",
-    "categories": [
+    "tags": [
       "js"
     ],
     "coolness": "15",
