@@ -12,7 +12,8 @@ author:
 
 # Grunt handles images and assets.
 exclude: ['images', 'css', 'scripts', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg',
+          '**.ico', lab/tagger.html]
 
 gems: [jekyll-timeago]
 
