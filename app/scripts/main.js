@@ -53,6 +53,20 @@
     toggleClass( body, 'drawer-nav-open' );
   };
 
+  // Checks scroll height and toggles topNav state
+  var navHidden = false;
+  var checkScroll = function ( event ) {
+    if ( navHidden ) {
+      if ( window.pageYOffset <= 0 ) {
+        removeClass( body, 'scrolled' );
+        navHidden = false;
+      }
+    } else if ( window.pageYOffset > 0 ) {
+      addClass( body, 'scrolled' );
+      navHidden = true;
+    }
+  };
+
   // Event listeners
   //
 
