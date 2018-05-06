@@ -43,7 +43,7 @@ topclass: lab
     </div>
   </header>
   <ul class="experiments">
-    {% for project in site.data.lab | sort: 'date' %}
+    {% for project in site.data.lab_old | sort: 'date' %}
       <li
         {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
         class="{% for tag in project.tags %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ tag | prepend: 'labs-' }}{% endfor %}"
