@@ -74,6 +74,10 @@ topclass: lab
       });
     }, false);
 
+    // HACK but i like it ;)
+    document.getElementById('labs-starred-toggle').checked = true;
+    document.getElementById('labs-online-toggle').checked = true;
+
     [].forEach.call(fakeLinks, function (link) {
       function fakeLinkClick (e) {
         e.preventDefault();
