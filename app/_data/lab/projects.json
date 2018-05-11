@@ -2206,6 +2206,7 @@
     "tags": [
       "starred",
       "app",
+      "golf",
       "pretty",
       "browserextension"
     ],
@@ -2525,9 +2526,13 @@
       "Supporting code for my \"Taking the average tone\" blog post."
     ],
     "date": "2014-03-17",
-    "tags": [],
+    "tags": [
+      "music",
+      "instructional"
+    ],
     "coolness": "20",
-    "href": "https://github.com/rileyjshaw/mean-tone"
+    "href": "https://github.com/rileyjshaw/mean-tone",
+    "lastTagged": 1526017362352
   },
   {
     "title": "Important people",
@@ -2537,7 +2542,8 @@
     "date": "2014-03-13",
     "tags": [],
     "coolness": "86",
-    "href": "https://github.com/rileyjshaw/important-people"
+    "href": "https://github.com/rileyjshaw/important-people",
+    "lastTagged": 1526017378521
   },
   {
     "title": "1125899906842624",
@@ -2545,9 +2551,13 @@
       "A terrible clone of a terrible clone of a game."
     ],
     "date": "2014-03-13",
-    "tags": [],
+    "tags": [
+      "online",
+      "game"
+    ],
     "coolness": "5",
-    "href": "/2048"
+    "href": "/2048",
+    "lastTagged": 1526017388760
   },
   {
     "title": "Composer",
@@ -2555,9 +2565,13 @@
       "Generate frequencies, chords, and songs."
     ],
     "date": "2014-03-12",
-    "tags": [],
+    "tags": [
+      "music",
+      "reusable"
+    ],
     "coolness": "72",
-    "href": "https://github.com/rileyjshaw/composer"
+    "href": "https://github.com/rileyjshaw/composer",
+    "lastTagged": 1526017428165
   },
   {
     "title": "terra",
@@ -2566,10 +2580,15 @@
     ],
     "date": "2014-03-09",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "pretty",
+      "reusable",
+      "instructional"
     ],
     "coolness": "86",
-    "href": "/terra"
+    "href": "/terra",
+    "lastTagged": 1526017444344
   },
   {
     "title": "Ushld",
@@ -2578,10 +2597,12 @@
     ],
     "date": "2014-02-28",
     "tags": [
-      "starred"
+      "online",
+      "app"
     ],
     "coolness": "52",
-    "href": "http://ushld.com"
+    "href": "http://ushld.com",
+    "lastTagged": 1526017457598
   },
   {
     "title": "Strobe",
@@ -2589,9 +2610,12 @@
       "Boring."
     ],
     "date": "2014-02-15",
-    "tags": [],
+    "tags": [
+      "online"
+    ],
     "coolness": "1",
-    "href": "http://codepen.io/rileyjshaw/details/pcKCj/"
+    "href": "http://codepen.io/rileyjshaw/details/pcKCj/",
+    "lastTagged": 1526017473557
   },
   {
     "title": "Space avoiders",
@@ -2599,9 +2623,13 @@
       "Thx Mary :)"
     ],
     "date": "2014-02-13",
-    "tags": [],
+    "tags": [
+      "online",
+      "game"
+    ],
     "coolness": "26",
-    "href": "http://codepen.io/rileyjshaw/pen/CErAF"
+    "href": "http://codepen.io/rileyjshaw/pen/CErAF",
+    "lastTagged": 1526017483284
   },
   {
     "title": "Nite versions",
@@ -2609,9 +2637,14 @@
       "Recreating Soulwax's album art in CSS."
     ],
     "date": "2014-01-13",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/full/sDrLJ/"
+    "href": "http://codepen.io/rileyjshaw/full/sDrLJ/",
+    "lastTagged": 1526017515367
   },
   {
     "title": "CSS gradient blocker",
@@ -2619,9 +2652,14 @@
       "Using a repeating pattern to give the illusion of semi-transparency."
     ],
     "date": "2014-01-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "4",
-    "href": "http://codepen.io/rileyjshaw/full/uvcyE/"
+    "href": "http://codepen.io/rileyjshaw/full/uvcyE/",
+    "lastTagged": 1526017603259
   },
   {
     "title": "Zig-zag text effect",
@@ -2630,17 +2668,29 @@
       "Fun with gradients and background-clip: text."
     ],
     "date": "2014-01-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "40",
-    "href": "http://codepen.io/rileyjshaw/full/waeqK"
+    "href": "http://codepen.io/rileyjshaw/full/waeqK",
+    "lastTagged": 1526017618394
   },
   {
     "title": "Gradient patterns",
     "description": [],
     "date": "2014-01-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "24",
-    "href": "http://codepen.io/rileyjshaw/full/KdFAg/"
+    "href": "http://codepen.io/rileyjshaw/full/KdFAg/",
+    "lastTagged": 1526017628115
   },
   {
     "title": "Watercolor",
@@ -2648,9 +2698,14 @@
       "Uses Chrome's canvas compositing algorithm (circa 2013) to simulate watercolor painting in the browser."
     ],
     "date": "2013-12-29",
-    "tags": [],
+    "tags": [
+      "online",
+      "app",
+      "pretty"
+    ],
     "coolness": "40",
-    "href": "/watercolor/"
+    "href": "/watercolor/",
+    "lastTagged": 1526017678780
   },
   {
     "title": "Simple slide-out footer",
@@ -2658,9 +2713,14 @@
       "Slide-out footer with semantic markup."
     ],
     "date": "2013-12-27",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "16",
-    "href": "http://codepen.io/rileyjshaw/details/GlBHC/"
+    "href": "http://codepen.io/rileyjshaw/details/GlBHC/",
+    "lastTagged": 1526018251228
   },
   {
     "title": "Canvas spectrum",
@@ -2668,17 +2728,27 @@
       "lol these variable names..."
     ],
     "date": "2013-12-21",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "24",
-    "href": "http://codepen.io/rileyjshaw/pen/bzeqL?editors=0010"
+    "href": "http://codepen.io/rileyjshaw/pen/bzeqL?editors=0010",
+    "lastTagged": 1526018267933
   },
   {
     "title": "No Vacancy 404 concept",
     "description": [],
     "date": "2013-12-19",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable"
+    ],
     "coolness": "9",
-    "href": "http://codepen.io/rileyjshaw/full/ufEIH"
+    "href": "http://codepen.io/rileyjshaw/full/ufEIH",
+    "lastTagged": 1526018288223
   },
   {
     "title": "COS logo",
@@ -2686,9 +2756,14 @@
       "Recreating a popular clothing brand's logo in CSS."
     ],
     "date": "2013-12-19",
-    "tags": [],
+    "tags": [
+      "online",
+      "golf",
+      "pretty"
+    ],
     "coolness": "29",
-    "href": "http://codepen.io/rileyjshaw/pen/blCIq/"
+    "href": "http://codepen.io/rileyjshaw/pen/blCIq/",
+    "lastTagged": 1526018295326
   },
   {
     "title": "3D text!",
@@ -2696,17 +2771,27 @@
       "BYOG (glasses)."
     ],
     "date": "2013-12-15",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "13",
-    "href": "http://codepen.io/rileyjshaw/details/rEhdF/"
+    "href": "http://codepen.io/rileyjshaw/details/rEhdF/",
+    "lastTagged": 1526018328305
   },
   {
     "title": "Cheshire Cat Loader",
     "description": [],
     "date": "2013-12-08",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "2",
-    "href": "http://codepen.io/rileyjshaw/full/fondm"
+    "href": "http://codepen.io/rileyjshaw/full/fondm",
+    "lastTagged": 1526018348031
   },
   {
     "title": "Vanishify",
@@ -2714,9 +2799,15 @@
       "Sass vanishing point mixin."
     ],
     "date": "2013-12-08",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "26",
-    "href": "http://codepen.io/rileyjshaw/pen/inyzb"
+    "href": "http://codepen.io/rileyjshaw/pen/inyzb",
+    "lastTagged": 1526018438572
   },
   {
     "title": "Chamber",
@@ -2724,17 +2815,25 @@
       "Random mutations of a polyhedron."
     ],
     "date": "2013-12-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty"
+    ],
     "coolness": "35",
-    "href": "http://codepen.io/rileyjshaw/full/wKvfk"
+    "href": "http://codepen.io/rileyjshaw/full/wKvfk",
+    "lastTagged": 1526018444673
   },
   {
     "title": "3D flower",
     "description": [],
     "date": "2013-12-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty"
+    ],
     "coolness": "29",
-    "href": "http://codepen.io/rileyjshaw/full/LhFfw"
+    "href": "http://codepen.io/rileyjshaw/full/LhFfw",
+    "lastTagged": 1526018449971
   },
   {
     "title": "Ball",
@@ -2742,9 +2841,13 @@
       "Simple animation in three.js."
     ],
     "date": "2013-12-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty"
+    ],
     "coolness": "32",
-    "href": "http://codepen.io/rileyjshaw/details/fzhDk/"
+    "href": "http://codepen.io/rileyjshaw/details/fzhDk/",
+    "lastTagged": 1526018453009
   },
   {
     "title": "Speedy scroll",
@@ -2753,9 +2856,13 @@
       "A follow-up article has since been written to show more robust techniques."
     ],
     "date": "2013-12-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable"
+    ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/details/ruGFo/"
+    "href": "http://codepen.io/rileyjshaw/details/ruGFo/",
+    "lastTagged": 1526018500067
   },
   {
     "title": "Minimal fizzbuzz",
@@ -2763,25 +2870,39 @@
       "Two very small implementations of Fizzbuzz: one in JavaScript (74B) and one in Stylus (126B)."
     ],
     "date": "2013-11-29",
-    "tags": [],
+    "tags": [
+      "online",
+      "golf"
+    ],
     "coolness": "38",
-    "href": "http://codepen.io/rileyjshaw/pen/bCkBo"
+    "href": "http://codepen.io/rileyjshaw/pen/bCkBo",
+    "lastTagged": 1526018514211
   },
   {
     "title": "Crazy chemicals",
     "description": [],
     "date": "2013-11-26",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "32",
-    "href": "http://codepen.io/rileyjshaw/full/zwxCv/"
+    "href": "http://codepen.io/rileyjshaw/full/zwxCv/",
+    "lastTagged": 1526018525274
   },
   {
     "title": "10 colors that faded away",
     "description": [],
     "date": "2013-11-25",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "27",
-    "href": "http://codepen.io/rileyjshaw/details/gLcoi/"
+    "href": "http://codepen.io/rileyjshaw/details/gLcoi/",
+    "lastTagged": 1526018538146
   },
   {
     "title": "Flower power",
@@ -2789,9 +2910,15 @@
       "Sass flower with variable number of petals."
     ],
     "date": "2013-11-25",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "54",
-    "href": "http://codepen.io/rileyjshaw/pen/HBDtd"
+    "href": "http://codepen.io/rileyjshaw/pen/HBDtd",
+    "lastTagged": 1526018548059
   },
   {
     "title": "CSS slope illusion in &lt;140 characters",
@@ -2800,10 +2927,14 @@
     ],
     "date": "2013-11-20",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "55",
-    "href": "http://codepen.io/rileyjshaw/pen/vzwsu/"
+    "href": "http://codepen.io/rileyjshaw/pen/vzwsu/",
+    "lastTagged": 1526018562549
   },
   {
     "title": "Focus",
@@ -2811,9 +2942,14 @@
       "Linear gradient, animation, and background-clip"
     ],
     "date": "2013-11-20",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "29",
-    "href": "http://codepen.io/rileyjshaw/full/gtLGi/"
+    "href": "http://codepen.io/rileyjshaw/full/gtLGi/",
+    "lastTagged": 1526018578002
   },
   {
     "title": "Wacky static 2: TV edition",
@@ -2821,25 +2957,40 @@
       "Used this as my 404 page for a while."
     ],
     "date": "2013-11-20",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "40",
-    "href": "http://codepen.io/rileyjshaw/pen/mcaCi"
+    "href": "http://codepen.io/rileyjshaw/pen/mcaCi",
+    "lastTagged": 1526018588346
   },
   {
     "title": "Wacky static",
     "description": [],
     "date": "2013-11-20",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/pen/GDmeF"
+    "href": "http://codepen.io/rileyjshaw/pen/GDmeF",
+    "lastTagged": 1526018592105
   },
   {
     "title": "Yummy loader",
     "description": [],
     "date": "2013-11-15",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable"
+    ],
     "coolness": "25",
-    "href": "http://codepen.io/rileyjshaw/full/jdyqC"
+    "href": "http://codepen.io/rileyjshaw/full/jdyqC",
+    "lastTagged": 1526018652680
   },
   {
     "title": "Planets",
@@ -2848,10 +2999,14 @@
     ],
     "date": "2013-11-15",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/rileyjshaw/pen/yenLw"
+    "href": "http://codepen.io/rileyjshaw/pen/yenLw",
+    "lastTagged": 1526018664541
   },
   {
     "title": "Sass animation grid",
@@ -2860,18 +3015,28 @@
     ],
     "date": "2013-11-11",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/rileyjshaw/full/zGnlq"
+    "href": "http://codepen.io/rileyjshaw/full/zGnlq",
+    "lastTagged": 1526018676201
   },
   {
     "title": "Sticky CSS transitions",
     "description": [],
     "date": "2013-11-08",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "37",
-    "href": "http://codepen.io/rileyjshaw/full/bHsJf"
+    "href": "http://codepen.io/rileyjshaw/full/bHsJf",
+    "lastTagged": 1526018689111
   },
   {
     "title": "Fifty shades of grey",
@@ -2879,9 +3044,12 @@
       "Ha."
     ],
     "date": "2013-11-08",
-    "tags": [],
+    "tags": [
+      "online"
+    ],
     "coolness": "9",
-    "href": "http://codepen.io/rileyjshaw/full/KcILg/"
+    "href": "http://codepen.io/rileyjshaw/full/KcILg/",
+    "lastTagged": 1526018701536
   },
   {
     "title": "2p Snake",
@@ -2890,18 +3058,26 @@
     ],
     "date": "2013-11-11",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "game"
     ],
     "coolness": "83",
-    "href": "/2p-snake"
+    "href": "/2p-snake",
+    "lastTagged": 1526018713975
   },
   {
     "title": "Multiple hover events in CSS",
     "description": [],
     "date": "2013-11-03",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/details/LIwdc/"
+    "href": "http://codepen.io/rileyjshaw/details/LIwdc/",
+    "lastTagged": 1526018802110
   },
   {
     "title": "FS video + blocking tiles",
@@ -2909,9 +3085,14 @@
       "Recreating a nice hover effect in CSS."
     ],
     "date": "2013-10-31",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "33",
-    "href": "http://codepen.io/rileyjshaw/full/FBsmA/"
+    "href": "http://codepen.io/rileyjshaw/full/FBsmA/",
+    "lastTagged": 1526018825251
   },
   {
     "title": "Infinite burger",
@@ -2919,9 +3100,14 @@
       "Pure Sass hamburger. Sesame-seed bun, lettuce, tomato, fresh cheddar, and infinity perfectly cooked Angus beef patties."
     ],
     "date": "2013-10-29",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "18",
-    "href": "http://codepen.io/rileyjshaw/full/HdeEF"
+    "href": "http://codepen.io/rileyjshaw/full/HdeEF",
+    "lastTagged": 1526018867077
   },
   {
     "title": "Long-shadow input series",
@@ -2930,10 +3116,15 @@
     ],
     "date": "2013-10-28",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
     ],
     "coolness": "63",
-    "href": "http://codepen.io/collection/EJveu"
+    "href": "http://codepen.io/collection/EJveu",
+    "lastTagged": 1526018884396
   },
   {
     "title": "Long-shadow cards",
@@ -2941,17 +3132,27 @@
       "Each one's only a single element."
     ],
     "date": "2013-10-28",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "36",
-    "href": "http://codepen.io/rileyjshaw/details/AgGbs"
+    "href": "http://codepen.io/rileyjshaw/details/AgGbs",
+    "lastTagged": 1526018919570
   },
   {
     "title": "Flat shadow mouse tracker",
     "description": [],
     "date": "2013-10-28",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable"
+    ],
     "coolness": "23",
-    "href": "http://codepen.io/rileyjshaw/full/wEJzg/"
+    "href": "http://codepen.io/rileyjshaw/full/wEJzg/",
+    "lastTagged": 1526018935540
   },
   {
     "title": "DNS error easter egg",
@@ -2959,9 +3160,12 @@
       "Hover over \"DNS\"."
     ],
     "date": "2013-10-28",
-    "tags": [],
+    "tags": [
+      "online"
+    ],
     "coolness": "25",
-    "href": "http://codepen.io/rileyjshaw/details/eAEya/"
+    "href": "http://codepen.io/rileyjshaw/details/eAEya/",
+    "lastTagged": 1526018957897
   },
   {
     "title": "Typographic loader",
@@ -2969,9 +3173,14 @@
       "Loading bar concept."
     ],
     "date": "2013-10-28",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable"
+    ],
     "coolness": "16",
-    "href": "http://codepen.io/rileyjshaw/full/dIniD"
+    "href": "http://codepen.io/rileyjshaw/full/dIniD",
+    "lastTagged": 1526018974584
   },
   {
     "title": "Custom carat",
@@ -2979,17 +3188,26 @@
       "Ugly implementation of something pretty."
     ],
     "date": "2013-10-23",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable"
+    ],
     "coolness": "14",
-    "href": "http://codepen.io/rileyjshaw/full/IkfJn/"
+    "href": "http://codepen.io/rileyjshaw/full/IkfJn/",
+    "lastTagged": 1526019004644
   },
   {
     "title": "Single element kabamm",
     "description": [],
     "date": "2013-10-23",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "22",
-    "href": "http://codepen.io/rileyjshaw/details/zFdyq/"
+    "href": "http://codepen.io/rileyjshaw/details/zFdyq/",
+    "lastTagged": 1526019027160
   },
   {
     "title": "Worst practices",
@@ -2999,10 +3217,14 @@
     ],
     "date": "2013-10-13",
     "tags": [
-      "starred"
+      "starred",
+      "online",
+      "instructional",
+      "golf"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/pen/cKiDn?editors=0010"
+    "href": "http://codepen.io/rileyjshaw/pen/cKiDn?editors=0010",
+    "lastTagged": 1526019051784
   },
   {
     "title": "Shadowfy",
@@ -3010,9 +3232,14 @@
       "Sass 3D text-shadow mixin."
     ],
     "date": "2013-10-09",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "22",
-    "href": "http://codepen.io/rileyjshaw/pen/DmCyc"
+    "href": "http://codepen.io/rileyjshaw/pen/DmCyc",
+    "lastTagged": 1526019073111
   },
   {
     "title": "ASCII loaders",
@@ -3020,9 +3247,14 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-10-08",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "21",
-    "href": "http://codepen.io/rileyjshaw/full/ABzsc"
+    "href": "http://codepen.io/rileyjshaw/full/ABzsc",
+    "lastTagged": 1526019130950
   },
   {
     "title": "Color Jump!",
@@ -3031,9 +3263,15 @@
       "This was my first CodePen to hit the front page :)"
     ],
     "date": "2013-09-29",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "14",
-    "href": "http://codepen.io/rileyjshaw/pen/Ijtgr"
+    "href": "http://codepen.io/rileyjshaw/pen/Ijtgr",
+    "lastTagged": 1526019148375
   },
   {
     "title": "Git cheatsheet",
@@ -3042,10 +3280,11 @@
     ],
     "date": "2013-09-18",
     "tags": [
-      "starred"
+      "instructional"
     ],
     "coolness": "66",
-    "href": "https://github.com/rileyjshaw/git-cheatsheet"
+    "href": "https://github.com/rileyjshaw/git-cheatsheet",
+    "lastTagged": 1526019159927
   },
   {
     "title": "Frequency bar visualizer",
@@ -3054,9 +3293,14 @@
       "Features a terrible mash-up of Watermelon Man and Mos Def's Beef freestyle that I threw together in Audacity..."
     ],
     "date": "2013-09-12",
-    "tags": [],
+    "tags": [
+      "pretty",
+      "music",
+      "reusable"
+    ],
     "coolness": "16",
-    "href": "https://github.com/rileyjshaw/basic_visualizer"
+    "href": "https://github.com/rileyjshaw/basic_visualizer",
+    "lastTagged": 1526019239556
   },
   {
     "title": "CSS beach",
@@ -3064,22 +3308,33 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-09-06",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "27",
-    "href": "http://codepen.io/rileyjshaw/details/GsotD/"
+    "href": "http://codepen.io/rileyjshaw/details/GsotD/",
+    "lastTagged": 1526019330569
   },
   {
     "title": "Perspective buttons",
     "description": [
       "Buttons that maintain linear perspective from the screen's vertical midpoint.",
-      "The perspective effect can be added to anything; a site where each content block was extruded could look interesting."
+      "The perspective effect can be added to anything; a site where each content block was extruded could look interesting.",
+      "Chrome only as of 2018."
     ],
     "date": "2013-08-31",
     "tags": [
-      "starred"
+      "online",
+      "pretty",
+      "extinct",
+      "reusable",
+      "golf"
     ],
     "coolness": "74",
-    "href": "http://codepen.io/rileyjshaw/full/ebokj/"
+    "href": "http://codepen.io/rileyjshaw/full/ebokj/",
+    "lastTagged": 1526019945560
   },
   {
     "title": "Nested radio menu",
@@ -3087,9 +3342,15 @@
       "Semantic vertical menu using nested radio buttons and CSS."
     ],
     "date": "2013-08-27",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "42",
-    "href": "http://codepen.io/rileyjshaw/full/jDCty/"
+    "href": "http://codepen.io/rileyjshaw/full/jDCty/",
+    "lastTagged": 1526019961551
   },
   {
     "title": "Sass tooltips",
@@ -3097,9 +3358,14 @@
       "Sass speech bubble mixin."
     ],
     "date": "2013-07-13",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable",
+      "golf"
+    ],
     "coolness": "24",
-    "href": "http://codepen.io/rileyjshaw/pen/dAFiu"
+    "href": "http://codepen.io/rileyjshaw/pen/dAFiu",
+    "lastTagged": 1526019975025
   },
   {
     "title": "Instaframe",
@@ -3107,9 +3373,13 @@
       "Buggy POC exploring the CSS background-attachment property and a 3rd-party Instagram API."
     ],
     "date": "2013-04-02",
-    "tags": [],
+    "tags": [
+      "online",
+      "app"
+    ],
     "coolness": "30",
-    "href": "/portfolio/old/instaframedemo/"
+    "href": "/portfolio/old/instaframedemo/",
+    "lastTagged": 1526019999192
   },
   {
     "title": "FitHub",
@@ -3117,9 +3387,13 @@
       "A fitness form trainer using an Xbox Kinect."
     ],
     "date": "2013-03-02",
-    "tags": [],
+    "tags": [
+      "hardware",
+      "app"
+    ],
     "coolness": "85",
-    "href": "https://github.com/uniphil/FitHub"
+    "href": "https://github.com/uniphil/FitHub",
+    "lastTagged": 1526020026817
   },
   {
     "title": "Peek",
@@ -3127,9 +3401,15 @@
       "Scrolling gallery view for tumblr."
     ],
     "date": "2013-03-25",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "60",
-    "href": "/portfolio/old/peekdemo.html"
+    "href": "/portfolio/old/peekdemo.html",
+    "lastTagged": 1526020043671
   },
   {
     "title": "Zenwall",
@@ -3139,10 +3419,14 @@
     ],
     "date": "2013-03-22",
     "tags": [
-      "starred"
+      "starred",
+      "hardware",
+      "app",
+      "pretty"
     ],
     "coolness": "50",
-    "href": "http://youtu.be/zQ5tKU3z1fc"
+    "href": "http://youtu.be/zQ5tKU3z1fc",
+    "lastTagged": 1526020121323
   },
   {
     "title": "Jumble puzzle",
@@ -3150,17 +3434,27 @@
       "Word-search puzzle generator."
     ],
     "date": "2013-02-05",
-    "tags": [],
+    "tags": [
+      "game"
+    ],
     "coolness": "30",
-    "href": "https://github.com/rileyjshaw/jumble-puzzle"
+    "href": "https://github.com/rileyjshaw/jumble-puzzle",
+    "lastTagged": 1526020135914
   },
   {
     "title": "Pure Sass music icons",
     "description": [],
     "date": "2012-10-30",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "music",
+      "reusable",
+      "golf"
+    ],
     "coolness": "12",
-    "href": "http://codepen.io/rileyjshaw/full/xdfeC"
+    "href": "http://codepen.io/rileyjshaw/full/xdfeC",
+    "lastTagged": 1526020148847
   },
   {
     "title": "HTML quine",
@@ -3168,9 +3462,13 @@
       "A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output."
     ],
     "date": "2012-06-22",
-    "tags": [],
+    "tags": [
+      "online",
+      "golf"
+    ],
     "coolness": "14",
-    "href": "http://codepen.io/rileyjshaw/pen/iGjgs"
+    "href": "http://codepen.io/rileyjshaw/pen/iGjgs",
+    "lastTagged": 1526020158898
   },
   {
     "title": "Infiniteye",
@@ -3178,9 +3476,14 @@
       "My former personal brand mark."
     ],
     "date": "2012-01-05",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "golf"
+    ],
     "coolness": "24",
-    "href": "/portfolio/old/cssonly/infiniteye.html"
+    "href": "/portfolio/old/cssonly/infiniteye.html",
+    "lastTagged": 1526020167615
   },
   {
     "title": "That's nuts!",
@@ -3188,9 +3491,15 @@
       "Settings reveal concept where a nut unscrews itself then drops a curtain."
     ],
     "date": "2011-11-26",
-    "tags": [],
+    "tags": [
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
+    ],
     "coolness": "11",
-    "href": "http://codepen.io/rileyjshaw/details/fKmuI"
+    "href": "http://codepen.io/rileyjshaw/details/fKmuI",
+    "lastTagged": 1526020175804
   },
   {
     "title": "Terminal display",
@@ -3198,16 +3507,24 @@
       "Used to promote <a href=\"http://qhack.ca\">\"hack nights\" at my university</a>."
     ],
     "date": "2012-10-23",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable"
+    ],
     "coolness": "23",
-    "href": "http://codepen.io/rileyjshaw/full/FLpJk/"
+    "href": "http://codepen.io/rileyjshaw/full/FLpJk/",
+    "lastTagged": 1526020204426
   },
   {
     "title": "Infinite scroll",
     "description": [],
     "date": "2010-06-22",
-    "tags": [],
+    "tags": [
+      "online",
+      "reusable"
+    ],
     "coolness": "15",
-    "href": "http://codepen.io/rileyjshaw/details/dzLwm/"
+    "href": "http://codepen.io/rileyjshaw/details/dzLwm/",
+    "lastTagged": 1526020222572
   }
 ]
