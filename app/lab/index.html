@@ -27,23 +27,19 @@ topclass: lab
       </fieldset>
       <!--
       TODO(riley): Update tags. The "X" to the right should clear everything.
-      CSS-only | Viewable online | Hardware | Best of | Games | Animation | Defunct (expired, deceased, abandoned, dead, extinct, ...?) | X
+      CSS-only | Viewable online | Hardware | Best of | Games | Animation | (Home) | Music | Extinct | X
       -->
       <fieldset id="labs-toggles">
         <legend>Include:</legend>
-        <input type="checkbox" id="labs-css-toggle" checked>
-        <label for="labs-css-toggle">CSS</label>
-        <input type="checkbox" id="labs-js-toggle" checked>
-        <label for="labs-js-toggle">JavaScript</label>
-        <input type="checkbox" id="labs-other-toggle" checked>
-        <label for="labs-other-toggle">Other</label>
-        <input type="checkbox" id="labs-bestof-toggle" checked>
-        <label for="labs-bestof-toggle">Best of</label>
+        {% for tag in site.data.lab.tags %}
+          <input type="checkbox" id="labs-{{ tag.name }}-toggle" checked>
+          <label for="labs-{{ tag.name }}-toggle">{{ tag.readable }}</label>
+        {% endfor %}
       </fieldset>
     </div>
   </header>
   <ul class="experiments">
-    {% for project in site.data.lab_old | sort: 'date' %}
+    {% for project in site.data.lab.projects | sort: 'date' %}
       <li
         {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
         class="{% for tag in project.tags %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ tag | prepend: 'labs-' }}{% endfor %}"

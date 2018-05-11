@@ -6,11 +6,14 @@
     ],
     "date": "2018-01-10",
     "tags": [
-      "bestof",
-      "other"
+      "starred",
+      "hardware",
+      "app",
+      "music"
     ],
     "coolness": "70",
-    "href": "https://github.com/rileyjshaw/huertbeat"
+    "href": "https://github.com/rileyjshaw/huertbeat",
+    "lastTagged": 1526010367837
   },
   {
     "title": "Huemidity",
@@ -19,10 +22,13 @@
     ],
     "date": "2017-12-14",
     "tags": [
-      "other"
+      "hardware",
+      "app",
+      "music"
     ],
     "coolness": "70",
-    "href": "https://github.com/rileyjshaw/huemidity"
+    "href": "https://github.com/rileyjshaw/huemidity",
+    "lastTagged": 1526010368418
   },
   {
     "title": "Rainbobble",
@@ -31,10 +37,12 @@
     ],
     "date": "2017-11-25",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "52",
-    "href": "https://codepen.io/rileyjshaw/full/VrBZoK/"
+    "href": "https://codepen.io/rileyjshaw/full/VrBZoK/",
+    "lastTagged": 1526010372891
   },
   {
     "title": "canvas",
@@ -44,11 +52,13 @@
     ],
     "date": "2017-10-07",
     "tags": [
-      "js",
-      "other"
+      "starred",
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "/canvas/"
+    "href": "/canvas/",
+    "lastTagged": 1526010375706
   },
   {
     "title": "hologram",
@@ -57,19 +67,22 @@
     ],
     "date": "2017-05-29",
     "tags": [
-      "other"
+      "hardware"
     ],
     "coolness": "60",
-    "href": "https://github.com/rileyjshaw/hologram"
+    "href": "https://github.com/rileyjshaw/hologram",
+    "lastTagged": 1526010377666
   },
   {
     "title": "the camera rotates with the minute hand (animated)",
     "date": "2017-04-18",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "50",
-    "href": "https://codepen.io/rileyjshaw/details/gWamKx/"
+    "href": "https://codepen.io/rileyjshaw/details/gWamKx/",
+    "lastTagged": 1526010379105
   },
   {
     "title": "Fuzzy Match Utils",
@@ -78,20 +91,23 @@
     ],
     "date": "2017-03-27",
     "tags": [
-      "js",
-      "other"
+      "reusable"
     ],
     "coolness": "62",
-    "href": "https://github.com/Khan/fuzzy-match-utils"
+    "href": "https://github.com/Khan/fuzzy-match-utils",
+    "lastTagged": 1526010380665
   },
   {
     "title": "Multi-line lists with item separators (CSS only)",
     "date": "2017-03-01",
     "tags": [
-      "css"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "59",
-    "href": "http://codepen.io/rileyjshaw/pen/BWjZZV/?editors=1100"
+    "href": "http://codepen.io/rileyjshaw/pen/BWjZZV/?editors=1100",
+    "lastTagged": 1526010382003
   },
   {
     "title": "Sorta",
@@ -101,10 +117,12 @@
     ],
     "date": "2017-02-27",
     "tags": [
-      "other"
+      "online",
+      "reusable"
     ],
     "coolness": "56",
-    "href": "/sorta/"
+    "href": "/sorta/",
+    "lastTagged": 1526010385837
   },
   {
     "title": "Node-TimSort Async",
@@ -113,10 +131,11 @@
     ],
     "date": "2017-02-26",
     "tags": [
-      "js"
+      "reusable"
     ],
     "coolness": "30",
-    "href": "https://github.com/rileyjshaw/node-timsort-async"
+    "href": "https://github.com/rileyjshaw/node-timsort-async",
+    "lastTagged": 1526010386682
   },
   {
     "title": "write",
@@ -125,10 +144,13 @@
     ],
     "date": "2017-01-17",
     "tags": [
-      "other"
+      "starred",
+      "online",
+      "app"
     ],
     "coolness": "80",
-    "href": "/write"
+    "href": "/write",
+    "lastTagged": 1526010390779
   },
   {
     "title": "Color screen",
@@ -137,10 +159,12 @@
     ],
     "date": "2017-01-05",
     "tags": [
-      "js"
+      "online",
+      "app"
     ],
     "coolness": "10",
-    "href": "/color-screen/"
+    "href": "/color-screen/",
+    "lastTagged": 1526010392425
   },
   {
     "title": "Crypto Christmas",
@@ -150,20 +174,25 @@
     ],
     "date": "2016-12-27",
     "tags": [
-      "bestof",
-      "other"
+      "starred",
+      "online",
+      "instructional"
     ],
     "coolness": "90",
-    "href": "https://crypto.christmas/"
+    "href": "https://crypto.christmas/",
+    "lastTagged": 1526010393097
   },
   {
     "title": "CSSANDY CANE",
     "date": "2016-12-25",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "47",
-    "href": "https://codepen.io/rileyjshaw/full/mOZrye/"
+    "href": "https://codepen.io/rileyjshaw/full/mOZrye/",
+    "lastTagged": 1526010394073
   },
   {
     "title": "ditter",
@@ -172,19 +201,22 @@
     ],
     "date": "2016-11-13",
     "tags": [
-      "other"
+      "instructional"
     ],
     "coolness": "60",
-    "href": "https://gist.github.com/rileyjshaw/fab2c01b9bb85e598fffba130ca28d0a"
+    "href": "https://gist.github.com/rileyjshaw/fab2c01b9bb85e598fffba130ca28d0a",
+    "lastTagged": 1526010397512
   },
   {
     "title": "Black hole sun",
     "date": "2016-10-31",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "44",
-    "href": "http://codepen.io/rileyjshaw/pen/GjVZYq"
+    "href": "http://codepen.io/rileyjshaw/pen/GjVZYq",
+    "lastTagged": 1526010398663
   },
   {
     "title": "RileyJShaw.???",
@@ -193,11 +225,13 @@
     ],
     "date": "2016-10-27",
     "tags": [
-      "other",
-      "bestof"
+      "starred",
+      "online",
+      "golf"
     ],
     "coolness": "80",
-    "href": "https://gist.github.com/rileyjshaw/216af3d73b16e35d462ea5a29da4bcd4"
+    "href": "https://gist.github.com/rileyjshaw/216af3d73b16e35d462ea5a29da4bcd4",
+    "lastTagged": 1526010401680
   },
   {
     "title": "Vintage",
@@ -206,10 +240,12 @@
     ],
     "date": "2016-10-24",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "32",
-    "href": "http://codepen.io/rileyjshaw/pen/ozmymE/"
+    "href": "http://codepen.io/rileyjshaw/pen/ozmymE/",
+    "lastTagged": 1526010404147
   },
   {
     "title": "Flutter",
@@ -218,10 +254,12 @@
     ],
     "date": "2016-10-04",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "34",
-    "href": "http://codepen.io/rileyjshaw/pen/bwYRbw"
+    "href": "http://codepen.io/rileyjshaw/pen/bwYRbw",
+    "lastTagged": 1526010407051
   },
   {
     "title": "Superformula explorer",
@@ -231,20 +269,25 @@
     ],
     "date": "2016-10-04",
     "tags": [
-      "js"
+      "online",
+      "app",
+      "pretty"
     ],
     "coolness": "36",
-    "href": "http://codepen.io/rileyjshaw/pen/jrayWL"
+    "href": "http://codepen.io/rileyjshaw/pen/jrayWL",
+    "lastTagged": 1526010409608
   },
   {
     "title": "Black lotus",
     "description": [],
     "date": "2016-10-03",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/ZpXPYR/"
+    "href": "http://codepen.io/rileyjshaw/full/ZpXPYR/",
+    "lastTagged": 1526010421674
   },
   {
     "title": "Cyber pilot (with controls)",
@@ -253,20 +296,25 @@
     ],
     "date": "2016-09-28",
     "tags": [
-      "js"
+      "starred",
+      "online",
+      "game"
     ],
     "coolness": "86",
-    "href": "http://codepen.io/rileyjshaw/pen/YGQVqK?editors=1000"
+    "href": "http://codepen.io/rileyjshaw/pen/YGQVqK?editors=1000",
+    "lastTagged": 1526010424272
   },
   {
     "title": "Blinds (with type)",
     "description": [],
     "date": "2016-09-26",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "55",
-    "href": "http://codepen.io/rileyjshaw/full/mAmRNa/"
+    "href": "http://codepen.io/rileyjshaw/full/mAmRNa/",
+    "lastTagged": 1526010435864
   },
   {
     "title": "Ring",
@@ -275,10 +323,12 @@
     ],
     "date": "2016-09-26",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "82",
-    "href": "http://codepen.io/rileyjshaw/full/YGVKgV/"
+    "href": "http://codepen.io/rileyjshaw/full/YGVKgV/",
+    "lastTagged": 1526010438632
   },
   {
     "title": "Bubble",
@@ -287,20 +337,26 @@
     ],
     "date": "2016-09-10",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "52",
-    "href": "http://codepen.io/rileyjshaw/full/ozjEoK/"
+    "href": "http://codepen.io/rileyjshaw/full/ozjEoK/",
+    "lastTagged": 1526010451518
   },
   {
     "title": "Cyclic CA (PICO-8)",
     "description": [],
     "date": "2016-08-29",
     "tags": [
-      "other"
+      "online",
+      "hardware",
+      "pretty",
+      "golf"
     ],
     "coolness": "40",
-    "href": "http://www.lexaloffle.com/bbs/?tid=27569"
+    "href": "http://www.lexaloffle.com/bbs/?tid=27569",
+    "lastTagged": 1526010459375
   },
   {
     "title": "w h a t",
@@ -309,32 +365,41 @@
     ],
     "date": "2016-08-28",
     "tags": [
-      "other",
-      "bestof"
+      "starred",
+      "online",
+      "hardware",
+      "game",
+      "music",
+      "golf"
     ],
     "coolness": "80",
-    "href": "http://www.lexaloffle.com/bbs/?tid=27571"
+    "href": "http://www.lexaloffle.com/bbs/?tid=27571",
+    "lastTagged": 1526010461503
   },
   {
     "title": "ASCII animator",
     "description": [],
     "date": "2016-08-23",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "app",
+      "pretty"
     ],
     "coolness": "59",
-    "href": "http://codepen.io/rileyjshaw/full/YWbbGJ/"
+    "href": "http://codepen.io/rileyjshaw/full/YWbbGJ/",
+    "lastTagged": 1526010465255
   },
   {
     "title": "Sun",
     "description": [],
     "date": "2016-08-08",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "40",
-    "href": "http://codepen.io/rileyjshaw/full/WxYkmW/"
+    "href": "http://codepen.io/rileyjshaw/full/WxYkmW/",
+    "lastTagged": 1526010467902
   },
   {
     "title": "Blinds",
@@ -343,10 +408,12 @@
     ],
     "date": "2016-08-08",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "46",
-    "href": "http://codepen.io/rileyjshaw/full/kXQXAo/"
+    "href": "http://codepen.io/rileyjshaw/full/kXQXAo/",
+    "lastTagged": 1526010469423
   },
   {
     "title": "Blinkers",
@@ -355,10 +422,12 @@
     ],
     "date": "2016-08-08",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/full/pbQEoA/"
+    "href": "http://codepen.io/rileyjshaw/full/pbQEoA/",
+    "lastTagged": 1526010470847
   },
   {
     "title": "Flubber",
@@ -367,11 +436,13 @@
     ],
     "date": "2016-06-19",
     "tags": [
-      "js",
-      "other"
+      "app",
+      "music",
+      "reusable"
     ],
     "coolness": "40",
-    "href": "https://github.com/rileyjshaw/flubber"
+    "href": "https://github.com/rileyjshaw/flubber",
+    "lastTagged": 1526010473374
   },
   {
     "title": "Virtuoso",
@@ -381,36 +452,42 @@
     ],
     "date": "2016-06-17",
     "tags": [
-      "js",
-      "bestof",
-      "other"
+      "starred",
+      "app",
+      "hardware",
+      "game",
+      "music",
+      "reusable"
     ],
     "coolness": "80",
-    "href": "https://github.com/rileyjshaw/virtuoso"
+    "href": "https://github.com/rileyjshaw/virtuoso",
+    "lastTagged": 1526010476488
   },
   {
     "title": "average-color",
     "description": [
-      "Returns the average color from a list of HSL arrays.",
+      "Returns the average color from a list of HSL arrays."
     ],
     "date": "2016-06-16",
     "tags": [
-      "js",
-      "other"
+      "app",
+      "reusable"
     ],
     "coolness": "30",
-    "href": "https://github.com/rileyjshaw/average-color"
+    "href": "https://github.com/rileyjshaw/average-color",
+    "lastTagged": 1526010478287
   },
   {
     "title": "Plaster swirls, thicker",
     "description": [],
     "date": "2016-06-15",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "65",
-    "href": "http://codepen.io/rileyjshaw/full/Meeedv"
+    "href": "http://codepen.io/rileyjshaw/full/Meeedv",
+    "lastTagged": 1526010480166
   },
   {
     "title": "Plaster swirls, sort of",
@@ -419,11 +496,12 @@
     ],
     "date": "2016-06-15",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "65",
-    "href": "http://codepen.io/rileyjshaw/full/RRajov/"
+    "href": "http://codepen.io/rileyjshaw/full/RRajov/",
+    "lastTagged": 1526010480949
   },
   {
     "title": "Synthesia",
@@ -432,11 +510,14 @@
     ],
     "date": "2016-06-05",
     "tags": [
-      "js",
-      "other"
+      "hardware",
+      "pretty",
+      "music",
+      "reusable"
     ],
     "coolness": "54",
-    "href": "https://github.com/rileyjshaw/synthesia"
+    "href": "https://github.com/rileyjshaw/synthesia",
+    "lastTagged": 1526010483750
   },
   {
     "title": "Spokes, etc",
@@ -445,10 +526,12 @@
     ],
     "date": "2016-06-03",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/collection/DmZZVV/"
+    "href": "http://codepen.io/collection/DmZZVV/",
+    "lastTagged": 1526010514373
   },
   {
     "title": "Spotlight",
@@ -457,10 +540,12 @@
     ],
     "date": "2016-06-01",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "64",
-    "href": "http://codepen.io/rileyjshaw/pen/aZzKGa"
+    "href": "http://codepen.io/rileyjshaw/pen/aZzKGa",
+    "lastTagged": 1526010521077
   },
   {
     "title": "Keyboard keyboard",
@@ -470,10 +555,14 @@
     ],
     "date": "2016-05-28",
     "tags": [
-      "js"
+      "starred",
+      "hardware",
+      "music",
+      "reusable"
     ],
     "coolness": "60",
-    "href": "https://github.com/rileyjshaw/keyboard-keyboard"
+    "href": "https://github.com/rileyjshaw/keyboard-keyboard",
+    "lastTagged": 1526010523140
   },
   {
     "title": "Typing for two",
@@ -482,10 +571,15 @@
     ],
     "date": "2016-05-28",
     "tags": [
-      "js"
+      "starred",
+      "golf",
+      "online",
+      "hardware",
+      "game"
     ],
     "coolness": "50",
-    "href": "https://github.com/rileyjshaw/typing-for-two"
+    "href": "https://github.com/rileyjshaw/typing-for-two",
+    "lastTagged": 1526010524037
   },
   {
     "title": "Free",
@@ -494,10 +588,12 @@
     ],
     "date": "2016-05-24",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/full/ZOzGKq/"
+    "href": "http://codepen.io/rileyjshaw/full/ZOzGKq/",
+    "lastTagged": 1526010533149
   },
   {
     "title": "Falling",
@@ -506,10 +602,13 @@
     ],
     "date": "2016-05-22",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/pen/PNMZVG?editors=1100"
+    "href": "http://codepen.io/rileyjshaw/pen/PNMZVG?editors=1100",
+    "lastTagged": 1526010534868
   },
   {
     "title": "Single line tiling",
@@ -519,11 +618,13 @@
     ],
     "date": "2016-05-18",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty"
     ],
     "coolness": "97",
-    "href": "http://codepen.io/collection/nYWPBp/"
+    "href": "http://codepen.io/collection/nYWPBp/",
+    "lastTagged": 1526010537508
   },
   {
     "title": "swirls",
@@ -532,10 +633,12 @@
     ],
     "date": "2016-05-16",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/full/YqbGKK/"
+    "href": "http://codepen.io/rileyjshaw/full/YqbGKK/",
+    "lastTagged": 1526010539885
   },
   {
     "title": "Shell or something",
@@ -544,10 +647,12 @@
     ],
     "date": "2016-05-16",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/full/RamaYJ/"
+    "href": "http://codepen.io/rileyjshaw/full/RamaYJ/",
+    "lastTagged": 1526010540962
   },
   {
     "title": "Literate theme",
@@ -556,11 +661,13 @@
     ],
     "date": "2016-05-12",
     "tags": [
-      "js",
-      "other"
+      "starred",
+      "app",
+      "reusable"
     ],
     "coolness": "81",
-    "href": "https://github.com/rileyjshaw/literate-theme"
+    "href": "https://github.com/rileyjshaw/literate-theme",
+    "lastTagged": 1526010542940
   },
   {
     "title": "Jittery visualizer v3",
@@ -569,10 +676,13 @@
     ],
     "date": "2016-05-05",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "84",
-    "href": "http://codepen.io/rileyjshaw/full/NNeoMR/"
+    "href": "http://codepen.io/rileyjshaw/full/NNeoMR/",
+    "lastTagged": 1526010545339
   },
   {
     "title": "zonin'",
@@ -581,10 +691,13 @@
     ],
     "date": "2016-05-05",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "56",
-    "href": "http://codepen.io/rileyjshaw/pen/ONrdoM"
+    "href": "http://codepen.io/rileyjshaw/pen/ONrdoM",
+    "lastTagged": 1526010546314
   },
   {
     "title": "Dandelion",
@@ -593,10 +706,12 @@
     ],
     "date": "2016-05-05",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "39",
-    "href": "http://codepen.io/rileyjshaw/full/bpOoyW/"
+    "href": "http://codepen.io/rileyjshaw/full/bpOoyW/",
+    "lastTagged": 1526010557347
   },
   {
     "title": "Have you seen my ship?",
@@ -605,10 +720,12 @@
     ],
     "date": "2016-05-04",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "39",
-    "href": "http://codepen.io/rileyjshaw/full/BKvWBP/"
+    "href": "http://codepen.io/rileyjshaw/full/BKvWBP/",
+    "lastTagged": 1526010579370
   },
   {
     "title": "Circling circles",
@@ -618,10 +735,13 @@
     ],
     "date": "2016-05-03",
     "tags": [
-      "js"
+      "starred",
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/rileyjshaw/full/xVQBLG/"
+    "href": "http://codepen.io/rileyjshaw/full/xVQBLG/",
+    "lastTagged": 1526010585232
   },
   {
     "title": "Jittery visualizer v2",
@@ -630,11 +750,14 @@
     ],
     "date": "2016-04-28",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/rileyjshaw/full/oxaxqX/"
+    "href": "http://codepen.io/rileyjshaw/full/oxaxqX/",
+    "lastTagged": 1526010588569
   },
   {
     "title": "Stepping down a corridor",
@@ -643,11 +766,13 @@
     ],
     "date": "2016-04-28",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/full/LNgLBj"
+    "href": "http://codepen.io/rileyjshaw/full/LNgLBj",
+    "lastTagged": 1526010642903
   },
   {
     "title": "slant + swap + shift",
@@ -656,10 +781,13 @@
     ],
     "date": "2016-04-26",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "69",
-    "href": "http://codepen.io/collection/XGpwzE/"
+    "href": "http://codepen.io/collection/XGpwzE/",
+    "lastTagged": 1526010644862
   },
   {
     "title": "sway + swell + spin",
@@ -668,10 +796,13 @@
     ],
     "date": "2016-04-25",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "69",
-    "href": "http://codepen.io/collection/nmyQRj/"
+    "href": "http://codepen.io/collection/nmyQRj/",
+    "lastTagged": 1526010645333
   },
   {
     "title": "Typelab",
@@ -680,21 +811,26 @@
     ],
     "date": "2016-04-16",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "app",
+      "pretty"
     ],
     "coolness": "74",
-    "href": "http://codepen.io/rileyjshaw/full/eZrzbK/"
+    "href": "http://codepen.io/rileyjshaw/full/eZrzbK/",
+    "lastTagged": 1526010647080
   },
   {
     "title": "b+w",
     "description": [],
     "date": "2016-04-13",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "34",
-    "href": "http://codepen.io/rileyjshaw/pen/bpvwxQ"
+    "href": "http://codepen.io/rileyjshaw/pen/bpvwxQ",
+    "lastTagged": 1526010649231
   },
   {
     "title": "XOR profile card",
@@ -703,10 +839,12 @@
     ],
     "date": "2016-04-11",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/pen/vGdgWG"
+    "href": "http://codepen.io/rileyjshaw/pen/vGdgWG",
+    "lastTagged": 1526010730325
   },
   {
     "title": "Function cards",
@@ -715,20 +853,24 @@
     ],
     "date": "2016-04-11",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "54",
-    "href": "http://codepen.io/collection/DmyjQv/"
+    "href": "http://codepen.io/collection/DmyjQv/",
+    "lastTagged": 1526010732518
   },
   {
     "title": "Desire paths: remixes",
     "description": [],
     "date": "2016-04-10",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/collection/DRPBqZ/"
+    "href": "http://codepen.io/collection/DRPBqZ/",
+    "lastTagged": 1526010733525
   },
   {
     "title": "filings",
@@ -737,10 +879,12 @@
     ],
     "date": "2016-04-04",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/pen/ONxKVd?editors=0010"
+    "href": "http://codepen.io/rileyjshaw/pen/ONxKVd?editors=0010",
+    "lastTagged": 1526010734750
   },
   {
     "title": "Desire paths",
@@ -749,11 +893,12 @@
     ],
     "date": "2016-04-04",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/rileyjshaw/full/mPBZNj/"
+    "href": "http://codepen.io/rileyjshaw/full/mPBZNj/",
+    "lastTagged": 1526010736564
   },
   {
     "title": "Look closer",
@@ -762,20 +907,26 @@
     ],
     "date": "2016-04-04",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "55",
-    "href": "http://codepen.io/rileyjshaw/pen/ZWXdBN"
+    "href": "http://codepen.io/rileyjshaw/pen/ZWXdBN",
+    "lastTagged": 1526010738221
   },
   {
     "title": "Gems",
     "description": [],
     "date": "2016-04-03",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "28",
-    "href": "http://codepen.io/rileyjshaw/full/QNqPZE/"
+    "href": "http://codepen.io/rileyjshaw/full/QNqPZE/",
+    "lastTagged": 1526010798391
   },
   {
     "title": "Lattice 3",
@@ -784,10 +935,12 @@
     ],
     "date": "2016-03-30",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "68",
-    "href": "http://codepen.io/rileyjshaw/pen/oxewYe/?editors=0010"
+    "href": "http://codepen.io/rileyjshaw/pen/oxewYe/?editors=0010",
+    "lastTagged": 1526010801818
   },
   {
     "title": "Lattice",
@@ -796,20 +949,24 @@
     ],
     "date": "2016-03-29",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "66",
-    "href": "http://codepen.io/collection/DYwLBM/"
+    "href": "http://codepen.io/collection/DYwLBM/",
+    "lastTagged": 1526010802407
   },
   {
     "title": "Flexin' donut",
     "description": [],
     "date": "2016-03-28",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "60",
-    "href": "http://s.codepen.io/rileyjshaw/debug/BKZOwz"
+    "href": "http://s.codepen.io/rileyjshaw/debug/BKZOwz",
+    "lastTagged": 1526010804197
   },
   {
     "title": "~~~",
@@ -818,20 +975,24 @@
     ],
     "date": "2016-03-28",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "64",
-    "href": "http://codepen.io/rileyjshaw/pen/oxwVNw"
+    "href": "http://codepen.io/rileyjshaw/pen/oxwVNw",
+    "lastTagged": 1526010809803
   },
   {
     "title": "Blips",
     "description": [],
     "date": "2016-03-28",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/pen/Ragqyq"
+    "href": "http://codepen.io/rileyjshaw/pen/Ragqyq",
+    "lastTagged": 1526010812088
   },
   {
     "title": "Cyber pilot",
@@ -841,11 +1002,12 @@
     ],
     "date": "2016-03-28",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "pretty"
     ],
     "coolness": "82",
-    "href": "http://codepen.io/rileyjshaw/full/eZRLaP"
+    "href": "http://codepen.io/rileyjshaw/full/eZRLaP",
+    "lastTagged": 1526010813619
   },
   {
     "title": "Canvas compositing operations",
@@ -854,10 +1016,13 @@
     ],
     "date": "2016-03-23",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "instructional"
     ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/full/remdxj/"
+    "href": "http://codepen.io/rileyjshaw/full/remdxj/",
+    "lastTagged": 1526010814890
   },
   {
     "title": "snowballs!",
@@ -866,10 +1031,12 @@
     ],
     "date": "2016-03-17",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "20",
-    "href": "http://codepen.io/rileyjshaw/full/yOgKvp/"
+    "href": "http://codepen.io/rileyjshaw/full/yOgKvp/",
+    "lastTagged": 1526010816627
   },
   {
     "title": "Stormy green (ripples)",
@@ -878,10 +1045,12 @@
     ],
     "date": "2016-03-14",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "71",
-    "href": "http://codepen.io/rileyjshaw/full/dMpmRY/"
+    "href": "http://codepen.io/rileyjshaw/full/dMpmRY/",
+    "lastTagged": 1526010817337
   },
   {
     "title": "Stormy green",
@@ -890,10 +1059,12 @@
     ],
     "date": "2016-03-14",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/rileyjshaw/full/reMdZE/"
+    "href": "http://codepen.io/rileyjshaw/full/reMdZE/",
+    "lastTagged": 1526010818009
   },
   {
     "title": "┋┋┋",
@@ -902,10 +1073,12 @@
     ],
     "date": "2016-03-13",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "74",
-    "href": "http://codepen.io/rileyjshaw/full/mPrXxb/"
+    "href": "http://codepen.io/rileyjshaw/full/mPrXxb/",
+    "lastTagged": 1526010819176
   },
   {
     "title": "Stone",
@@ -915,11 +1088,12 @@
     ],
     "date": "2016-03-13",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "pretty"
     ],
     "coolness": "75",
-    "href": "http://codepen.io/rileyjshaw/pen/dMpJre"
+    "href": "http://codepen.io/rileyjshaw/pen/dMpJre",
+    "lastTagged": 1526010819909
   },
   {
     "title": "Arcs",
@@ -929,10 +1103,13 @@
     ],
     "date": "2016-03-11",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "36",
-    "href": "http://codepen.io/rileyjshaw/full/yOJzoP/"
+    "href": "http://codepen.io/rileyjshaw/full/yOJzoP/",
+    "lastTagged": 1526010829209
   },
   {
     "title": "Smart-splitting window panes (CSS only)",
@@ -942,10 +1119,13 @@
     ],
     "date": "2016-03-08",
     "tags": [
-      "css"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/pen/vGLvVo"
+    "href": "http://codepen.io/rileyjshaw/pen/vGLvVo",
+    "lastTagged": 1526010831961
   },
   {
     "title": "Rows of 'em",
@@ -955,10 +1135,12 @@
     ],
     "date": "2016-03-07",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "42",
-    "href": "http://codepen.io/rileyjshaw/full/Rarobr/"
+    "href": "http://codepen.io/rileyjshaw/full/Rarobr/",
+    "lastTagged": 1526010835691
   },
   {
     "title": "Astronomie & Astrophysique",
@@ -967,11 +1149,13 @@
     ],
     "date": "2016-03-06",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty"
     ],
     "coolness": "79",
-    "href": "http://codepen.io/rileyjshaw/full/PNPVmK/"
+    "href": "http://codepen.io/rileyjshaw/full/PNPVmK/",
+    "lastTagged": 1526010836983
   },
   {
     "title": "Bell curves",
@@ -980,10 +1164,12 @@
     ],
     "date": "2016-03-06",
     "tags": [
-      "js"
+      "online",
+      "instructional"
     ],
     "coolness": "40",
-    "href": "http://codepen.io/rileyjshaw/details/ONyGxM/"
+    "href": "http://codepen.io/rileyjshaw/details/ONyGxM/",
+    "lastTagged": 1526010838881
   },
   {
     "title": "Groovy!",
@@ -992,10 +1178,12 @@
     ],
     "date": "2016-03-05",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "78",
-    "href": "http://codepen.io/rileyjshaw/full/MyaGbE/"
+    "href": "http://codepen.io/rileyjshaw/full/MyaGbE/",
+    "lastTagged": 1526010841801
   },
   {
     "title": "NoJS edge-adaptive tooltip",
@@ -1004,10 +1192,13 @@
     ],
     "date": "2016-02-26",
     "tags": [
-      "css"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "66",
-    "href": "http://codepen.io/rileyjshaw/pen/wGwOWz"
+    "href": "http://codepen.io/rileyjshaw/pen/wGwOWz",
+    "lastTagged": 1526010847720
   },
   {
     "title": "Mechanical waves",
@@ -1017,10 +1208,13 @@
     ],
     "date": "2016-02-25",
     "tags": [
-      "js"
+      "starred",
+      "online",
+      "pretty"
     ],
     "coolness": "78",
-    "href": "http://codepen.io/collection/XWQERV/"
+    "href": "http://codepen.io/collection/XWQERV/",
+    "lastTagged": 1526010849800
   },
   {
     "title": "Fadey text backdrop",
@@ -1029,10 +1223,14 @@
     ],
     "date": "2016-02-24",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
     ],
     "coolness": "44",
-    "href": "http://codepen.io/rileyjshaw/details/obKdzW"
+    "href": "http://codepen.io/rileyjshaw/details/obKdzW",
+    "lastTagged": 1526010851259
   },
   {
     "title": "Joy Division: Unknown Pleasures",
@@ -1042,11 +1240,13 @@
     ],
     "date": "2016-02-23",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "88",
-    "href": "http://codepen.io/rileyjshaw/pen/RrXjGa"
+    "href": "http://codepen.io/rileyjshaw/pen/RrXjGa",
+    "lastTagged": 1526010852932
   },
   {
     "title": "Titania",
@@ -1055,10 +1255,14 @@
     ],
     "date": "2016-01-06",
     "tags": [
-      "css"
+      "online",
+      "music",
+      "reusable",
+      "golf"
     ],
     "coolness": "60",
-    "href": "http://tympanus.net/Development/LineMenuStyles/#Titania"
+    "href": "http://tympanus.net/Development/LineMenuStyles/#Titania",
+    "lastTagged": 1526010853741
   },
   {
     "title": "whoami.py",
@@ -1068,11 +1272,12 @@
     ],
     "date": "2015-12-31",
     "tags": [
-      "other",
-      "bestof"
+      "starred",
+      "golf"
     ],
     "coolness": "80",
-    "href": "https://raw.githubusercontent.com/eliawry/poetics/master/whoami.py"
+    "href": "https://raw.githubusercontent.com/eliawry/poetics/master/whoami.py",
+    "lastTagged": 1526010857689
   },
   {
     "title": "Easy Inbox Zero",
@@ -1081,10 +1286,11 @@
     ],
     "date": "2015-12-20",
     "tags": [
-      "js"
+      "browserextension"
     ],
     "coolness": "50",
-    "href": "https://github.com/rileyjshaw/easy-inbox-zero"
+    "href": "https://github.com/rileyjshaw/easy-inbox-zero",
+    "lastTagged": 1526010859810
   },
   {
     "title": "Eye sea",
@@ -1093,10 +1299,12 @@
     ],
     "date": "2015-12-15",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "44",
-    "href": "http://codepen.io/rileyjshaw/full/dGGGZZ"
+    "href": "http://codepen.io/rileyjshaw/full/dGGGZZ",
+    "lastTagged": 1526010861346
   },
   {
     "title": "Gotta catch 'em all",
@@ -1105,10 +1313,12 @@
     ],
     "date": "2015-12-15",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/bEEVra/"
+    "href": "http://codepen.io/rileyjshaw/full/bEEVra/",
+    "lastTagged": 1526010863436
   },
   {
     "title": "Pokéball wave",
@@ -1117,10 +1327,12 @@
     ],
     "date": "2015-12-15",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "44",
-    "href": "http://codepen.io/rileyjshaw/full/MKKKvw/"
+    "href": "http://codepen.io/rileyjshaw/full/MKKKvw/",
+    "lastTagged": 1526010864028
   },
   {
     "title": "Pride and Prejudice (webkit only)",
@@ -1130,10 +1342,12 @@
     ],
     "date": "2015-12-12",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "50",
-    "href": "https://github.com/rileyjshaw/pride-and-prejudice"
+    "href": "https://github.com/rileyjshaw/pride-and-prejudice",
+    "lastTagged": 1526010873192
   },
   {
     "title": "boom!",
@@ -1143,11 +1357,11 @@
     ],
     "date": "2015-11-15",
     "tags": [
-      "js",
-      "bestof"
+      "browserextension"
     ],
     "coolness": "50",
-    "href": "https://github.com/rileyjshaw/boom"
+    "href": "https://github.com/rileyjshaw/boom",
+    "lastTagged": 1526010874727
   },
   {
     "title": "Tony Montana",
@@ -1157,10 +1371,12 @@
     ],
     "date": "2015-10-29",
     "tags": [
-      "other"
+      "music",
+      "golf"
     ],
     "coolness": "100",
-    "href": "https://github.com/rileyjshaw/tony-montana"
+    "href": "https://github.com/rileyjshaw/tony-montana",
+    "lastTagged": 1526010881327
   },
   {
     "title": "Dark Theme Everywhere",
@@ -1169,11 +1385,12 @@
     ],
     "date": "2015-10-29",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "browserextension"
     ],
     "coolness": "80",
-    "href": "https://github.com/rileyjshaw/dark-theme-everywhere"
+    "href": "https://github.com/rileyjshaw/dark-theme-everywhere",
+    "lastTagged": 1526010882944
   },
   {
     "title": "Pond",
@@ -1182,10 +1399,13 @@
     ],
     "date": "2015-10-12",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/rileyjshaw/full/vNgJPQ/"
+    "href": "http://codepen.io/rileyjshaw/full/vNgJPQ/",
+    "lastTagged": 1526011104624
   },
   {
     "title": "XOXO Bingo",
@@ -1195,12 +1415,13 @@
     ],
     "date": "2015-09-13",
     "tags": [
-      "js",
-      "other",
-      "bestof"
+      "starred",
+      "game",
+      "extinct"
     ],
     "coolness": "84",
-    "href": "http://bingoxo.club/"
+    "href": "https://github.com/rileyjshaw/xoxo-bingo",
+    "lastTagged": 1526011107745
   },
   {
     "title": ".supermac",
@@ -1209,10 +1430,11 @@
     ],
     "date": "2015-09-07",
     "tags": [
-      "other"
+      "reusable"
     ],
     "coolness": "89",
-    "href": "https://github.com/rileyjshaw/.supermac"
+    "href": "https://github.com/rileyjshaw/.supermac",
+    "lastTagged": 1526011109271
   },
   {
     "title": "A responsive one-line header",
@@ -1222,10 +1444,14 @@
     ],
     "date": "2015-08-20",
     "tags": [
-      "css"
+      "online",
+      "reusable",
+      "instructional",
+      "golf"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/rileyjshaw/pen/eNwGjw"
+    "href": "http://codepen.io/rileyjshaw/pen/eNwGjw",
+    "lastTagged": 1526011110847
   },
   {
     "title": "Touchtone math facts",
@@ -1235,11 +1461,13 @@
     ],
     "date": "2015-06-13",
     "tags": [
-      "other",
-      "bestof"
+      "starred",
+      "hardware",
+      "game"
     ],
     "coolness": "92",
-    "href": "https://github.com/rileyjshaw/touchtone-math-facts"
+    "href": "https://github.com/rileyjshaw/touchtone-math-facts",
+    "lastTagged": 1526011112758
   },
   {
     "title": "Solar static",
@@ -1249,10 +1477,12 @@
     ],
     "date": "2015-06-06",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "76",
-    "href": "http://codepen.io/rileyjshaw/pen/zGwNzw"
+    "href": "http://codepen.io/rileyjshaw/pen/zGwNzw",
+    "lastTagged": 1526011121362
   },
   {
     "title": "SpeeDOMeter",
@@ -1261,10 +1491,13 @@
     ],
     "date": "2015-05-10",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "40",
-    "href": "http://codepen.io/rileyjshaw/pen/bdEvaQ"
+    "href": "http://codepen.io/rileyjshaw/pen/bdEvaQ",
+    "lastTagged": 1526011122790
   },
   {
     "title": "Window Shopper",
@@ -1273,11 +1506,11 @@
     ],
     "date": "2015-05-05",
     "tags": [
-      "js",
-      "other"
+      "browserextension"
     ],
     "coolness": "70",
-    "href": "https://chrome.google.com/webstore/detail/window-shopper-log-any-pa/mhfpgolappjpepejmfpomfpemdidpkng"
+    "href": "https://chrome.google.com/webstore/detail/window-shopper-log-any-pa/mhfpgolappjpepejmfpomfpemdidpkng",
+    "lastTagged": 1526011124165
   },
   {
     "title": "Sliding radio button menu",
@@ -1286,10 +1519,13 @@
     ],
     "date": "2015-04-30",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "21",
-    "href": "http://codepen.io/rileyjshaw/pen/Nqqxaj?editors=001"
+    "href": "http://codepen.io/rileyjshaw/pen/Nqqxaj?editors=001",
+    "lastTagged": 1526011126279
   },
   {
     "title": "Waveform visualizer",
@@ -1298,10 +1534,13 @@
     ],
     "date": "2015-03-29",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/VYRPzy/"
+    "href": "http://codepen.io/rileyjshaw/full/VYRPzy/",
+    "lastTagged": 1526011129285
   },
   {
     "title": "Jittery shapes",
@@ -1311,11 +1550,13 @@
     ],
     "date": "2015-03-26",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/collection/DkNEVG/"
+    "href": "http://codepen.io/collection/DkNEVG/",
+    "lastTagged": 1526011130167
   },
   {
     "title": "Internal link offset (sticky header)",
@@ -1324,10 +1565,13 @@
     ],
     "date": "2015-03-13",
     "tags": [
-      "css"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "32",
-    "href": "http://codepen.io/rileyjshaw/pen/OPBBGK?editors=110"
+    "href": "http://codepen.io/rileyjshaw/pen/OPBBGK?editors=110",
+    "lastTagged": 1526011131749
   },
   {
     "title": "Shepard-Risset Glissando",
@@ -1337,21 +1581,26 @@
     ],
     "date": "2015-03-03",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "69",
-    "href": "http://codepen.io/rileyjshaw/pen/OPwROr?editors=001"
+    "href": "http://codepen.io/rileyjshaw/pen/OPwROr?editors=001",
+    "lastTagged": 1526011133867
   },
   {
     "title": "terra.js demos",
     "description": [],
     "date": "2015-03-02",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "70",
-    "href": "http://codepen.io/collection/XGogPm/"
+    "href": "http://codepen.io/collection/XGogPm/",
+    "lastTagged": 1526011135000
   },
   {
     "title": "Fluid simulation",
@@ -1360,10 +1609,12 @@
     ],
     "date": "2015-03-01",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "65",
-    "href": "https://www.khanacademy.org/computer-programming/fluid-simulation/6333748830011392"
+    "href": "https://www.khanacademy.org/computer-programming/fluid-simulation/6333748830011392",
+    "lastTagged": 1526011137285
   },
   {
     "title": "Orbit",
@@ -1372,10 +1623,12 @@
     ],
     "date": "2015-02-20",
     "tags": [
-      "js"
+      "online",
+      "game"
     ],
     "coolness": "65",
-    "href": "/orbit"
+    "href": "/orbit",
+    "lastTagged": 1526011140469
   },
   {
     "title": "Challenger",
@@ -1384,11 +1637,15 @@
     ],
     "date": "2015-02-19",
     "tags": [
-      "bestof",
-      "js"
+      "starred",
+      "online",
+      "game",
+      "reusable",
+      "instructional"
     ],
     "coolness": "81",
-    "href": "/challenger"
+    "href": "/challenger",
+    "lastTagged": 1526011141446
   },
   {
     "title": "drawRotatedRect",
@@ -1397,10 +1654,13 @@
     ],
     "date": "2015-02-08",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "10",
-    "href": "http://codepen.io/collection/nYwRVL/"
+    "href": "http://codepen.io/collection/nYwRVL/",
+    "lastTagged": 1526011165749
   },
   {
     "title": "Meta Letters",
@@ -1409,10 +1669,12 @@
     ],
     "date": "2015-02-01",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "43",
-    "href": "http://codepen.io/rileyjshaw/full/zxEGxK/"
+    "href": "http://codepen.io/rileyjshaw/full/zxEGxK/",
+    "lastTagged": 1526011167729
   },
   {
     "title": "28 Hour Day",
@@ -1421,10 +1683,13 @@
     ],
     "date": "2015-01-29",
     "tags": [
-      "other"
+      "starred",
+      "hardware",
+      "app"
     ],
     "coolness": "71",
-    "href": "https://apps.getpebble.com/applications/54cadfd211e375bdc"
+    "href": "https://apps.getpebble.com/en_US/application/54cadfd211e375bdc5000048",
+    "lastTagged": 1526011169260
   },
   {
     "title": "Slidey menu",
@@ -1434,10 +1699,14 @@
     ],
     "date": "2015-01-18",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
     ],
     "coolness": "21",
-    "href": "http://codepen.io/rileyjshaw/full/emWJPW/"
+    "href": "http://codepen.io/rileyjshaw/full/emWJPW/",
+    "lastTagged": 1526011212850
   },
   {
     "title": "Flexbox chat interface",
@@ -1447,20 +1716,26 @@
     ],
     "date": "2015-01-12",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
     ],
     "coolness": "33",
-    "href": "http://codepen.io/rileyjshaw/full/LExqQE/"
+    "href": "http://codepen.io/rileyjshaw/full/LExqQE/",
+    "lastTagged": 1526011214620
   },
   {
     "title": "Rainbow text",
     "description": [],
     "date": "2015-01-15",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "28",
-    "href": "http://codepen.io/rileyjshaw/details/vExWpe/"
+    "href": "http://codepen.io/rileyjshaw/details/vExWpe/",
+    "lastTagged": 1526011216228
   },
   {
     "title": "Hackers.cool",
@@ -1470,12 +1745,12 @@
     ],
     "date": "2015-01-08",
     "tags": [
-      "js",
-      "css",
-      "bestof"
+      "starred",
+      "online"
     ],
     "coolness": "82",
-    "href": "http://hackers.cool/~rileyjshaw/"
+    "href": "http://hackers.cool/~rileyjshaw/",
+    "lastTagged": 1526011226355
   },
   {
     "title": "Console",
@@ -1484,10 +1759,12 @@
     ],
     "date": "2014-12-21",
     "tags": [
-      "js"
+      "online",
+      "reusable"
     ],
     "coolness": "72",
-    "href": "/tinyterm"
+    "href": "/tinyterm",
+    "lastTagged": 1526011228011
   },
   {
     "title": "Tinyterm",
@@ -1496,11 +1773,12 @@
     ],
     "date": "2014-12-16",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "reusable"
     ],
     "coolness": "72",
-    "href": "https://github.com/rileyjshaw/tinyterm"
+    "href": "https://github.com/rileyjshaw/tinyterm",
+    "lastTagged": 1526011229299
   },
   {
     "title": "Typographic HUSL sweep",
@@ -1510,11 +1788,12 @@
     ],
     "date": "2014-12-14",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/rileyjshaw/full/jEqvLp/"
+    "href": "http://codepen.io/rileyjshaw/full/jEqvLp/",
+    "lastTagged": 1526011231833
   },
   {
     "title": "Newspaper column",
@@ -1523,10 +1802,12 @@
     ],
     "date": "2014-12-11",
     "tags": [
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "8",
-    "href": "http://codepen.io/rileyjshaw/details/ByKKyG/"
+    "href": "http://codepen.io/rileyjshaw/details/ByKKyG/",
+    "lastTagged": 1526011237516
   },
   {
     "title": "Fingerprint",
@@ -1535,11 +1816,14 @@
     ],
     "date": "2014-12-09",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "app",
+      "reusable"
     ],
     "coolness": "78",
-    "href": "http://fingerprint.tappy.pw/"
+    "href": "http://fingerprint.tappy.pw/",
+    "lastTagged": 1526011238658
   },
   {
     "title": "Tilted type",
@@ -1548,10 +1832,13 @@
     ],
     "date": "2014-11-29",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "5",
-    "href": "http://codepen.io/rileyjshaw/full/gbapBa/"
+    "href": "http://codepen.io/rileyjshaw/full/gbapBa/",
+    "lastTagged": 1526011256938
   },
   {
     "title": "Tappy",
@@ -1560,11 +1847,14 @@
     ],
     "date": "2014-11-23",
     "tags": [
-      "bestof",
-      "js"
+      "starred",
+      "online",
+      "music",
+      "reusable"
     ],
     "coolness": "77",
-    "href": "http://tappy.pw"
+    "href": "http://tappy.pw",
+    "lastTagged": 1526011258554
   },
   {
     "title": "Multi-level spoilers",
@@ -1574,11 +1864,13 @@
     ],
     "date": "2014-11-22",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/pen/oggBxz"
+    "href": "http://codepen.io/rileyjshaw/pen/oggBxz",
+    "lastTagged": 1526011260002
   },
   {
     "title": "Folding tutorial concept",
@@ -1587,22 +1879,26 @@
     ],
     "date": "2014-11-13",
     "tags": [
-      "js",
-      "css"
+      "starred",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "75",
-    "href": "http://codepen.io/rileyjshaw/full/raNLdL/"
+    "href": "http://codepen.io/rileyjshaw/full/raNLdL/",
+    "lastTagged": 1526011265322
   },
   {
     "title": "My website fits in a favicon",
     "description": [],
     "date": "2014-11-10",
     "tags": [
-      "css",
-      "bestof"
+      "online",
+      "golf"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/bNbxjg"
+    "href": "http://codepen.io/rileyjshaw/full/bNbxjg",
+    "lastTagged": 1526011266409
   },
   {
     "title": "Text fade-in effect",
@@ -1611,22 +1907,26 @@
     ],
     "date": "2014-11-08",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "23",
-    "href": "http://codepen.io/rileyjshaw/full/azoLwb/"
+    "href": "http://codepen.io/rileyjshaw/full/azoLwb/",
+    "lastTagged": 1526011268609
   },
   {
     "title": "Text fly-in effect",
     "description": [],
     "date": "2014-11-08",
     "tags": [
-      "js",
-      "css"
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "23",
-    "href": "http://codepen.io/rileyjshaw/full/pvzdzX/"
+    "href": "http://codepen.io/rileyjshaw/full/pvzdzX/",
+    "lastTagged": 1526011269080
   },
   {
     "title": "Moore / Von Neumann neighborhoods",
@@ -1635,10 +1935,13 @@
     ],
     "date": "2014-11-04",
     "tags": [
-      "js"
+      "online",
+      "reusable",
+      "instructional"
     ],
     "coolness": "12",
-    "href": "http://codepen.io/rileyjshaw/full/chaJe/"
+    "href": "http://codepen.io/rileyjshaw/full/chaJe/",
+    "lastTagged": 1526011271487
   },
   {
     "title": "Tic Attack Toe",
@@ -1648,10 +1951,13 @@
     ],
     "date": "2014-11-03",
     "tags": [
-      "js"
+      "starred",
+      "online",
+      "game"
     ],
     "coolness": "80",
-    "href": "/tic-attack-toe"
+    "href": "/tic-attack-toe",
+    "lastTagged": 1526011272665
   },
   {
     "title": "Reaction",
@@ -1661,12 +1967,16 @@
     ],
     "date": "2014-10-27",
     "tags": [
-      "js",
-      "css",
-      "bestof"
+      "starred",
+      "online",
+      "game",
+      "extinct",
+      "instructional",
+      "golf"
     ],
     "coolness": "90",
-    "href": "/visited-vectors/reaction"
+    "href": "/visited-vectors/reaction",
+    "lastTagged": 1526011273704
   },
   {
     "title": "Racer",
@@ -1676,10 +1986,13 @@
     ],
     "date": "2014-10-15",
     "tags": [
-      "js"
+      "online",
+      "game",
+      "pretty"
     ],
     "coolness": "83",
-    "href": "/racer"
+    "href": "/racer",
+    "lastTagged": 1526011278273
   },
   {
     "title": "Tappy game",
@@ -1688,11 +2001,15 @@
     ],
     "date": "2014-10-13",
     "tags": [
-      "bestof",
-      "js"
+      "starred",
+      "online",
+      "game",
+      "pretty",
+      "music"
     ],
     "coolness": "76",
-    "href": "http://play.tappy.pw/"
+    "href": "http://play.tappy.pw/",
+    "lastTagged": 1526011280080
   },
   {
     "title": "Material design ripple effect",
@@ -1701,10 +2018,13 @@
     ],
     "date": "2014-10-12",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "13",
-    "href": "http://codepen.io/rileyjshaw/pen/uiJqo"
+    "href": "http://codepen.io/rileyjshaw/pen/uiJqo",
+    "lastTagged": 1526011281210
   },
   {
     "title": "Funky wallpaper in 106B of JavaScript",
@@ -1713,10 +2033,13 @@
     ],
     "date": "2014-10-12",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "45",
-    "href": "http://codepen.io/rileyjshaw/pen/EdAeq"
+    "href": "http://codepen.io/rileyjshaw/pen/EdAeq",
+    "lastTagged": 1526009658400
   },
   {
     "title": "Funky wallpaper with blur effect in 111B of JavaScript",
@@ -1725,10 +2048,13 @@
     ],
     "date": "2014-10-12",
     "tags": [
-      "js"
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "50",
-    "href": "http://codepen.io/rileyjshaw/pen/tmGxj"
+    "href": "http://codepen.io/rileyjshaw/pen/tmGxj",
+    "lastTagged": 1526009672838
   },
   {
     "title": "Film-grain effect in 117B of JavaScript",
@@ -1737,11 +2063,14 @@
     ],
     "date": "2014-10-12",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "golf"
     ],
     "coolness": "45",
-    "href": "http://codepen.io/rileyjshaw/pen/enfkc"
+    "href": "http://codepen.io/rileyjshaw/pen/enfkc",
+    "lastTagged": 1526009776579
   },
   {
     "title": "Super slinky",
@@ -1751,11 +2080,14 @@
     ],
     "date": "2014-10-04",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "81",
-    "href": "http://codepen.io/rileyjshaw/full/pIFly/"
+    "href": "http://codepen.io/rileyjshaw/full/pIFly/",
+    "lastTagged": 1526009792298
   },
   {
     "title": "Short domain finder",
@@ -1764,10 +2096,12 @@
     ],
     "date": "2014-09-16",
     "tags": [
-      "other"
+      "app",
+      "reusable"
     ],
     "coolness": "55",
-    "href": "https://github.com/rileyjshaw/domains"
+    "href": "https://github.com/rileyjshaw/domains",
+    "lastTagged": 1526009804753
   },
   {
     "title": "Pairjam",
@@ -1776,13 +2110,14 @@
     ],
     "date": "2014-09-15",
     "tags": [
-      "bestof",
-      "js",
-      "css",
-      "other"
+      "starred",
+      "online",
+      "app",
+      "extinct"
     ],
     "coolness": "83",
-    "href": "https://github.com/neerajwahi/pairjam"
+    "href": "https://github.com/neerajwahi/pairjam",
+    "lastTagged": 1526009825042
   },
   {
     "title": "CSS tab bar",
@@ -1791,10 +2126,14 @@
     ],
     "date": "2014-09-12",
     "tags": [
-      "css"
+      "golf",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "14",
-    "href": "http://codepen.io/rileyjshaw/pen/iIjcp/"
+    "href": "http://codepen.io/rileyjshaw/pen/iIjcp/",
+    "lastTagged": 1526009846711
   },
   {
     "title": "Expanding user circles",
@@ -1804,10 +2143,14 @@
     ],
     "date": "2014-09-12",
     "tags": [
-      "css"
+      "golf",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "9",
-    "href": "http://codepen.io/rileyjshaw/pen/zIpqi/"
+    "href": "http://codepen.io/rileyjshaw/pen/zIpqi/",
+    "lastTagged": 1526009871047
   },
   {
     "title": "Face",
@@ -1816,10 +2159,11 @@
     ],
     "date": "2014-09-07",
     "tags": [
-      "js"
+      "online"
     ],
     "coolness": "10",
-    "href": "/face"
+    "href": "/face",
+    "lastTagged": 1526009883383
   },
   {
     "title": "Everything button",
@@ -1828,10 +2172,14 @@
     ],
     "date": "2014-09-14",
     "tags": [
-      "css"
+      "golf",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/DplJB"
+    "href": "http://codepen.io/rileyjshaw/full/DplJB",
+    "lastTagged": 1526009931802
   },
   {
     "title": "\"Points\" color palette",
@@ -1842,10 +2190,12 @@
     ],
     "date": "2014-09-01",
     "tags": [
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "16",
-    "href": "http://codepen.io/rileyjshaw/full/JvdrG/"
+    "href": "http://codepen.io/rileyjshaw/full/JvdrG/",
+    "lastTagged": 1526009968171
   },
   {
     "title": "Placid tab",
@@ -1854,13 +2204,14 @@
     ],
     "date": "2014-08-25",
     "tags": [
-      "css",
-      "js",
-      "other",
-      "bestof"
+      "starred",
+      "app",
+      "pretty",
+      "browserextension"
     ],
     "coolness": "60",
-    "href": "https://chrome.google.com/webstore/detail/placid-tab/mjcblgoejhkkkhgeadejhkpldglnfmcj"
+    "href": "https://chrome.google.com/webstore/detail/placid-tab/mjcblgoejhkkkhgeadejhkpldglnfmcj",
+    "lastTagged": 1526009993968
   },
   {
     "title": "Linescapes",
@@ -1869,11 +2220,14 @@
     ],
     "date": "2014-08-15",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "music"
     ],
     "coolness": "70",
-    "href": "/linescapes"
+    "href": "/linescapes",
+    "lastTagged": 1526011343225
   },
   {
     "title": "Graphing depth",
@@ -1883,11 +2237,14 @@
     ],
     "date": "2014-07-31",
     "tags": [
-      "js",
-      "bestof"
+      "starred",
+      "online",
+      "pretty",
+      "instructional"
     ],
     "coolness": "80",
-    "href": "http://codepen.io/collection/amDJo/"
+    "href": "http://codepen.io/collection/amDJo/",
+    "lastTagged": 1526011370183
   },
   {
     "title": "Reduce Background Flicker",
@@ -1896,10 +2253,12 @@
     ],
     "date": "2014-07-03",
     "tags": [
-      "js"
+      "extinct",
+      "browserextension"
     ],
     "coolness": "30",
-    "href": "https://github.com/rileyjshaw/reduce-background-flicke"
+    "href": "https://github.com/rileyjshaw/reduce-background-flicke",
+    "lastTagged": 1526011407689
   },
   {
     "title": "n-input OR gate in CSS",
@@ -1909,10 +2268,15 @@
     ],
     "date": "2014-06-26",
     "tags": [
-      "css"
+      "online",
+      "extinct",
+      "reusable",
+      "instructional",
+      "golf"
     ],
     "coolness": "60",
-    "href": "http://codepen.io/rileyjshaw/pen/CjiKf"
+    "href": "http://codepen.io/rileyjshaw/pen/CjiKf",
+    "lastTagged": 1526011440040
   },
   {
     "title": "Thoughtboard",
@@ -1921,10 +2285,11 @@
     ],
     "date": "2014-05-31",
     "tags": [
-      "other"
+      "app"
     ],
     "coolness": "85",
-    "href": "https://github.com/Queens-Hacks/thoughtboard"
+    "href": "https://github.com/Queens-Hacks/thoughtboard",
+    "lastTagged": 1526011463664
   },
   {
     "title": "Glorious pattern matcher",
@@ -1933,11 +2298,14 @@
     ],
     "date": "2014-05-20",
     "tags": [
-      "js",
-      "bestof"
+      "online",
+      "game",
+      "pretty",
+      "reusable"
     ],
     "coolness": "85",
-    "href": "/glorious-pattern-matcher/"
+    "href": "/glorious-pattern-matcher/",
+    "lastTagged": 1526011541704
   },
   {
     "title": "filesupply",
@@ -1946,10 +2314,13 @@
     ],
     "date": "2014-05-19",
     "tags": [
-      "js"
+      "online",
+      "app",
+      "reusable"
     ],
     "coolness": "41",
-    "href": "https://github.com/rileyjshaw/filesupply"
+    "href": "https://github.com/rileyjshaw/filesupply",
+    "lastTagged": 1526011607134
   },
   {
     "title": "A disco badass",
@@ -1958,10 +2329,12 @@
     ],
     "date": "2014-05-09",
     "tags": [
-      "css"
+      "online",
+      "pretty"
     ],
     "coolness": "30",
-    "href": "http://codepen.io/rileyjshaw/full/acjvs/"
+    "href": "http://codepen.io/rileyjshaw/full/acjvs/",
+    "lastTagged": 1526011617572
   },
   {
     "title": "Wind alarm",
@@ -1970,10 +2343,11 @@
     ],
     "date": "2014-05-07",
     "tags": [
-      "other"
+      "app"
     ],
     "coolness": "68",
-    "href": "https://github.com/rileyjshaw/wind-alarm"
+    "href": "https://github.com/rileyjshaw/wind-alarm",
+    "lastTagged": 1526011709502
   },
   {
     "title": "Ben Eath: Surf Ace",
@@ -1984,12 +2358,14 @@
     ],
     "date": "2014-04-29",
     "tags": [
-      "js",
-      "other",
-      "bestof"
+      "online",
+      "hardware",
+      "game",
+      "extinct"
     ],
     "coolness": "78",
-    "href": "https://github.com/ben-eath/the-surf-ace"
+    "href": "https://github.com/ben-eath/the-surf-ace",
+    "lastTagged": 1526011735372
   },
   {
     "title": "Key Generator",
@@ -1999,10 +2375,13 @@
     ],
     "date": "2014-04-28",
     "tags": [
-      "js"
+      "online",
+      "reusable",
+      "golf"
     ],
     "coolness": "57",
-    "href": "http://codepen.io/rileyjshaw/full/olzJI/"
+    "href": "http://codepen.io/rileyjshaw/full/olzJI/",
+    "lastTagged": 1526011749761
   },
   {
     "title": "Thin diagonal stripes",
@@ -2012,10 +2391,14 @@
     ],
     "date": "2014-04-24",
     "tags": [
-      "css"
+      "online",
+      "pretty",
+      "reusable",
+      "golf"
     ],
     "coolness": "18",
-    "href": "http://codepen.io/rileyjshaw/full/dBygE"
+    "href": "http://codepen.io/rileyjshaw/full/dBygE",
+    "lastTagged": 1526011759981
   },
   {
     "title": "Mirror",
@@ -2024,10 +2407,13 @@
     ],
     "date": "2014-04-24",
     "tags": [
-      "js"
+      "online",
+      "app",
+      "reusable"
     ],
     "coolness": "24",
-    "href": "http://codepen.io/rileyjshaw/full/BvKni"
+    "href": "http://codepen.io/rileyjshaw/full/BvKni",
+    "lastTagged": 1526011770448
   },
   {
     "title": "Fastdraw",
@@ -2036,20 +2422,25 @@
     ],
     "date": "2014-04-14",
     "tags": [
-      "js"
+      "app",
+      "game",
+      "instructional"
     ],
     "coolness": "20",
-    "href": "/fastdraw"
+    "href": "/fastdraw",
+    "lastTagged": 1526011791616
   },
   {
     "title": "Pyramid",
     "description": [],
     "date": "2014-04-17",
     "tags": [
-      "js"
+      "online",
+      "pretty"
     ],
     "coolness": "12",
-    "href": "http://codepen.io/rileyjshaw/full/dihjv/"
+    "href": "http://codepen.io/rileyjshaw/full/dihjv/",
+    "lastTagged": 1526011802308
   },
   {
     "title": "Sweep",
@@ -2058,11 +2449,14 @@
     ],
     "date": "2014-03-24",
     "tags": [
-      "bestof",
-      "js"
+      "starred",
+      "online",
+      "pretty",
+      "reusable"
     ],
     "coolness": "60",
-    "href": "/sweep"
+    "href": "/sweep",
+    "lastTagged": 1526011836230
   },
   {
     "title": "Tiny boxes",
@@ -2071,12 +2465,15 @@
     ],
     "date": "2014-03-19",
     "tags": [
-      "js",
-      "css",
-      "bestof"
+      "starred",
+      "online",
+      "app",
+      "pretty",
+      "extinct"
     ],
     "coolness": "70",
-    "href": "http://tinybox.es"
+    "href": "http://tinybox.es",
+    "lastTagged": 1526011871185
   },
   {
     "title": "Own this website",
@@ -2085,12 +2482,15 @@
     ],
     "date": "2014-03-19",
     "tags": [
-      "js",
-      "css",
-      "bestof"
+      "starred",
+      "online",
+      "app",
+      "game",
+      "extinct"
     ],
     "coolness": "65",
-    "href": "own.rileyjshaw.com"
+    "href": "own.rileyjshaw.com",
+    "lastTagged": 1526011900796
   },
   {
     "title": "Tiny TCP",
@@ -2099,10 +2499,11 @@
     ],
     "date": "2014-03-17",
     "tags": [
-      "js"
+      "app"
     ],
     "coolness": "37",
-    "href": "https://github.com/rileyjshaw/tiny-tcp"
+    "href": "https://github.com/rileyjshaw/tiny-tcp",
+    "lastTagged": 1526011914480
   },
   {
     "title": "Pursuit",
@@ -2111,10 +2512,12 @@
     ],
     "date": "2014-03-17",
     "tags": [
-      "css"
+      "online",
+      "golf"
     ],
     "coolness": "11",
-    "href": "http://codepen.io/rileyjshaw/pen/Klvon?editors=0100"
+    "href": "http://codepen.io/rileyjshaw/pen/Klvon?editors=0100",
+    "lastTagged": 1526011932562
   },
   {
     "title": "Mean tone",
@@ -2122,9 +2525,7 @@
       "Supporting code for my \"Taking the average tone\" blog post."
     ],
     "date": "2014-03-17",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "20",
     "href": "https://github.com/rileyjshaw/mean-tone"
   },
@@ -2134,9 +2535,7 @@
       "Scrapes Wikipedia to find the most important births and deaths of each year by word count."
     ],
     "date": "2014-03-13",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "86",
     "href": "https://github.com/rileyjshaw/important-people"
   },
@@ -2146,9 +2545,7 @@
       "A terrible clone of a terrible clone of a game."
     ],
     "date": "2014-03-13",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "5",
     "href": "/2048"
   },
@@ -2158,9 +2555,7 @@
       "Generate frequencies, chords, and songs."
     ],
     "date": "2014-03-12",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "72",
     "href": "https://github.com/rileyjshaw/composer"
   },
@@ -2171,8 +2566,7 @@
     ],
     "date": "2014-03-09",
     "tags": [
-      "bestof",
-      "js"
+      "starred"
     ],
     "coolness": "86",
     "href": "/terra"
@@ -2184,8 +2578,7 @@
     ],
     "date": "2014-02-28",
     "tags": [
-      "js",
-      "bestof"
+      "starred"
     ],
     "coolness": "52",
     "href": "http://ushld.com"
@@ -2196,9 +2589,7 @@
       "Boring."
     ],
     "date": "2014-02-15",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "1",
     "href": "http://codepen.io/rileyjshaw/details/pcKCj/"
   },
@@ -2208,9 +2599,7 @@
       "Thx Mary :)"
     ],
     "date": "2014-02-13",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "26",
     "href": "http://codepen.io/rileyjshaw/pen/CErAF"
   },
@@ -2220,9 +2609,7 @@
       "Recreating Soulwax's album art in CSS."
     ],
     "date": "2014-01-13",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "20",
     "href": "http://codepen.io/rileyjshaw/full/sDrLJ/"
   },
@@ -2232,9 +2619,7 @@
       "Using a repeating pattern to give the illusion of semi-transparency."
     ],
     "date": "2014-01-03",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "4",
     "href": "http://codepen.io/rileyjshaw/full/uvcyE/"
   },
@@ -2245,9 +2630,7 @@
       "Fun with gradients and background-clip: text."
     ],
     "date": "2014-01-03",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "40",
     "href": "http://codepen.io/rileyjshaw/full/waeqK"
   },
@@ -2255,9 +2638,7 @@
     "title": "Gradient patterns",
     "description": [],
     "date": "2014-01-03",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "24",
     "href": "http://codepen.io/rileyjshaw/full/KdFAg/"
   },
@@ -2267,9 +2648,7 @@
       "Uses Chrome's canvas compositing algorithm (circa 2013) to simulate watercolor painting in the browser."
     ],
     "date": "2013-12-29",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "40",
     "href": "/watercolor/"
   },
@@ -2279,9 +2658,7 @@
       "Slide-out footer with semantic markup."
     ],
     "date": "2013-12-27",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "16",
     "href": "http://codepen.io/rileyjshaw/details/GlBHC/"
   },
@@ -2291,9 +2668,7 @@
       "lol these variable names..."
     ],
     "date": "2013-12-21",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "24",
     "href": "http://codepen.io/rileyjshaw/pen/bzeqL?editors=0010"
   },
@@ -2301,9 +2676,7 @@
     "title": "No Vacancy 404 concept",
     "description": [],
     "date": "2013-12-19",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "9",
     "href": "http://codepen.io/rileyjshaw/full/ufEIH"
   },
@@ -2313,9 +2686,7 @@
       "Recreating a popular clothing brand's logo in CSS."
     ],
     "date": "2013-12-19",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "29",
     "href": "http://codepen.io/rileyjshaw/pen/blCIq/"
   },
@@ -2325,9 +2696,7 @@
       "BYOG (glasses)."
     ],
     "date": "2013-12-15",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "13",
     "href": "http://codepen.io/rileyjshaw/details/rEhdF/"
   },
@@ -2335,9 +2704,7 @@
     "title": "Cheshire Cat Loader",
     "description": [],
     "date": "2013-12-08",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "2",
     "href": "http://codepen.io/rileyjshaw/full/fondm"
   },
@@ -2347,9 +2714,7 @@
       "Sass vanishing point mixin."
     ],
     "date": "2013-12-08",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "26",
     "href": "http://codepen.io/rileyjshaw/pen/inyzb"
   },
@@ -2359,9 +2724,7 @@
       "Random mutations of a polyhedron."
     ],
     "date": "2013-12-03",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "35",
     "href": "http://codepen.io/rileyjshaw/full/wKvfk"
   },
@@ -2369,9 +2732,7 @@
     "title": "3D flower",
     "description": [],
     "date": "2013-12-03",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "29",
     "href": "http://codepen.io/rileyjshaw/full/LhFfw"
   },
@@ -2381,9 +2742,7 @@
       "Simple animation in three.js."
     ],
     "date": "2013-12-03",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "32",
     "href": "http://codepen.io/rileyjshaw/details/fzhDk/"
   },
@@ -2394,9 +2753,7 @@
       "A follow-up article has since been written to show more robust techniques."
     ],
     "date": "2013-12-03",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "20",
     "href": "http://codepen.io/rileyjshaw/details/ruGFo/"
   },
@@ -2406,10 +2763,7 @@
       "Two very small implementations of Fizzbuzz: one in JavaScript (74B) and one in Stylus (126B)."
     ],
     "date": "2013-11-29",
-    "tags": [
-      "js",
-      "css"
-    ],
+    "tags": [],
     "coolness": "38",
     "href": "http://codepen.io/rileyjshaw/pen/bCkBo"
   },
@@ -2417,9 +2771,7 @@
     "title": "Crazy chemicals",
     "description": [],
     "date": "2013-11-26",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "32",
     "href": "http://codepen.io/rileyjshaw/full/zwxCv/"
   },
@@ -2427,9 +2779,7 @@
     "title": "10 colors that faded away",
     "description": [],
     "date": "2013-11-25",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "27",
     "href": "http://codepen.io/rileyjshaw/details/gLcoi/"
   },
@@ -2439,9 +2789,7 @@
       "Sass flower with variable number of petals."
     ],
     "date": "2013-11-25",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "54",
     "href": "http://codepen.io/rileyjshaw/pen/HBDtd"
   },
@@ -2452,8 +2800,7 @@
     ],
     "date": "2013-11-20",
     "tags": [
-      "css",
-      "bestof"
+      "starred"
     ],
     "coolness": "55",
     "href": "http://codepen.io/rileyjshaw/pen/vzwsu/"
@@ -2464,9 +2811,7 @@
       "Linear gradient, animation, and background-clip"
     ],
     "date": "2013-11-20",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "29",
     "href": "http://codepen.io/rileyjshaw/full/gtLGi/"
   },
@@ -2476,9 +2821,7 @@
       "Used this as my 404 page for a while."
     ],
     "date": "2013-11-20",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "40",
     "href": "http://codepen.io/rileyjshaw/pen/mcaCi"
   },
@@ -2486,9 +2829,7 @@
     "title": "Wacky static",
     "description": [],
     "date": "2013-11-20",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "20",
     "href": "http://codepen.io/rileyjshaw/pen/GDmeF"
   },
@@ -2496,10 +2837,7 @@
     "title": "Yummy loader",
     "description": [],
     "date": "2013-11-15",
-    "tags": [
-      "js",
-      "css"
-    ],
+    "tags": [],
     "coolness": "25",
     "href": "http://codepen.io/rileyjshaw/full/jdyqC"
   },
@@ -2510,8 +2848,7 @@
     ],
     "date": "2013-11-15",
     "tags": [
-      "css",
-      "bestof"
+      "starred"
     ],
     "coolness": "70",
     "href": "http://codepen.io/rileyjshaw/pen/yenLw"
@@ -2523,8 +2860,7 @@
     ],
     "date": "2013-11-11",
     "tags": [
-      "css",
-      "bestof"
+      "starred"
     ],
     "coolness": "80",
     "href": "http://codepen.io/rileyjshaw/full/zGnlq"
@@ -2533,9 +2869,7 @@
     "title": "Sticky CSS transitions",
     "description": [],
     "date": "2013-11-08",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "37",
     "href": "http://codepen.io/rileyjshaw/full/bHsJf"
   },
@@ -2545,9 +2879,7 @@
       "Ha."
     ],
     "date": "2013-11-08",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "9",
     "href": "http://codepen.io/rileyjshaw/full/KcILg/"
   },
@@ -2558,8 +2890,7 @@
     ],
     "date": "2013-11-11",
     "tags": [
-      "js",
-      "bestof"
+      "starred"
     ],
     "coolness": "83",
     "href": "/2p-snake"
@@ -2568,9 +2899,7 @@
     "title": "Multiple hover events in CSS",
     "description": [],
     "date": "2013-11-03",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "30",
     "href": "http://codepen.io/rileyjshaw/details/LIwdc/"
   },
@@ -2580,9 +2909,7 @@
       "Recreating a nice hover effect in CSS."
     ],
     "date": "2013-10-31",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "33",
     "href": "http://codepen.io/rileyjshaw/full/FBsmA/"
   },
@@ -2592,9 +2919,7 @@
       "Pure Sass hamburger. Sesame-seed bun, lettuce, tomato, fresh cheddar, and infinity perfectly cooked Angus beef patties."
     ],
     "date": "2013-10-29",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "18",
     "href": "http://codepen.io/rileyjshaw/full/HdeEF"
   },
@@ -2605,8 +2930,7 @@
     ],
     "date": "2013-10-28",
     "tags": [
-      "css",
-      "bestof"
+      "starred"
     ],
     "coolness": "63",
     "href": "http://codepen.io/collection/EJveu"
@@ -2617,9 +2941,7 @@
       "Each one's only a single element."
     ],
     "date": "2013-10-28",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "36",
     "href": "http://codepen.io/rileyjshaw/details/AgGbs"
   },
@@ -2627,9 +2949,7 @@
     "title": "Flat shadow mouse tracker",
     "description": [],
     "date": "2013-10-28",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "23",
     "href": "http://codepen.io/rileyjshaw/full/wEJzg/"
   },
@@ -2639,9 +2959,7 @@
       "Hover over \"DNS\"."
     ],
     "date": "2013-10-28",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "25",
     "href": "http://codepen.io/rileyjshaw/details/eAEya/"
   },
@@ -2651,9 +2969,7 @@
       "Loading bar concept."
     ],
     "date": "2013-10-28",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "16",
     "href": "http://codepen.io/rileyjshaw/full/dIniD"
   },
@@ -2663,9 +2979,7 @@
       "Ugly implementation of something pretty."
     ],
     "date": "2013-10-23",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "14",
     "href": "http://codepen.io/rileyjshaw/full/IkfJn/"
   },
@@ -2673,9 +2987,7 @@
     "title": "Single element kabamm",
     "description": [],
     "date": "2013-10-23",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "22",
     "href": "http://codepen.io/rileyjshaw/details/zFdyq/"
   },
@@ -2687,8 +2999,7 @@
     ],
     "date": "2013-10-13",
     "tags": [
-      "js",
-      "bestof"
+      "starred"
     ],
     "coolness": "50",
     "href": "http://codepen.io/rileyjshaw/pen/cKiDn?editors=0010"
@@ -2699,9 +3010,7 @@
       "Sass 3D text-shadow mixin."
     ],
     "date": "2013-10-09",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "22",
     "href": "http://codepen.io/rileyjshaw/pen/DmCyc"
   },
@@ -2711,9 +3020,7 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-10-08",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "21",
     "href": "http://codepen.io/rileyjshaw/full/ABzsc"
   },
@@ -2724,9 +3031,7 @@
       "This was my first CodePen to hit the front page :)"
     ],
     "date": "2013-09-29",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "14",
     "href": "http://codepen.io/rileyjshaw/pen/Ijtgr"
   },
@@ -2737,8 +3042,7 @@
     ],
     "date": "2013-09-18",
     "tags": [
-      "other",
-      "bestof"
+      "starred"
     ],
     "coolness": "66",
     "href": "https://github.com/rileyjshaw/git-cheatsheet"
@@ -2750,9 +3054,7 @@
       "Features a terrible mash-up of Watermelon Man and Mos Def's Beef freestyle that I threw together in Audacity..."
     ],
     "date": "2013-09-12",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "16",
     "href": "https://github.com/rileyjshaw/basic_visualizer"
   },
@@ -2762,9 +3064,7 @@
       "Geeky loading animations using ASCII characters."
     ],
     "date": "2013-09-06",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "27",
     "href": "http://codepen.io/rileyjshaw/details/GsotD/"
   },
@@ -2776,8 +3076,7 @@
     ],
     "date": "2013-08-31",
     "tags": [
-      "css",
-      "bestof"
+      "starred"
     ],
     "coolness": "74",
     "href": "http://codepen.io/rileyjshaw/full/ebokj/"
@@ -2788,9 +3087,7 @@
       "Semantic vertical menu using nested radio buttons and CSS."
     ],
     "date": "2013-08-27",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "42",
     "href": "http://codepen.io/rileyjshaw/full/jDCty/"
   },
@@ -2800,9 +3097,7 @@
       "Sass speech bubble mixin."
     ],
     "date": "2013-07-13",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "24",
     "href": "http://codepen.io/rileyjshaw/pen/dAFiu"
   },
@@ -2812,10 +3107,7 @@
       "Buggy POC exploring the CSS background-attachment property and a 3rd-party Instagram API."
     ],
     "date": "2013-04-02",
-    "tags": [
-      "js",
-      "css"
-    ],
+    "tags": [],
     "coolness": "30",
     "href": "/portfolio/old/instaframedemo/"
   },
@@ -2825,9 +3117,7 @@
       "A fitness form trainer using an Xbox Kinect."
     ],
     "date": "2013-03-02",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "85",
     "href": "https://github.com/uniphil/FitHub"
   },
@@ -2837,9 +3127,7 @@
       "Scrolling gallery view for tumblr."
     ],
     "date": "2013-03-25",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "60",
     "href": "/portfolio/old/peekdemo.html"
   },
@@ -2851,8 +3139,7 @@
     ],
     "date": "2013-03-22",
     "tags": [
-      "bestof",
-      "other"
+      "starred"
     ],
     "coolness": "50",
     "href": "http://youtu.be/zQ5tKU3z1fc"
@@ -2863,9 +3150,7 @@
       "Word-search puzzle generator."
     ],
     "date": "2013-02-05",
-    "tags": [
-      "other"
-    ],
+    "tags": [],
     "coolness": "30",
     "href": "https://github.com/rileyjshaw/jumble-puzzle"
   },
@@ -2873,9 +3158,7 @@
     "title": "Pure Sass music icons",
     "description": [],
     "date": "2012-10-30",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "12",
     "href": "http://codepen.io/rileyjshaw/full/xdfeC"
   },
@@ -2885,9 +3168,7 @@
       "A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output."
     ],
     "date": "2012-06-22",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "14",
     "href": "http://codepen.io/rileyjshaw/pen/iGjgs"
   },
@@ -2897,9 +3178,7 @@
       "My former personal brand mark."
     ],
     "date": "2012-01-05",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "24",
     "href": "/portfolio/old/cssonly/infiniteye.html"
   },
@@ -2909,9 +3188,7 @@
       "Settings reveal concept where a nut unscrews itself then drops a curtain."
     ],
     "date": "2011-11-26",
-    "tags": [
-      "css"
-    ],
+    "tags": [],
     "coolness": "11",
     "href": "http://codepen.io/rileyjshaw/details/fKmuI"
   },
@@ -2921,9 +3198,7 @@
       "Used to promote <a href=\"http://qhack.ca\">\"hack nights\" at my university</a>."
     ],
     "date": "2012-10-23",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "23",
     "href": "http://codepen.io/rileyjshaw/full/FLpJk/"
   },
@@ -2931,9 +3206,7 @@
     "title": "Infinite scroll",
     "description": [],
     "date": "2010-06-22",
-    "tags": [
-      "js"
-    ],
+    "tags": [],
     "coolness": "15",
     "href": "http://codepen.io/rileyjshaw/details/dzLwm/"
   }

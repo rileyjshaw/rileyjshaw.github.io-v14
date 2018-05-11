@@ -1,0 +1,71 @@
+[
+  {
+    "name": "starred",
+    "readable": "Starred",
+    "description": "Somewhat arbitrary collection of projects I wanted to put a gold star on.",
+    "created": 1524688680270
+  },
+  {
+    "name": "online",
+    "readable": "Demoable online",
+    "description": "If you can see a project just by clicking the link and it doesn't require installation or setup, it has this tag.",
+    "created": 1524688697797
+  },
+  {
+    "name": "hardware",
+    "readable": "External hardware",
+    "description": "Projects that run in the real world, often without screens.",
+    "created": 1524688704021
+  },
+  {
+    "name": "app",
+    "readable": "App",
+    "description": "I'm using this term loosely to mean anything someone might wanna use without digging into details of how it was made.",
+    "created": 1524688707204
+  },
+  {
+    "name": "game",
+    "readable": "Game",
+    "created": 1524688707204
+  },
+  {
+    "name": "pretty",
+    "readable": "Pretty patterns",
+    "created": 1524688711340
+  },
+  {
+    "name": "music",
+    "readable": "Music",
+    "description": "Projects involving music.",
+    "created": 1524688714309
+  },
+  {
+    "name": "extinct",
+    "readable": "Extinct",
+    "description": "These projects require maintenance. I do my best to find maintainers or support projects personally, but sometimes it makes most sense to just let a domain expire.",
+    "created": 1524688717555
+  },
+  {
+    "name": "reusable",
+    "readable": "Reusable",
+    "description": "Everything on this page is open source and reusable to some extent. Some projects were built with reuse as a primary goal; that's what this tag represents.",
+    "created": 1525753826119
+  },
+  {
+    "name": "instructional",
+    "readable": "Instructional",
+    "description": "Some projects were built with education as a primary goal; that's what this tag represents.",
+    "created": 1525753826119
+  },
+  {
+    "name": "browserextension",
+    "readable": "Browser extension",
+    "created": 1525916289357
+  },
+  {
+    "name": "golf",
+    "readable": "Golf",
+    "description": "Challenging myself to build systems within constraints, like code golf or only using CSS.",
+    "created": 1526009645610
+  }
+]
