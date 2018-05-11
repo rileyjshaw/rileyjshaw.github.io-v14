@@ -1,19 +1,19 @@
 [
   {
     "name": "starred",
-    "readable": "Starred",
+    "readable": "Featured",
     "description": "Somewhat arbitrary collection of projects I wanted to put a gold star on.",
     "created": 1524688680270
   },
   {
     "name": "online",
-    "readable": "Demoable online",
+    "readable": "Easy 2 demo",
     "description": "If you can see a project just by clicking the link and it doesn't require installation or setup, it has this tag.",
     "created": 1524688697797
   },
   {
     "name": "external",
-    "readable": "External bits",
+    "readable": "External parts",
     "description": "Projects that use obscure APIs or run on hardware in the real world.",
     "created": 1526020590158
   },
@@ -30,7 +30,7 @@
   },
   {
     "name": "pretty",
-    "readable": "Pretty patterns",
+    "readable": "Pretty",
     "created": 1524688711340
   },
   {
