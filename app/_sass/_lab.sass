@@ -92,19 +92,28 @@ html.lab
     input
       @extend .visuallyhidden
 
-    legend, label
+    legend, label, .labs-clear-toggles
       float: left
       padding: 0.25em 0.5em
 
     legend
       padding-left: 0
 
-    label
+    label, .labs-clear-toggles
       margin-bottom: 0.5em
       margin-left: 0.5em
       cursor: pointer
 
-    \:checked + label
+    .labs-clear-toggles
+      border: 0
+      border-radius: 0
+      outline: 0
+      font: inherit
+
+      &:active
+        background: #555
+
+    \:checked + label, .labs-clear-toggles
       color: white
       background: black
 

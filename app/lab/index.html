@@ -25,16 +25,13 @@ topclass: lab
         <input type="radio" name="labs-sort" id="labs-random-sorter">
         <label for="labs-random-sorter">Shuffle</label>
       </fieldset>
-      <!--
-      TODO(riley): Update tags. The "X" to the right should clear everything.
-      CSS-only | Viewable online | Hardware | Best of | Games | Animation | (Home) | Music | Extinct | X
-      -->
       <fieldset id="labs-toggles">
         <legend>Include:</legend>
         {% for tag in site.data.lab.tags %}
-          <input type="checkbox" id="labs-{{ tag.name }}-toggle" checked>
+          <input type="checkbox" id="labs-{{ tag.name }}-toggle">
           <label for="labs-{{ tag.name }}-toggle">{{ tag.readable }}</label>
         {% endfor %}
+        <button class="labs-clear-toggles">X</button>
       </fieldset>
     </div>
   </header>
@@ -68,7 +65,14 @@ topclass: lab
     var toggleContainer = document.getElementById('labs-toggles');
     var toggles = toggleContainer.querySelectorAll('input');
     var numToggles = toggles.length;
+    var clearToggles = document.querySelector('.labs-clear-toggles');
     var fakeLinks = document.querySelectorAll('.fake-link');
+
+    clearToggles.addEventListener('click', function (e) {
+      toggles.forEach(function (toggle) {
+        toggle.checked = false;
+      });
+    }, false);
 
     [].forEach.call(fakeLinks, function (link) {
       function fakeLinkClick (e) {
