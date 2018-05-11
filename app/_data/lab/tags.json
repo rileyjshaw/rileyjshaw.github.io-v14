@@ -12,10 +12,10 @@
     "created": 1524688697797
   },
   {
-    "name": "hardware",
-    "readable": "External hardware",
-    "description": "Projects that run in the real world, often without screens.",
-    "created": 1524688704021
+    "name": "external",
+    "readable": "External bits",
+    "description": "Projects that use obscure APIs or run on hardware in the real world.",
+    "created": 1526020590158
   },
   {
     "name": "app",

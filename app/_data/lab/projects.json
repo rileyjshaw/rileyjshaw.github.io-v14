@@ -7,7 +7,7 @@
     "date": "2018-01-10",
     "tags": [
       "starred",
-      "hardware",
+      "external",
       "app",
       "music"
     ],
@@ -22,7 +22,7 @@
     ],
     "date": "2017-12-14",
     "tags": [
-      "hardware",
+      "external",
       "app",
       "music"
     ],
@@ -67,7 +67,7 @@
     ],
     "date": "2017-05-29",
     "tags": [
-      "hardware"
+      "external"
     ],
     "coolness": "60",
     "href": "https://github.com/rileyjshaw/hologram",
@@ -350,7 +350,7 @@
     "date": "2016-08-29",
     "tags": [
       "online",
-      "hardware",
+      "external",
       "pretty",
       "golf"
     ],
@@ -367,7 +367,7 @@
     "tags": [
       "starred",
       "online",
-      "hardware",
+      "external",
       "game",
       "music",
       "golf"
@@ -454,7 +454,7 @@
     "tags": [
       "starred",
       "app",
-      "hardware",
+      "external",
       "game",
       "music",
       "reusable"
@@ -510,7 +510,7 @@
     ],
     "date": "2016-06-05",
     "tags": [
-      "hardware",
+      "external",
       "pretty",
       "music",
       "reusable"
@@ -556,7 +556,7 @@
     "date": "2016-05-28",
     "tags": [
       "starred",
-      "hardware",
+      "external",
       "music",
       "reusable"
     ],
@@ -574,7 +574,7 @@
       "starred",
       "golf",
       "online",
-      "hardware",
+      "external",
       "game"
     ],
     "coolness": "50",
@@ -1462,7 +1462,7 @@
     "date": "2015-06-13",
     "tags": [
       "starred",
-      "hardware",
+      "external",
       "game"
     ],
     "coolness": "92",
@@ -1684,7 +1684,7 @@
     "date": "2015-01-29",
     "tags": [
       "starred",
-      "hardware",
+      "external",
       "app"
     ],
     "coolness": "71",
@@ -2360,7 +2360,7 @@
     "date": "2014-04-29",
     "tags": [
       "online",
-      "hardware",
+      "external",
       "game",
       "extinct"
     ],
@@ -2473,7 +2473,7 @@
       "extinct"
     ],
     "coolness": "70",
-    "href": "http://tinybox.es",
+    "href": "https://github.com/rileyjshaw/boxes",
     "lastTagged": 1526011871185
   },
   {
@@ -2486,8 +2486,7 @@
       "starred",
       "online",
       "app",
-      "game",
-      "extinct"
+      "game"
     ],
     "coolness": "65",
     "href": "own.rileyjshaw.com",
@@ -3370,11 +3369,12 @@
   {
     "title": "Instaframe",
     "description": [
-      "Buggy POC exploring the CSS background-attachment property and a 3rd-party Instagram API."
+      "Buggy proof of concept exploring the CSS background-attachment property and a 3rd-party Instagram API."
     ],
     "date": "2013-04-02",
     "tags": [
       "online",
+      "external",
       "app"
     ],
     "coolness": "30",
@@ -3388,7 +3388,7 @@
     ],
     "date": "2013-03-02",
     "tags": [
-      "hardware",
+      "external",
       "app"
     ],
     "coolness": "85",
@@ -3420,7 +3420,7 @@
     "date": "2013-03-22",
     "tags": [
       "starred",
-      "hardware",
+      "external",
       "app",
       "pretty"
     ],
