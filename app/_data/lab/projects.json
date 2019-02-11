@@ -1457,7 +1457,7 @@
     "title": "Touchtone math facts",
     "description": [
       "A math facts app that you can play from a payphone.",
-      "Call +1.480.360.MATH (6284) from the US, +1.647.360.MATH (6284) from Canada."
+      "Call +1.480.360.MATH (6284) from the US, <s>+1.647.360.MATH (6284) from Canada</s>."
     ],
     "date": "2015-06-13",
     "tags": [
@@ -1953,10 +1953,11 @@
     "tags": [
       "starred",
       "online",
-      "game"
+      "game",
+      "extinct"
     ],
     "coolness": "80",
-    "href": "/tic-attack-toe",
+    "href": "https://github.com/rileyjshaw/tic-attack-toe",
     "lastTagged": 1526011272665
   },
   {
@@ -2486,10 +2487,11 @@
       "starred",
       "online",
       "app",
-      "game"
+      "game",
+      "extinct"
     ],
     "coolness": "65",
-    "href": "own.rileyjshaw.com",
+    "href": "https://github.com/rileyjshaw/own-this-website",
     "lastTagged": 1526011900796
   },
   {
