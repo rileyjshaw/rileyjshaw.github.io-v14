@@ -49,7 +49,25 @@
 
       var a = document.querySelector('h1');
       var b = document.querySelector('p');
-      var soon = Date.UTC(2018, 9, 24, 12 + 4, 22);
+      var hourOffsets = {
+        PST: -8,
+        PDT: -7,
+        EST: -5,
+        EDT: -4,
+      };
+
+      // EDIT ME!!!!!!!!!!
+      var year = 2019;   // Literal.
+      var month = 2;     // [0, 11].
+      var day = 3;       // Literal, [1, 31].
+      var hour = 13 + ;  // [0, 23].
+      var minute = 20;   // [0, 59].
+      var timezone = hourOffsets.PST;
+      // STOP EDITING!!!!!
+
+      // If the time zone offset makes the hour negative or above 23, the date
+      // object deals with under/overflowing days/hours. We're safe.
+      var soon = Date.UTC(year, month, day, hour + timezone, minute);
       var time = null;
       var showing = false;
 
