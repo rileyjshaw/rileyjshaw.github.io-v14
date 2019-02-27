@@ -66,7 +66,7 @@
       left: 0;
     }
   </style>
-  <a href="https://duckduckgo.com/?q=ac183&t=ffab&ia=flights">
+  <a href="#">
     <h1 class="hidden"></h1>
     <p class="hidden"></p>
   </a>
@@ -76,10 +76,30 @@
       var SECONDS_PER_MINUTE = 60;
       var SECONDS_PER_HOUR = SECONDS_PER_MINUTE * 60;
       var SECONDS_PER_DAY = SECONDS_PER_HOUR * 24;
+      var TIMEZONE_OFFSETS = {
+        PST: -8,
+        PDT: -7,
+        EST: -5,
+        EDT: -4,
+      };
 
-      var a = document.querySelector('h1');
-      var b = document.querySelector('p');
-      var soon = Date.UTC(2018, 9, 24, 12 + 4, 22);
+      var a = document.querySelector('a');
+      var b = document.querySelector('h1');
+      var c = document.querySelector('p');
+
+      // EDIT ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      a.href = 'https://www.google.com/search?q=WO107'  //                  !!!
+      var year = 2019;  // Literal.                                         !!!
+      var month = 2;    // [0, 11].                                         !!!
+      var day = 3;      // Literal, [1, 31].                                !!!
+      var hour = 13;    // [0, 23].                                         !!!
+      var minute = 20;  // [0, 59].                                         !!!
+      var timezone = TIMEZONE_OFFSETS.PST;  //                              !!!
+      // OK YOU CAN STOP EDITING NOW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+      // If the time zone offset makes the hour negative or above 23, the date
+      // object deals with under/overflowing days/hours. We're safe.
+      var soon = Date.UTC(year, month, day, hour + timezone, minute);
       var time = null;
       var showing = false;
 
@@ -127,8 +147,8 @@
         }
       }
 
-      cycleGen(a, 0.4, 'HUSL')();
-      cycleGen(b, 0.6, 'HSL')();
+      cycleGen(b, 0.4, 'HUSL')();
+      cycleGen(c, 0.6, 'HSL')();
 
       var stepHearts = (function () {
         var container = document.querySelector('.hearts');
@@ -169,9 +189,9 @@
         stepHearts(Math.max(remaining, 0));
         var now = formatTimeDisplay(remaining);
         if (time !== now) {
-          a.textContent = b.textContent = now;
+          b.textContent = c.textContent = now;
           if (!showing) {
-            a.className = b.className = '';
+            b.className = c.className = '';
             showing = true;
           }
         }
