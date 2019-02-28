@@ -97,6 +97,7 @@
 
     filterContainer.addEventListener('change', resort, false);
     toggleContainer.addEventListener('change', resort, false);
+    resort();
 
     // allow repeated clicking of shuffle
     shuffleSort.addEventListener('click', iso.shuffle.bind(iso), false);
