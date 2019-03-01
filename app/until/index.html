@@ -99,7 +99,7 @@
 
       // If the time zone offset makes the hour negative or above 23, the date
       // object deals with under/overflowing days/hours. We're safe.
-      var soon = Date.UTC(year, month, day, hour + timezone, minute);
+      var soon = Date.UTC(year, month, day, hour - timezone, minute);
       var time = null;
       var showing = false;
 
