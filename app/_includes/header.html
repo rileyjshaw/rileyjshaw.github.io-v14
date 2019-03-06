@@ -5,14 +5,14 @@
   <nav>
     <ul>
       {% if page.topclass != "post" %}
+        {% if page.topclass != "about" %}
+        <li>
+          <a href="/about">About</a>
+        </li>
+        {% endif %}
         {% if page.topclass != "blog" and page.topclass != "blog tagpage" %}
         <li>
           <a href="/blog">Blog</a>
-        </li>
-        {% endif %}
-        {% if page.topclass != "portfolio" %}
-        <li>
-          <a href="/portfolio">Portfolio</a>
         </li>
         {% endif %}
         {% if page.topclass != "lab" %}
@@ -37,15 +37,15 @@
       </a>
     </li>
     <li>
-      <a href="/blog" class="blog-block">
+      <a href="/about" class="about-block">
         <div class="vcent"></div>
-        <span>Blog</span>
+        <span>About</span>
       </a>
     </li>
     <li>
-      <a href="/portfolio" class="portfolio-block">
+      <a href="/blog" class="blog-block">
         <div class="vcent"></div>
-        <span>Portfolio</span>
+        <span>Blog</span>
       </a>
     </li>
     <li>
