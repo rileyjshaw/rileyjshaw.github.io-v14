@@ -1,5 +1,20 @@
 [
   {
+    "title": "CA finder",
+    "description": [
+      "Caution: it flashes! <a href=\"https://glitch.com/edit/#!/ca-finder?path=README.md:1:0\">Controls listed in the README.</a>"
+    ],
+    "date": "2019-03-09",
+    "tags": [
+      "online",
+      "game",
+      "pretty"
+    ],
+    "coolness": "76",
+    "href": "https://ca-finder.glitch.me/",
+    "lastTagged": 1552433253008
+  },
+  {
     "title": "Huertbeat",
     "description": [
       "Pulse available Philips hue lights to whatever is playing on Spotify."

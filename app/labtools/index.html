@@ -82,7 +82,7 @@ var finish = tagger.querySelector('.finish');
 var projects = {{ site.data.lab.projects | jsonify }};
 var tags = {{ site.data.lab.tags | jsonify }};
 var tagNames = tags.map(t => t.name);
-var projectTagNames = [].concat(...projects.map(p => p.tags)).filter((v, i, a) => a.indexOf(v) === i);
+var projectTagNames = [].concat(...projects.map(p => p.tags || [])).filter((v, i, a) => a.indexOf(v) === i);
 
 if (tags.length !== projectTagNames.length || tagNames.some(t => !projectTagNames.includes(t))) {
   var mismatchA = tagNames.filter(t => !projectTagNames.includes(t));
