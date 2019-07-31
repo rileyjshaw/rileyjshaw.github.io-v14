@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>rileyjshaw</title>
-		<description>The work and diatribes of rileyjshaw</description>
+		<description>The work and explorations of rileyjshaw</description>
 		<link>https://www.rileyjshaw.com</link>
 		<atom:link href="https://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
@@ -43,6 +43,19 @@
 				<pubDate>Sun, 13 Nov 2016 00:00:00 -0800</pubDate>
 				<link>https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
 				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
+			</item>
+		
+			<item>
+				<title>All of which are American dreams</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>I had some</description>
+				
+				<pubDate>Wed, 10 Feb 2016 00:00:00 -0800</pubDate>
+				<link>https://www.rileyjshaw.com/blog/eschersketch</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/eschersketch</guid>
 			</item>
 		
 			<item>
@@ -121,19 +134,6 @@
 				<pubDate>Tue, 28 Oct 2014 00:00:00 -0700</pubDate>
 				<link>https://www.rileyjshaw.com/blog/chicken-prices</link>
 				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/chicken-prices</guid>
-			</item>
-		
-			<item>
-				<title>Fin?</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>I was so ready to stop iron-blogging that I didn&#39;t publish my last post.</description>
-				
-				<pubDate>Sun, 12 Oct 2014 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/fin</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/fin</guid>
 			</item>
 		
 	</channel>
