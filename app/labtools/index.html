@@ -211,7 +211,7 @@ function saveTags () {
   var inputs = Array.from(tagsContainer.querySelectorAll('label')).map(l => l.querySelector('input'));
   var inputValues = inputs.map(i => i.value);
   // We don't show all of the possible tags in the input list, so we keep old tags that aren't shown.
-  var oldTags = project.tags.filter(t => !inputValues.includes(t));
+  var oldTags = (project.tags || []).filter(t => !inputValues.includes(t));
   var newTags = inputs.filter(i => i.checked).map(i => i.value);
   project.tags = oldTags.concat(newTags);
   project.lastTagged = Date.now();
@@ -232,7 +232,7 @@ function nextProject () {
   titleContainer.textContent = `${idx+1} of ${untaggedProjects.length}: ${project.title}`;
   descriptionContainer.innerHTML = project.description ? project.description.map(p => `<li>${p}</li>`).join('') : '';
   clearAllChildNodes(tagsContainer);
-  (project.lastTagged ? tags.filter(tag => tag.created >= project.lastTagged) : tags).forEach((tag, i) => appendTag(tag, i, project.tags.includes(tag.name)));
+  (project.lastTagged ? tags.filter(tag => tag.created >= project.lastTagged) : tags).forEach((tag, i) => appendTag(tag, i, project.tags && project.tags.includes(tag.name)));
 }
 nextProject();
 
