@@ -79,7 +79,10 @@ var tagAdder = tagger.querySelector('.tagAdder');
 var next = tagger.querySelector('.next');
 var finish = tagger.querySelector('.finish');
 
-var allProjects = {{ site.data.lab.projects | jsonify }};
+var allProjects = {{ site.data.lab.projects | jsonify }}.sort((a, b) => a.todo
+  ? -Infinity
+  : Date.parse(b.date) - Date.parse(a.date)
+);
 var projects = allProjects.filter(project => !project.todo);
 var tags = {{ site.data.lab.tags | jsonify }};
 var tagNames = tags.map(t => t.name);
