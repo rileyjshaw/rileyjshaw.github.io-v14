@@ -2,13 +2,13 @@
   {
     "name": "starred",
     "readable": "Featured",
-    "description": "Somewhat arbitrary collection of projects I wanted to put a gold star on.",
+    "description": "Collection of projects I wanted to put a gold star on.",
     "created": 1524688680270
   },
   {
     "name": "online",
     "readable": "Easy 2 demo",
-    "description": "If you can see a project just by clicking the link and it doesn't require installation or setup, it has this tag.",
+    "description": "Projects you can see and interact with just by clicking the link (no installation or setup).",
     "created": 1524688697797
   },
   {
@@ -26,11 +26,13 @@
   {
     "name": "game",
     "readable": "Game",
+    "description": "It's a game.",
     "created": 1524688707204
   },
   {
     "name": "pretty",
     "readable": "Pretty",
+    "description": "It's pretty.",
     "created": 1524688711340
   },
   {
