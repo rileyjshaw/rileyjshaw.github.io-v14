@@ -79,7 +79,8 @@ var tagAdder = tagger.querySelector('.tagAdder');
 var next = tagger.querySelector('.next');
 var finish = tagger.querySelector('.finish');
 
-var projects = {{ site.data.lab.projects | jsonify }};
+var allProjects = {{ site.data.lab.projects | jsonify }};
+var projects = allProjects.filter(project => !project.todo);
 var tags = {{ site.data.lab.tags | jsonify }};
 var tagNames = tags.map(t => t.name);
 var projectTagNames = [].concat(...projects.map(p => p.tags || [])).filter((v, i, a) => a.indexOf(v) === i);
@@ -240,7 +241,7 @@ function finishUp () {
   var downloadTags = document.createElement('a');
   downloadProjects.download = 'projects.json';
   downloadTags.download = 'tags.json';
-  downloadProjects.href = 'data:plain/text,' + encodeURIComponent(JSON.stringify(projects, null, 2));
+  downloadProjects.href = 'data:plain/text,' + encodeURIComponent(JSON.stringify(allProjects, null, 2));
   downloadTags.href = 'data:plain/text,' + encodeURIComponent(JSON.stringify(tags, null, 2));
 
   downloadProjects.textContent = 'Download the projects JSON';

@@ -43,19 +43,21 @@ topclass: lab
   </header>
   <ul class="experiments">
     {% for project in site.data.lab.projects | sort: 'date' %}
-      <li
-        {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
-        class="{% for tag in project.tags %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ tag | prepend: 'labs-' }}{% endfor %}"
-        data-coolness="{{ project.coolness }}"
-      >
-        <a href="{{ project.href }}">
-          <h2>{{ project.title }}</h2>
-          <time datetime={{ project.date }}>{{ project.date | replace: '-', '.'}}</time>
-          {% for paragraph in project.description %}
-            <p>{{ paragraph | replace: '<a ', '<span class="fake-link" role="link" tabindex="0" data-' | replace: '</a>', '</span>' }}</p>
-          {% endfor %}
-        </a>
-      </li>
+      {% unless project.todo %}
+        <li
+          {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
+          class="{% for tag in project.tags %}{% if forloop.index > 1 %}{{ ' ' }}{% endif %}{{ tag | prepend: 'labs-' }}{% endfor %}"
+          data-coolness="{{ project.coolness }}"
+        >
+          <a href="{{ project.href }}">
+            <h2>{{ project.title }}</h2>
+            <time datetime={{ project.date }}>{{ project.date | replace: '-', '.'}}</time>
+            {% for paragraph in project.description %}
+              <p>{{ paragraph | replace: '<a ', '<span class="fake-link" role="link" tabindex="0" data-' | replace: '</a>', '</span>' }}</p>
+            {% endfor %}
+          </a>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
