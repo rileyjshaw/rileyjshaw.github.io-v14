@@ -80,8 +80,10 @@ var next = tagger.querySelector('.next');
 var finish = tagger.querySelector('.finish');
 
 var allProjects = {{ site.data.lab.projects | jsonify }}.sort((a, b) => a.todo
-  ? -Infinity
-  : Date.parse(b.date) - Date.parse(a.date)
+  ? b.todo ? 0 : -1
+  : b.todo
+    ? 1
+    : Date.parse(b.date) - Date.parse(a.date)
 );
 var projects = allProjects.filter(project => !project.todo);
 var tags = {{ site.data.lab.tags | jsonify }};
@@ -98,7 +100,9 @@ if (tags.length !== projectTagNames.length || tagNames.some(t => !projectTagName
 
 tags.forEach(tag => {if (!tag.created) tag.created = Date.now()});
 var mostRecentTagDate = tags.reduce((winner, cur) => Math.max(winner, cur.created), 0);
-var untaggedProjects = projects.filter(p => (p.lastTagged || 0) < mostRecentTagDate);
+var untaggedProjects = projects
+  .filter(p => (p.lastTagged || 0) < mostRecentTagDate)
+  .sort((a, b) => a.lastTagged - b.lastTagged);
 
 var idx = -1;
 next.addEventListener('click', saveTags, false);
