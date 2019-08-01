@@ -7,6 +7,63 @@
 		<atom:link href="https://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Cellular automata</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>&lt;p&gt;I made some pretty images using &lt;a href=&quot;https://andydoro.com/&quot;&gt;Andy Doro&lt;/a&gt;’s &lt;a href=&quot;https://andydoro.com/processing/3state/java/CA.pde&quot;&gt;3-state cellular automata tool&lt;/a&gt; and &lt;a href=&quot;https://ca-finder.glitch.me/&quot;&gt;my CA finder&lt;/a&gt;! Each of the 4 final images can be clicked for a slightly-higher-res video, but careful: each video is over 10 megabytes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/CA_3/1.png&quot; alt=&quot;Sketch 1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/2.png&quot; alt=&quot;Sketch 2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/3.png&quot; alt=&quot;Sketch 3&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/4.png&quot; alt=&quot;Sketch 4&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/5.png&quot; alt=&quot;Sketch 5&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/6.png&quot; alt=&quot;Sketch 6&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/7.png&quot; alt=&quot;Sketch 7&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/8.png&quot; alt=&quot;Sketch 8&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/9.png&quot; alt=&quot;Sketch 9&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/10.png&quot; alt=&quot;Sketch 10&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/11.png&quot; alt=&quot;Sketch 11&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/CA_3/12.png&quot; alt=&quot;Sketch 12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Sketch 13&quot; src=&quot;/images/CA_3/13.gif&quot; style=&quot;width: 100%&quot; /&gt;&lt;br /&gt;
+&lt;a href=&quot;/static/CA_3/14.mp4&quot;&gt;&lt;img alt=&quot;Sketch 14&quot; src=&quot;/images/CA_3/14.webp&quot; style=&quot;width: 50%&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/static/CA_3/15.mp4&quot;&gt;&lt;img alt=&quot;Sketch 15&quot; src=&quot;/images/CA_3/15.webp&quot; style=&quot;width: 50%&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/static/CA_3/16.mp4&quot;&gt;&lt;img alt=&quot;Sketch 16&quot; src=&quot;/images/CA_3/16.webp&quot; style=&quot;width: 50%&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/static/CA_3/17.mp4&quot;&gt;&lt;img alt=&quot;Sketch 17&quot; src=&quot;/images/CA_3/17.webp&quot; style=&quot;width: 50%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 18 Mar 2019 00:00:00 -0700</pubDate>
+				<link>https://www.rileyjshaw.com/blog/cellular-automata</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/cellular-automata</guid>
+			</item>
+		
+			<item>
+				<title>Voxels</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>&lt;p&gt;I’ve been exploring &lt;a href=&quot;https://ephtracy.github.io/&quot;&gt;MagicaVoxel&lt;/a&gt; with &lt;a href=&quot;https://twitter.com/herlifeinpixels/status/1061891927312805888&quot;&gt;herlifeinpixels&lt;/a&gt; and wanted to try rendering a few images:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/voxels-gallery/pattern.png&quot; alt=&quot;Sketch 1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/voxels-gallery/qube.png&quot; alt=&quot;Sketch 2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/voxels-gallery/blue-tunnel.png&quot; alt=&quot;Sketch 3&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/voxels-gallery/tunnel.png&quot; alt=&quot;Sketch 4&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/voxels-gallery/bg.png&quot; alt=&quot;Sketch 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;…and a bonus render using &lt;a href=&quot;https://github.com/buddhi1980/mandelbulber2&quot;&gt;Mandelbulber 2&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/voxels-gallery/bulbs.png&quot; alt=&quot;Sketch 6&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 31 Oct 2018 00:00:00 -0700</pubDate>
+				<link>https://www.rileyjshaw.com/blog/voxels</link>
+				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/voxels</guid>
+			</item>
+		
+			<item>
 				<title>I have a new blog</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -108,32 +165,6 @@
 				<pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
 				<link>https://www.rileyjshaw.com/blog/graphing-depth</link>
 				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/graphing-depth</guid>
-			</item>
-		
-			<item>
-				<title>Stealing history with CSS binary trees</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>Some shady CSS tricks form like Voltron to discover your darkest secrets.</description>
-				
-				<pubDate>Wed, 12 Nov 2014 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/stealing-history-with-CSS-binary-trees</guid>
-			</item>
-		
-			<item>
-				<title>Riddle: chicken prices</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>I wrote a comment on Hacker News that people liked.</description>
-				
-				<pubDate>Tue, 28 Oct 2014 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/chicken-prices</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/chicken-prices</guid>
 			</item>
 		
 	</channel>
