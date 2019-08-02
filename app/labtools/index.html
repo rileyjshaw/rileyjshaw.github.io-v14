@@ -79,13 +79,11 @@ var tagAdder = tagger.querySelector('.tagAdder');
 var next = tagger.querySelector('.next');
 var finish = tagger.querySelector('.finish');
 
-var allProjects = {{ site.data.lab.projects | jsonify }}.sort((a, b) => a.todo
-  ? b.todo ? 0 : -1
-  : b.todo
-    ? 1
-    : Date.parse(b.date) - Date.parse(a.date)
+var allProjects = {{ site.data.lab.projects | jsonify }}.sort((a, b) => (a.todo || b.todo)
+  ? !a.todo - !b.todo
+  : Date.parse(b.date) - Date.parse(a.date)
 );
-var projects = allProjects.filter(project => !project.todo);
+var projects = allProjects.filter(project => !project.todo).sort((a, b) => !b.tags - !a.tags);
 var tags = {{ site.data.lab.tags | jsonify }};
 var tagNames = tags.map(t => t.name);
 var projectTagNames = [].concat(...projects.map(p => p.tags || [])).filter((v, i, a) => a.indexOf(v) === i);
