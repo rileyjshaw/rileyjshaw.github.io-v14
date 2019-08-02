@@ -3,8 +3,8 @@
 	<channel>
 		<title>rileyjshaw</title>
 		<description>The work and explorations of rileyjshaw</description>
-		<link>https://www.rileyjshaw.com</link>
-		<atom:link href="https://www.rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
+		<link>https://rileyjshaw.com</link>
+		<atom:link href="https://rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Cellular automata</title>
@@ -35,8 +35,8 @@
 </description>
 				
 				<pubDate>Mon, 18 Mar 2019 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/cellular-automata</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/cellular-automata</guid>
+				<link>https://rileyjshaw.com/blog/cellular-automata</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/cellular-automata</guid>
 			</item>
 		
 			<item>
@@ -59,8 +59,8 @@
 </description>
 				
 				<pubDate>Wed, 31 Oct 2018 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/voxels</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/voxels</guid>
+				<link>https://rileyjshaw.com/blog/voxels</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/voxels</guid>
 			</item>
 		
 			<item>
@@ -72,8 +72,8 @@
 					<description>This website is old; for more recent news check out &lt;a href=&quot;https://sfpc.rileyjshaw.com&quot;&gt;my SFPC blog&lt;/a&gt;.</description>
 				
 				<pubDate>Mon, 05 Mar 2018 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/i-have-a-new-blog</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/i-have-a-new-blog</guid>
+				<link>https://rileyjshaw.com/blog/i-have-a-new-blog</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/i-have-a-new-blog</guid>
 			</item>
 		
 			<item>
@@ -85,8 +85,8 @@
 					<description>I won a made-up award intended to bolster a company’s reputation in the industry, nothing more.</description>
 				
 				<pubDate>Thu, 27 Apr 2017 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/D30U30</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/D30U30</guid>
+				<link>https://rileyjshaw.com/blog/D30U30</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/D30U30</guid>
 			</item>
 		
 			<item>
@@ -98,8 +98,8 @@
 					<description>I wrote some scripts which let you view someone else&#39;s Twitter feed.</description>
 				
 				<pubDate>Sun, 13 Nov 2016 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
+				<link>https://rileyjshaw.com/blog/all-of-which-are-american-dreams</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/all-of-which-are-american-dreams</guid>
 			</item>
 		
 			<item>
@@ -111,8 +111,8 @@
 					<description>I made some pictures using &lt;a href=&quot;https://levskaya.github.io/eschersketch/&quot;&gt;Escher Sketch&lt;/a&gt;.</description>
 				
 				<pubDate>Wed, 10 Feb 2016 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/eschersketch</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/eschersketch</guid>
+				<link>https://rileyjshaw.com/blog/eschersketch</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/eschersketch</guid>
 			</item>
 		
 			<item>
@@ -124,8 +124,8 @@
 					<description>I work at Khan Academy now and I like it here.</description>
 				
 				<pubDate>Mon, 20 Jul 2015 00:00:00 -0700</pubDate>
-				<link>https://www.rileyjshaw.com/blog/khan-academy-primer</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/khan-academy-primer</guid>
+				<link>https://rileyjshaw.com/blog/khan-academy-primer</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/khan-academy-primer</guid>
 			</item>
 		
 			<item>
@@ -137,8 +137,8 @@
 					<description>Learn how to create a static site with internal links based on a directory of files of any type.</description>
 				
 				<pubDate>Thu, 05 Mar 2015 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</guid>
+				<link>https://rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/how-to-generate-a-static-site-from-a-folder-of-assets-using-Gulp</guid>
 			</item>
 		
 			<item>
@@ -150,8 +150,8 @@
 					<description>I joined Open Whisper Systems to pitch in on the TextSecure Chrome extension. It was the experience of a lifetime.</description>
 				
 				<pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
+				<link>https://rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
 			</item>
 		
 			<item>
@@ -163,8 +163,8 @@
 					<description>On a beautiful summer&#39;s afternoon while all the other children were playing outside I made pictures out of procedural hobby math.</description>
 				
 				<pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
-				<link>https://www.rileyjshaw.com/blog/graphing-depth</link>
-				<guid isPermaLink="true">https://www.rileyjshaw.com/blog/graphing-depth</guid>
+				<link>https://rileyjshaw.com/blog/graphing-depth</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/graphing-depth</guid>
 			</item>
 		
 	</channel>
