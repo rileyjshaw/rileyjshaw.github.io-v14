@@ -20,6 +20,21 @@
     "todo": true
   },
   {
+    "title": "Marqueee",
+    "description": [
+      "A quick experiment to render efficient \"ticker tape\" on a canvas.",
+      "Used as part of an online treasure hunt I made."
+    ],
+    "date": "2019-06-01",
+    "coolness": 36,
+    "href": "https://marqueee.glitch.me/",
+    "tags": [
+      "online",
+      "reusable"
+    ],
+    "lastTagged": 1564772210294
+  },
+  {
     "title": "CA finder",
     "description": [
       "Caution: it flashes! <a href=\"https://glitch.com/edit/#!/ca-finder?path=README.md:1:0\">Controls listed in the README.</a>"
