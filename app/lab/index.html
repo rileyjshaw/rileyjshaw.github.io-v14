@@ -60,9 +60,11 @@ topclass: lab
           <a href="{{ project.href }}">
             <h2>{{ project.title }}</h2>
             <time datetime={{ project.date }}>{{ project.date | replace: '-', '.'}}</time>
-            {% for paragraph in project.description %}
-              <p>{{ paragraph | replace: '<a ', '<span class="fake-link" role="link" tabindex="0" data-' | replace: '</a>', '</span>' }}</p>
-            {% endfor %}
+            {% if project.description %}
+              {% for paragraph in project.description %}
+                <p>{{ paragraph | replace: '<a ', '<span class="fake-link" role="link" tabindex="0" data-' | replace: '</a>', '</span>' }}</p>
+              {% endfor %}
+            {% endif %}
           </a>
         </li>
       {% endunless %}

@@ -75,7 +75,6 @@ console.log(JSON.stringify(Array.from(document.querySelectorAll('.dweet-wrapper'
 // To convert them to a format that fits with projects.json:
 console.log(JSON.stringify(dweets.map(dweet => ({
   title: `Dweet ${dweet.id}`,
-  description: [],
   date: dweet.date,
   tags: ['online', 'golf'],
   coolness: dweet.likes,
