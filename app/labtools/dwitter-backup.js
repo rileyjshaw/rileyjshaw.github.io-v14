@@ -57,7 +57,7 @@ requestAll('https://www.dwitter.net/api/dweets?author=rileyjshaw').then(
     href: result.link,
     likes: result.awesome_count,
   }))
-).then(mapped => console.log(mapped)
+).then(mapped => console.log(JSON.stringify(mapped, null, 2))
 ).catch(e => console.log(`Error: ${e}`));
 
 // Script B.
@@ -71,3 +71,14 @@ console.log(JSON.stringify(Array.from(document.querySelectorAll('.dweet-wrapper'
     likes: dweet.querySelector('.score-text').textContent,
   };
 }), null, 2));
+
+// To convert them to a format that fits with projects.json:
+console.log(JSON.stringify(dweets.map(dweet => ({
+  title: `Dweet ${dweet.id}`,
+  description: [],
+  date: dweet.date,
+  tags: ['online', 'golf'],
+  coolness: dweet.likes,
+  href: dweet.href,
+  lastTagged: Date.now(),
+})), null, 2));

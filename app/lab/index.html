@@ -42,7 +42,15 @@ topclass: lab
     </div>
   </header>
   <ul class="experiments">
-    {% for project in site.data.lab.projects | sort: 'date' %}
+    {% comment %}
+      HACK(riley): I'm not on Jekyll 4, and I'm moving to Gatsby, until then I'm rolling my own concat filter…
+    {% endcomment %}
+    {% assign projects = site.data.lab.projects %}
+    {% for dweet in site.data.dwitter.projects %}
+      {% assign projects = projects | push: dweet %}
+    {% endfor %}
+    {% assign projects = projects | sort: 'date' | reverse %}
+    {% for project in projects %}
       {% unless project.todo %}
         <li
           {% comment %}I couldn't find a builtin for map => join so I rolled my own.{% endcomment %}
