@@ -154,18 +154,19 @@
   {
     "title": "canvas",
     "description": [
-      "Dozens of rough visual experiments.",
-      "Currently shows the latest demo; I'll eventually add a project browser at the link."
+      "THIRTY-EIGHT rough visual experiments in alphabetical order.",
+      "Each experiment was built using a web tool I created in the spirit of OpenFrameworks and TouchDesigner. I wanted libraries close at hand with a simple API for drawing to &lt;canvas&gt;, SVG, etc."
     ],
     "date": "2017-10-07",
     "tags": [
+      "extinct",
       "starred",
       "online",
       "pretty"
     ],
     "coolness": "70",
     "href": "/canvas/",
-    "lastTagged": 1564608366745
+    "lastTagged": 1565142493873
   },
   {
     "title": "Photo experiment",
