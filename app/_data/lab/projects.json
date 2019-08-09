@@ -40,7 +40,7 @@
       "A garden of emoji that slowly climbs your screen."
     ],
     "date": "2019-03-17",
-    "coolness": "41",
+    "coolness": 41,
     "href": "https://txt-flowers.glitch.me/",
     "tags": [
       "online",
@@ -54,7 +54,7 @@
       "An ascii rock garden. Rake with touch / mouse."
     ],
     "date": "2019-03-17",
-    "coolness": "41",
+    "coolness": 41,
     "href": "https://ascii-garden.glitch.me/",
     "tags": [
       "online",
@@ -75,7 +75,8 @@
       "online",
       "external"
     ],
-    "lastTagged": 1564775565269
+    "lastTagged": 1564775565269,
+    "coolness": 80
   },
   {
     "title": "CA finder",
@@ -88,7 +89,7 @@
       "game",
       "pretty"
     ],
-    "coolness": "76",
+    "coolness": 76,
     "href": "https://ca-finder.glitch.me/",
     "lastTagged": 1552433253008
   },
@@ -118,7 +119,7 @@
       "music",
       "external"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "https://github.com/rileyjshaw/huertbeat",
     "lastTagged": 1564608357834
   },
@@ -133,7 +134,7 @@
       "music",
       "external"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "https://github.com/rileyjshaw/huemidity",
     "lastTagged": 1564608358786
   },
@@ -147,7 +148,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "52",
+    "coolness": 52,
     "href": "https://codepen.io/rileyjshaw/full/VrBZoK/",
     "lastTagged": 1564608361275
   },
@@ -164,7 +165,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "/canvas/",
     "lastTagged": 1565142493873
   },
@@ -179,7 +180,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "33",
+    "coolness": 33,
     "href": "https://photo-experiment.glitch.me",
     "lastTagged": 1564624404415
   },
@@ -192,7 +193,7 @@
     "tags": [
       "external"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "https://github.com/rileyjshaw/hologram",
     "lastTagged": 1564608370682
   },
@@ -203,7 +204,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "https://codepen.io/rileyjshaw/details/gWamKx/",
     "lastTagged": 1564608372846
   },
@@ -216,7 +217,7 @@
     "tags": [
       "reusable"
     ],
-    "coolness": "62",
+    "coolness": 62,
     "href": "https://github.com/Khan/fuzzy-match-utils",
     "lastTagged": 1564608377140
   },
@@ -228,7 +229,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "59",
+    "coolness": 59,
     "href": "http://codepen.io/rileyjshaw/pen/BWjZZV/?editors=1100",
     "lastTagged": 1564608379885
   },
@@ -243,7 +244,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "56",
+    "coolness": 56,
     "href": "/sorta/",
     "lastTagged": 1564608381908
   },
@@ -256,7 +257,7 @@
     "tags": [
       "reusable"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "https://github.com/rileyjshaw/node-timsort-async",
     "lastTagged": 1564608382989
   },
@@ -271,7 +272,7 @@
       "online",
       "app"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "/write",
     "lastTagged": 1564608384406
   },
@@ -285,7 +286,7 @@
       "online",
       "app"
     ],
-    "coolness": "10",
+    "coolness": 10,
     "href": "/color-screen/",
     "lastTagged": 1564608387197
   },
@@ -301,7 +302,7 @@
       "online",
       "instructional"
     ],
-    "coolness": "90",
+    "coolness": 90,
     "href": "https://crypto.christmas/",
     "lastTagged": 1564608389110
   },
@@ -313,7 +314,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "47",
+    "coolness": 47,
     "href": "https://codepen.io/rileyjshaw/full/mOZrye/",
     "lastTagged": 1564608390236
   },
@@ -326,7 +327,7 @@
     "tags": [
       "instructional"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "https://gist.github.com/rileyjshaw/fab2c01b9bb85e598fffba130ca28d0a",
     "lastTagged": 1564608392569
   },
@@ -337,7 +338,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "44",
+    "coolness": 44,
     "href": "http://codepen.io/rileyjshaw/pen/GjVZYq",
     "lastTagged": 1564608396287
   },
@@ -352,7 +353,7 @@
       "online",
       "golf"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "https://gist.github.com/rileyjshaw/216af3d73b16e35d462ea5a29da4bcd4",
     "lastTagged": 1564608398380
   },
@@ -366,7 +367,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "32",
+    "coolness": 32,
     "href": "http://codepen.io/rileyjshaw/pen/ozmymE/",
     "lastTagged": 1564608401800
   },
@@ -380,7 +381,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "34",
+    "coolness": 34,
     "href": "http://codepen.io/rileyjshaw/pen/bwYRbw",
     "lastTagged": 1564608403981
   },
@@ -396,7 +397,7 @@
       "app",
       "pretty"
     ],
-    "coolness": "36",
+    "coolness": 36,
     "href": "http://codepen.io/rileyjshaw/pen/jrayWL",
     "lastTagged": 1564608405055
   },
@@ -407,7 +408,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/ZpXPYR/",
     "lastTagged": 1564608406264
   },
@@ -422,7 +423,7 @@
       "online",
       "game"
     ],
-    "coolness": "86",
+    "coolness": 86,
     "href": "http://codepen.io/rileyjshaw/pen/YGQVqK?editors=1000",
     "lastTagged": 1564608407776
   },
@@ -433,7 +434,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "55",
+    "coolness": 55,
     "href": "http://codepen.io/rileyjshaw/full/mAmRNa/",
     "lastTagged": 1564608408933
   },
@@ -447,7 +448,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "82",
+    "coolness": 82,
     "href": "http://codepen.io/rileyjshaw/full/YGVKgV/",
     "lastTagged": 1564608411208
   },
@@ -461,7 +462,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "52",
+    "coolness": 52,
     "href": "http://codepen.io/rileyjshaw/full/ozjEoK/",
     "lastTagged": 1564608412735
   },
@@ -474,7 +475,7 @@
       "golf",
       "external"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://www.lexaloffle.com/bbs/?tid=27569",
     "lastTagged": 1564608416268
   },
@@ -492,7 +493,7 @@
       "golf",
       "external"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://www.lexaloffle.com/bbs/?tid=27571",
     "lastTagged": 1564608417415
   },
@@ -504,7 +505,7 @@
       "app",
       "pretty"
     ],
-    "coolness": "59",
+    "coolness": 59,
     "href": "http://codepen.io/rileyjshaw/full/YWbbGJ/",
     "lastTagged": 1564608420432
   },
@@ -515,7 +516,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://codepen.io/rileyjshaw/full/WxYkmW/",
     "lastTagged": 1564608422097
   },
@@ -529,7 +530,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "46",
+    "coolness": 46,
     "href": "http://codepen.io/rileyjshaw/full/kXQXAo/",
     "lastTagged": 1564608423548
   },
@@ -543,7 +544,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/full/pbQEoA/",
     "lastTagged": 1564608428261
   },
@@ -558,7 +559,7 @@
       "music",
       "reusable"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "https://github.com/rileyjshaw/flubber",
     "lastTagged": 1564707806856
   },
@@ -577,7 +578,7 @@
       "reusable",
       "external"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "https://github.com/rileyjshaw/virtuoso",
     "lastTagged": 1564707810842
   },
@@ -591,7 +592,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "https://github.com/rileyjshaw/average-color",
     "lastTagged": 1564707813397
   },
@@ -602,7 +603,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "65",
+    "coolness": 65,
     "href": "http://codepen.io/rileyjshaw/full/Meeedv",
     "lastTagged": 1564707815578
   },
@@ -616,7 +617,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "65",
+    "coolness": 65,
     "href": "http://codepen.io/rileyjshaw/full/RRajov/",
     "lastTagged": 1564707816646
   },
@@ -632,7 +633,7 @@
       "reusable",
       "external"
     ],
-    "coolness": "54",
+    "coolness": 54,
     "href": "https://github.com/rileyjshaw/synthesia",
     "lastTagged": 1564707820422
   },
@@ -646,7 +647,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/collection/DmZZVV/",
     "lastTagged": 1564707822822
   },
@@ -660,7 +661,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "64",
+    "coolness": 64,
     "href": "http://codepen.io/rileyjshaw/pen/aZzKGa",
     "lastTagged": 1564707825199
   },
@@ -677,7 +678,7 @@
       "reusable",
       "external"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "https://github.com/rileyjshaw/keyboard-keyboard",
     "lastTagged": 1564707826462
   },
@@ -694,7 +695,7 @@
       "game",
       "external"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "https://github.com/rileyjshaw/typing-for-two",
     "lastTagged": 1564707830808
   },
@@ -708,7 +709,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/full/ZOzGKq/",
     "lastTagged": 1564707834778
   },
@@ -723,7 +724,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/pen/PNMZVG?editors=1100",
     "lastTagged": 1564707836594
   },
@@ -739,7 +740,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "97",
+    "coolness": 97,
     "href": "http://codepen.io/collection/nYWPBp/",
     "lastTagged": 1564707838057
   },
@@ -753,7 +754,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/full/YqbGKK/",
     "lastTagged": 1564707839982
   },
@@ -767,7 +768,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/full/RamaYJ/",
     "lastTagged": 1564707841219
   },
@@ -782,7 +783,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "81",
+    "coolness": 81,
     "href": "https://github.com/rileyjshaw/literate-theme",
     "lastTagged": 1564707843448
   },
@@ -797,7 +798,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "84",
+    "coolness": 84,
     "href": "http://codepen.io/rileyjshaw/full/NNeoMR/",
     "lastTagged": 1564707845485
   },
@@ -812,7 +813,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "56",
+    "coolness": 56,
     "href": "http://codepen.io/rileyjshaw/pen/ONrdoM",
     "lastTagged": 1564707846623
   },
@@ -826,7 +827,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "39",
+    "coolness": 39,
     "href": "http://codepen.io/rileyjshaw/full/bpOoyW/",
     "lastTagged": 1564707847474
   },
@@ -840,7 +841,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "39",
+    "coolness": 39,
     "href": "http://codepen.io/rileyjshaw/full/BKvWBP/",
     "lastTagged": 1564707848382
   },
@@ -856,7 +857,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/rileyjshaw/full/xVQBLG/",
     "lastTagged": 1564707849539
   },
@@ -872,7 +873,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/rileyjshaw/full/oxaxqX/",
     "lastTagged": 1564707851729
   },
@@ -887,7 +888,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/full/LNgLBj",
     "lastTagged": 1564707852961
   },
@@ -902,7 +903,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "69",
+    "coolness": 69,
     "href": "http://codepen.io/collection/XGpwzE/",
     "lastTagged": 1564707853866
   },
@@ -917,7 +918,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "69",
+    "coolness": 69,
     "href": "http://codepen.io/collection/nmyQRj/",
     "lastTagged": 1564707854423
   },
@@ -933,7 +934,7 @@
       "app",
       "pretty"
     ],
-    "coolness": "74",
+    "coolness": 74,
     "href": "http://codepen.io/rileyjshaw/full/eZrzbK/",
     "lastTagged": 1564707857033
   },
@@ -944,7 +945,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "34",
+    "coolness": 34,
     "href": "http://codepen.io/rileyjshaw/pen/bpvwxQ",
     "lastTagged": 1564707861136
   },
@@ -958,7 +959,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/pen/vGdgWG",
     "lastTagged": 1564707862027
   },
@@ -972,7 +973,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "54",
+    "coolness": 54,
     "href": "http://codepen.io/collection/DmyjQv/",
     "lastTagged": 1564707863361
   },
@@ -983,7 +984,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/collection/DRPBqZ/",
     "lastTagged": 1564707864470
   },
@@ -997,7 +998,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/pen/ONxKVd?editors=0010",
     "lastTagged": 1564707866386
   },
@@ -1011,7 +1012,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/rileyjshaw/full/mPBZNj/",
     "lastTagged": 1564707868594
   },
@@ -1026,7 +1027,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "55",
+    "coolness": 55,
     "href": "http://codepen.io/rileyjshaw/pen/ZWXdBN",
     "lastTagged": 1564707869979
   },
@@ -1038,7 +1039,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "28",
+    "coolness": 28,
     "href": "http://codepen.io/rileyjshaw/full/QNqPZE/",
     "lastTagged": 1564707871449
   },
@@ -1052,7 +1053,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "68",
+    "coolness": 68,
     "href": "http://codepen.io/rileyjshaw/pen/oxewYe/?editors=0010",
     "lastTagged": 1564707873027
   },
@@ -1066,7 +1067,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "66",
+    "coolness": 66,
     "href": "http://codepen.io/collection/DYwLBM/",
     "lastTagged": 1564707874575
   },
@@ -1077,7 +1078,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://s.codepen.io/rileyjshaw/debug/BKZOwz",
     "lastTagged": 1564707875762
   },
@@ -1091,7 +1092,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "64",
+    "coolness": 64,
     "href": "http://codepen.io/rileyjshaw/pen/oxwVNw",
     "lastTagged": 1564707876975
   },
@@ -1102,7 +1103,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/pen/Ragqyq",
     "lastTagged": 1564707878597
   },
@@ -1117,7 +1118,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "82",
+    "coolness": 82,
     "href": "http://codepen.io/rileyjshaw/full/eZRLaP",
     "lastTagged": 1564707880139
   },
@@ -1132,7 +1133,7 @@
       "pretty",
       "instructional"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/full/remdxj/",
     "lastTagged": 1564707884368
   },
@@ -1146,7 +1147,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/full/yOgKvp/",
     "lastTagged": 1564707886487
   },
@@ -1160,7 +1161,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "71",
+    "coolness": 71,
     "href": "http://codepen.io/rileyjshaw/full/dMpmRY/",
     "lastTagged": 1564707888292
   },
@@ -1174,7 +1175,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/rileyjshaw/full/reMdZE/",
     "lastTagged": 1564707889498
   },
@@ -1188,7 +1189,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "74",
+    "coolness": 74,
     "href": "http://codepen.io/rileyjshaw/full/mPrXxb/",
     "lastTagged": 1564707890990
   },
@@ -1203,7 +1204,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "75",
+    "coolness": 75,
     "href": "http://codepen.io/rileyjshaw/pen/dMpJre",
     "lastTagged": 1564707892058
   },
@@ -1219,7 +1220,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "36",
+    "coolness": 36,
     "href": "http://codepen.io/rileyjshaw/full/yOJzoP/",
     "lastTagged": 1564707893272
   },
@@ -1235,7 +1236,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/pen/vGLvVo",
     "lastTagged": 1564707894644
   },
@@ -1250,7 +1251,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "42",
+    "coolness": 42,
     "href": "http://codepen.io/rileyjshaw/full/Rarobr/",
     "lastTagged": 1564707895541
   },
@@ -1265,7 +1266,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "79",
+    "coolness": 79,
     "href": "http://codepen.io/rileyjshaw/full/PNPVmK/",
     "lastTagged": 1564707896427
   },
@@ -1279,7 +1280,7 @@
       "online",
       "instructional"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://codepen.io/rileyjshaw/details/ONyGxM/",
     "lastTagged": 1564707897855
   },
@@ -1293,7 +1294,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "78",
+    "coolness": 78,
     "href": "http://codepen.io/rileyjshaw/full/MyaGbE/",
     "lastTagged": 1564707898615
   },
@@ -1308,7 +1309,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "66",
+    "coolness": 66,
     "href": "http://codepen.io/rileyjshaw/pen/wGwOWz",
     "lastTagged": 1564707901096
   },
@@ -1324,7 +1325,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "78",
+    "coolness": 78,
     "href": "http://codepen.io/collection/XWQERV/",
     "lastTagged": 1564707904033
   },
@@ -1340,7 +1341,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "44",
+    "coolness": 44,
     "href": "http://codepen.io/rileyjshaw/details/obKdzW",
     "lastTagged": 1564707904919
   },
@@ -1356,7 +1357,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "88",
+    "coolness": 88,
     "href": "http://codepen.io/rileyjshaw/pen/RrXjGa",
     "lastTagged": 1564707906457
   },
@@ -1387,7 +1388,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://tympanus.net/Development/LineMenuStyles/#Titania",
     "lastTagged": 1564707907104
   },
@@ -1402,7 +1403,7 @@
       "starred",
       "golf"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "https://raw.githubusercontent.com/eliawry/poetics/master/whoami.py",
     "lastTagged": 1564707910272
   },
@@ -1415,7 +1416,7 @@
     "tags": [
       "browserextension"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "https://github.com/rileyjshaw/easy-inbox-zero",
     "lastTagged": 1564707914672
   },
@@ -1429,7 +1430,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "44",
+    "coolness": 44,
     "href": "http://codepen.io/rileyjshaw/full/dGGGZZ",
     "lastTagged": 1564707916616
   },
@@ -1443,7 +1444,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/bEEVra/",
     "lastTagged": 1564707917359
   },
@@ -1457,7 +1458,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "44",
+    "coolness": 44,
     "href": "http://codepen.io/rileyjshaw/full/MKKKvw/",
     "lastTagged": 1564708718062
   },
@@ -1472,7 +1473,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "https://github.com/rileyjshaw/pride-and-prejudice",
     "lastTagged": 1564708720327
   },
@@ -1486,7 +1487,7 @@
     "tags": [
       "browserextension"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "https://github.com/rileyjshaw/boom",
     "lastTagged": 1564708725840
   },
@@ -1501,7 +1502,7 @@
       "music",
       "golf"
     ],
-    "coolness": "100",
+    "coolness": 100,
     "href": "https://github.com/rileyjshaw/tony-montana",
     "lastTagged": 1564708730063
   },
@@ -1515,7 +1516,7 @@
       "starred",
       "browserextension"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "https://github.com/rileyjshaw/dark-theme-everywhere",
     "lastTagged": 1564708732408
   },
@@ -1530,7 +1531,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/rileyjshaw/full/vNgJPQ/",
     "lastTagged": 1564708733322
   },
@@ -1546,7 +1547,7 @@
       "game",
       "extinct"
     ],
-    "coolness": "84",
+    "coolness": 84,
     "href": "https://github.com/rileyjshaw/xoxo-bingo",
     "lastTagged": 1564708738919
   },
@@ -1573,7 +1574,7 @@
     "tags": [
       "reusable"
     ],
-    "coolness": "89",
+    "coolness": 89,
     "href": "https://github.com/rileyjshaw/.supermac",
     "lastTagged": 1564708739903
   },
@@ -1590,7 +1591,7 @@
       "instructional",
       "golf"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/rileyjshaw/pen/eNwGjw",
     "lastTagged": 1564708741980
   },
@@ -1606,7 +1607,7 @@
       "game",
       "external"
     ],
-    "coolness": "92",
+    "coolness": 92,
     "href": "https://github.com/rileyjshaw/touchtone-math-facts",
     "lastTagged": 1564708744196
   },
@@ -1621,7 +1622,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "76",
+    "coolness": 76,
     "href": "http://codepen.io/rileyjshaw/pen/zGwNzw",
     "lastTagged": 1564708744959
   },
@@ -1636,7 +1637,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://codepen.io/rileyjshaw/pen/bdEvaQ",
     "lastTagged": 1564708746328
   },
@@ -1649,7 +1650,7 @@
     "tags": [
       "browserextension"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "https://chrome.google.com/webstore/detail/window-shopper-log-any-pa/mhfpgolappjpepejmfpomfpemdidpkng",
     "lastTagged": 1564708751214
   },
@@ -1664,7 +1665,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "21",
+    "coolness": 21,
     "href": "http://codepen.io/rileyjshaw/pen/Nqqxaj?editors=001",
     "lastTagged": 1564708753213
   },
@@ -1679,7 +1680,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/VYRPzy/",
     "lastTagged": 1564708754661
   },
@@ -1695,7 +1696,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/collection/DkNEVG/",
     "lastTagged": 1564708755914
   },
@@ -1710,7 +1711,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "32",
+    "coolness": 32,
     "href": "http://codepen.io/rileyjshaw/pen/OPBBGK?editors=110",
     "lastTagged": 1564708757219
   },
@@ -1727,7 +1728,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "69",
+    "coolness": 69,
     "href": "http://codepen.io/rileyjshaw/pen/OPwROr?editors=001",
     "lastTagged": 1564708758541
   },
@@ -1738,7 +1739,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/collection/XGogPm/",
     "lastTagged": 1564708759832
   },
@@ -1752,7 +1753,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "65",
+    "coolness": 65,
     "href": "https://www.khanacademy.org/computer-programming/fluid-simulation/6333748830011392",
     "lastTagged": 1564708761419
   },
@@ -1766,7 +1767,7 @@
       "online",
       "game"
     ],
-    "coolness": "65",
+    "coolness": 65,
     "href": "/orbit",
     "lastTagged": 1564708766604
   },
@@ -1783,7 +1784,7 @@
       "reusable",
       "instructional"
     ],
-    "coolness": "81",
+    "coolness": 81,
     "href": "/challenger",
     "lastTagged": 1564708774349
   },
@@ -1798,7 +1799,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "10",
+    "coolness": 10,
     "href": "http://codepen.io/collection/nYwRVL/",
     "lastTagged": 1564708775492
   },
@@ -1812,7 +1813,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "43",
+    "coolness": 43,
     "href": "http://codepen.io/rileyjshaw/full/zxEGxK/",
     "lastTagged": 1564708777392
   },
@@ -1827,7 +1828,7 @@
       "app",
       "external"
     ],
-    "coolness": "71",
+    "coolness": 71,
     "href": "https://apps.getpebble.com/en_US/application/54cadfd211e375bdc5000048",
     "lastTagged": 1564708780643
   },
@@ -1844,7 +1845,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "21",
+    "coolness": 21,
     "href": "http://codepen.io/rileyjshaw/full/emWJPW/",
     "lastTagged": 1564708782164
   },
@@ -1855,7 +1856,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "28",
+    "coolness": 28,
     "href": "http://codepen.io/rileyjshaw/details/vExWpe/",
     "lastTagged": 1564708785074
   },
@@ -1872,7 +1873,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "33",
+    "coolness": 33,
     "href": "http://codepen.io/rileyjshaw/full/LExqQE/",
     "lastTagged": 1564708783154
   },
@@ -1887,7 +1888,7 @@
       "starred",
       "online"
     ],
-    "coolness": "82",
+    "coolness": 82,
     "href": "http://hackers.cool/~rileyjshaw/",
     "lastTagged": 1564708786127
   },
@@ -1901,7 +1902,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "72",
+    "coolness": 72,
     "href": "/tinyterm",
     "lastTagged": 1564708788771
   },
@@ -1915,7 +1916,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "72",
+    "coolness": 72,
     "href": "https://github.com/rileyjshaw/tinyterm",
     "lastTagged": 1564708789475
   },
@@ -1930,7 +1931,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/rileyjshaw/full/jEqvLp/",
     "lastTagged": 1564708791130
   },
@@ -1944,7 +1945,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "8",
+    "coolness": 8,
     "href": "http://codepen.io/rileyjshaw/details/ByKKyG/",
     "lastTagged": 1564708791889
   },
@@ -1960,7 +1961,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "78",
+    "coolness": 78,
     "href": "http://fingerprint.tappy.pw/",
     "lastTagged": 1564708792923
   },
@@ -1975,7 +1976,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "5",
+    "coolness": 5,
     "href": "http://codepen.io/rileyjshaw/full/gbapBa/",
     "lastTagged": 1564708794443
   },
@@ -1991,7 +1992,7 @@
       "music",
       "reusable"
     ],
-    "coolness": "77",
+    "coolness": 77,
     "href": "http://tappy.pw",
     "lastTagged": 1564708795522
   },
@@ -2007,7 +2008,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/pen/oggBxz",
     "lastTagged": 1564708797294
   },
@@ -2023,7 +2024,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "75",
+    "coolness": 75,
     "href": "http://codepen.io/rileyjshaw/full/raNLdL/",
     "lastTagged": 1564708799379
   },
@@ -2034,7 +2035,7 @@
       "online",
       "golf"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/bNbxjg",
     "lastTagged": 1564708801217
   },
@@ -2049,7 +2050,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "23",
+    "coolness": 23,
     "href": "http://codepen.io/rileyjshaw/full/azoLwb/",
     "lastTagged": 1564708803286
   },
@@ -2061,7 +2062,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "23",
+    "coolness": 23,
     "href": "http://codepen.io/rileyjshaw/full/pvzdzX/",
     "lastTagged": 1564708804489
   },
@@ -2076,7 +2077,7 @@
       "reusable",
       "instructional"
     ],
-    "coolness": "12",
+    "coolness": 12,
     "href": "http://codepen.io/rileyjshaw/full/chaJe/",
     "lastTagged": 1564708805462
   },
@@ -2093,7 +2094,7 @@
       "game",
       "extinct"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "https://github.com/rileyjshaw/tic-attack-toe",
     "lastTagged": 1564708806792
   },
@@ -2112,7 +2113,7 @@
       "instructional",
       "golf"
     ],
-    "coolness": "90",
+    "coolness": 90,
     "href": "/visited-vectors/reaction",
     "lastTagged": 1564708809571
   },
@@ -2128,7 +2129,7 @@
       "game",
       "pretty"
     ],
-    "coolness": "83",
+    "coolness": 83,
     "href": "/racer",
     "lastTagged": 1564708811317
   },
@@ -2145,7 +2146,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "76",
+    "coolness": 76,
     "href": "http://play.tappy.pw/",
     "lastTagged": 1564708812602
   },
@@ -2160,7 +2161,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "13",
+    "coolness": 13,
     "href": "http://codepen.io/rileyjshaw/pen/uiJqo",
     "lastTagged": 1564708813922
   },
@@ -2175,7 +2176,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "45",
+    "coolness": 45,
     "href": "http://codepen.io/rileyjshaw/pen/EdAeq",
     "lastTagged": 1564624409730
   },
@@ -2190,7 +2191,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/pen/tmGxj",
     "lastTagged": 1564624415014
   },
@@ -2206,7 +2207,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "45",
+    "coolness": 45,
     "href": "http://codepen.io/rileyjshaw/pen/enfkc",
     "lastTagged": 1564624420398
   },
@@ -2223,7 +2224,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "81",
+    "coolness": 81,
     "href": "http://codepen.io/rileyjshaw/full/pIFly/",
     "lastTagged": 1564624423924
   },
@@ -2237,7 +2238,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "55",
+    "coolness": 55,
     "href": "https://github.com/rileyjshaw/domains",
     "lastTagged": 1564624426575
   },
@@ -2254,7 +2255,7 @@
       "extinct",
       "external"
     ],
-    "coolness": "83",
+    "coolness": 83,
     "href": "https://github.com/neerajwahi/pairjam",
     "lastTagged": 1564624438020
   },
@@ -2270,7 +2271,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/DplJB",
     "lastTagged": 1564624447769
   },
@@ -2286,7 +2287,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "14",
+    "coolness": 14,
     "href": "http://codepen.io/rileyjshaw/pen/iIjcp/",
     "lastTagged": 1564624440228
   },
@@ -2303,7 +2304,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "9",
+    "coolness": 9,
     "href": "http://codepen.io/rileyjshaw/pen/zIpqi/",
     "lastTagged": 1564624442669
   },
@@ -2316,7 +2317,7 @@
     "tags": [
       "online"
     ],
-    "coolness": "10",
+    "coolness": 10,
     "href": "/face",
     "lastTagged": 1564624445152
   },
@@ -2332,7 +2333,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "16",
+    "coolness": 16,
     "href": "http://codepen.io/rileyjshaw/full/JvdrG/",
     "lastTagged": 1564624449407
   },
@@ -2349,7 +2350,7 @@
       "pretty",
       "browserextension"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "https://chrome.google.com/webstore/detail/placid-tab/mjcblgoejhkkkhgeadejhkpldglnfmcj",
     "lastTagged": 1564624451247
   },
@@ -2365,7 +2366,7 @@
       "pretty",
       "music"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "/linescapes",
     "lastTagged": 1564708815678
   },
@@ -2382,7 +2383,7 @@
       "pretty",
       "instructional"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/collection/amDJo/",
     "lastTagged": 1564708820940
   },
@@ -2396,7 +2397,7 @@
       "extinct",
       "browserextension"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "https://github.com/rileyjshaw/reduce-background-flicker",
     "lastTagged": 1564708822603
   },
@@ -2414,7 +2415,7 @@
       "instructional",
       "golf"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "http://codepen.io/rileyjshaw/pen/CjiKf",
     "lastTagged": 1564708823299
   },
@@ -2427,7 +2428,7 @@
     "tags": [
       "app"
     ],
-    "coolness": "85",
+    "coolness": 85,
     "href": "https://github.com/Queens-Hacks/thoughtboard",
     "lastTagged": 1564708825898
   },
@@ -2443,7 +2444,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "85",
+    "coolness": 85,
     "href": "/glorious-pattern-matcher/",
     "lastTagged": 1564708826658
   },
@@ -2458,7 +2459,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "41",
+    "coolness": 41,
     "href": "https://github.com/rileyjshaw/filesupply",
     "lastTagged": 1564708828018
   },
@@ -2472,7 +2473,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/full/acjvs/",
     "lastTagged": 1564708829946
   },
@@ -2486,7 +2487,7 @@
       "app",
       "external"
     ],
-    "coolness": "68",
+    "coolness": 68,
     "href": "https://github.com/rileyjshaw/wind-alarm",
     "lastTagged": 1564708846185
   },
@@ -2504,7 +2505,7 @@
       "extinct",
       "external"
     ],
-    "coolness": "78",
+    "coolness": 78,
     "href": "https://github.com/ben-eath/the-surf-ace",
     "lastTagged": 1564708847602
   },
@@ -2520,7 +2521,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "57",
+    "coolness": 57,
     "href": "http://codepen.io/rileyjshaw/full/olzJI/",
     "lastTagged": 1564708851648
   },
@@ -2537,7 +2538,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "18",
+    "coolness": 18,
     "href": "http://codepen.io/rileyjshaw/full/dBygE",
     "lastTagged": 1564708854160
   },
@@ -2552,7 +2553,7 @@
       "app",
       "reusable"
     ],
-    "coolness": "24",
+    "coolness": 24,
     "href": "http://codepen.io/rileyjshaw/full/BvKni",
     "lastTagged": 1564708856993
   },
@@ -2563,7 +2564,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "12",
+    "coolness": 12,
     "href": "http://codepen.io/rileyjshaw/full/dihjv/",
     "lastTagged": 1564708864040
   },
@@ -2578,7 +2579,7 @@
       "game",
       "instructional"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "/fastdraw",
     "lastTagged": 1564708862840
   },
@@ -2594,7 +2595,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "/sweep",
     "lastTagged": 1564708866431
   },
@@ -2611,7 +2612,7 @@
       "pretty",
       "extinct"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "https://github.com/rileyjshaw/boxes",
     "lastTagged": 1564708867142
   },
@@ -2628,7 +2629,7 @@
       "game",
       "extinct"
     ],
-    "coolness": "65",
+    "coolness": 65,
     "href": "https://github.com/rileyjshaw/own-this-website",
     "lastTagged": 1564708868615
   },
@@ -2641,7 +2642,7 @@
     "tags": [
       "app"
     ],
-    "coolness": "37",
+    "coolness": 37,
     "href": "https://github.com/rileyjshaw/tiny-tcp",
     "lastTagged": 1564708870888
   },
@@ -2655,7 +2656,7 @@
       "online",
       "golf"
     ],
-    "coolness": "11",
+    "coolness": 11,
     "href": "http://codepen.io/rileyjshaw/pen/Klvon?editors=0100",
     "lastTagged": 1564708872623
   },
@@ -2669,7 +2670,7 @@
       "music",
       "instructional"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "https://github.com/rileyjshaw/mean-tone",
     "lastTagged": 1564708879145
   },
@@ -2682,7 +2683,7 @@
     "tags": [
       "external"
     ],
-    "coolness": "86",
+    "coolness": 86,
     "href": "https://github.com/rileyjshaw/important-people",
     "lastTagged": 1564708882272
   },
@@ -2696,7 +2697,7 @@
       "online",
       "game"
     ],
-    "coolness": "5",
+    "coolness": 5,
     "href": "/2048",
     "lastTagged": 1564708885721
   },
@@ -2710,7 +2711,7 @@
       "music",
       "reusable"
     ],
-    "coolness": "72",
+    "coolness": 72,
     "href": "https://github.com/rileyjshaw/composer",
     "lastTagged": 1564708887783
   },
@@ -2727,7 +2728,7 @@
       "reusable",
       "instructional"
     ],
-    "coolness": "86",
+    "coolness": 86,
     "href": "/terra",
     "lastTagged": 1564708889063
   },
@@ -2741,7 +2742,7 @@
       "online",
       "app"
     ],
-    "coolness": "52",
+    "coolness": 52,
     "href": "http://ushld.com",
     "lastTagged": 1564708889861
   },
@@ -2754,7 +2755,7 @@
     "tags": [
       "online"
     ],
-    "coolness": "1",
+    "coolness": 1,
     "href": "http://codepen.io/rileyjshaw/details/pcKCj/",
     "lastTagged": 1564708891840
   },
@@ -2768,7 +2769,7 @@
       "online",
       "game"
     ],
-    "coolness": "26",
+    "coolness": 26,
     "href": "http://codepen.io/rileyjshaw/pen/CErAF",
     "lastTagged": 1564708893630
   },
@@ -2783,7 +2784,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/full/sDrLJ/",
     "lastTagged": 1564708920950
   },
@@ -2798,7 +2799,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "4",
+    "coolness": 4,
     "href": "http://codepen.io/rileyjshaw/full/uvcyE/",
     "lastTagged": 1564708922967
   },
@@ -2815,7 +2816,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://codepen.io/rileyjshaw/full/waeqK",
     "lastTagged": 1564708924925
   },
@@ -2828,7 +2829,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "24",
+    "coolness": 24,
     "href": "http://codepen.io/rileyjshaw/full/KdFAg/",
     "lastTagged": 1564708926590
   },
@@ -2843,7 +2844,7 @@
       "app",
       "pretty"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "/watercolor/",
     "lastTagged": 1564708930039
   },
@@ -2858,7 +2859,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "16",
+    "coolness": 16,
     "href": "http://codepen.io/rileyjshaw/details/GlBHC/",
     "lastTagged": 1564708931950
   },
@@ -2873,7 +2874,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "24",
+    "coolness": 24,
     "href": "http://codepen.io/rileyjshaw/pen/bzeqL?editors=0010",
     "lastTagged": 1564708933870
   },
@@ -2885,7 +2886,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "9",
+    "coolness": 9,
     "href": "http://codepen.io/rileyjshaw/full/ufEIH",
     "lastTagged": 1564708935022
   },
@@ -2900,7 +2901,7 @@
       "golf",
       "pretty"
     ],
-    "coolness": "29",
+    "coolness": 29,
     "href": "http://codepen.io/rileyjshaw/pen/blCIq/",
     "lastTagged": 1564708936373
   },
@@ -2915,7 +2916,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "13",
+    "coolness": 13,
     "href": "http://codepen.io/rileyjshaw/details/rEhdF/",
     "lastTagged": 1564708937835
   },
@@ -2927,7 +2928,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "2",
+    "coolness": 2,
     "href": "http://codepen.io/rileyjshaw/full/fondm",
     "lastTagged": 1564708938863
   },
@@ -2943,7 +2944,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "26",
+    "coolness": 26,
     "href": "http://codepen.io/rileyjshaw/pen/inyzb",
     "lastTagged": 1564708939620
   },
@@ -2957,7 +2958,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "35",
+    "coolness": 35,
     "href": "http://codepen.io/rileyjshaw/full/wKvfk",
     "lastTagged": 1564708940474
   },
@@ -2968,7 +2969,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "29",
+    "coolness": 29,
     "href": "http://codepen.io/rileyjshaw/full/LhFfw",
     "lastTagged": 1564708941375
   },
@@ -2982,7 +2983,7 @@
       "online",
       "pretty"
     ],
-    "coolness": "32",
+    "coolness": 32,
     "href": "http://codepen.io/rileyjshaw/details/fzhDk/",
     "lastTagged": 1564708942431
   },
@@ -2997,7 +2998,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/details/ruGFo/",
     "lastTagged": 1564708943908
   },
@@ -3011,7 +3012,7 @@
       "online",
       "golf"
     ],
-    "coolness": "38",
+    "coolness": 38,
     "href": "http://codepen.io/rileyjshaw/pen/bCkBo",
     "lastTagged": 1564708944793
   },
@@ -3023,7 +3024,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "32",
+    "coolness": 32,
     "href": "http://codepen.io/rileyjshaw/full/zwxCv/",
     "lastTagged": 1564708946139
   },
@@ -3035,7 +3036,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "27",
+    "coolness": 27,
     "href": "http://codepen.io/rileyjshaw/details/gLcoi/",
     "lastTagged": 1564708948573
   },
@@ -3051,7 +3052,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "54",
+    "coolness": 54,
     "href": "http://codepen.io/rileyjshaw/pen/HBDtd",
     "lastTagged": 1564708950723
   },
@@ -3067,7 +3068,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "55",
+    "coolness": 55,
     "href": "http://codepen.io/rileyjshaw/pen/vzwsu/",
     "lastTagged": 1564708953257
   },
@@ -3082,7 +3083,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "29",
+    "coolness": 29,
     "href": "http://codepen.io/rileyjshaw/full/gtLGi/",
     "lastTagged": 1564708955045
   },
@@ -3097,7 +3098,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "40",
+    "coolness": 40,
     "href": "http://codepen.io/rileyjshaw/pen/mcaCi",
     "lastTagged": 1564708957259
   },
@@ -3109,7 +3110,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "20",
+    "coolness": 20,
     "href": "http://codepen.io/rileyjshaw/pen/GDmeF",
     "lastTagged": 1564708958327
   },
@@ -3121,7 +3122,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "25",
+    "coolness": 25,
     "href": "http://codepen.io/rileyjshaw/full/jdyqC",
     "lastTagged": 1564708960068
   },
@@ -3137,7 +3138,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "70",
+    "coolness": 70,
     "href": "http://codepen.io/rileyjshaw/pen/yenLw",
     "lastTagged": 1564708963195
   },
@@ -3153,7 +3154,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "80",
+    "coolness": 80,
     "href": "http://codepen.io/rileyjshaw/full/zGnlq",
     "lastTagged": 1564708963876
   },
@@ -3168,7 +3169,7 @@
       "online",
       "game"
     ],
-    "coolness": "83",
+    "coolness": 83,
     "href": "/2p-snake",
     "lastTagged": 1564708965315
   },
@@ -3181,7 +3182,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "37",
+    "coolness": 37,
     "href": "http://codepen.io/rileyjshaw/full/bHsJf",
     "lastTagged": 1564708964427
   },
@@ -3194,7 +3195,7 @@
     "tags": [
       "online"
     ],
-    "coolness": "9",
+    "coolness": 9,
     "href": "http://codepen.io/rileyjshaw/full/KcILg/",
     "lastTagged": 1564708964844
   },
@@ -3206,7 +3207,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "http://codepen.io/rileyjshaw/details/LIwdc/",
     "lastTagged": 1564708965846
   },
@@ -3221,7 +3222,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "33",
+    "coolness": 33,
     "href": "http://codepen.io/rileyjshaw/full/FBsmA/",
     "lastTagged": 1564708966191
   },
@@ -3236,7 +3237,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "18",
+    "coolness": 18,
     "href": "http://codepen.io/rileyjshaw/full/HdeEF",
     "lastTagged": 1564708966698
   },
@@ -3253,7 +3254,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "63",
+    "coolness": 63,
     "href": "http://codepen.io/collection/EJveu",
     "lastTagged": 1564708967302
   },
@@ -3268,7 +3269,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "36",
+    "coolness": 36,
     "href": "http://codepen.io/rileyjshaw/details/AgGbs",
     "lastTagged": 1564708967845
   },
@@ -3280,7 +3281,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "23",
+    "coolness": 23,
     "href": "http://codepen.io/rileyjshaw/full/wEJzg/",
     "lastTagged": 1564708968360
   },
@@ -3293,7 +3294,7 @@
     "tags": [
       "online"
     ],
-    "coolness": "25",
+    "coolness": 25,
     "href": "http://codepen.io/rileyjshaw/details/eAEya/",
     "lastTagged": 1564708969001
   },
@@ -3308,7 +3309,7 @@
       "pretty",
       "reusable"
     ],
-    "coolness": "16",
+    "coolness": 16,
     "href": "http://codepen.io/rileyjshaw/full/dIniD",
     "lastTagged": 1564708969478
   },
@@ -3322,7 +3323,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "14",
+    "coolness": 14,
     "href": "http://codepen.io/rileyjshaw/full/IkfJn/",
     "lastTagged": 1564708969978
   },
@@ -3334,7 +3335,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "22",
+    "coolness": 22,
     "href": "http://codepen.io/rileyjshaw/details/zFdyq/",
     "lastTagged": 1564708971928
   },
@@ -3351,7 +3352,7 @@
       "instructional",
       "golf"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://codepen.io/rileyjshaw/pen/cKiDn?editors=0010",
     "lastTagged": 1564708974879
   },
@@ -3366,7 +3367,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "22",
+    "coolness": 22,
     "href": "http://codepen.io/rileyjshaw/pen/DmCyc",
     "lastTagged": 1564708975996
   },
@@ -3381,7 +3382,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "21",
+    "coolness": 21,
     "href": "http://codepen.io/rileyjshaw/full/ABzsc",
     "lastTagged": 1564708976938
   },
@@ -3398,7 +3399,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "14",
+    "coolness": 14,
     "href": "http://codepen.io/rileyjshaw/pen/Ijtgr",
     "lastTagged": 1564708977786
   },
@@ -3411,7 +3412,7 @@
     "tags": [
       "instructional"
     ],
-    "coolness": "66",
+    "coolness": 66,
     "href": "https://github.com/rileyjshaw/git-cheatsheet",
     "lastTagged": 1564708978237
   },
@@ -3427,7 +3428,7 @@
       "music",
       "reusable"
     ],
-    "coolness": "16",
+    "coolness": 16,
     "href": "https://github.com/rileyjshaw/basic_visualizer",
     "lastTagged": 1564708981557
   },
@@ -3442,7 +3443,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "27",
+    "coolness": 27,
     "href": "http://codepen.io/rileyjshaw/details/GsotD/",
     "lastTagged": 1564708985741
   },
@@ -3461,7 +3462,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "74",
+    "coolness": 74,
     "href": "http://codepen.io/rileyjshaw/full/ebokj/",
     "lastTagged": 1564708989446
   },
@@ -3477,7 +3478,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "42",
+    "coolness": 42,
     "href": "http://codepen.io/rileyjshaw/full/jDCty/",
     "lastTagged": 1564708991379
   },
@@ -3492,7 +3493,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "24",
+    "coolness": 24,
     "href": "http://codepen.io/rileyjshaw/pen/dAFiu",
     "lastTagged": 1564708992197
   },
@@ -3508,7 +3509,7 @@
       "extinct",
       "external"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "/portfolio/old/instaframedemo/",
     "lastTagged": 1564708997115
   },
@@ -3524,7 +3525,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "60",
+    "coolness": 60,
     "href": "/portfolio/old/peekdemo.html",
     "lastTagged": 1564709001360
   },
@@ -3541,7 +3542,7 @@
       "pretty",
       "external"
     ],
-    "coolness": "50",
+    "coolness": 50,
     "href": "http://youtu.be/zQ5tKU3z1fc",
     "lastTagged": 1564709003258
   },
@@ -3555,7 +3556,7 @@
       "app",
       "external"
     ],
-    "coolness": "85",
+    "coolness": 85,
     "href": "https://github.com/uniphil/FitHub",
     "lastTagged": 1564708999688
   },
@@ -3568,7 +3569,7 @@
     "tags": [
       "game"
     ],
-    "coolness": "30",
+    "coolness": 30,
     "href": "https://github.com/rileyjshaw/jumble-puzzle",
     "lastTagged": 1564709005490
   },
@@ -3582,7 +3583,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "12",
+    "coolness": 12,
     "href": "http://codepen.io/rileyjshaw/full/xdfeC",
     "lastTagged": 1564709007492
   },
@@ -3596,7 +3597,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "23",
+    "coolness": 23,
     "href": "http://codepen.io/rileyjshaw/full/FLpJk/",
     "lastTagged": 1564709012522
   },
@@ -3610,7 +3611,7 @@
       "online",
       "golf"
     ],
-    "coolness": "14",
+    "coolness": 14,
     "href": "http://codepen.io/rileyjshaw/pen/iGjgs",
     "lastTagged": 1564709008266
   },
@@ -3625,7 +3626,7 @@
       "pretty",
       "golf"
     ],
-    "coolness": "24",
+    "coolness": 24,
     "href": "/portfolio/old/cssonly/infiniteye.html",
     "lastTagged": 1564709009404
   },
@@ -3641,7 +3642,7 @@
       "reusable",
       "golf"
     ],
-    "coolness": "11",
+    "coolness": 11,
     "href": "http://codepen.io/rileyjshaw/details/fKmuI",
     "lastTagged": 1564709010796
   },
@@ -3652,7 +3653,7 @@
       "online",
       "reusable"
     ],
-    "coolness": "15",
+    "coolness": 15,
     "href": "http://codepen.io/rileyjshaw/details/dzLwm/",
     "lastTagged": 1564709014386
   }
