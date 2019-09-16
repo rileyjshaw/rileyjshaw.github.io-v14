@@ -293,6 +293,6 @@ Have fun!
 	  <img src="/images/ulam.png" alt="Prime numbers in the range [0, 1M) drawn in an Ulam Spiral">
 	  <figcaption>Ulam Spiral with prime numbers shown: [0, 988k). <a href="http://codepen.io/rileyjshaw/pen/gaHhn">View code</a></figcaption>
 	</figure></div>
-[^6]: The Collatz Conjecture has more aliases than your favorite rapper. You might know it as: the 3n + 1 conjecture, the Ulam conjecture, Kakutani's problem, the Thwaites conjecture, Hasse's algorithm, the Syracuse problem, the hailstone sequence, hailstone numbers, or wondrous numbers.
+[^6]: The Collatz Conjecture has many names. You might know it as: the 3n + 1 conjecture, the Ulam conjecture, Kakutani's problem, the Thwaites conjecture, Hasse's algorithm, the Syracuse problem, the hailstone sequence, hailstone numbers, or wondrous numbers.
 [^7]: Five if you count the footnotes!
 [^8]: This is classically known as [function composition](http://en.wikipedia.org/wiki/Function_composition_(computer_science)).
