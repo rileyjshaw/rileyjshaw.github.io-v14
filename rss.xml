@@ -7,6 +7,23 @@
 		<atom:link href="https://rileyjshaw.com/rss.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Repair Matters on CBC Radio</title>
+				
+					<dc:creator>rileyjshaw</dc:creator>
+				
+				
+					<description>&lt;p&gt;I was on the CBC again! Kady Wong and I represented&lt;br /&gt;
+&lt;a href=&quot;http://repairmatters.ca/&quot;&gt;Repair Matters&lt;/a&gt; on BC Today this afternoon.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cbc.ca/listen/live-radio/1-4-bc-today/clip/15736413-sep.-16-2019-road-safety.-diy-electronic-repairs&quot;&gt;You can listen to the segment here&lt;/a&gt;. It starts at 33:30.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
+				<link>https://rileyjshaw.com/blog/repair-matters-on-cbc-radio</link>
+				<guid isPermaLink="true">https://rileyjshaw.com/blog/repair-matters-on-cbc-radio</guid>
+			</item>
+		
+			<item>
 				<title>Cellular automata</title>
 				
 					<dc:creator>rileyjshaw</dc:creator>
@@ -152,19 +169,6 @@
 				<pubDate>Wed, 21 Jan 2015 00:00:00 -0800</pubDate>
 				<link>https://rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</link>
 				<guid isPermaLink="true">https://rileyjshaw.com/blog/the-pool-on-the-roof-must-have-a-leak</guid>
-			</item>
-		
-			<item>
-				<title>Graphing depth</title>
-				
-					<dc:creator>rileyjshaw</dc:creator>
-				
-				
-					<description>On a beautiful summer&#39;s afternoon while all the other children were playing outside I made pictures out of procedural hobby math.</description>
-				
-				<pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
-				<link>https://rileyjshaw.com/blog/graphing-depth</link>
-				<guid isPermaLink="true">https://rileyjshaw.com/blog/graphing-depth</guid>
 			</item>
 		
 	</channel>
