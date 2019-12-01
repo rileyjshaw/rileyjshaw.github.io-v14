@@ -1962,7 +1962,7 @@
       "reusable"
     ],
     "coolness": 78,
-    "href": "http://fingerprint.tappy.pw/",
+    "href": "/tappy-fingerprint",
     "lastTagged": 1564708792923
   },
   {
@@ -1993,7 +1993,7 @@
       "reusable"
     ],
     "coolness": 77,
-    "href": "http://tappy.pw",
+    "href": "/tappy",
     "lastTagged": 1564708795522
   },
   {
@@ -2147,13 +2147,13 @@
       "music"
     ],
     "coolness": 76,
-    "href": "http://play.tappy.pw/",
+    "href": "/tappy-game",
     "lastTagged": 1564708812602
   },
   {
     "title": "Material design ripple effect",
     "description": [
-      "Needed this for <a href=\"http://play.tappy.pw\">tappy</a> before there were 1000 libraries to choose from."
+      "Needed this for <a href=\"/tappy-game\">tappy</a> before there were 1000 libraries to choose from."
     ],
     "date": "2014-10-12",
     "tags": [
