@@ -141,11 +141,11 @@ function buildHTML (demoName, i, next, prev) {
 I decided to name pages `1.html`, `2.html`, etc. so that they'd be easy to jump to using the navigation bar. More expressive names could easily be swapped in.
 
 ## Next steps
-There are still some goodies that we can throw into our task runner[^6], but I'll leave the rest as an exercise for the reader. A working project with all the bells and whistles can be found at my <a href="https://github.com/rileyjshaw/nature-of-code" target="_blank">Nature of Code repo</a>. Its generated site is live <a href="http://rileyjshaw.com/nature-of-code/" target="_blank">here</a>.
+There are still some goodies that we can throw into our task runner[^6], but I'll leave the rest as an exercise for the reader. A working project with all the bells and whistles can be found at my <a href="https://github.com/rileyjshaw/nature-of-code" target="_blank">Nature of Code repo</a>. Its generated site is live <a href="https://rileyjshaw.com/nature-of-code/" target="_blank">here</a>.
 
 ## References
  - <a href="https://github.com/rileyjshaw/nature-of-code/" target="_blank">GitHub repository</a>
- - <a href="http://rileyjshaw.com/nature-of-code/" target="_blank">Live demo</a>
+ - <a href="https://rileyjshaw.com/nature-of-code/" target="_blank">Live demo</a>
 
 ## Footnotes
 [^1]: If you're looking to make something more complicated than simple linked pages, <a href="https://www.staticgen.com/" target="_blank">go here</a>.

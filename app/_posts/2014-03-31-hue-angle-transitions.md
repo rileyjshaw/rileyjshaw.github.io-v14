@@ -8,7 +8,7 @@ tags:
 - web
 tldr: Color transitions on the web leave something to be desired but with a bit of elbow grease we can make them awesome again.
 ---
-**UPDATE 2014-06-25**: _I created a library called [sweep.js](http://rileyjshaw.com/sweep/) that addresses this problem._
+**UPDATE 2014-06-25**: _I created a library called [sweep.js](https://rileyjshaw.com/sweep/) that addresses this problem._
 
 I was recently browsing a beautiful red monochrome[^1] site. There were a few call-to-action buttons on the page that transitioned to green on hover.
 
